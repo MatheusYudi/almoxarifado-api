@@ -1,27 +1,27 @@
 {
     "compileOnSave": true,
     "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
-        "outDir": "./dist",
-        "rootDir": "./src",
-        "removeComments": false,
-        "resolveJsonModule": true,
-        "strict": true,
-        "strictPropertyInitialization": false,
-        "moduleResolution": "node",
-        "baseUrl": "./src",
         "allowSyntheticDefaultImports": true,
+        "baseUrl": "./src",
+        "emitDecoratorMetadata": true,
         "esModuleInterop": true,
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "removeComments": false,
+        "resolveJsonModule": true,
+        "rootDir": "./src",
         "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "target": "es5"
     },
     "exclude": [
-        "node_modules",
-        "dist",
         "__tests__",
+        "dist",
+        "node_modules",
         "types"
     ],
     "include": [
