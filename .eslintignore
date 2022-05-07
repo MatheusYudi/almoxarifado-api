@@ -1,0 +1,7 @@
+# Ignore all files within parent folder
+*/*
+
+# Enable linting for specifc files
+!__mocks__/*
+!__tests__/*
+!src/*
