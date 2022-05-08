@@ -10,21 +10,32 @@
         "module": "commonjs",
         "moduleResolution": "node",
         "outDir": "./dist",
+        "paths": {
+            "@common/*": ["common/*"],
+            "@config/*": ["config/*"],
+            "@decorators/*": ["decorators/*"],
+            "@library/*": ["library/*"],
+            "@modules/*": ["modules/*"],
+            "@routes/*": ["routes/*"],
+            "@utils/*": ["utils/*"],
+        },
+        "pretty": true,
         "removeComments": false,
         "resolveJsonModule": true,
-        "rootDir": "./src",
+        "rootDir": "./",
         "skipLibCheck": true,
         "strict": true,
         "strictPropertyInitialization": false,
         "target": "es5"
     },
     "exclude": [
-        "__tests__",
         "dist",
         "node_modules",
         "types"
     ],
     "include": [
+        "__mocks__",
+        "__tests__",
         "src/**/*"
     ]
 }

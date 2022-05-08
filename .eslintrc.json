@@ -25,7 +25,7 @@
         "import/prefer-default-export": "off",
         "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
         "prettier/prettier": ["error", {
-            "endOfLine": "auto"    
+            "endOfLine": "auto"
         }],
         "class-methods-use-this": "off",
         "no-shadow": "off",
