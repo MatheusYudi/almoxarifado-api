@@ -17,7 +17,6 @@
             "@library/*": ["library/*"],
             "@modules/*": ["modules/*"],
             "@routes/*": ["routes/*"],
-            "@utils/*": ["utils/*"],
         },
         "pretty": true,
         "removeComments": false,
