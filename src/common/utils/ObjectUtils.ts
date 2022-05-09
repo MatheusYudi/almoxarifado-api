@@ -16,14 +16,9 @@ export class ObjectUtils {
      *
      * @returns É um objeto
      */
-    // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
     public static isObject(value: any): boolean {
         const type = typeof value;
-        return (
-            (type === "function" || type === "object") &&
-            !!value &&
-            value.constructor === Object
-        );
+        return (type === "function" || type === "object") && !!value && value.constructor === Object;
     }
 
     /**
@@ -40,11 +35,7 @@ export class ObjectUtils {
 
         Object.keys(response).forEach((key: string) => {
             // Ignora valores 'false' e '0'
-            if (
-                !response[key] &&
-                response[key] !== 0 &&
-                response[key] !== false
-            ) {
+            if (!response[key] && response[key] !== 0 && response[key] !== false) {
                 delete response[key];
             }
         });

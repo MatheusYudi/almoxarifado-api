@@ -16,7 +16,7 @@
             "@decorators/*": ["decorators/*"],
             "@library/*": ["library/*"],
             "@modules/*": ["modules/*"],
-            "@routes/*": ["routes/*"],
+            "@routes/*": ["routes/*"]
         },
         "pretty": true,
         "removeComments": false,

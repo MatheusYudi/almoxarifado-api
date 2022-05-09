@@ -18,8 +18,7 @@ export class StringUtils {
             const strings: string[] = value.split(" ");
 
             strings.forEach((item: string, index: number) => {
-                strings[index] =
-                    item.charAt(0).toUpperCase() + item.slice(1).toLowerCase();
+                strings[index] = item.charAt(0).toUpperCase() + item.slice(1).toLowerCase();
             });
 
             return strings.join(" ").trim();
