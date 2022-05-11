@@ -23,7 +23,7 @@ services:
         restart: always
         image: mysql:5.7
         volumes:
-            - ~/docker/volumes/RIOTT_Mysql:/var/lib/mysql
+            - ~/docker/volumes/ALMOXARIFADO_Mysql:/var/lib/mysql
         environment:
             MYSQL_DATABASE: almoxarifado-database
             MYSQL_USER: almoxarifado_root
