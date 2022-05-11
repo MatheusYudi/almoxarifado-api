@@ -1,12 +1,10 @@
 import { mock } from "jest-mock-extended";
-import { Repository, MongoRepository } from "typeorm";
+import { Repository } from "typeorm";
 
 export const repositoryMock = mock<Repository<any>>();
-export const mongoRepositoryMock = mock<MongoRepository<any>>();
 
 export const getConnection = jest.fn().mockReturnValue({
-    getRepository: () => repositoryMock,
-    getMongoRepository: () => mongoRepositoryMock
+    getRepository: () => repositoryMock
 });
 
 export class BaseEntity {}
