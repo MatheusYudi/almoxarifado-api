@@ -12,7 +12,6 @@ export interface IAppConfig {
     controllers: TClass[];
     logger: ILogger;
     port: number;
-    assets?: string[];
     dbConfig?: ConnectionOptions;
     middlewares?: { forEach: (arg0: (middleware: any) => void) => void };
     swaggerOptions?: swaggerJSDoc.OAS3Options;
