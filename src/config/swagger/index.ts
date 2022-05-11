@@ -10,5 +10,5 @@ export const swaggerConfig: swaggerJSDoc.OAS3Options = {
         },
         host: "localhost:4444"
     },
-    apis: ["src/library/third-party/swagger/**/*.ts", "src/routes/modules/**/*.ts"]
+    apis: ["src/config/swagger/references/**/*.ts", "src/routes/modules/**/*.ts"]
 };
