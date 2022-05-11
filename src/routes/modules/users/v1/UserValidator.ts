@@ -1,12 +1,12 @@
-// Libraries
+// Libs
 import { RequestHandler } from "express";
 import { Schema } from "express-validator";
 
 // Repositories
 import { UserRepository } from "@library/database/repository";
 
-// Validators
-import { BaseValidator } from "@library/index";
+// Middlewares
+import { BaseValidator } from "@middlewares/index";
 
 // Entities
 import { User } from "@library/database/entity";

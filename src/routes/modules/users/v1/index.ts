@@ -1,5 +1,5 @@
 // Controllers
 export * from "./UserController";
 
-// Middlewares
+// Validators
 export * from "./UserValidator";

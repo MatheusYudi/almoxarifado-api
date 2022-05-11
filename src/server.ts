@@ -1,5 +1,5 @@
-// Library
-import { Logger } from "@library/index";
+// Middlewares
+import { Logger } from "@middlewares/index";
 
 // Config
 import { dbConfig } from "@config/database";

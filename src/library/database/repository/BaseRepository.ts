@@ -1,4 +1,4 @@
-// Libraries
+// Libs
 import { BaseEntity, Connection, FindConditions, FindManyOptions, getConnection, ObjectID } from "typeorm";
 
 // Enums

@@ -3,7 +3,8 @@ import { DeepPartial } from "typeorm";
 import { Request, Response } from "express";
 
 // Library
-import { BaseController } from "@library/index";
+import { User } from "@library/database/entity";
+import { UserRepository } from "@library/database/repository";
 
 // Decorators
 import { Controller, Delete, Get, Middlewares, Post, PublicRoute, Put } from "@decorators/index";
@@ -14,11 +15,8 @@ import { EnumEndpoints } from "@common/enums";
 // Routes
 import { RouteResponse } from "@routes/index";
 
-// Entities
-import { User } from "@library/database/entity";
-
-// Repositories
-import { UserRepository } from "@library/database/repository";
+// Middlewares
+import { BaseController } from "@middlewares/index";
 
 // Validators
 import { UserValidator } from "./UserValidator";
