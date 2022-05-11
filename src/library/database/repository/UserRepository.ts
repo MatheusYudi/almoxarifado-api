@@ -5,7 +5,7 @@ import { DeepPartial, DeleteResult, Repository } from "typeorm";
 import { User } from "@library/database/entity";
 
 // Repositories
-import { BaseRepository } from "@library/database/repository";
+import { BaseRepository } from "./BaseRepository";
 
 /**
  * UserRepository

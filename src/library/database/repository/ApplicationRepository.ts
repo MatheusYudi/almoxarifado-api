@@ -2,7 +2,7 @@
 import { Application } from "@library/database/entity";
 
 // Repositories
-import { BaseRepository } from "@library/database/repository";
+import { BaseRepository } from "./BaseRepository";
 
 /**
  * ApplicationRepository
