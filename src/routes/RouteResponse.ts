@@ -4,6 +4,9 @@ import { NextFunction, Request, Response } from "express";
 // Common
 import { AppDef } from "@common/AppDef";
 
+// Utils
+import { EnvUtils } from "@common/utils";
+
 /**
  * RouteResponse
  *
@@ -118,7 +121,7 @@ export class RouteResponse {
      * @param res - Resposta da requisição
      */
     public static setCache(minutes: number, res: Response): void {
-        const time: number = process.env.NODE_ENV === "development" ? 1 : minutes;
+        const time: number = EnvUtils.isDevelopment() ? 1 : minutes;
         res.set("Cache-Control", `public, max-age=${time * 60}, s-maxage=${time * 60}`);
     }
 

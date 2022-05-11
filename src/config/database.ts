@@ -3,7 +3,7 @@ import { ConnectionOptions } from "typeorm";
 import { MysqlConnectionOptions } from "typeorm/driver/mysql/MysqlConnectionOptions";
 
 // Utils
-import EnvUtils from "@common/utils/EnvUtils";
+import { EnvUtils } from "@common/utils";
 
 // Opções genéricas
 const baseOptions: Omit<ConnectionOptions, "type"> = {

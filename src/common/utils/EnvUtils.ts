@@ -3,7 +3,7 @@
  *
  * Classe de utils para tratamento de ambiente
  */
-export default class EnvUtils {
+export class EnvUtils {
     /**
      * isProduction
      *
