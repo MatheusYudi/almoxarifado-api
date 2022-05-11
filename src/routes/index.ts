@@ -1,2 +1,2 @@
-export * from "@routes/RouteResponse";
-export * from "@routes/RoutesController";
+export * from "./RouteResponse";
+export * from "./RoutesController";
