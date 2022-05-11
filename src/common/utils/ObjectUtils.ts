@@ -24,7 +24,7 @@ export class ObjectUtils {
     /**
      * clearData
      *
-     * Limpa todos os campos sem valor do objeto (primeiro nível)
+     * Limpa todos os campos sem valor do objeto
      *
      * @param value - Valor a ser manipulado
      *
@@ -34,7 +34,6 @@ export class ObjectUtils {
         const response: TObject = { ...value };
 
         Object.keys(response).forEach((key: string) => {
-            // Ignora valores 'false' e '0'
             if (!response[key] && response[key] !== 0 && response[key] !== false) {
                 delete response[key];
             }
