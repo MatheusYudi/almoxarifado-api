@@ -15,6 +15,7 @@
             "@config/*": ["config/*"],
             "@decorators/*": ["decorators/*"],
             "@library/*": ["library/*"],
+            "@middlewares/*": ["middlewares/*"],
             "@routes/*": ["routes/*"]
         },
         "pretty": true,
