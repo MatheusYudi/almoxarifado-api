@@ -17,4 +17,4 @@ RUN npm install
 EXPOSE 8080
 
 # Default command on container run CMD (overwritted) / ENTRYPOINT
-CMD [ "npm", "run", "dev" ]
+CMD [ "npm", "start" ]
