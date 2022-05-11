@@ -11,7 +11,7 @@
     "main": "dist/server.js",
     "scripts": {
         "build": "npm run lint && npm run test && tsc --build --clean",
-        "dev": "nodemon",
+        "start": "nodemon",
         "lint": "eslint src/ --ext .ts",
         "prepare": "husky install",
         "seed:create": "./node_modules/.bin/ts-node --transpile-only ./node_modules/typeorm/cli.js migration:create -c almoxarifado-api -f ./src/config/ormconfig-migrations.ts -n",
@@ -50,6 +50,7 @@
         "supertest": "^6.2.3",
         "ts-jest": "^27.1.4",
         "ts-node": "^10.7.0",
+        "tsconfig-paths": "^4.0.0",
         "typescript": "^4.6.4"
     },
     "dependencies": {
