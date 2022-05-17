@@ -8,9 +8,9 @@ services:
             - .:/app
             - ./node_modules:/app/node_modules
         environment:
-            - NODE_ENV=development
-            - PORT=8080
-            - MYSQL_CONNECTION_URL=mysql://almoxarifado_root:90e271d9b4ae4a6812e86cee@almoxarifado-mysql:3306
+            NODE_ENV: development
+            PORT: 8080
+            MYSQL_CONNECTION_URL: mysql://almoxarifado_root:90e271d9b4ae4a6812e86cee@almoxarifado-mysql:3306
         networks:
             - almoxarifado-connect
         links:
