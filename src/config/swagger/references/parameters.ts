@@ -1,5 +1,6 @@
 /**
  * @swagger
+ *
  * components:
  *   parameters:
  *     listPageRef:

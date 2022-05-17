@@ -25,6 +25,7 @@ import { UserValidator } from "./UserValidator";
 export class UserController extends BaseController {
     /**
      * @swagger
+     *
      * /v1/user:
      *   get:
      *     summary: Lista os usuários
@@ -39,7 +40,14 @@ export class UserController extends BaseController {
      *       - $ref: '#/components/parameters/listOrderRef'
      *       - $ref: '#/components/parameters/listOrderByRef'
      *     responses:
-     *       $ref: '#/components/responses/baseResponse'
+     *       '200':
+     *         $ref: '#/components/responses/200'
+     *       '400':
+     *         $ref: '#/components/responses/400'
+     *       '401':
+     *         $ref: '#/components/responses/401'
+     *       '500':
+     *         $ref: '#/components/responses/500'
      */
     @Get()
     @PublicRoute()
@@ -51,6 +59,7 @@ export class UserController extends BaseController {
 
     /**
      * @swagger
+     *
      * /v1/user/{userId}:
      *   get:
      *     summary: Retorna informações de um usuário
@@ -66,7 +75,14 @@ export class UserController extends BaseController {
      *           type: string
      *         required: true
      *     responses:
-     *       $ref: '#/components/responses/baseResponse'
+     *       '200':
+     *         $ref: '#/components/responses/200'
+     *       '400':
+     *         $ref: '#/components/responses/400'
+     *       '401':
+     *         $ref: '#/components/responses/401'
+     *       '500':
+     *         $ref: '#/components/responses/500'
      */
     @Get("/:id")
     @PublicRoute()
@@ -77,6 +93,7 @@ export class UserController extends BaseController {
 
     /**
      * @swagger
+     *
      * /v1/user:
      *   post:
      *     summary: Cadastra um usuário
@@ -98,7 +115,14 @@ export class UserController extends BaseController {
      *               name:
      *                 type: string
      *     responses:
-     *       $ref: '#/components/responses/baseCreate'
+     *       '201':
+     *         $ref: '#/components/responses/201'
+     *       '400':
+     *         $ref: '#/components/responses/400'
+     *       '401':
+     *         $ref: '#/components/responses/401'
+     *       '500':
+     *         $ref: '#/components/responses/500'
      */
     @Post()
     @PublicRoute()
@@ -115,6 +139,7 @@ export class UserController extends BaseController {
 
     /**
      * @swagger
+     *
      * /v1/user:
      *   put:
      *     summary: Altera um usuário
@@ -140,7 +165,14 @@ export class UserController extends BaseController {
      *               name:
      *                 type: string
      *     responses:
-     *       $ref: '#/components/responses/baseEmpty'
+     *       '204':
+     *         $ref: '#/components/responses/204'
+     *       '400':
+     *         $ref: '#/components/responses/400'
+     *       '401':
+     *         $ref: '#/components/responses/401'
+     *       '500':
+     *         $ref: '#/components/responses/500'
      */
     @Put()
     @PublicRoute()
@@ -157,6 +189,7 @@ export class UserController extends BaseController {
 
     /**
      * @swagger
+     *
      * /v1/user/{userId}:
      *   delete:
      *     summary: Apaga um usuário definitivamente
@@ -172,7 +205,14 @@ export class UserController extends BaseController {
      *           type: string
      *         required: true
      *     responses:
-     *       $ref: '#/components/responses/baseResponse'
+     *       '200':
+     *         $ref: '#/components/responses/200'
+     *       '400':
+     *         $ref: '#/components/responses/400'
+     *       '401':
+     *         $ref: '#/components/responses/401'
+     *       '500':
+     *         $ref: '#/components/responses/500'
      */
     @Delete("/:id")
     @PublicRoute()
