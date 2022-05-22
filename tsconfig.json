@@ -32,8 +32,8 @@
         ]
     },
     "exclude": [
-        "__mocks__",
-        "__tests__",
+        "src/__mocks__",
+        "src/__tests__",
         "dist",
         "node_modules",
         "types"
