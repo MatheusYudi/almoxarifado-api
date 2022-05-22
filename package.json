@@ -13,7 +13,7 @@
         "build": "npm run lint && npm run test:staged && tsc --build",
         "deploy": "heroku container:push web && heroku container:release web",
         "dev": "docker-compose -f docker-compose.dev.yml --env-file ./environments/.env.development up",
-        "lint": "eslint src/ --ext .ts",
+        "lint": "eslint . --ext .ts",
         "prepare": "husky install",
         "start": "nodemon",
         "seed:create": "./node_modules/.bin/ts-node --transpile-only ./node_modules/typeorm/cli.js migration:create -c almoxarifado-api -f ./src/config/ormconfig-migrations.ts -n",

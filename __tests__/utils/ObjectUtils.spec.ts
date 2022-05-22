@@ -25,9 +25,9 @@ describe("ObjectUtils - unit tests", () => {
                 chave6: {
                     teste1: "teste",
                     teste2: "teste",
-                    teste3: "",
+                    teste3: ""
                 },
-                chave7: "teste",
+                chave7: "teste"
             };
 
             const response = ObjectUtils.clearData(data);
@@ -37,7 +37,7 @@ describe("ObjectUtils - unit tests", () => {
                     chave3: "teste",
                     chave2: "teste",
                     chave1: "teste",
-                    chave4: 0,
+                    chave4: 0
                 })
             );
         });
