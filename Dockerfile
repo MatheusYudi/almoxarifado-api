@@ -1,14 +1,31 @@
-# Define base image FROM
-FROM node:16.15-alpine3.15
+# --- BUILD stage ---
+FROM node:16.15-alpine3.15 AS build
 
-RUN echo "building API from production"
+RUN echo "Building API from production"
 
 WORKDIR /app
 
-ENV PATH /app/node_modules/.bin:$PATH
+RUN echo "Installing..."
+COPY package*.json ./
+RUN npm install
 
-COPY . /app
-RUN npm install && npm run build
+RUN echo "Building..."
+COPY . .
+RUN npm run build
+
+# --- RUN stage ---
+FROM node:16.15-alpine3.15
+
+WORKDIR /app
+
+RUN echo "Installing..."
+COPY package.json ./
+# Needed to ignore husky prepare
+RUN npm install --production --ignore-scripts
+
+RUN echo "Running..."
+COPY --from=build /app/dist ./
+RUN npm install -g pm2
 
 # Default command on container run CMD (overwritted) / ENTRYPOINT
-CMD [ "npm", "start" ]
+CMD [ "pm2-runtime", "server.js" ]
