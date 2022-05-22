@@ -15,8 +15,8 @@ const baseOptions: Omit<ConnectionOptions, "type"> = {
         migrationsDir: "migrations/seeds"
     },
     migrationsRun: EnvUtils.isDevelopment(), // Habilita execução das migrations
-    logging: EnvUtils.isDevelopment(), // Habilita logs
-    synchronize: true
+    logging: true, // Habilita logs
+    synchronize: EnvUtils.isDevelopment()
 };
 
 // Opções para conexão com MySql
