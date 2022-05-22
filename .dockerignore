@@ -1,4 +1,11 @@
-.git/
+# ignore .git and .cache folders
+.git
+.cache
+
+# ignore all markdown files (md)
+*.md
+
+# ignore others
 node_modules/
 npm-debug
 docker-compose*.yml
