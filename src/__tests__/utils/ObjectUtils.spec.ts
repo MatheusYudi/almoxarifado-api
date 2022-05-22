@@ -1,5 +1,5 @@
 // Utils
-import { ObjectUtils } from "../../src/common/utils";
+import { ObjectUtils } from "../../common/utils";
 
 describe("ObjectUtils - unit tests", () => {
     describe("Method #isObject", () => {
