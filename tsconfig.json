@@ -32,13 +32,13 @@
         ]
     },
     "exclude": [
+        "__mocks__",
+        "__tests__",
         "dist",
         "node_modules",
         "types"
     ],
     "include": [
-        "__mocks__",
-        "__tests__",
         "src/**/*"
     ]
 }
