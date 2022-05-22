@@ -5,9 +5,6 @@ import { Logger } from "@middlewares/index";
 import { dbConfig } from "@config/database";
 import { swaggerConfig } from "@config/swagger";
 
-// Utils
-import { EnvUtils } from "@common/utils";
-
 // Routes
 import { UserController } from "@routes/modules/users/v1";
 
@@ -18,7 +15,7 @@ const app: App = new App({
     controllers: [UserController],
     middlewares: [Logger.middleware],
     logger: new Logger(),
-    swaggerOptions: EnvUtils.isDevelopment() ? swaggerConfig : undefined,
+    swaggerOptions: swaggerConfig,
     dbConfig
 });
 
