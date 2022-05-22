@@ -19,4 +19,4 @@ RUN npm install
 EXPOSE $PORT
 
 # Default command on container run CMD (overwritted) / ENTRYPOINT
-CMD [ "npm", "start" ]
+CMD [ "npm", "run", "dev" ]

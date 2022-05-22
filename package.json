@@ -11,11 +11,11 @@
     "main": "dist/server.js",
     "scripts": {
         "build": "npm run lint && npm run test:staged && tsc --build",
+        "build:dev": "docker-compose -f docker-compose.dev.yml --env-file ./environments/.env.development up --build",
         "deploy": "heroku container:push web && heroku container:release web",
-        "dev": "docker-compose -f docker-compose.dev.yml --env-file ./environments/.env.development up",
+        "dev": "nodemon",
         "lint": "eslint . --ext .ts",
         "prepare": "husky install",
-        "start": "nodemon",
         "seed:create": "./node_modules/.bin/ts-node --transpile-only ./node_modules/typeorm/cli.js migration:create -c almoxarifado-api -f ./src/config/ormconfig-migrations.ts -n",
         "seed:revert": "./node_modules/.bin/ts-node --transpile-only ./node_modules/typeorm/cli.js migration:revert -c almoxarifado-api -f ./src/config/ormconfig-migrations.ts",
         "seed:run": "./node_modules/.bin/ts-node --transpile-only ./node_modules/typeorm/cli.js migration:run -c almoxarifado-api -f ./src/config/ormconfig-migrations.ts",
