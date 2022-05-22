@@ -4,39 +4,30 @@ services:
     node:
         container_name: almoxarifado-api
         build: .
-        volumes:
-            - .:/app
-            - ./node_modules:/app/node_modules
         environment:
-            NODE_ENV: development
-            PORT: 8080
-            MYSQL_CONNECTION_URL: mysql://almoxarifado_root:90e271d9b4ae4a6812e86cee@almoxarifado-mysql:3306
+            NODE_ENV: ${NODE_ENV}
+            PORT: ${PORT}
+            MYSQL_CONNECTION_URL: ${MYSQL_CONNECTION_URL}
         networks:
             - almoxarifado-connect
         links:
             - mysql
         ports:
-            - 4444:8080
+            - 4444:${PORT}
 
     mysql:
         container_name: almoxarifado-mysql
         restart: always
         image: mysql:5.7
-        volumes:
-            - ~/docker/volumes/ALMOXARIFADO_Mysql:/var/lib/mysql
         environment:
-            MYSQL_DATABASE: almoxarifado-database
-            MYSQL_USER: almoxarifado_root
-            MYSQL_PASSWORD: 90e271d9b4ae4a6812e86cee
-            MYSQL_ROOT_PASSWORD: 327c56a1d1c5803d92a4dad9
+            MYSQL_DATABASE: ${MYSQL_DATABASE}
+            MYSQL_USER: ${MYSQL_USER}
+            MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+            MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
         networks:
             - almoxarifado-connect
         ports:
             - 3306:3306
-
-volumes:
-    almoxarifado-node-data:
-    almoxarifado-mysql-data:
 
 networks:
     almoxarifado-connect:
