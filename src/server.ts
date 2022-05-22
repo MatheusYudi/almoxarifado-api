@@ -11,6 +11,9 @@ import { swaggerConfig } from "@config/swagger";
 // Routes
 import { UserController } from "@routes/modules/users/v1";
 
+// Utils
+import { EnvUtils } from "@common/utils";
+
 import { App } from "./App";
 
 const app: App = new App({
@@ -18,7 +21,7 @@ const app: App = new App({
     controllers: [UserController],
     middlewares: [Logger.middleware],
     logger: new Logger(),
-    swaggerOptions: swaggerConfig,
+    swaggerOptions: !EnvUtils.isProduction() ? swaggerConfig : undefined,
     dbConfig
 });
 
