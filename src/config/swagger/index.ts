@@ -1,14 +1,14 @@
 // Libs
-import swaggerJSDoc from "swagger-jsdoc";
+import { OAS3Options } from "swagger-jsdoc";
+import { resolve } from "path";
 
-export const swaggerConfig: swaggerJSDoc.OAS3Options = {
+export const swaggerConfig: OAS3Options = {
     swaggerDefinition: {
         openapi: "3.0.0",
         info: {
             title: "Almoxarifado API",
             version: "0.1.0"
-        },
-        host: "localhost:4444"
+        }
     },
-    apis: ["src/config/swagger/references/*.ts", "src/routes/modules/**/*.ts"]
+    apis: [resolve(__dirname, "./references/**/*.{js,ts}"), resolve(__dirname, "../../routes/modules/**/*.{js,ts}")]
 };

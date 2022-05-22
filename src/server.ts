@@ -1,3 +1,6 @@
+// Libs
+import "./paths";
+
 // Middlewares
 import { Logger } from "@middlewares/index";
 
