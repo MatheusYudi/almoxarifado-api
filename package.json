@@ -17,6 +17,8 @@
         "deploy:stage": "heroku container:push web -a almoxarifado-api-v1-staging && heroku container:release web -a almoxarifado-api-v1-staging",
         "dev": "nodemon",
         "lint": "eslint . --ext .ts",
+        "logs": "heroku logs --tail -a almoxarifado-api-v1",
+        "logs:stage": "heroku logs --tail -a almoxarifado-api-v1-staging",
         "prepare": "husky install",
         "seed:create": "./node_modules/.bin/ts-node --transpile-only ./node_modules/typeorm/cli.js migration:create -c almoxarifado-api -f ./src/config/ormconfig-migrations.ts -n",
         "seed:revert": "./node_modules/.bin/ts-node --transpile-only ./node_modules/typeorm/cli.js migration:revert -c almoxarifado-api -f ./src/config/ormconfig-migrations.ts",
