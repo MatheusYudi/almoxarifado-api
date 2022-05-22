@@ -1,0 +1,22 @@
+# Define base image FROM
+FROM node:16.15-alpine3.15
+
+RUN echo "building API from development"
+
+# Create base directory WORKDIR
+WORKDIR /app
+
+# Enviroment variables ENV
+ENV PATH /app/node_modules/.bin:$PATH
+
+# Bundle app source COPY
+COPY package.json /app/package.json
+
+# Install dependencies
+RUN npm install
+
+# Listening ports EXPOSE
+EXPOSE $PORT
+
+# Default command on container run CMD (overwritted) / ENTRYPOINT
+CMD [ "npm", "start" ]
