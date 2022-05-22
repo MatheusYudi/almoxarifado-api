@@ -1,7 +1,7 @@
 # Define base image FROM
 FROM node:16.15-alpine3.15
 
-RUN echo "building API from development"
+RUN echo "Building API for development"
 
 # Create base directory WORKDIR
 WORKDIR /app
