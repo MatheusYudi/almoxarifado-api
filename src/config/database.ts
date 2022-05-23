@@ -16,7 +16,7 @@ const baseOptions: Omit<ConnectionOptions, "type"> = {
     },
     migrationsRun: EnvUtils.isDevelopment(), // Habilita execução das migrations
     logging: true, // Habilita logs
-    synchronize: EnvUtils.isDevelopment()
+    synchronize: true
 };
 
 // Opções para conexão com MySql
