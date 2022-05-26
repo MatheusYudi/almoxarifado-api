@@ -58,7 +58,7 @@ export class BaseRepository {
     /**
      * findOne
      *
-     * Busca um item pelo iD
+     * Busca um item pelo ID
      *
      * @param id - ID do item
      *
