@@ -4,7 +4,7 @@ import { Entity, Column, BeforeInsert, BeforeUpdate, BaseEntity, PrimaryGenerate
 @Entity()
 export class User extends BaseEntity {
     @PrimaryGeneratedColumn()
-    public id: string;
+    public id: number;
 
     @Column({ unique: true })
     public name: string;

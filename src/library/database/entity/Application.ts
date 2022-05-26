@@ -4,7 +4,7 @@ import { Entity, Column, BaseEntity, PrimaryGeneratedColumn } from "typeorm";
 @Entity()
 export class Application extends BaseEntity {
     @PrimaryGeneratedColumn()
-    public id: string;
+    public id: number;
 
     @Column({ unique: true })
     public key: string;
