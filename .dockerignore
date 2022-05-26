@@ -1,0 +1,17 @@
+# Ignore .git and .cache folders
+.git
+.cache
+
+# Ignore all markdown files (md)
+*.md
+
+# Outdir folders
+dist/
+build/
+
+# Modules
+node_modules/
+
+# Ignore others
+npm-debug
+docker-compose*.yml

@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+    node:
+        container_name: almoxarifado-api
+        build: .
+        environment:
+            NODE_ENV: ${NODE_ENV}
+            PORT: ${PORT}
+            MYSQL_CONNECTION_URL: ${MYSQL_CONNECTION_URL}
+            MYSQL_DATABASE: ${MYSQL_DATABASE}
+        networks:
+            - almoxarifado-connect
+        links:
+            - mysql
+        ports:
+            - 4444:${PORT}
+
+    mysql:
+        container_name: almoxarifado-mysql
+        restart: always
+        image: mysql:5.7
+        environment:
+            MYSQL_DATABASE: ${MYSQL_DATABASE}
+            MYSQL_USER: ${MYSQL_USER}
+            MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+            MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+        networks:
+            - almoxarifado-connect
+        ports:
+            - 3306:3306
+
+networks:
+    almoxarifado-connect:
+        driver: bridge

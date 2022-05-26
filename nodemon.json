@@ -1,0 +1,7 @@
+{
+    "delay": "3",
+    "exec": "npm run lint && node -r tsconfig-paths/register -r ts-node/register ./src/server.ts",
+    "ext": "ts",
+    "ignore": ["*.test.ts", "*.spec.ts"],
+    "watch": ["./src/**/*.ts"]
+}

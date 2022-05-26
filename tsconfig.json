@@ -1,0 +1,44 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./src",
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "paths": {
+            "@common/*": ["common/*"],
+            "@config/*": ["config/*"],
+            "@decorators/*": ["decorators/*"],
+            "@library/*": ["library/*"],
+            "@middlewares/*": ["middlewares/*"],
+            "@routes/*": ["routes/*"]
+        },
+        "pretty": true,
+        "removeComments": false,
+        "resolveJsonModule": true,
+        "rootDir": "./src",
+        "skipLibCheck": true,
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "target": "es5",
+        "typeRoots": [
+            "./node_modules/@types",
+            "./src/library/third-party"
+        ]
+    },
+    "exclude": [
+        "src/__mocks__",
+        "src/__tests__",
+        "dist",
+        "node_modules",
+        "types"
+    ],
+    "include": [
+        "src/**/*"
+    ]
+}
