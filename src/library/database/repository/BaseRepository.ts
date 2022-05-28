@@ -22,7 +22,7 @@ export class BaseRepository {
      *
      * Retorna singleton de conexão com o banco
      *
-     * @return Instância de conexão
+     * @returns Instância de conexão
      */
     protected getConnection(): Connection {
         if (!this.connection) {
