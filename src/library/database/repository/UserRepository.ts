@@ -33,7 +33,7 @@ export class UserRepository extends BaseRepository {
     }
 
     /**
-     * insert
+     * update
      *
      * Altera um usuário
      *
@@ -55,7 +55,7 @@ export class UserRepository extends BaseRepository {
      * @returns Resultado da remoção
      */
     public delete(id: string): Promise<DeleteResult> {
-        return this.getConnection().getRepository(User).delete(id);
+        return this.getConnection().getRepository(User).softDelete(id);
     }
 
     /**
@@ -69,5 +69,18 @@ export class UserRepository extends BaseRepository {
      */
     public findByName(name: string): Promise<User | undefined> {
         return this.getConnection().getRepository(User).findOne({ name });
+    }
+
+    /**
+     * findByEmail
+     *
+     * Busca um usuário pelo email
+     *
+     * @param email - Email do usuário
+     *
+     * @returns Usuário buscado
+     */
+    public findByEmail(email: string): Promise<User | undefined> {
+        return this.getConnection().getRepository(User).findOne({ email });
     }
 }
