@@ -1,28 +1,71 @@
 // Libs
-import { Entity, Column, BeforeInsert, BeforeUpdate, BaseEntity, PrimaryGeneratedColumn } from "typeorm";
+import {
+    Entity,
+    Column,
+    BaseEntity,
+    PrimaryGeneratedColumn,
+    CreateDateColumn,
+    UpdateDateColumn,
+    BeforeInsert,
+    BeforeSoftRemove,
+    BeforeUpdate
+} from "typeorm";
+
+// Enums
+import { EnumStatus } from "@common/enums";
+
+// Utils
+import { CryptoUtils } from "@common/utils/CryptoUtils";
 
 @Entity()
 export class User extends BaseEntity {
     @PrimaryGeneratedColumn()
     public id: number;
 
+    @CreateDateColumn()
+    public createdAt: Date;
+
+    @UpdateDateColumn()
+    public updatedAt: Date;
+
     @Column({ unique: true })
     public name: string;
 
-    @Column()
-    public createdAt: Date;
+    @Column({ unique: true })
+    public document: string;
 
-    @Column()
-    public updatedAt: Date;
+    @Column({ unique: true })
+    public email: string;
 
-    @BeforeInsert()
-    public setCreateDate(): void {
-        this.createdAt = new Date();
-    }
+    @Column({ select: false })
+    public password: string;
+
+    @Column({
+        type: "enum",
+        enum: EnumStatus,
+        default: EnumStatus.ACTIVE
+    })
+    public status: EnumStatus;
+
+    @Column({
+        select: false,
+        update: false
+    })
+    public salt: string;
+
+    // Triggers
 
     @BeforeInsert()
     @BeforeUpdate()
-    public setUpdateDate(): void {
-        this.updatedAt = new Date();
+    public encryptPassword(): void {
+        if (this.password) {
+            this.salt = CryptoUtils.getRandomString(16);
+            this.password = CryptoUtils.sha512(this.password, this.salt);
+        }
+    }
+
+    @BeforeSoftRemove()
+    public setRemoveStatus(): void {
+        this.status = EnumStatus.INACTIVE;
     }
 }
