@@ -10,6 +10,9 @@ import { IRouteDef } from "@common/interfaces";
 // Types
 import { TClass } from "@common/types";
 
+// Routes
+import { AuthValidator } from "./modules/auth";
+
 /**
  * RoutesController
  *
@@ -33,10 +36,16 @@ export class RoutesController {
             const instance = new Controller();
             const prefix = Reflect.getMetadata(EnumDecorators.CONTROLLER_PREFIX, Controller);
             const routes: IRouteDef[] = Reflect.getMetadata(EnumDecorators.ROUTES, Controller);
+            const publicRoutes: Array<string | symbol> = Reflect.getMetadata(EnumDecorators.PUBLIC_ROUTES, Controller) || [];
             const allMiddlewares: any = Reflect.getMetadata(EnumDecorators.MIDDLEWARE, Controller) || {};
 
             routes.forEach((route: IRouteDef) => {
                 const methodMiddlewares: any[] = allMiddlewares[route.methodName] || [];
+
+                if (!publicRoutes.includes(route.methodName)) {
+                    methodMiddlewares.unshift(AuthValidator.verifyToken);
+                }
+
                 router[route.requestMethod](prefix + route.path, [
                     ...methodMiddlewares,
                     RoutesController.runAsyncWrapper(instance[route.methodName])
