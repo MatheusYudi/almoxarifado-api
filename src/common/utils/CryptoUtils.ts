@@ -1,4 +1,4 @@
-// Libraries
+// Libs
 import crypto from "crypto";
 
 /**
