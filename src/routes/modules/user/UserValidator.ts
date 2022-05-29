@@ -94,7 +94,20 @@ export class UserValidator extends BaseValidator {
     }
 
     public static put(): RequestHandler[] {
-        return [...UserValidator.onlyId(), ...BaseValidator.validationList(UserValidator.model)];
+        return [
+            ...UserValidator.onlyId(),
+            ...BaseValidator.validationList(
+                Object.entries(UserValidator.model).reduce((acc, [key, value]) => {
+                    return {
+                        ...acc,
+                        [key]: {
+                            ...value,
+                            optional: true
+                        }
+                    };
+                }, {})
+            )
+        ];
     }
 
     public static onlyId(): RequestHandler[] {

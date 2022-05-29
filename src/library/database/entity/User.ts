@@ -37,7 +37,7 @@ export class User extends BaseEntity {
     @Column({ unique: true })
     public email: string;
 
-    @Column({ select: false })
+    @Column()
     public password: string;
 
     @Column({
@@ -47,10 +47,7 @@ export class User extends BaseEntity {
     })
     public status: EnumStatus;
 
-    @Column({
-        select: false,
-        update: false
-    })
+    @Column({ update: false })
     public salt: string;
 
     // Triggers
