@@ -4,6 +4,12 @@ import { Request, Response } from "express";
 // Decorators
 import { Controller, Middlewares, Post, PublicRoute, Put } from "@decorators/index";
 
+// Common
+import { AppDef } from "@common/AppDef";
+
+// Library
+import { Mailer } from "@library/Mailer";
+
 // Repositories
 import { UserRepository } from "@library/database/repository";
 
@@ -101,6 +107,9 @@ export class AuthController extends BaseController {
      *         application/json:
      *           schema:
      *             type: object
+     *             example:
+     *               email: user_email@email.com
+     *               resetUrl: https://www.my-app.com/resetPage
      *             required:
      *               - email
      *               - resetUrl
@@ -122,8 +131,18 @@ export class AuthController extends BaseController {
     @PublicRoute()
     @Post("/recover")
     @Middlewares(AuthValidator.recoverPassword())
-    public async recoverPassword(_req: Request, res: Response): Promise<void> {
-        // TODO: trigger email
+    public async recoverPassword(req: Request, res: Response): Promise<void> {
+        const { email, resetUrl } = req.body;
+        const user: User | undefined = await new UserRepository().findByEmailOrDocument(email);
+
+        if (user) {
+            const resetToken: string = TokenUtils.create({ id: user.id });
+
+            Mailer.sendRecoveryEmail(email, user.name, `${resetUrl}/${resetToken}`).catch((error: Error) => {
+                new AppDef().logger.warning("recover_email", error.message);
+            });
+        }
+
         RouteResponse.success("Redefinição de senha solicitada com sucesso. Confira as instruções no seu email.", res);
     }
 
