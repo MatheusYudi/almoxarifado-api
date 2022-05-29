@@ -50,9 +50,8 @@ export class Mailer {
                 <div style="display: block; margin: auto; max-width: 600px;" class="main">
                   <h1 style="font-size: 18px; font-weight: bold; margin-top: 20px">Olá, ${toName}</h1>
                   <p>Você solicitou a recuperação da sua senha</p>
+                  <p>Clique <a id="reset_password" target="_blank" href="${resetUrl}">aqui</a> para criar uma nova senha e recuperar o seu acesso.</p>
                   <img alt="Inspect with Tabs" src="https://assets-examples.mailtrap.io/integration-examples/welcome.png" style="width: 100%;">
-                  <p>Clique <a id="reset_password" target="_blank" href="${resetUrl}">aqui</a> ou no link abaixo para criar uma nova senha e  recuperar o seu acesso.</p>
-                  <p style="overflow-wrap: anywhere"><a id="reset_password" target="_blank" href="${resetUrl}">${resetUrl}</a></p>
                 </div>
               </body>
             </html>`
