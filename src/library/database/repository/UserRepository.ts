@@ -1,5 +1,5 @@
 // Libs
-import { DeepPartial, DeleteResult, Repository } from "typeorm";
+import { DeleteResult, Repository } from "typeorm";
 
 // Entities
 import { User } from "@library/database/entity";
@@ -27,7 +27,7 @@ export class UserRepository extends BaseRepository {
      *
      * @returns Usuário adicionado
      */
-    public insert(user: DeepPartial<User>): Promise<User> {
+    public insert(user: Partial<User>): Promise<User> {
         const repository: Repository<User> = this.getConnection().getRepository(User);
         return repository.save(repository.create(user));
     }
