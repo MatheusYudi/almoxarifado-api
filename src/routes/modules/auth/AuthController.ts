@@ -43,6 +43,9 @@ export class AuthController extends BaseController {
      *         application/json:
      *           schema:
      *             type: object
+     *             example:
+     *               email: user_email@email.com
+     *               password: user_password
      *             required:
      *               - email
      *               - password
@@ -66,12 +69,17 @@ export class AuthController extends BaseController {
     @Middlewares(AuthValidator.login())
     public async login(req: Request, res: Response): Promise<void> {
         const { email, password } = req.body;
-        const userRef: User | undefined = await new UserRepository().findByEmailOrDocument(email);
-        const hashedPassword: string = CryptoUtils.sha512(password, userRef?.salt || "");
+        const userRef: Partial<User> | undefined = await new UserRepository().findByEmailOrDocument(email);
+        const hashedPassword: string = CryptoUtils.sha512(password || "", userRef?.salt || "");
 
         if (userRef && hashedPassword === userRef.password) {
-            const accessToken: string = TokenUtils.create({ id: userRef?.id });
-            RouteResponse.success({ ...userRef, accessToken }, res);
+            const { id, name, email: userEmail } = userRef;
+            const accessToken: string = TokenUtils.create({ id });
+
+            delete userRef.password;
+            delete userRef.salt;
+
+            RouteResponse.success({ id, name, email: userEmail, accessToken }, res);
         } else {
             RouteResponse.unauthorizedError(res, "Usuário ou senha inválida");
         }
@@ -140,6 +148,8 @@ export class AuthController extends BaseController {
      *         application/json:
      *           schema:
      *             type: object
+     *             example:
+     *               password: new_user_password
      *             required:
      *               - password
      *             properties:

@@ -54,7 +54,7 @@ export class UserController extends BaseController {
     public async get(req: Request, res: Response): Promise<void> {
         const [rows, count] = await new UserRepository().list<User>(UserController.listParams(req));
 
-        const usersMap = rows.map((item: User) => {
+        const usersMap: User[] = rows.map((item: User) => {
             const data: any = { ...item };
 
             delete data.password;
