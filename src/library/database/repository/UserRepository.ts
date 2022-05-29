@@ -46,6 +46,27 @@ export class UserRepository extends BaseRepository {
     }
 
     /**
+     * changePassword
+     *
+     * Altera a senha de um usuário
+     *
+     * @param userId - ID do usuário
+     * @param value - Nova senha
+     *
+     * @returns Usuário alterado
+     */
+    public async changePassword(userId: string, value: string): Promise<User | undefined> {
+        const repository: Repository<User> = this.getConnection().getRepository(User);
+        const user: User | undefined = await repository.findOne(userId);
+
+        if (user) {
+            return repository.save({ ...user, password: value });
+        }
+
+        return undefined;
+    }
+
+    /**
      * delete
      *
      * Remove um usuário pelo ID
