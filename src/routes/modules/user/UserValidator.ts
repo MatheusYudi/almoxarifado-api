@@ -66,7 +66,7 @@ export class UserValidator extends BaseValidator {
                         return UserValidator.duplicateEmailOrDocument(value, meta);
                     }
 
-                    return false;
+                    return Promise.reject();
                 }
             }
         },

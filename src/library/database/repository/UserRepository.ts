@@ -1,5 +1,5 @@
 // Libs
-import { DeleteResult, Repository } from "typeorm";
+import { Repository } from "typeorm";
 
 // Entities
 import { User } from "@library/database/entity";
@@ -75,8 +75,11 @@ export class UserRepository extends BaseRepository {
      *
      * @returns Resultado da remoção
      */
-    public delete(id: string): Promise<DeleteResult> {
-        return this.getConnection().getRepository(User).softDelete(id);
+    public async delete(id: string): Promise<User | undefined> {
+        const repository: Repository<User> = this.getConnection().getRepository(User);
+        const toBeDeleted: User | undefined = await repository.findOne(id);
+
+        return toBeDeleted ? repository.softRemove(toBeDeleted) : undefined;
     }
 
     /**
