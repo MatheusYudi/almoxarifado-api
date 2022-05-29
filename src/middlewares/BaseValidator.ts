@@ -26,6 +26,7 @@ export class BaseValidator {
         id: (repository: BaseRepository): ParamSchema => {
             return {
                 in: ["body", "params"],
+                isNumeric: true,
                 custom: {
                     options: async (value: string, { req }: Meta) => {
                         const data = await repository.findOne(value);
