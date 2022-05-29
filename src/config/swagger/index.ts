@@ -8,6 +8,15 @@ export const swaggerConfig: OAS3Options = {
         info: {
             title: "Almoxarifado API",
             version: "0.1.0"
+        },
+        components: {
+            securitySchemes: {
+                BearerAuth: {
+                    in: "header",
+                    type: "http",
+                    scheme: "bearer"
+                }
+            }
         }
     },
     apis: [resolve(__dirname, "./references/**/*.{js,ts}"), resolve(__dirname, "../../routes/modules/**/*.{js,ts}")]

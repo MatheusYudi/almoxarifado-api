@@ -22,7 +22,7 @@ export class BaseRepository {
      *
      * Retorna singleton de conexão com o banco
      *
-     * @return Instância de conexão
+     * @returns Instância de conexão
      */
     protected getConnection(): Connection {
         if (!this.connection) {
@@ -45,7 +45,8 @@ export class BaseRepository {
         const skip: number = (params.page - 1) * params.size;
         const options: FindManyOptions<Entity> = {
             take: params.size,
-            skip
+            skip,
+            withDeleted: true
         };
 
         if (params.order) {
@@ -58,7 +59,7 @@ export class BaseRepository {
     /**
      * findOne
      *
-     * Busca um item pelo iD
+     * Busca um item pelo ID
      *
      * @param id - ID do item
      *

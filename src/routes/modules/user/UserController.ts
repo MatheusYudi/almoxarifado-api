@@ -1,5 +1,4 @@
 // Libs
-import { DeepPartial } from "typeorm";
 import { Request, Response } from "express";
 
 // Library
@@ -7,7 +6,7 @@ import { User } from "@library/database/entity";
 import { UserRepository } from "@library/database/repository";
 
 // Decorators
-import { Controller, Delete, Get, Middlewares, Post, PublicRoute, Put } from "@decorators/index";
+import { Controller, Delete, Get, Middlewares, Post, Put } from "@decorators/index";
 
 // Enums
 import { EnumEndpoints } from "@common/enums";
@@ -21,12 +20,12 @@ import { BaseController } from "@middlewares/index";
 // Validators
 import { UserValidator } from "./UserValidator";
 
-@Controller(EnumEndpoints.USER_V1)
+@Controller(EnumEndpoints.USER)
 export class UserController extends BaseController {
     /**
      * @swagger
      *
-     * /v1/user:
+     * /user:
      *   get:
      *     summary: Lista os usuários
      *     tags: [Users]
@@ -34,33 +33,43 @@ export class UserController extends BaseController {
      *       - application/json
      *     produces:
      *       - application/json
+     *     security:
+     *       - BearerAuth: []
      *     parameters:
      *       - $ref: '#/components/parameters/listPageRef'
      *       - $ref: '#/components/parameters/listSizeRef'
      *       - $ref: '#/components/parameters/listOrderRef'
      *       - $ref: '#/components/parameters/listOrderByRef'
      *     responses:
-     *       '200':
+     *       200:
      *         $ref: '#/components/responses/200'
-     *       '400':
+     *       400:
      *         $ref: '#/components/responses/400'
-     *       '401':
+     *       401:
      *         $ref: '#/components/responses/401'
-     *       '500':
+     *       500:
      *         $ref: '#/components/responses/500'
      */
     @Get()
-    @PublicRoute()
     public async get(req: Request, res: Response): Promise<void> {
         const [rows, count] = await new UserRepository().list<User>(UserController.listParams(req));
 
-        RouteResponse.success({ rows, count }, res);
+        const usersMap: User[] = rows.map((item: User) => {
+            const data: any = { ...item };
+
+            delete data.password;
+            delete data.salt;
+
+            return data;
+        });
+
+        RouteResponse.success({ rows: usersMap, count }, res);
     }
 
     /**
      * @swagger
      *
-     * /v1/user/{userId}:
+     * /user/{userId}:
      *   get:
      *     summary: Retorna informações de um usuário
      *     tags: [Users]
@@ -68,40 +77,48 @@ export class UserController extends BaseController {
      *       - application/json
      *     produces:
      *       - application/json
+     *     security:
+     *       - BearerAuth: []
      *     parameters:
      *       - in: path
      *         name: userId
      *         schema:
-     *           type: string
+     *           type: number
      *         required: true
      *     responses:
-     *       '200':
+     *       200:
      *         $ref: '#/components/responses/200'
-     *       '400':
+     *       400:
      *         $ref: '#/components/responses/400'
-     *       '401':
+     *       401:
      *         $ref: '#/components/responses/401'
-     *       '500':
+     *       500:
      *         $ref: '#/components/responses/500'
      */
     @Get("/:id")
-    @PublicRoute()
     @Middlewares(UserValidator.onlyId())
     public async getOne(req: Request, res: Response): Promise<void> {
-        RouteResponse.success({ ...req.body.userRef }, res);
+        const user: Partial<User> = { ...req.body.userRef };
+
+        delete user.password;
+        delete user.salt;
+
+        RouteResponse.success(user, res);
     }
 
     /**
      * @swagger
      *
-     * /v1/user:
+     * /user:
      *   post:
-     *     summary: Cadastra um usuário
+     *     summary: Cria um usuário
      *     tags: [Users]
      *     consumes:
      *       - application/json
      *     produces:
      *       - application/json
+     *     security:
+     *       - BearerAuth: []
      *     requestBody:
      *       content:
      *         application/json:
@@ -109,27 +126,43 @@ export class UserController extends BaseController {
      *             type: object
      *             example:
      *               name: userName
+     *               document: 809.562.280-03
+     *               email: user_email@email.com
+     *               password: user_password
      *             required:
      *               - name
+     *               - document
+     *               - email
+     *               - password
      *             properties:
      *               name:
      *                 type: string
+     *               document:
+     *                 type: string
+     *               email:
+     *                 type: string
+     *               password:
+     *                 type: string
      *     responses:
-     *       '201':
+     *       201:
      *         $ref: '#/components/responses/201'
-     *       '400':
+     *       400:
      *         $ref: '#/components/responses/400'
-     *       '401':
+     *       401:
      *         $ref: '#/components/responses/401'
-     *       '500':
+     *       500:
      *         $ref: '#/components/responses/500'
      */
     @Post()
-    @PublicRoute()
     @Middlewares(UserValidator.post())
     public async add(req: Request, res: Response): Promise<void> {
-        const newUser: DeepPartial<User> = {
-            name: req.body.name
+        // TODO: add group link (accessGroupId)
+
+        const newUser: Partial<User> = {
+            name: req.body.name,
+            document: req.body.document,
+            email: req.body.email,
+            password: req.body.password
         };
 
         await new UserRepository().insert(newUser);
@@ -140,7 +173,7 @@ export class UserController extends BaseController {
     /**
      * @swagger
      *
-     * /v1/user:
+     * /user:
      *   put:
      *     summary: Altera um usuário
      *     tags: [Users]
@@ -148,39 +181,53 @@ export class UserController extends BaseController {
      *       - application/json
      *     produces:
      *       - application/json
+     *     security:
+     *       - BearerAuth: []
      *     requestBody:
      *       content:
      *         application/json:
      *           schema:
      *             type: object
      *             example:
-     *               id: userId
+     *               id: 1
      *               name: userName
+     *               document: 809.562.280-03
+     *               email: user_email@email.com
+     *               password: user_password
      *             required:
      *               - id
-     *               - name
      *             properties:
      *               id:
-     *                 type: string
+     *                 type: number
      *               name:
      *                 type: string
+     *               document:
+     *                 type: string
+     *               email:
+     *                 type: string
+     *               password:
+     *                 type: string
      *     responses:
-     *       '204':
+     *       204:
      *         $ref: '#/components/responses/204'
-     *       '400':
+     *       400:
      *         $ref: '#/components/responses/400'
-     *       '401':
+     *       401:
      *         $ref: '#/components/responses/401'
-     *       '500':
+     *       500:
      *         $ref: '#/components/responses/500'
      */
     @Put()
-    @PublicRoute()
     @Middlewares(UserValidator.put())
     public async update(req: Request, res: Response): Promise<void> {
+        // TODO: add group link (accessGroupId)
+
         const user: User = req.body.userRef;
 
         user.name = req.body.name;
+        user.document = req.body.document;
+        user.email = req.body.email;
+        user.password = req.body.password;
 
         await new UserRepository().update(user);
 
@@ -190,32 +237,33 @@ export class UserController extends BaseController {
     /**
      * @swagger
      *
-     * /v1/user/{userId}:
+     * /user/{userId}:
      *   delete:
-     *     summary: Apaga um usuário definitivamente
+     *     summary: Remove um usuário
      *     tags: [Users]
      *     consumes:
      *       - application/json
      *     produces:
      *       - application/json
+     *     security:
+     *       - BearerAuth: []
      *     parameters:
      *       - in: path
      *         name: userId
      *         schema:
-     *           type: string
+     *           type: number
      *         required: true
      *     responses:
-     *       '200':
+     *       200:
      *         $ref: '#/components/responses/200'
-     *       '400':
+     *       400:
      *         $ref: '#/components/responses/400'
-     *       '401':
+     *       401:
      *         $ref: '#/components/responses/401'
-     *       '500':
+     *       500:
      *         $ref: '#/components/responses/500'
      */
     @Delete("/:id")
-    @PublicRoute()
     @Middlewares(UserValidator.onlyId())
     public async remove(req: Request, res: Response): Promise<void> {
         const { id } = req.params;

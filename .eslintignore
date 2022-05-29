@@ -4,4 +4,5 @@
 # Enable linting for specifc files
 !__mocks__/*
 !__tests__/*
+!migrations/*
 !src/*

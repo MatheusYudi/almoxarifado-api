@@ -91,7 +91,7 @@ export class RouteResponse {
      * @param res - Resposta da requisição
      */
     public static notFound(req: Request, res: Response): void {
-        new AppDef().logger.warning(req.method, req.path, "404 : Not Found");
+        new AppDef().logger.warning(req.method, req.path, "404: Not Found");
 
         // Seta cache para a rota procurada durante 60 minutos
         RouteResponse.setCache(60, res);
@@ -109,7 +109,7 @@ export class RouteResponse {
      */
     public static unauthorizedError(res: Response, message?: string | any): void {
         res.status(401);
-        res.json(RouteResponse.formatData(false, message || "No permission to access this service"));
+        res.json(RouteResponse.formatData(false, message || "Sem permissão para acessar este serviço"));
     }
 
     /**
