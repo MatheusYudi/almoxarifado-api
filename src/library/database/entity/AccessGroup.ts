@@ -18,6 +18,10 @@ export class AccessGroup extends BaseEntity {
     @Column({ unique: true })
     public name: string;
 
+    // Relations
+
     @OneToMany(() => User, ({ accessGroup }: User) => accessGroup)
     public users: User[];
+
+    // Triggers
 }
