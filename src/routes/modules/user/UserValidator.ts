@@ -12,7 +12,7 @@ import { BaseValidator } from "@middlewares/index";
 import { User } from "@library/database/entity";
 
 // Utils
-import { CPFUtils, TokenUtils } from "@common/utils";
+import { CPFUtils } from "@common/utils";
 
 /**
  * UserValidator
@@ -32,7 +32,7 @@ export class UserValidator extends BaseValidator {
         return check ? Promise.resolve() : Promise.reject();
     };
 
-    private static model: Schema = {
+    public static model: Schema = {
         id: {
             ...BaseValidator.validators.id(new UserRepository()),
             errorMessage: "Usuário não encontrado"
@@ -78,7 +78,6 @@ export class UserValidator extends BaseValidator {
         email: {
             errorMessage: "Email inválido",
             in: "body",
-            optional: true,
             normalizeEmail: true,
             isEmail: {
                 bail: true
@@ -108,22 +107,6 @@ export class UserValidator extends BaseValidator {
             id: {
                 ...BaseValidator.validators.id(new UserRepository()),
                 errorMessage: "Usuário não encontrado"
-            }
-        });
-    }
-
-    public static changePassword(): RequestHandler[] {
-        return BaseValidator.validationList({
-            password: UserValidator.model.password,
-            "x-reset-token": {
-                in: "headers",
-                custom: {
-                    errorMessage: "Token inválido",
-                    options: (token: string, { req }: Meta): Promise<void> => {
-                        req.body.decodedToken = TokenUtils.isValid(token);
-                        return !req.body.decodedToken ? Promise.reject() : Promise.resolve();
-                    }
-                }
             }
         });
     }
