@@ -1,14 +1,15 @@
 // Libs
 import {
-    Entity,
-    Column,
     BaseEntity,
-    PrimaryGeneratedColumn,
-    CreateDateColumn,
-    UpdateDateColumn,
     BeforeInsert,
     BeforeSoftRemove,
-    BeforeUpdate
+    BeforeUpdate,
+    Column,
+    CreateDateColumn,
+    DeleteDateColumn,
+    Entity,
+    PrimaryGeneratedColumn,
+    UpdateDateColumn
 } from "typeorm";
 
 // Enums
@@ -27,6 +28,9 @@ export class User extends BaseEntity {
 
     @UpdateDateColumn()
     public updatedAt: Date;
+
+    @DeleteDateColumn()
+    public deletedAt: Date;
 
     @Column({ unique: true })
     public name: string;
@@ -53,10 +57,16 @@ export class User extends BaseEntity {
     // Triggers
 
     @BeforeInsert()
-    @BeforeUpdate()
     public encryptPassword(): void {
         if (this.password) {
             this.salt = CryptoUtils.getRandomString(16);
+            this.password = CryptoUtils.sha512(this.password, this.salt);
+        }
+    }
+
+    @BeforeUpdate()
+    public updatePassword(): void {
+        if (this.password) {
             this.password = CryptoUtils.sha512(this.password, this.salt);
         }
     }
