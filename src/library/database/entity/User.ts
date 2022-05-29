@@ -15,7 +15,7 @@ import {
 import { EnumStatus } from "@common/enums";
 
 // Utils
-import { CryptoUtils } from "@common/utils/CryptoUtils";
+import { CryptoUtils } from "@common/utils";
 
 @Entity()
 export class User extends BaseEntity {
