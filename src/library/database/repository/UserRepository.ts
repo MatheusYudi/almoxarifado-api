@@ -28,8 +28,8 @@ export class UserRepository extends BaseRepository {
      * @returns Usuário adicionado
      */
     public insert(user: DeepPartial<User>): Promise<User> {
-        const userRepository: Repository<User> = this.getConnection().getRepository(User);
-        return userRepository.save(userRepository.create(user));
+        const repository: Repository<User> = this.getConnection().getRepository(User);
+        return repository.save(repository.create(user));
     }
 
     /**
@@ -72,15 +72,19 @@ export class UserRepository extends BaseRepository {
     }
 
     /**
-     * findByEmail
+     * findByEmailOrDocument
      *
-     * Busca um usuário pelo email
+     * Busca um usuário pelo email ou documento
      *
-     * @param email - Email do usuário
+     * @param value - Email ou documento do usuário
      *
      * @returns Usuário buscado
      */
-    public findByEmail(email: string): Promise<User | undefined> {
-        return this.getConnection().getRepository(User).findOne({ email });
+    public findByEmailOrDocument(value: string): Promise<User | undefined> {
+        return this.getConnection()
+            .getRepository(User)
+            .findOne({
+                where: [{ email: value }, { document: value }]
+            });
     }
 }
