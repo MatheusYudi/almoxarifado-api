@@ -1,12 +1,9 @@
 // Libs
-import { NextFunction, Request, RequestHandler, Response } from "express";
+import { RequestHandler } from "express";
 import { Meta, Schema } from "express-validator";
 
 // Middlewares
 import { BaseValidator } from "@middlewares/index";
-
-// Routes
-import { RouteResponse } from "@routes/RouteResponse";
 
 // Utils
 import { TokenUtils } from "@common/utils";
@@ -30,17 +27,6 @@ export class AuthValidator extends BaseValidator {
             in: "body"
         }
     };
-
-    public static verifyToken(req: Request, res: Response, next: NextFunction): void {
-        const { authorization } = req.headers;
-        const bearerToken: string = req.body.token || req.query.token || authorization?.replace("Bearer", "").trim();
-
-        if (bearerToken && TokenUtils.isValid(bearerToken)) {
-            next();
-        } else {
-            RouteResponse.unauthorizedError(res, "Token inválido");
-        }
-    }
 
     public static login(): RequestHandler[] {
         return BaseValidator.validationList(AuthValidator.model);
