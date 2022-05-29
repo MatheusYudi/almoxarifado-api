@@ -22,7 +22,7 @@ export class TokenUtils {
      * @returns Token
      */
     public static create(payload?: string | TObject | Buffer, options?: jwt.SignOptions): string {
-        return jwt.sign(payload || {}, TokenUtils.SECRET, options);
+        return jwt.sign(payload || {}, TokenUtils.SECRET, { ...options, expiresIn: options?.expiresIn || "3h" });
     }
 
     /**
@@ -32,7 +32,7 @@ export class TokenUtils {
      *
      * @param token - Valor do token
      *
-     * @returns Token validado
+     * @returns Token validado e decodificado
      */
     public static isValid(token: string): string | TObject | false {
         try {
