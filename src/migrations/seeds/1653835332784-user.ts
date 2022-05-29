@@ -2,7 +2,7 @@
 import { MigrationInterface, QueryRunner } from "typeorm";
 
 // Entities
-import { User } from "../../src/library/database/entity";
+import { User } from "../../library/database/entity";
 
 export class user1653835332784 implements MigrationInterface {
     public async up(queryRunner: QueryRunner): Promise<void> {
