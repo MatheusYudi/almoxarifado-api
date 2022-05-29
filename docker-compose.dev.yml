@@ -12,6 +12,10 @@ services:
         environment:
             NODE_ENV: ${NODE_ENV}
             PORT: ${PORT}
+            TOKEN_SECRET: ${TOKEN_SECRET}
+            ENCRYPT_HASH: ${ENCRYPT_HASH}
+            MAILER_USER: ${MAILER_USER}
+            MAILER_PASS: ${MAILER_PASS}
             MYSQL_CONNECTION_URL: ${MYSQL_CONNECTION_URL}
             MYSQL_DATABASE: ${MYSQL_DATABASE}
         networks:
