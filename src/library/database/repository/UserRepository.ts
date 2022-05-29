@@ -89,7 +89,7 @@ export class UserRepository extends BaseRepository {
      * @returns Usuário buscado
      */
     public findByName(name: string): Promise<User | undefined> {
-        return this.getConnection().getRepository(User).findOne({ name });
+        return this.getConnection().getRepository(User).findOne({ name }, { withDeleted: true });
     }
 
     /**
@@ -105,7 +105,8 @@ export class UserRepository extends BaseRepository {
         return this.getConnection()
             .getRepository(User)
             .findOne({
-                where: [{ email: value }, { document: value }]
+                where: [{ email: value }, { document: value }],
+                withDeleted: true
             });
     }
 }
