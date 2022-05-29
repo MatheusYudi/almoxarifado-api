@@ -33,10 +33,6 @@ export class UserValidator extends BaseValidator {
     };
 
     public static model: Schema = {
-        id: {
-            ...BaseValidator.validators.id(new UserRepository()),
-            errorMessage: "Usuário não encontrado"
-        },
         // TODO: add access group validation
         // accessGroup: {
         //     ...BaseValidator.validators.id(new AccessGroupRepository()),
@@ -65,9 +61,8 @@ export class UserValidator extends BaseValidator {
             in: "body",
             isString: true,
             custom: {
-                errorMessage: "CPF já existe",
                 options: async (value: string, meta: Meta) => {
-                    if (CPFUtils.isValid(value)) {
+                    if (typeof value === "string" && CPFUtils.isValid(value)) {
                         return UserValidator.duplicateEmailOrDocument(value, meta);
                     }
 
