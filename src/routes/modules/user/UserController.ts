@@ -41,10 +41,14 @@ export class UserController extends BaseController {
      *       - $ref: '#/components/parameters/listOrderRef'
      *       - $ref: '#/components/parameters/listOrderByRef'
      *     responses:
-     *       - $ref: '#/components/responses/200'
-     *       - $ref: '#/components/responses/400'
-     *       - $ref: '#/components/responses/401'
-     *       - $ref: '#/components/responses/500'
+     *       200:
+     *         $ref: '#/components/responses/200'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       401:
+     *         $ref: '#/components/responses/401'
+     *       500:
+     *         $ref: '#/components/responses/500'
      */
     @Get()
     public async get(req: Request, res: Response): Promise<void> {
@@ -82,10 +86,14 @@ export class UserController extends BaseController {
      *           type: number
      *         required: true
      *     responses:
-     *       - $ref: '#/components/responses/200'
-     *       - $ref: '#/components/responses/400'
-     *       - $ref: '#/components/responses/401'
-     *       - $ref: '#/components/responses/500'
+     *       200:
+     *         $ref: '#/components/responses/200'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       401:
+     *         $ref: '#/components/responses/401'
+     *       500:
+     *         $ref: '#/components/responses/500'
      */
     @Get("/:id")
     @Middlewares(UserValidator.onlyId())
@@ -136,15 +144,19 @@ export class UserController extends BaseController {
      *               password:
      *                 type: string
      *     responses:
-     *       - $ref: '#/components/responses/201'
-     *       - $ref: '#/components/responses/400'
-     *       - $ref: '#/components/responses/401'
-     *       - $ref: '#/components/responses/500'
+     *       201:
+     *         $ref: '#/components/responses/201'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       401:
+     *         $ref: '#/components/responses/401'
+     *       500:
+     *         $ref: '#/components/responses/500'
      */
     @Post()
     @Middlewares(UserValidator.post())
     public async add(req: Request, res: Response): Promise<void> {
-        // FIXME: add group link (accessGroupId)
+        // TODO: add group link (accessGroupId)
 
         const newUser: Partial<User> = {
             name: req.body.name,
@@ -196,15 +208,19 @@ export class UserController extends BaseController {
      *               password:
      *                 type: string
      *     responses:
-     *       - $ref: '#/components/responses/204'
-     *       - $ref: '#/components/responses/400'
-     *       - $ref: '#/components/responses/401'
-     *       - $ref: '#/components/responses/500'
+     *       204:
+     *         $ref: '#/components/responses/204'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       401:
+     *         $ref: '#/components/responses/401'
+     *       500:
+     *         $ref: '#/components/responses/500'
      */
     @Put()
     @Middlewares(UserValidator.put())
     public async update(req: Request, res: Response): Promise<void> {
-        // FIXME: add group link (accessGroupId)
+        // TODO: add group link (accessGroupId)
 
         const user: User = req.body.userRef;
 
@@ -238,10 +254,14 @@ export class UserController extends BaseController {
      *           type: number
      *         required: true
      *     responses:
-     *       - $ref: '#/components/responses/200'
-     *       - $ref: '#/components/responses/400'
-     *       - $ref: '#/components/responses/401'
-     *       - $ref: '#/components/responses/500'
+     *       200:
+     *         $ref: '#/components/responses/200'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       401:
+     *         $ref: '#/components/responses/401'
+     *       500:
+     *         $ref: '#/components/responses/500'
      */
     @Delete("/:id")
     @Middlewares(UserValidator.onlyId())

@@ -49,13 +49,17 @@ export class AuthController extends BaseController {
      *             properties:
      *               email:
      *                 type: string
-     *                 description: Email
      *               password:
      *                 type: string
      *     responses:
-     *       - $ref: '#/components/responses/200'
-     *       - $ref: '#/components/responses/401'
-     *       - $ref: '#/components/responses/500'
+     *       200:
+     *         $ref: '#/components/responses/200'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       401:
+     *         $ref: '#/components/responses/401'
+     *       500:
+     *         $ref: '#/components/responses/500'
      */
     @PublicRoute()
     @Post("/login")
@@ -100,11 +104,15 @@ export class AuthController extends BaseController {
      *                 type: string
      *                 description: Endereço da aplicação para recuperar a senha
      *     responses:
-     *       - $ref: '#/components/responses/200'
-     *       - $ref: '#/components/responses/500'
+     *       200:
+     *         $ref: '#/components/responses/200'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       500:
+     *         $ref: '#/components/responses/500'
      */
     @PublicRoute()
-    @Put("/recover")
+    @Post("/recover")
     @Middlewares(AuthValidator.recoverPassword())
     public async recoverPassword(_req: Request, res: Response): Promise<void> {
         // TODO: trigger email
@@ -139,8 +147,12 @@ export class AuthController extends BaseController {
      *                 type: string
      *                 description: Nova senha
      *     responses:
-     *       - $ref: '#/components/responses/200'
-     *       - $ref: '#/components/responses/500'
+     *       200:
+     *         $ref: '#/components/responses/200'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       500:
+     *         $ref: '#/components/responses/500'
      */
     @PublicRoute()
     @Put("/reset")

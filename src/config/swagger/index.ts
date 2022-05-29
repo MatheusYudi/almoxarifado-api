@@ -9,16 +9,6 @@ export const swaggerConfig: OAS3Options = {
             title: "Almoxarifado API",
             version: "0.1.0"
         },
-        servers: [
-            {
-                description: "Development",
-                url: "http://localhost:4444"
-            },
-            {
-                description: "Staging",
-                url: "https://almoxarifado-api-v1-staging.herokuapp.com"
-            }
-        ],
         components: {
             securitySchemes: {
                 BearerAuth: {

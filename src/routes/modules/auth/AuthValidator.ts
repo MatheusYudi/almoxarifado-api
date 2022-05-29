@@ -36,6 +36,7 @@ export class AuthValidator extends BaseValidator {
         return AuthValidator.validationList({
             email: AuthValidator.model.email,
             resetUrl: {
+                errorMessage: "URL inválida",
                 in: "body",
                 isURL: true
             }
