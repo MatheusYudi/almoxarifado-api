@@ -1,7 +1,7 @@
 /**
  * CPFUtils
  *
- * Métodos para tratamento de CPF
+ * Classe de utils para tratamento de CPF
  */
 export class CPFUtils {
     /**

@@ -1,7 +1,7 @@
 /**
  * CNPJUtils
  *
- * Métodos para tratamento de CNPJ
+ * Classe de utils para tratamento de CNPJ
  */
 export class CNPJUtils {
     /**
