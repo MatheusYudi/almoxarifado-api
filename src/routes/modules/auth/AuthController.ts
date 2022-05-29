@@ -50,8 +50,8 @@ export class AuthController extends BaseController {
      *           schema:
      *             type: object
      *             example:
-     *               email: user_email@email.com
-     *               password: user_password
+     *               email: admin@email.com
+     *               password: admin_pass
      *             required:
      *               - email
      *               - password

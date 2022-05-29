@@ -1,6 +1,8 @@
 export enum EnumEndpoints {
     // autenticação
     AUTH = "/auth",
+    // grupos de acesso
+    ACCESS_GROUP = "/access-group",
     // inventário
     INVENTORY = "/inventory",
     // material

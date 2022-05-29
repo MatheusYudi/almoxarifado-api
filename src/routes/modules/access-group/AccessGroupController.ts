@@ -2,8 +2,8 @@
 import { Request, Response } from "express";
 
 // Library
-import { User } from "@library/database/entity";
-import { UserRepository } from "@library/database/repository";
+import { AccessGroup } from "@library/database/entity";
+import { AccessGroupRepository } from "@library/database/repository";
 
 // Decorators
 import { Controller, Delete, Get, Middlewares, Post, Put } from "@decorators/index";
@@ -18,17 +18,17 @@ import { RouteResponse } from "@routes/index";
 import { BaseController } from "@middlewares/index";
 
 // Validators
-import { UserValidator } from "./UserValidator";
+import { AccessGroupValidator } from "./AccessGroupValidator";
 
-@Controller(EnumEndpoints.USER)
-export class UserController extends BaseController {
+@Controller(EnumEndpoints.ACCESS_GROUP)
+export class AccessGroupController extends BaseController {
     /**
      * @swagger
      *
-     * /user:
+     * /access-group:
      *   get:
-     *     summary: Lista os usuários
-     *     tags: [Users]
+     *     summary: Lista os grupos de acesso
+     *     tags: [Access Groups]
      *     consumes:
      *       - application/json
      *     produces:
@@ -52,27 +52,18 @@ export class UserController extends BaseController {
      */
     @Get()
     public async get(req: Request, res: Response): Promise<void> {
-        const [rows, count] = await new UserRepository().list<User>(UserController.listParams(req));
+        const [rows, count] = await new AccessGroupRepository().list<AccessGroup>(AccessGroupController.listParams(req));
 
-        const usersMap: User[] = rows.map((item: User) => {
-            const data: any = { ...item };
-
-            delete data.password;
-            delete data.salt;
-
-            return data;
-        });
-
-        RouteResponse.success({ rows: usersMap, count }, res);
+        RouteResponse.success({ rows, count }, res);
     }
 
     /**
      * @swagger
      *
-     * /user/{userId}:
+     * /access-group/{accessGroupId}:
      *   get:
-     *     summary: Retorna informações de um usuário
-     *     tags: [Users]
+     *     summary: Retorna informações de um grupo de acesso
+     *     tags: [Access Groups]
      *     consumes:
      *       - application/json
      *     produces:
@@ -81,7 +72,7 @@ export class UserController extends BaseController {
      *       - BearerAuth: []
      *     parameters:
      *       - in: path
-     *         name: userId
+     *         name: accessGroupId
      *         schema:
      *           type: number
      *         required: true
@@ -96,23 +87,18 @@ export class UserController extends BaseController {
      *         $ref: '#/components/responses/500'
      */
     @Get("/:id")
-    @Middlewares(UserValidator.onlyId())
+    @Middlewares(AccessGroupValidator.onlyId())
     public async getOne(req: Request, res: Response): Promise<void> {
-        const user: Partial<User> = { ...req.body.userRef };
-
-        delete user.password;
-        delete user.salt;
-
-        RouteResponse.success(user, res);
+        RouteResponse.success({ ...req.body.accessGroupRef }, res);
     }
 
     /**
      * @swagger
      *
-     * /user:
+     * /access-group:
      *   post:
-     *     summary: Cria um usuário
-     *     tags: [Users]
+     *     summary: Cria um grupo de acesso
+     *     tags: [Access Groups]
      *     consumes:
      *       - application/json
      *     produces:
@@ -125,27 +111,11 @@ export class UserController extends BaseController {
      *           schema:
      *             type: object
      *             example:
-     *               accessGroupId: 1
-     *               name: userName
-     *               document: 809.562.280-03
-     *               email: user_email@email.com
-     *               password: user_password
+     *               name: accessGroupName
      *             required:
-     *               - accessGroupId
      *               - name
-     *               - document
-     *               - email
-     *               - password
      *             properties:
-     *               accessGroupId:
-     *                 type: number
      *               name:
-     *                 type: string
-     *               document:
-     *                 type: string
-     *               email:
-     *                 type: string
-     *               password:
      *                 type: string
      *     responses:
      *       201:
@@ -158,19 +128,9 @@ export class UserController extends BaseController {
      *         $ref: '#/components/responses/500'
      */
     @Post()
-    @Middlewares(UserValidator.post())
+    @Middlewares(AccessGroupValidator.post())
     public async add(req: Request, res: Response): Promise<void> {
-        const { accessGroupRef, name, document, email, password } = req.body;
-
-        const newUser: Partial<User> = {
-            accessGroup: accessGroupRef,
-            name,
-            document,
-            email,
-            password
-        };
-
-        await new UserRepository().insert(newUser);
+        await new AccessGroupRepository().insert({ name: req.body.name });
 
         RouteResponse.successCreate(res);
     }
@@ -178,10 +138,10 @@ export class UserController extends BaseController {
     /**
      * @swagger
      *
-     * /user:
+     * /access-group:
      *   put:
-     *     summary: Altera um usuário
-     *     tags: [Users]
+     *     summary: Altera um grupo de acesso
+     *     tags: [Access Groups]
      *     consumes:
      *       - application/json
      *     produces:
@@ -195,25 +155,13 @@ export class UserController extends BaseController {
      *             type: object
      *             example:
      *               id: 1
-     *               accessGroupId: 1
-     *               name: userName
-     *               document: 809.562.280-03
-     *               email: user_email@email.com
-     *               password: user_password
+     *               name: accessGroupName
      *             required:
      *               - id
      *             properties:
      *               id:
      *                 type: number
-     *               accessGroupId:
-     *                 type: number
      *               name:
-     *                 type: string
-     *               document:
-     *                 type: string
-     *               email:
-     *                 type: string
-     *               password:
      *                 type: string
      *     responses:
      *       204:
@@ -226,23 +174,11 @@ export class UserController extends BaseController {
      *         $ref: '#/components/responses/500'
      */
     @Put()
-    @Middlewares(UserValidator.put())
+    @Middlewares(AccessGroupValidator.put())
     public async update(req: Request, res: Response): Promise<void> {
-        const { accessGroupRef, userRef, name, document, email, password } = req.body;
-        // Remove a senha para evitar sobrescrição
-        delete userRef.password;
+        const { accessGroupRef, name } = req.body;
 
-        const user: User = userRef;
-        user.accessGroup = accessGroupRef;
-        user.name = name;
-        user.document = document;
-        user.email = email;
-
-        if (password) {
-            user.password = password;
-        }
-
-        await new UserRepository().update(user);
+        await new AccessGroupRepository().update({ ...accessGroupRef, name });
 
         RouteResponse.successEmpty(res);
     }
@@ -250,10 +186,10 @@ export class UserController extends BaseController {
     /**
      * @swagger
      *
-     * /user/{userId}:
+     * /access-group/{accessGroupId}:
      *   delete:
-     *     summary: Remove um usuário
-     *     tags: [Users]
+     *     summary: Remove um grupo de acesso
+     *     tags: [Access Groups]
      *     consumes:
      *       - application/json
      *     produces:
@@ -262,7 +198,7 @@ export class UserController extends BaseController {
      *       - BearerAuth: []
      *     parameters:
      *       - in: path
-     *         name: userId
+     *         name: accessGroupId
      *         schema:
      *           type: number
      *         required: true
@@ -277,11 +213,11 @@ export class UserController extends BaseController {
      *         $ref: '#/components/responses/500'
      */
     @Delete("/:id")
-    @Middlewares(UserValidator.onlyId())
+    @Middlewares(AccessGroupValidator.onlyId())
     public async remove(req: Request, res: Response): Promise<void> {
         const { id } = req.params;
 
-        await new UserRepository().delete(id);
+        await new AccessGroupRepository().delete(id);
 
         RouteResponse.success({ id }, res);
     }

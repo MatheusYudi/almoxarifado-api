@@ -3,7 +3,7 @@ import { RequestHandler } from "express";
 import { Meta, Schema } from "express-validator";
 
 // Repositories
-import { UserRepository } from "@library/database/repository";
+import { AccessGroupRepository, UserRepository } from "@library/database/repository";
 
 // Middlewares
 import { BaseValidator } from "@middlewares/index";
@@ -33,11 +33,10 @@ export class UserValidator extends BaseValidator {
     };
 
     public static model: Schema = {
-        // TODO: add access group validation
-        // accessGroup: {
-        //     ...BaseValidator.validators.id(new AccessGroupRepository()),
-        //     errorMessage: "Grupo de acesso não encontrado"
-        // },
+        accessGroupId: {
+            ...BaseValidator.validators.id(new AccessGroupRepository()),
+            errorMessage: "Grupo de acesso não encontrado"
+        },
         name: {
             ...BaseValidator.validators.name,
             custom: {

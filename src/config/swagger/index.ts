@@ -17,7 +17,8 @@ export const swaggerConfig: OAS3Options = {
                     scheme: "bearer"
                 }
             }
-        }
+        },
+        tags: [{ name: "Auth" }, { name: "Access Groups" }, { name: "Users" }]
     },
     apis: [resolve(__dirname, "./references/**/*.{js,ts}"), resolve(__dirname, "../../routes/modules/**/*.{js,ts}")]
 };

@@ -16,14 +16,14 @@ const baseOptions: Omit<ConnectionOptions, "type"> = {
     },
     migrationsRun: !EnvUtils.isProduction(), // Habilita execução das migrations
     logging: true, // Habilita logs
-    synchronize: true
+    synchronize: true,
+    dropSchema: EnvUtils.isDevelopment()
 };
 
 // Opções para conexão com MySql
 const mysqlOptions: MysqlConnectionOptions = {
     type: "mysql",
-    url: process.env.MYSQL_CONNECTION_URL,
-    logging: false // Habilitar para visualizar as queries do banco
+    url: process.env.MYSQL_CONNECTION_URL
 };
 
 export const dbConfig = {
