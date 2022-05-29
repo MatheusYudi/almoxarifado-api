@@ -45,7 +45,8 @@ export class BaseRepository {
         const skip: number = (params.page - 1) * params.size;
         const options: FindManyOptions<Entity> = {
             take: params.size,
-            skip
+            skip,
+            withDeleted: true
         };
 
         if (params.order) {
