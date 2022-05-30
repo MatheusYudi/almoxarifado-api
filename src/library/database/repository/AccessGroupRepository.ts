@@ -54,7 +54,7 @@ export class AccessGroupRepository extends BaseRepository {
      *
      * @returns Resultado da remoção
      */
-    public async delete(id: string): Promise<DeleteResult> {
+    public delete(id: string): Promise<DeleteResult> {
         return this.getConnection().getRepository(AccessGroup).delete(id);
     }
 

@@ -4,9 +4,6 @@ import { Repository, UpdateResult } from "typeorm";
 // Entities
 import { User } from "@library/database/entity";
 
-// Enums
-import { EnumStatuses } from "@common/enums";
-
 // Repositories
 import { BaseRepository } from "./BaseRepository";
 
@@ -78,15 +75,8 @@ export class UserRepository extends BaseRepository {
      *
      * @returns Resultado da remoção
      */
-    public async delete(id: string): Promise<UpdateResult> {
-        const repository: Repository<User> = this.getConnection().getRepository(User);
-        const toBeDeleted: User = (await repository.findOne(id)) as User;
-
-        toBeDeleted.status = EnumStatuses.INACTIVE;
-
-        await repository.save(toBeDeleted);
-
-        return repository.softDelete(id);
+    public delete(id: string): Promise<UpdateResult> {
+        return this.getConnection().getRepository(User).softDelete(id);
     }
 
     /**

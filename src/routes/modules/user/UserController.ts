@@ -279,9 +279,15 @@ export class UserController extends BaseController {
     @Delete("/:id")
     @Middlewares(UserValidator.onlyId())
     public async remove(req: Request, res: Response): Promise<void> {
+        const { userRef } = req.body;
         const { id } = req.params;
+        const userRepository: UserRepository = new UserRepository();
 
-        await new UserRepository().delete(id);
+        // Seta status inativo
+        (userRef as User).setRemoveStatus();
+
+        await userRepository.update(userRef);
+        await userRepository.delete(id);
 
         RouteResponse.success({ id }, res);
     }
