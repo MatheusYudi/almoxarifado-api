@@ -70,21 +70,4 @@ export class AccessGroupRepository extends BaseRepository {
     public findByName(name: string): Promise<AccessGroup | undefined> {
         return this.getConnection().getRepository(AccessGroup).findOne({ name });
     }
-
-    /**
-     * findByUser
-     *
-     * Busca um grupo pelo ID do usuário
-     *
-     * @param userId - ID do usuário
-     *
-     * @returns Grupo de acesso buscado
-     */
-    public findByUser(userId: string): Promise<AccessGroup | undefined> {
-        return this.getConnection()
-            .getRepository(AccessGroup)
-            .findOne({
-                where: { id: userId }
-            });
-    }
 }

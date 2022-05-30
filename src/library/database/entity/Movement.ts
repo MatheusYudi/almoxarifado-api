@@ -1,5 +1,5 @@
 // Libs
-import { BaseEntity, Column, CreateDateColumn, Entity, ManyToOne, OneToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
+import { AfterInsert, BaseEntity, Column, CreateDateColumn, Entity, ManyToOne, OneToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 
 // Enums
 import { EnumMovementTypes } from "@common/enums";
@@ -10,6 +10,9 @@ import { InvoiceMaterial } from "./InvoiceMaterial";
 import { Material } from "./Material";
 import { RequisitionMaterial } from "./RequisitionMaterial";
 import { User } from "./User";
+
+// Repositories
+import { MaterialRepository } from "../repository";
 
 @Entity()
 export class Movement extends BaseEntity {
@@ -56,4 +59,15 @@ export class Movement extends BaseEntity {
     public requisitionMaterial: RequisitionMaterial;
 
     // Triggers
+
+    @AfterInsert()
+    public async updateMaterialStock(): Promise<void> {
+        if (this.type === EnumMovementTypes.IN) {
+            this.material.stockQuantity += this.quantity;
+        } else {
+            this.material.stockQuantity -= this.quantity;
+        }
+
+        await new MaterialRepository().update(this.material);
+    }
 }
