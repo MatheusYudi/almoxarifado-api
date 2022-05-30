@@ -35,9 +35,7 @@ export class InventoryMaterial extends BaseEntity {
     })
     public material: Material; // FK
 
-    @OneToOne(() => Movement, ({ inventoryMaterial }: Movement) => inventoryMaterial, {
-        nullable: true
-    })
+    @OneToOne(() => Movement, ({ inventoryMaterial }: Movement) => inventoryMaterial)
     @JoinColumn()
     public movement: Movement; // FK
 

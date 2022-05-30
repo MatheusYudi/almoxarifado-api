@@ -61,23 +61,18 @@ export class User extends BaseEntity {
     // Relations
 
     @ManyToOne(() => AccessGroup, ({ users }: AccessGroup) => users, {
-        eager: true
+        eager: true,
+        onDelete: "SET NULL"
     })
     public accessGroup: AccessGroup; // FK
 
-    @OneToMany(() => Inventory, ({ user }: Inventory) => user, {
-        nullable: true
-    })
+    @OneToMany(() => Inventory, ({ user }: Inventory) => user)
     public inventories: Inventory[];
 
-    @OneToMany(() => Movement, ({ user }: Movement) => user, {
-        nullable: true
-    })
+    @OneToMany(() => Movement, ({ user }: Movement) => user)
     public movements: Movement[];
 
-    @OneToMany(() => Requisition, ({ user }: Requisition) => user, {
-        nullable: true
-    })
+    @OneToMany(() => Requisition, ({ user }: Requisition) => user)
     public requisitions: Requisition[];
 
     // Triggers

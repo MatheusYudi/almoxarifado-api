@@ -32,9 +32,7 @@ export class RequisitionMaterial extends BaseEntity {
     })
     public material: Material; // FK
 
-    @OneToOne(() => Movement, ({ requisitionMaterial }: Movement) => requisitionMaterial, {
-        nullable: true
-    })
+    @OneToOne(() => Movement, ({ requisitionMaterial }: Movement) => requisitionMaterial)
     @JoinColumn()
     public movement: Movement; // FK
 

@@ -43,19 +43,13 @@ export class Movement extends BaseEntity {
     })
     public material: Material; // FK
 
-    @OneToOne(() => InvoiceMaterial, ({ movement }: InvoiceMaterial) => movement, {
-        nullable: true
-    })
+    @OneToOne(() => InvoiceMaterial, ({ movement }: InvoiceMaterial) => movement)
     public invoiceMaterial: InvoiceMaterial;
 
-    @OneToOne(() => InventoryMaterial, ({ movement }: InventoryMaterial) => movement, {
-        nullable: true
-    })
+    @OneToOne(() => InventoryMaterial, ({ movement }: InventoryMaterial) => movement)
     public inventoryMaterial: InventoryMaterial;
 
-    @OneToOne(() => RequisitionMaterial, ({ movement }: RequisitionMaterial) => movement, {
-        nullable: true
-    })
+    @OneToOne(() => RequisitionMaterial, ({ movement }: RequisitionMaterial) => movement)
     public requisitionMaterial: RequisitionMaterial;
 
     // Triggers

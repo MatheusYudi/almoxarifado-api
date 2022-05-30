@@ -68,24 +68,16 @@ export class Material extends BaseEntity {
     })
     public materialGroup: MaterialGroup; // FK
 
-    @OneToMany(() => Movement, ({ user }: Movement) => user, {
-        nullable: true
-    })
+    @OneToMany(() => Movement, ({ user }: Movement) => user)
     public movements: Movement[];
 
-    @OneToMany(() => InvoiceMaterial, ({ material }: InvoiceMaterial) => material, {
-        nullable: true
-    })
+    @OneToMany(() => InvoiceMaterial, ({ material }: InvoiceMaterial) => material)
     public invoiceMaterials: InvoiceMaterial[];
 
-    @OneToMany(() => InventoryMaterial, ({ material }: InventoryMaterial) => material, {
-        nullable: true
-    })
+    @OneToMany(() => InventoryMaterial, ({ material }: InventoryMaterial) => material)
     public inventoryMaterials: InventoryMaterial[];
 
-    @OneToMany(() => RequisitionMaterial, ({ material }: RequisitionMaterial) => material, {
-        nullable: true
-    })
+    @OneToMany(() => RequisitionMaterial, ({ material }: RequisitionMaterial) => material)
     public requisitionMaterials: RequisitionMaterial[];
 
     // Triggers

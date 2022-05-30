@@ -76,9 +76,7 @@ export class Supplier extends BaseEntity {
 
     // Relations
 
-    @OneToMany(() => Invoice, ({ supplier }: Invoice) => supplier, {
-        nullable: true
-    })
+    @OneToMany(() => Invoice, ({ supplier }: Invoice) => supplier)
     public invoices: Invoice[];
 
     // Triggers

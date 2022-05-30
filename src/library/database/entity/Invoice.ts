@@ -30,7 +30,8 @@ export class Invoice extends BaseEntity {
     public supplier: Supplier; // FK
 
     @OneToMany(() => InvoiceMaterial, ({ invoice }: InvoiceMaterial) => invoice, {
-        cascade: true
+        cascade: true,
+        nullable: false
     })
     public invoiceMaterials: InvoiceMaterial[];
 
