@@ -18,7 +18,17 @@ export const swaggerConfig: OAS3Options = {
                 }
             }
         },
-        tags: [{ name: "Auth" }, { name: "Access Groups" }, { name: "Users" }]
+        tags: [
+            { name: "Auth" },
+            { name: "Users" },
+            { name: "Access Groups" },
+            { name: "Inventories" },
+            { name: "Material Groups" },
+            { name: "Materials" },
+            { name: "Movements" },
+            { name: "Requisitions" },
+            { name: "Suppliers" }
+        ]
     },
     apis: [resolve(__dirname, "./references/**/*.{js,ts}"), resolve(__dirname, "../../routes/modules/**/*.{js,ts}")]
 };
