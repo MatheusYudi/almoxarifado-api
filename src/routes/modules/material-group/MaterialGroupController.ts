@@ -28,7 +28,7 @@ export class MaterialGroupController extends BaseController {
      * /material-group:
      *   get:
      *     summary: Lista os grupos de material
-     *     tags: [Material Groups]
+     *     tags: [Material Group]
      *     consumes:
      *       - application/json
      *     produces:
@@ -63,7 +63,7 @@ export class MaterialGroupController extends BaseController {
      * /material-group/{materialGroupId}:
      *   get:
      *     summary: Retorna informações de um grupo de material
-     *     tags: [Material Groups]
+     *     tags: [Material Group]
      *     consumes:
      *       - application/json
      *     produces:
@@ -98,7 +98,7 @@ export class MaterialGroupController extends BaseController {
      * /material-group:
      *   post:
      *     summary: Cria um grupo de material
-     *     tags: [Material Groups]
+     *     tags: [Material Group]
      *     consumes:
      *       - application/json
      *     produces:
@@ -141,7 +141,7 @@ export class MaterialGroupController extends BaseController {
      * /material-group:
      *   put:
      *     summary: Altera um grupo de material
-     *     tags: [Material Groups]
+     *     tags: [Material Group]
      *     consumes:
      *       - application/json
      *     produces:
@@ -189,7 +189,7 @@ export class MaterialGroupController extends BaseController {
      * /material-group/{materialGroupId}:
      *   delete:
      *     summary: Remove um grupo de material
-     *     tags: [Material Groups]
+     *     tags: [Material Group]
      *     consumes:
      *       - application/json
      *     produces:
