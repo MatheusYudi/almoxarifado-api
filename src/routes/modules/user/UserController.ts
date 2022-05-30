@@ -28,7 +28,7 @@ export class UserController extends BaseController {
      * /user:
      *   get:
      *     summary: Lista os usuários
-     *     tags: [Users]
+     *     tags: [User]
      *     consumes:
      *       - application/json
      *     produces:
@@ -72,7 +72,7 @@ export class UserController extends BaseController {
      * /user/{userId}:
      *   get:
      *     summary: Retorna informações de um usuário
-     *     tags: [Users]
+     *     tags: [User]
      *     consumes:
      *       - application/json
      *     produces:
@@ -112,7 +112,7 @@ export class UserController extends BaseController {
      * /user:
      *   post:
      *     summary: Cria um usuário
-     *     tags: [Users]
+     *     tags: [User]
      *     consumes:
      *       - application/json
      *     produces:
@@ -181,7 +181,7 @@ export class UserController extends BaseController {
      * /user:
      *   put:
      *     summary: Altera um usuário
-     *     tags: [Users]
+     *     tags: [User]
      *     consumes:
      *       - application/json
      *     produces:
@@ -253,7 +253,7 @@ export class UserController extends BaseController {
      * /user/{userId}:
      *   delete:
      *     summary: Remove um usuário
-     *     tags: [Users]
+     *     tags: [User]
      *     consumes:
      *       - application/json
      *     produces:

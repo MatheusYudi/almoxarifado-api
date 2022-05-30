@@ -28,7 +28,7 @@ export class AccessGroupController extends BaseController {
      * /access-group:
      *   get:
      *     summary: Lista os grupos de acesso
-     *     tags: [Access Groups]
+     *     tags: [Access Group]
      *     consumes:
      *       - application/json
      *     produces:
@@ -63,7 +63,7 @@ export class AccessGroupController extends BaseController {
      * /access-group/{accessGroupId}:
      *   get:
      *     summary: Retorna informações de um grupo de acesso
-     *     tags: [Access Groups]
+     *     tags: [Access Group]
      *     consumes:
      *       - application/json
      *     produces:
@@ -98,7 +98,7 @@ export class AccessGroupController extends BaseController {
      * /access-group:
      *   post:
      *     summary: Cria um grupo de acesso
-     *     tags: [Access Groups]
+     *     tags: [Access Group]
      *     consumes:
      *       - application/json
      *     produces:
@@ -141,7 +141,7 @@ export class AccessGroupController extends BaseController {
      * /access-group:
      *   put:
      *     summary: Altera um grupo de acesso
-     *     tags: [Access Groups]
+     *     tags: [Access Group]
      *     consumes:
      *       - application/json
      *     produces:
@@ -189,7 +189,7 @@ export class AccessGroupController extends BaseController {
      * /access-group/{accessGroupId}:
      *   delete:
      *     summary: Remove um grupo de acesso
-     *     tags: [Access Groups]
+     *     tags: [Access Group]
      *     consumes:
      *       - application/json
      *     produces:

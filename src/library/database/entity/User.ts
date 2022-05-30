@@ -62,7 +62,7 @@ export class User extends BaseEntity {
 
     @ManyToOne(() => AccessGroup, ({ users }: AccessGroup) => users, {
         eager: true,
-        onDelete: "SET NULL"
+        onDelete: "SET NULL" // Remove o grupo do usuário
     })
     public accessGroup: AccessGroup; // FK
 

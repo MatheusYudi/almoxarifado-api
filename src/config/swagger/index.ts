@@ -20,14 +20,14 @@ export const swaggerConfig: OAS3Options = {
         },
         tags: [
             { name: "Auth" },
-            { name: "Users" },
-            { name: "Access Groups" },
-            { name: "Inventories" },
-            { name: "Material Groups" },
-            { name: "Materials" },
-            { name: "Movements" },
-            { name: "Requisitions" },
-            { name: "Suppliers" }
+            { name: "User" },
+            { name: "Access Group" },
+            { name: "Inventory" },
+            { name: "Material Group" },
+            { name: "Material" },
+            { name: "Movement" },
+            { name: "Requisition" },
+            { name: "Supplier" }
         ]
     },
     apis: [resolve(__dirname, "./references/**/*.{js,ts}"), resolve(__dirname, "../../routes/modules/**/*.{js,ts}")]
