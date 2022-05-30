@@ -29,7 +29,9 @@ export class Invoice extends BaseEntity {
     })
     public supplier: Supplier; // FK
 
-    @OneToMany(() => InvoiceMaterial, ({ invoice }: InvoiceMaterial) => invoice)
+    @OneToMany(() => InvoiceMaterial, ({ invoice }: InvoiceMaterial) => invoice, {
+        cascade: true
+    })
     public invoiceMaterials: InvoiceMaterial[];
 
     // Triggers

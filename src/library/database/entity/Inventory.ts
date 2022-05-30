@@ -50,7 +50,9 @@ export class Inventory extends BaseEntity {
     })
     public user: User; // FK
 
-    @OneToMany(() => InventoryMaterial, ({ inventory }: InventoryMaterial) => inventory)
+    @OneToMany(() => InventoryMaterial, ({ inventory }: InventoryMaterial) => inventory, {
+        cascade: true
+    })
     public inventoryMaterials: InventoryMaterial[];
 
     // Triggers

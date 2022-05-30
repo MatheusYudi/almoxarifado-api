@@ -50,7 +50,9 @@ export class Requisition extends BaseEntity {
     })
     public user: User; // FK
 
-    @OneToMany(() => RequisitionMaterial, ({ requisition }: RequisitionMaterial) => requisition)
+    @OneToMany(() => RequisitionMaterial, ({ requisition }: RequisitionMaterial) => requisition, {
+        cascade: true
+    })
     public requisitionMaterials: RequisitionMaterial[];
 
     // Triggers
