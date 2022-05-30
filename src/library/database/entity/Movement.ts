@@ -33,12 +33,12 @@ export class Movement extends BaseEntity {
     @ManyToOne(() => User, ({ movements }: User) => movements, {
         eager: true
     })
-    public user: User;
+    public user: User; // FK
 
     @ManyToOne(() => Material, ({ movements }: Material) => movements, {
         eager: true
     })
-    public material: Material;
+    public material: Material; // FK
 
     @OneToOne(() => InvoiceMaterial, ({ movement }: InvoiceMaterial) => movement, {
         nullable: true
