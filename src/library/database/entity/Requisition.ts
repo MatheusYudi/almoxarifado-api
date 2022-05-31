@@ -1,8 +1,6 @@
 // Libs
 import {
     BaseEntity,
-    BeforeSoftRemove,
-    BeforeUpdate,
     Column,
     CreateDateColumn,
     DeleteDateColumn,
@@ -12,9 +10,6 @@ import {
     PrimaryGeneratedColumn,
     UpdateDateColumn
 } from "typeorm";
-
-// Enums
-import { EnumStatuses } from "@common/enums";
 
 // Entities
 import { RequisitionMaterial } from "./RequisitionMaterial";
@@ -40,9 +35,6 @@ export class Requisition extends BaseEntity {
     })
     public approved: boolean;
 
-    @Column()
-    public status: EnumStatuses = EnumStatuses.ACTIVE;
-
     // Relations
 
     @ManyToOne(() => User, ({ requisitions }: User) => requisitions, {
@@ -57,16 +49,4 @@ export class Requisition extends BaseEntity {
     public requisitionMaterials: RequisitionMaterial[];
 
     // Triggers
-
-    @BeforeUpdate()
-    public updateStatus(): void {
-        if (this.deletedAt) {
-            this.status = EnumStatuses.INACTIVE;
-        }
-    }
-
-    @BeforeSoftRemove()
-    public setRemoveStatus(): void {
-        this.status = EnumStatuses.INACTIVE;
-    }
 }

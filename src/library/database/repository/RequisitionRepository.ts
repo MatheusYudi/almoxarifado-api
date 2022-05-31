@@ -1,5 +1,5 @@
 // Libs
-import { Repository, UpdateResult } from "typeorm";
+import { DeleteResult, Repository } from "typeorm";
 
 // Entities
 import { Requisition } from "@library/database/entity";
@@ -56,10 +56,10 @@ export class RequisitionRepository extends BaseRepository {
      *
      * @returns Resultado da remoção
      */
-    public delete(id: string): Promise<UpdateResult> {
+    public delete(id: string): Promise<DeleteResult> {
         // TODO: validar se não está aprovada
         // TODO: validar necessidade de apagar os itens
-        return this.getConnection().getRepository(Requisition).softDelete(id);
+        return this.getConnection().getRepository(Requisition).delete(id);
     }
 
     // TODO: aprovar requisição gera movimentação para cada material

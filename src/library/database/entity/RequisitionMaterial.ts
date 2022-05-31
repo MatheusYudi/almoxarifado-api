@@ -23,12 +23,14 @@ export class RequisitionMaterial extends BaseEntity {
     // Relations
 
     @ManyToOne(() => Requisition, ({ requisitionMaterials }: Requisition) => requisitionMaterials, {
-        eager: true
+        eager: true,
+        onDelete: "CASCADE"
     })
     public requisition: Requisition; // FK
 
     @ManyToOne(() => Material, ({ requisitionMaterials }: Material) => requisitionMaterials, {
-        eager: true
+        eager: true,
+        onDelete: "SET NULL"
     })
     public material: Material; // FK
 
