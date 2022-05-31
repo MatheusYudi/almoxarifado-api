@@ -79,6 +79,7 @@ export class MovementController extends BaseController {
      *               userId: 1
      *               materialId: 1
      *               quantity: 99
+     *               type: 'Saída'
      *             required:
      *               - userId
      *               - materialId
@@ -91,6 +92,10 @@ export class MovementController extends BaseController {
      *                 type: number
      *               quantity:
      *                 type: number
+     *               type:
+     *                 description: Tipo da movimentação
+     *                 type: string
+     *                 enum: ['Entrada', 'Saída']
      *     responses:
      *       201:
      *         $ref: '#/components/responses/201'

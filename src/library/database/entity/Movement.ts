@@ -1,5 +1,5 @@
 // Libs
-import { AfterInsert, BaseEntity, Column, CreateDateColumn, Entity, ManyToOne, OneToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
+import { BaseEntity, BeforeInsert, Column, CreateDateColumn, Entity, ManyToOne, OneToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 
 // Enums
 import { EnumMovementTypes } from "@common/enums";
@@ -54,7 +54,7 @@ export class Movement extends BaseEntity {
 
     // Triggers
 
-    @AfterInsert()
+    @BeforeInsert()
     public async updateMaterialStock(): Promise<void> {
         if (this.type === EnumMovementTypes.IN) {
             this.material.stockQuantity += this.quantity;
