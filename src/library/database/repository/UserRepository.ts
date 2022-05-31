@@ -117,7 +117,7 @@ export class UserRepository extends BaseRepository {
      *
      * @param accessGroup - Grupo de acesso
      *
-     * @returns Usuário buscado
+     * @returns Usuário
      */
     public findByAccessGroup(accessGroup: AccessGroup): Promise<User | undefined> {
         return this.getConnection().getRepository(User).findOne({ accessGroup });
