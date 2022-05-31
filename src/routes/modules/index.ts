@@ -1,8 +1,9 @@
 export { AuthController } from "./auth";
 export { AccessGroupController } from "./access-group";
 export { UserController } from "./user";
+// export { InvoiceController } from "./invoice";
 // export { InventoryController } from "./inventory";
-// export { MaterialController } from "./material";
+export { MaterialController } from "./material";
 export { MaterialGroupController } from "./material-group";
 // export { MovementController } from "./movement";
 // export { RequisitionController } from "./requisition";

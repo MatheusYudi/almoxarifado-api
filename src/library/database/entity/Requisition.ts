@@ -29,10 +29,7 @@ export class Requisition extends BaseEntity {
     @DeleteDateColumn()
     public deletedAt: Date;
 
-    @Column({
-        type: "boolean",
-        default: false
-    })
+    @Column({ default: false })
     public approved: boolean;
 
     // Relations

@@ -13,6 +13,8 @@ import { Supplier } from "@library/database/entity";
 
 // Utils
 import { CNPJUtils } from "@common/utils";
+
+// Enums
 import { EnumBrazilStates, EnumCalculationRegimes, EnumStateRegistrationTypes } from "@common/enums";
 
 /**

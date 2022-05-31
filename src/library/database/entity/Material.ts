@@ -49,13 +49,13 @@ export class Material extends BaseEntity {
     @Column({ unique: true })
     public barcode: string;
 
-    @Column()
+    @Column({ type: "float" })
     public unitPrice: number;
 
-    @Column()
+    @Column({ type: "float" })
     public stockQuantity: number;
 
-    @Column()
+    @Column({ type: "float" })
     public minimumStock: number;
 
     @Column()
