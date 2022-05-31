@@ -1,5 +1,5 @@
 // Libs
-import { Repository, UpdateResult } from "typeorm";
+import { DeleteResult, Repository } from "typeorm";
 
 // Entities
 import { Inventory } from "@library/database/entity";
@@ -56,10 +56,10 @@ export class InventoryRepository extends BaseRepository {
      *
      * @returns Resultado da remoção
      */
-    public delete(id: string): Promise<UpdateResult> {
+    public delete(id: string): Promise<DeleteResult> {
         // TODO: validar se não está finalizado
         // TODO: validar necessidade de apagar os itens
-        return this.getConnection().getRepository(Inventory).softDelete(id);
+        return this.getConnection().getRepository(Inventory).delete(id);
     }
 
     // TODO: finalizar inventário gera movimentação para cada material

@@ -8,13 +8,8 @@ import {
     Column,
     DeleteDateColumn,
     ManyToOne,
-    BeforeSoftRemove,
-    BeforeUpdate,
     OneToMany
 } from "typeorm";
-
-// Enums
-import { EnumStatuses } from "@common/enums";
 
 // Entities
 import { InventoryMaterial } from "./InventoryMaterial";
@@ -40,9 +35,6 @@ export class Inventory extends BaseEntity {
     })
     public closed: boolean;
 
-    @Column()
-    public status: EnumStatuses = EnumStatuses.ACTIVE;
-
     // Relations
 
     @ManyToOne(() => User, ({ inventories }: User) => inventories, {
@@ -57,16 +49,4 @@ export class Inventory extends BaseEntity {
     public inventoryMaterials: InventoryMaterial[];
 
     // Triggers
-
-    @BeforeUpdate()
-    public updateStatus(): void {
-        if (this.deletedAt) {
-            this.status = EnumStatuses.INACTIVE;
-        }
-    }
-
-    @BeforeSoftRemove()
-    public setRemoveStatus(): void {
-        this.status = EnumStatuses.INACTIVE;
-    }
 }
