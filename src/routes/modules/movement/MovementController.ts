@@ -78,7 +78,7 @@ export class MovementController extends BaseController {
      *             example:
      *               userId: 1
      *               materialId: 1
-     *               quantity: 99
+     *               quantity: 9
      *               type: 'Saída'
      *             required:
      *               - userId
