@@ -226,18 +226,6 @@ export class SupplierController extends BaseController {
      *               complement: 'Apto. 19'
      *             required:
      *               - id
-     *               - document
-     *               - stateRegistrationType
-     *               - stateRegistration
-     *               - corporateName
-     *               - tradingName
-     *               - calculationRegime
-     *               - state
-     *               - postalCode
-     *               - address
-     *               - addressNumber
-     *               - city
-     *               - district
      *             properties:
      *               id:
      *                 type: number
