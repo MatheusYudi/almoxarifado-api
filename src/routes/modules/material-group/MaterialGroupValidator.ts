@@ -3,13 +3,13 @@ import { RequestHandler } from "express";
 import { Meta, Schema } from "express-validator";
 
 // Repositories
-import { MaterialGroupRepository } from "@library/database/repository";
+import { MaterialGroupRepository, MaterialRepository } from "@library/database/repository";
 
 // Middlewares
 import { BaseValidator } from "@middlewares/index";
 
 // Entities
-import { MaterialGroup } from "@library/database/entity";
+import { Material, MaterialGroup } from "@library/database/entity";
 
 /**
  * MaterialGroupValidator
@@ -51,6 +51,24 @@ export class MaterialGroupValidator extends BaseValidator {
             id: {
                 ...BaseValidator.validators.id(new MaterialGroupRepository()),
                 errorMessage: "Grupo de material não encontrado"
+            },
+            materialLinked: {
+                errorMessage: "Grupo vinculado a material(ais)",
+                custom: {
+                    options: async (_, { req }: Meta) => {
+                        const materialGroup: MaterialGroup = req.body?.materialGroupRef;
+                        let check = false;
+
+                        if (materialGroup) {
+                            const materialRepository: MaterialRepository = new MaterialRepository();
+                            const material: Material | undefined = await materialRepository.findByMaterialGroup(materialGroup);
+
+                            check = material ? materialGroup.id === material.materialGroup.id : false;
+                        }
+
+                        return check ? Promise.reject() : Promise.resolve();
+                    }
+                }
             }
         });
     }

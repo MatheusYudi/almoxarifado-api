@@ -2,7 +2,7 @@
 import { Repository, UpdateResult } from "typeorm";
 
 // Entities
-import { Material } from "@library/database/entity";
+import { Material, MaterialGroup } from "@library/database/entity";
 
 // Repositories
 import { BaseRepository } from "./BaseRepository";
@@ -82,5 +82,18 @@ export class MaterialRepository extends BaseRepository {
      */
     public findByBarcode(barcode: string): Promise<Material | undefined> {
         return this.getConnection().getRepository(Material).findOne({ barcode }, { withDeleted: true });
+    }
+
+    /**
+     * findByMaterialGroup
+     *
+     * Busca um material pelo grupo
+     *
+     * @param materialGroup - Grupo
+     *
+     * @returns Material buscado
+     */
+    public findByMaterialGroup(materialGroup: MaterialGroup): Promise<Material | undefined> {
+        return this.getConnection().getRepository(Material).findOne({ materialGroup });
     }
 }

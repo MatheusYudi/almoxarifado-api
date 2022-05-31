@@ -3,13 +3,13 @@ import { RequestHandler } from "express";
 import { Meta, Schema } from "express-validator";
 
 // Repositories
-import { AccessGroupRepository } from "@library/database/repository";
+import { AccessGroupRepository, UserRepository } from "@library/database/repository";
 
 // Middlewares
 import { BaseValidator } from "@middlewares/index";
 
 // Entities
-import { AccessGroup } from "@library/database/entity";
+import { AccessGroup, User } from "@library/database/entity";
 
 /**
  * AccessGroupValidator
@@ -51,6 +51,24 @@ export class AccessGroupValidator extends BaseValidator {
             id: {
                 ...BaseValidator.validators.id(new AccessGroupRepository()),
                 errorMessage: "Grupo de acesso não encontrado"
+            },
+            userLinked: {
+                errorMessage: "Grupo de acesso vinculado a usuário(s)",
+                custom: {
+                    options: async (_, { req }: Meta) => {
+                        const accessGroup: AccessGroup = req.body?.accessGroupRef;
+                        let check = false;
+
+                        if (accessGroup) {
+                            const userRepository: UserRepository = new UserRepository();
+                            const user: User | undefined = await userRepository.findByAccessGroup(accessGroup);
+
+                            check = user ? accessGroup.id === user.accessGroup.id : false;
+                        }
+
+                        return check ? Promise.reject() : Promise.resolve();
+                    }
+                }
             }
         });
     }

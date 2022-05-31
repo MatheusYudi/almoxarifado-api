@@ -2,7 +2,7 @@
 import { Repository, UpdateResult } from "typeorm";
 
 // Entities
-import { User } from "@library/database/entity";
+import { AccessGroup, User } from "@library/database/entity";
 
 // Repositories
 import { BaseRepository } from "./BaseRepository";
@@ -108,5 +108,18 @@ export class UserRepository extends BaseRepository {
                 where: [{ email: value }, { document: value }],
                 withDeleted: true
             });
+    }
+
+    /**
+     * findByAccessGroup
+     *
+     * Busca um usuário pelo grupo de acesso
+     *
+     * @param accessGroup - Grupo de acesso
+     *
+     * @returns Usuário buscado
+     */
+    public findByAccessGroup(accessGroup: AccessGroup): Promise<User | undefined> {
+        return this.getConnection().getRepository(User).findOne({ accessGroup });
     }
 }
