@@ -2,7 +2,7 @@
 import { DeleteResult, Repository } from "typeorm";
 
 // Entities
-import { Requisition } from "@library/database/entity";
+import { Requisition, User } from "@library/database/entity";
 
 // Repositories
 import { BaseRepository } from "./BaseRepository";
@@ -63,4 +63,17 @@ export class RequisitionRepository extends BaseRepository {
     }
 
     // TODO: aprovar requisição gera movimentação para cada material
+
+    /**
+     * findByUser
+     *
+     * Busca uma requisição pelo usuário
+     *
+     * @param user - Usuário
+     *
+     * @returns Requisição
+     */
+    public findByUser(user: User): Promise<Requisition | undefined> {
+        return this.getConnection().getRepository(Requisition).findOne({ user });
+    }
 }

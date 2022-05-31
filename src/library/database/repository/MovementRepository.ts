@@ -2,7 +2,7 @@
 import { Repository } from "typeorm";
 
 // Entities
-import { Movement } from "@library/database/entity";
+import { Movement, User } from "@library/database/entity";
 
 // Repositories
 import { BaseRepository } from "./BaseRepository";
@@ -30,5 +30,18 @@ export class MovementRepository extends BaseRepository {
     public insert(movement: Partial<Movement>): Promise<Movement> {
         const repository: Repository<Movement> = this.getConnection().getRepository(Movement);
         return repository.save(repository.create(movement));
+    }
+
+    /**
+     * findByUser
+     *
+     * Busca uma movimentação pelo usuário
+     *
+     * @param user - Usuário
+     *
+     * @returns Movimentação
+     */
+    public findByUser(user: User): Promise<Movement | undefined> {
+        return this.getConnection().getRepository(Movement).findOne({ user });
     }
 }

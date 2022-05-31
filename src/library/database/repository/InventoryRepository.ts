@@ -2,7 +2,7 @@
 import { DeleteResult, Repository } from "typeorm";
 
 // Entities
-import { Inventory } from "@library/database/entity";
+import { Inventory, User } from "@library/database/entity";
 
 // Repositories
 import { BaseRepository } from "./BaseRepository";
@@ -63,4 +63,17 @@ export class InventoryRepository extends BaseRepository {
     }
 
     // TODO: finalizar inventário gera movimentação para cada material
+
+    /**
+     * findByUser
+     *
+     * Busca um inventário pelo usuário
+     *
+     * @param user - Usuário
+     *
+     * @returns Inventário
+     */
+    public findByUser(user: User): Promise<Inventory | undefined> {
+        return this.getConnection().getRepository(Inventory).findOne({ user });
+    }
 }
