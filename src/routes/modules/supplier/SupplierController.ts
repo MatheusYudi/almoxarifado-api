@@ -317,7 +317,7 @@ export class SupplierController extends BaseController {
      *         $ref: '#/components/responses/500'
      */
     @Delete("/:id")
-    @Middlewares(SupplierValidator.onlyId())
+    @Middlewares(SupplierValidator.delete())
     public async remove(req: Request, res: Response): Promise<void> {
         const { supplierRef } = req.body;
         const { id } = req.params;

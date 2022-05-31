@@ -213,7 +213,7 @@ export class MaterialGroupController extends BaseController {
      *         $ref: '#/components/responses/500'
      */
     @Delete("/:id")
-    @Middlewares(MaterialGroupValidator.onlyId())
+    @Middlewares(MaterialGroupValidator.delete())
     public async remove(req: Request, res: Response): Promise<void> {
         const { materialGroupRef } = req.body;
         const { id } = req.params;

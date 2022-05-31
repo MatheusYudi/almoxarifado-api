@@ -269,7 +269,7 @@ export class MaterialController extends BaseController {
      *         $ref: '#/components/responses/500'
      */
     @Delete("/:id")
-    @Middlewares(MaterialValidator.onlyId())
+    @Middlewares(MaterialValidator.delete())
     public async remove(req: Request, res: Response): Promise<void> {
         const { materialRef } = req.body;
         const { id } = req.params;

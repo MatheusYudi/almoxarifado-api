@@ -51,25 +51,33 @@ export class MaterialGroupValidator extends BaseValidator {
             id: {
                 ...BaseValidator.validators.id(new MaterialGroupRepository()),
                 errorMessage: "Grupo de material não encontrado"
-            },
-            materialLinked: {
-                errorMessage: "Grupo vinculado a material(ais)",
-                custom: {
-                    options: async (_, { req }: Meta) => {
-                        const materialGroup: MaterialGroup = req.body?.materialGroupRef;
-                        let check = false;
-
-                        if (materialGroup) {
-                            const materialRepository: MaterialRepository = new MaterialRepository();
-                            const material: Material | undefined = await materialRepository.findByMaterialGroup(materialGroup);
-
-                            check = material ? materialGroup.id === material.materialGroup.id : false;
-                        }
-
-                        return check ? Promise.reject() : Promise.resolve();
-                    }
-                }
             }
         });
+    }
+
+    public static delete(): RequestHandler[] {
+        return [
+            ...MaterialGroupValidator.onlyId(),
+            ...BaseValidator.validationList({
+                materialLinked: {
+                    errorMessage: "Grupo vinculado a material(ais)",
+                    custom: {
+                        options: async (_, { req }: Meta) => {
+                            const materialGroup: MaterialGroup = req.body?.materialGroupRef;
+                            let check = false;
+
+                            if (materialGroup) {
+                                const materialRepository: MaterialRepository = new MaterialRepository();
+                                const material: Material | undefined = await materialRepository.findByMaterialGroup(materialGroup);
+
+                                check = material ? materialGroup.id === material.materialGroup.id : false;
+                            }
+
+                            return check ? Promise.reject() : Promise.resolve();
+                        }
+                    }
+                }
+            })
+        ];
     }
 }

@@ -147,25 +147,33 @@ export class SupplierValidator extends BaseValidator {
             id: {
                 ...BaseValidator.validators.id(new SupplierRepository()),
                 errorMessage: "Fornecedor não encontrado"
-            },
-            invoiceLinked: {
-                errorMessage: "Nota fiscal vinculada a usuário(s)",
-                custom: {
-                    options: async (_, { req }: Meta) => {
-                        const supplier: Supplier = req.body?.supplierRef;
-                        let check = false;
-
-                        if (supplier) {
-                            const userRepository: InvoiceRepository = new InvoiceRepository();
-                            const user: Invoice | undefined = await userRepository.findBySupplier(supplier);
-
-                            check = user ? supplier.id === user.supplier.id : false;
-                        }
-
-                        return check ? Promise.reject() : Promise.resolve();
-                    }
-                }
             }
         });
+    }
+
+    public static delete(): RequestHandler[] {
+        return [
+            ...SupplierValidator.onlyId(),
+            ...BaseValidator.validationList({
+                invoiceLinked: {
+                    errorMessage: "Nota fiscal vinculada a usuário(s)",
+                    custom: {
+                        options: async (_, { req }: Meta) => {
+                            const supplier: Supplier = req.body?.supplierRef;
+                            let check = false;
+
+                            if (supplier) {
+                                const userRepository: InvoiceRepository = new InvoiceRepository();
+                                const user: Invoice | undefined = await userRepository.findBySupplier(supplier);
+
+                                check = user ? supplier.id === user.supplier.id : false;
+                            }
+
+                            return check ? Promise.reject() : Promise.resolve();
+                        }
+                    }
+                }
+            })
+        ];
     }
 }

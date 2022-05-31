@@ -213,7 +213,7 @@ export class AccessGroupController extends BaseController {
      *         $ref: '#/components/responses/500'
      */
     @Delete("/:id")
-    @Middlewares(AccessGroupValidator.onlyId())
+    @Middlewares(AccessGroupValidator.delete())
     public async remove(req: Request, res: Response): Promise<void> {
         const { id } = req.params;
 

@@ -277,7 +277,7 @@ export class UserController extends BaseController {
      *         $ref: '#/components/responses/500'
      */
     @Delete("/:id")
-    @Middlewares(UserValidator.onlyId())
+    @Middlewares(UserValidator.delete())
     public async remove(req: Request, res: Response): Promise<void> {
         const { userRef } = req.body;
         const { id } = req.params;
