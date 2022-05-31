@@ -5,6 +5,8 @@ export enum EnumEndpoints {
     ACCESS_GROUP = "/access-group",
     // inventário
     INVENTORY = "/inventory",
+    // nota fiscal
+    INVOICE = "/invoice",
     // material
     MATERIAL = "/material",
     // grupo de material
