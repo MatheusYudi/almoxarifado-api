@@ -126,10 +126,10 @@ export class UserController extends BaseController {
      *             type: object
      *             example:
      *               accessGroupId: 1
-     *               name: userName
-     *               document: 809.562.280-03
-     *               email: user_email@email.com
-     *               password: user_password
+     *               name: 'userName'
+     *               document: '809.562.280-03'
+     *               email: 'user_email@email.com'
+     *               password: 'user_password'
      *             required:
      *               - accessGroupId
      *               - name
@@ -196,10 +196,10 @@ export class UserController extends BaseController {
      *             example:
      *               id: 1
      *               accessGroupId: 1
-     *               name: userName
-     *               document: 809.562.280-03
-     *               email: user_email@email.com
-     *               password: user_password
+     *               name: 'userName'
+     *               document: '809.562.280-03'
+     *               email: 'user_email@email.com'
+     *               password: 'user_password'
      *             required:
      *               - id
      *             properties:
