@@ -14,7 +14,7 @@ import {
     AccessGroupController,
     UserController,
     // InventoryControl
-    // InvoiceController,
+    InvoiceController,
     MaterialController,
     MaterialGroupController,
     MovementController,
@@ -34,7 +34,7 @@ const app: App = new App({
         AccessGroupController,
         UserController,
         // InventoryController,
-        // InvoiceController,
+        InvoiceController,
         MaterialController,
         MaterialGroupController,
         MovementController,

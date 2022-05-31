@@ -8,10 +8,13 @@ import { EnumDecorators } from "@common/enums";
 import { IRouteDef } from "@common/interfaces";
 
 // Types
-import { TClass } from "@common/types";
+import { TClass, TObject } from "@common/types";
 
 // Utils
 import { TokenUtils } from "@common/utils";
+
+// Repositories
+import { UserRepository } from "@library/database/repository";
 
 // Routes
 import { RouteResponse } from "./RouteResponse";
@@ -31,11 +34,15 @@ export class RoutesController {
      * @param res - Resposta da requisição
      * @param next - Callback
      */
-    public static requiresAuth(req: Request, res: Response, next: NextFunction): void {
+    public static async requiresAuth(req: Request, res: Response, next: NextFunction): Promise<void> {
         const { authorization } = req.headers;
         const bearerToken: string = req.body.token || req.query.token || authorization?.replace("Bearer", "").trim();
+        const decodedToken = TokenUtils.isValid(bearerToken);
 
-        if (bearerToken && TokenUtils.isValid(bearerToken)) {
+        if (bearerToken && decodedToken) {
+            // salva o usuário para posterior uso nas rotas
+            req.body.userRef = await new UserRepository().findOne((decodedToken as TObject).id);
+
             next();
         } else {
             RouteResponse.unauthorizedError(res, "Token inválido");

@@ -26,7 +26,6 @@ export class InventoryMaterial extends BaseEntity {
     // Relations
 
     @ManyToOne(() => Inventory, ({ inventoryMaterials }: Inventory) => inventoryMaterials, {
-        eager: true,
         onDelete: "CASCADE"
     })
     public inventory: Inventory; // FK

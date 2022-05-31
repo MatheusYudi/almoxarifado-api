@@ -1,5 +1,5 @@
 // Libs
-import { Repository, UpdateResult } from "typeorm";
+import { Repository, SelectQueryBuilder, UpdateResult } from "typeorm";
 
 // Entities
 import { AccessGroup, User } from "@library/database/entity";
@@ -98,16 +98,19 @@ export class UserRepository extends BaseRepository {
      * Busca um usuário pelo email ou documento
      *
      * @param value - Email ou documento do usuário
+     * @param withCredentials - Recuperar somente as credenciais
      *
      * @returns Usuário buscado
      */
-    public findByEmailOrDocument(value: string): Promise<User | undefined> {
-        return this.getConnection()
-            .getRepository(User)
-            .findOne({
-                where: [{ email: value }, { document: value }],
-                withDeleted: true
-            });
+    public findByEmailOrDocument(value: string, withCredentials = false): Promise<User | undefined> {
+        const select: SelectQueryBuilder<User> = this.getConnection().getRepository(User).createQueryBuilder("user").select();
+        const selectCredentials: SelectQueryBuilder<User> = select.addSelect("user.password").addSelect("user.salt");
+
+        return (withCredentials ? selectCredentials : select)
+            .where("user.email = :email", { email: value })
+            .orWhere("user.document = :document", { document: value })
+            .withDeleted()
+            .getOne();
     }
 
     /**

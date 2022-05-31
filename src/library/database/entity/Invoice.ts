@@ -19,7 +19,7 @@ export class Invoice extends BaseEntity {
     @Column()
     public number: number;
 
-    @Column()
+    @Column({ unique: true })
     public key: string;
 
     // Relations
@@ -30,6 +30,7 @@ export class Invoice extends BaseEntity {
     public supplier: Supplier; // FK
 
     @OneToMany(() => InvoiceMaterial, ({ invoice }: InvoiceMaterial) => invoice, {
+        eager: true,
         cascade: true,
         nullable: false
     })

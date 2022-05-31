@@ -22,9 +22,7 @@ export class InvoiceMaterial extends BaseEntity {
 
     // Relations
 
-    @ManyToOne(() => Invoice, ({ invoiceMaterials }: Invoice) => invoiceMaterials, {
-        eager: true
-    })
+    @ManyToOne(() => Invoice, ({ invoiceMaterials }: Invoice) => invoiceMaterials)
     public invoice: Invoice; // FK
 
     @ManyToOne(() => Material, ({ invoiceMaterials }: Material) => invoiceMaterials, {

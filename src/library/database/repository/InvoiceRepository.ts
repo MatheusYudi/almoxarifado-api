@@ -34,6 +34,19 @@ export class InvoiceRepository extends BaseRepository {
     }
 
     /**
+     * findByKey
+     *
+     * Busca uma nota fiscal pela chave
+     *
+     * @param key - Chave da nota fiscal
+     *
+     * @returns Nota fiscal
+     */
+    public findByKey(key: string): Promise<Invoice | undefined> {
+        return this.getConnection().getRepository(Invoice).findOne({ key });
+    }
+
+    /**
      * findBySupplier
      *
      * Busca uma nota fiscal pelo fornecedor

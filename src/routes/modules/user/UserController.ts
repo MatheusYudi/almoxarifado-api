@@ -54,16 +54,7 @@ export class UserController extends BaseController {
     public async get(req: Request, res: Response): Promise<void> {
         const [rows, count] = await new UserRepository().list<User>(UserController.listParams(req));
 
-        const usersMap: User[] = rows.map((item: User) => {
-            const data: any = { ...item };
-
-            delete data.password;
-            delete data.salt;
-
-            return data;
-        });
-
-        RouteResponse.success({ rows: usersMap, count }, res);
+        RouteResponse.success({ rows, count }, res);
     }
 
     /**
@@ -71,7 +62,7 @@ export class UserController extends BaseController {
      *
      * /user/{id}:
      *   get:
-     *     summary: Retorna informações de um usuário
+     *     summary: Retorna informações de um usuáriso
      *     tags: [User]
      *     consumes:
      *       - application/json
@@ -98,12 +89,7 @@ export class UserController extends BaseController {
     @Get("/:id")
     @Middlewares(UserValidator.onlyId())
     public async getOne(req: Request, res: Response): Promise<void> {
-        const user: Partial<User> = { ...req.body.userRef };
-
-        delete user.password;
-        delete user.salt;
-
-        RouteResponse.success(user, res);
+        RouteResponse.success({ ...req.body.userRef }, res);
     }
 
     /**
@@ -229,8 +215,6 @@ export class UserController extends BaseController {
     @Middlewares(UserValidator.put())
     public async update(req: Request, res: Response): Promise<void> {
         const { accessGroupRef, userRef, name, document, email, password } = req.body;
-        // Remove a senha para evitar sobrescrição
-        delete userRef.password;
 
         const user: User = userRef;
         user.accessGroup = accessGroupRef;

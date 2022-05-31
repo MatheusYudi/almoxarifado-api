@@ -31,12 +31,16 @@ export class BaseValidator {
                     options: async (value: string, { req }: Meta) => {
                         const data = await repository.findOne(value);
 
-                        // Usa o nome do repositório para criar o nome de referência. Ex: UserRepository => userRef
-                        const refName: string = StringUtils.firstLowerCase(repository.constructor.name.replace("Repository", ""));
+                        if (data) {
+                            // Usa o nome do repositório para criar o nome de referência. Ex: UserRepository => userRef
+                            const refName: string = StringUtils.firstLowerCase(repository.constructor.name.replace("Repository", ""));
 
-                        req.body[`${refName}Ref`] = data;
+                            req.body[`${refName}Ref`] = data;
 
-                        return data ? Promise.resolve() : Promise.reject();
+                            return Promise.resolve();
+                        }
+
+                        return Promise.reject();
                     }
                 },
                 errorMessage: "ID não encontrado"
