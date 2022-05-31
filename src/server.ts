@@ -17,7 +17,7 @@ import {
     // InvoiceController,
     MaterialController,
     MaterialGroupController,
-    // MovementController,
+    MovementController,
     // RequisitionController,
     SupplierController
 } from "@routes/modules";
@@ -37,7 +37,7 @@ const app: App = new App({
         // InvoiceController,
         MaterialController,
         MaterialGroupController,
-        // MovementController,
+        MovementController,
         // RequisitionController,
         SupplierController
     ],
