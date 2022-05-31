@@ -6,7 +6,7 @@ import { Movement } from "@library/database/entity";
 import { MovementRepository } from "@library/database/repository";
 
 // Decorators
-import { Controller, Get, Middlewares } from "@decorators/index";
+import { Controller, Get, Middlewares, Post } from "@decorators/index";
 
 // Enums
 import { EnumEndpoints } from "@common/enums";
@@ -55,6 +55,67 @@ export class MovementController extends BaseController {
         const [rows, count] = await new MovementRepository().list<Movement>(MovementController.listParams(req));
 
         RouteResponse.success({ rows, count }, res);
+    }
+
+    /**
+     * @swagger
+     *
+     * /movement:
+     *   post:
+     *     summary: Cria uma movimentação
+     *     tags: [Movement]
+     *     consumes:
+     *       - application/json
+     *     produces:
+     *       - application/json
+     *     security:
+     *       - BearerAuth: []
+     *     requestBody:
+     *       content:
+     *         application/json:
+     *           schema:
+     *             type: object
+     *             example:
+     *               userId: 1
+     *               materialId: 1
+     *               quantity: 99
+     *             required:
+     *               - userId
+     *               - materialId
+     *               - quantity
+     *               - type
+     *             properties:
+     *               userId:
+     *                 type: number
+     *               materialId:
+     *                 type: number
+     *               quantity:
+     *                 type: number
+     *     responses:
+     *       201:
+     *         $ref: '#/components/responses/201'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       401:
+     *         $ref: '#/components/responses/401'
+     *       500:
+     *         $ref: '#/components/responses/500'
+     */
+    @Post()
+    @Middlewares(MovementValidator.post())
+    public async add(req: Request, res: Response): Promise<void> {
+        const { userRef: user, materialRef: material, quantity, type } = req.body;
+
+        const newMovement: Partial<Movement> = {
+            user,
+            material,
+            quantity,
+            type
+        };
+
+        await new MovementRepository().insert(newMovement);
+
+        RouteResponse.successCreate(res);
     }
 
     /**
