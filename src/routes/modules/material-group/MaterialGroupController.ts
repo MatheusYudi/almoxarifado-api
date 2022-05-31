@@ -60,7 +60,7 @@ export class MaterialGroupController extends BaseController {
     /**
      * @swagger
      *
-     * /material-group/{materialGroupId}:
+     * /material-group/{id}:
      *   get:
      *     summary: Retorna informações de um grupo de material
      *     tags: [Material Group]
@@ -72,7 +72,7 @@ export class MaterialGroupController extends BaseController {
      *       - BearerAuth: []
      *     parameters:
      *       - in: path
-     *         name: materialGroupId
+     *         name: id
      *         schema:
      *           type: number
      *         required: true
@@ -186,7 +186,7 @@ export class MaterialGroupController extends BaseController {
     /**
      * @swagger
      *
-     * /material-group/{materialGroupId}:
+     * /material-group/{id}:
      *   delete:
      *     summary: Remove um grupo de material
      *     tags: [Material Group]
@@ -198,7 +198,7 @@ export class MaterialGroupController extends BaseController {
      *       - BearerAuth: []
      *     parameters:
      *       - in: path
-     *         name: materialGroupId
+     *         name: id
      *         schema:
      *           type: number
      *         required: true

@@ -29,7 +29,7 @@ export class MaterialGroupValidator extends BaseValidator {
                         const materialGroupRepository: MaterialGroupRepository = new MaterialGroupRepository();
                         const materialGroup: MaterialGroup | undefined = await materialGroupRepository.findByName(value);
 
-                        check = materialGroup ? req.body.id === materialGroup.id.toString() : true;
+                        check = materialGroup ? req.body.id === materialGroup.id : true;
                     }
 
                     return check ? Promise.resolve() : Promise.reject();

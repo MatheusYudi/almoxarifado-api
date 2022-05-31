@@ -69,7 +69,7 @@ export class UserController extends BaseController {
     /**
      * @swagger
      *
-     * /user/{userId}:
+     * /user/{id}:
      *   get:
      *     summary: Retorna informações de um usuário
      *     tags: [User]
@@ -81,7 +81,7 @@ export class UserController extends BaseController {
      *       - BearerAuth: []
      *     parameters:
      *       - in: path
-     *         name: userId
+     *         name: id
      *         schema:
      *           type: number
      *         required: true
@@ -250,7 +250,7 @@ export class UserController extends BaseController {
     /**
      * @swagger
      *
-     * /user/{userId}:
+     * /user/{id}:
      *   delete:
      *     summary: Remove um usuário
      *     tags: [User]
@@ -262,7 +262,7 @@ export class UserController extends BaseController {
      *       - BearerAuth: []
      *     parameters:
      *       - in: path
-     *         name: userId
+     *         name: id
      *         schema:
      *           type: number
      *         required: true

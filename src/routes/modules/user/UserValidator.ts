@@ -26,7 +26,7 @@ export class UserValidator extends BaseValidator {
         if (value) {
             const user: User | undefined = await new UserRepository().findByEmailOrDocument(value);
 
-            check = user ? req.body.id === user.id.toString() : true;
+            check = user ? req.body.id === user.id : true;
         }
 
         return check ? Promise.resolve() : Promise.reject();
@@ -48,7 +48,7 @@ export class UserValidator extends BaseValidator {
                         const userRepository: UserRepository = new UserRepository();
                         const user: User | undefined = await userRepository.findByName(value);
 
-                        check = user ? req.body.id === user.id.toString() : true;
+                        check = user ? req.body.id === user.id : true;
                     }
 
                     return check ? Promise.resolve() : Promise.reject();
@@ -60,6 +60,7 @@ export class UserValidator extends BaseValidator {
             in: "body",
             isString: true,
             custom: {
+                errorMessage: "CPF já existe",
                 options: async (value: string, meta: Meta) => {
                     if (typeof value === "string" && CPFUtils.isValid(value)) {
                         return UserValidator.duplicateEmailOrDocument(value, meta);

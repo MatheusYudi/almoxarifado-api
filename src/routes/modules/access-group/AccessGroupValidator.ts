@@ -29,7 +29,7 @@ export class AccessGroupValidator extends BaseValidator {
                         const accessGroupRepository: AccessGroupRepository = new AccessGroupRepository();
                         const accessGroup: AccessGroup | undefined = await accessGroupRepository.findByName(value);
 
-                        check = accessGroup ? req.body.id === accessGroup.id.toString() : true;
+                        check = accessGroup ? req.body.id === accessGroup.id : true;
                     }
 
                     return check ? Promise.resolve() : Promise.reject();

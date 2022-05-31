@@ -60,7 +60,7 @@ export class Supplier extends BaseEntity {
     public address: string;
 
     @Column()
-    public addressNumber: string;
+    public addressNumber: number;
 
     @Column()
     public city: string;

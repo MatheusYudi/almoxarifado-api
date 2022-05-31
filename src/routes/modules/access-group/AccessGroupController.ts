@@ -60,7 +60,7 @@ export class AccessGroupController extends BaseController {
     /**
      * @swagger
      *
-     * /access-group/{accessGroupId}:
+     * /access-group/{id}:
      *   get:
      *     summary: Retorna informações de um grupo de acesso
      *     tags: [Access Group]
@@ -72,7 +72,7 @@ export class AccessGroupController extends BaseController {
      *       - BearerAuth: []
      *     parameters:
      *       - in: path
-     *         name: accessGroupId
+     *         name: id
      *         schema:
      *           type: number
      *         required: true
@@ -186,7 +186,7 @@ export class AccessGroupController extends BaseController {
     /**
      * @swagger
      *
-     * /access-group/{accessGroupId}:
+     * /access-group/{id}:
      *   delete:
      *     summary: Remove um grupo de acesso
      *     tags: [Access Group]
@@ -198,7 +198,7 @@ export class AccessGroupController extends BaseController {
      *       - BearerAuth: []
      *     parameters:
      *       - in: path
-     *         name: accessGroupId
+     *         name: id
      *         schema:
      *           type: number
      *         required: true
