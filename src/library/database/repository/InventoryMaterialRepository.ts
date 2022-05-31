@@ -2,7 +2,7 @@
 import { Repository } from "typeorm";
 
 // Entities
-import { InventoryMaterial } from "@library/database/entity";
+import { InventoryMaterial, Material } from "@library/database/entity";
 
 // Repositories
 import { BaseRepository } from "./BaseRepository";
@@ -44,5 +44,18 @@ export class InventoryMaterialRepository extends BaseRepository {
      */
     public update(inventoryMaterial: InventoryMaterial): Promise<InventoryMaterial> {
         return this.getConnection().getRepository(InventoryMaterial).save(inventoryMaterial);
+    }
+
+    /**
+     * findByMaterial
+     *
+     * Busca um material do inventário pelo material
+     *
+     * @param material - Material
+     *
+     * @returns Material do inventário
+     */
+    public findByMaterial(material: Material): Promise<InventoryMaterial | undefined> {
+        return this.getConnection().getRepository(InventoryMaterial).findOne({ material });
     }
 }

@@ -2,7 +2,7 @@
 import { Repository } from "typeorm";
 
 // Entities
-import { InvoiceMaterial } from "@library/database/entity";
+import { InvoiceMaterial, Material } from "@library/database/entity";
 
 // Repositories
 import { BaseRepository } from "./BaseRepository";
@@ -31,5 +31,18 @@ export class InvoiceMaterialRepository extends BaseRepository {
         // TODO: criar um InvoiceMaterial gera movimentação
         const repository: Repository<InvoiceMaterial> = this.getConnection().getRepository(InvoiceMaterial);
         return repository.save(repository.create(invoiceMaterial));
+    }
+
+    /**
+     * findByMaterial
+     *
+     * Busca um material da nota fiscal pelo material
+     *
+     * @param material - Material
+     *
+     * @returns Material da nota fiscal
+     */
+    public findByMaterial(material: Material): Promise<InvoiceMaterial | undefined> {
+        return this.getConnection().getRepository(InvoiceMaterial).findOne({ material });
     }
 }

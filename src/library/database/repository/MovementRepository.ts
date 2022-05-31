@@ -2,7 +2,7 @@
 import { Repository } from "typeorm";
 
 // Entities
-import { Movement, User } from "@library/database/entity";
+import { Material, Movement, User } from "@library/database/entity";
 
 // Repositories
 import { BaseRepository } from "./BaseRepository";
@@ -43,5 +43,18 @@ export class MovementRepository extends BaseRepository {
      */
     public findByUser(user: User): Promise<Movement | undefined> {
         return this.getConnection().getRepository(Movement).findOne({ user });
+    }
+
+    /**
+     * findByMaterial
+     *
+     * Busca uma movimentação pelo material
+     *
+     * @param material - Material
+     *
+     * @returns Movimentação
+     */
+    public findByMaterial(material: Material): Promise<Movement | undefined> {
+        return this.getConnection().getRepository(Movement).findOne({ material });
     }
 }

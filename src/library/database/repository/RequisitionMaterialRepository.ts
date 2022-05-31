@@ -2,7 +2,7 @@
 import { Repository } from "typeorm";
 
 // Entities
-import { RequisitionMaterial } from "@library/database/entity";
+import { Material, RequisitionMaterial } from "@library/database/entity";
 
 // Repositories
 import { BaseRepository } from "./BaseRepository";
@@ -44,5 +44,18 @@ export class RequisitionMaterialRepository extends BaseRepository {
      */
     public update(requisitionMaterial: RequisitionMaterial): Promise<RequisitionMaterial> {
         return this.getConnection().getRepository(RequisitionMaterial).save(requisitionMaterial);
+    }
+
+    /**
+     * findByMaterial
+     *
+     * Busca um material da requisição pelo material
+     *
+     * @param material - Material
+     *
+     * @returns Material da requisição
+     */
+    public findByMaterial(material: Material): Promise<RequisitionMaterial | undefined> {
+        return this.getConnection().getRepository(RequisitionMaterial).findOne({ material });
     }
 }

@@ -3,13 +3,20 @@ import { RequestHandler } from "express";
 import { Meta, Schema } from "express-validator";
 
 // Repositories
-import { MaterialGroupRepository, MaterialRepository } from "@library/database/repository";
+import {
+    InventoryMaterialRepository,
+    InvoiceMaterialRepository,
+    MaterialGroupRepository,
+    MaterialRepository,
+    MovementRepository,
+    RequisitionMaterialRepository
+} from "@library/database/repository";
 
 // Middlewares
 import { BaseValidator } from "@middlewares/index";
 
 // Entities
-import { Material } from "@library/database/entity";
+import { InventoryMaterial, InvoiceMaterial, Material, Movement, RequisitionMaterial } from "@library/database/entity";
 
 /**
  * MaterialValidator
@@ -103,6 +110,78 @@ export class MaterialValidator extends BaseValidator {
             id: {
                 ...BaseValidator.validators.id(new MaterialRepository()),
                 errorMessage: "Material não encontrado"
+            },
+            inventoryMaterialLinked: {
+                errorMessage: "Inventário vinculado a material(ais)",
+                custom: {
+                    options: async (_, { req }: Meta) => {
+                        const material: Material = req.body?.materialRef;
+                        let check = false;
+
+                        if (material) {
+                            const inventoryMaterialRepository: InventoryMaterialRepository = new InventoryMaterialRepository();
+                            const inventoryMaterial: InventoryMaterial | undefined = await inventoryMaterialRepository.findByMaterial(material);
+
+                            check = inventoryMaterial ? material.id === inventoryMaterial.material.id : false;
+                        }
+
+                        return check ? Promise.reject() : Promise.resolve();
+                    }
+                }
+            },
+            invoiceMaterialLinked: {
+                errorMessage: "Nota fiscal vinculada a material(ais)",
+                custom: {
+                    options: async (_, { req }: Meta) => {
+                        const material: Material = req.body?.materialRef;
+                        let check = false;
+
+                        if (material) {
+                            const invoiceMaterialRepository: InvoiceMaterialRepository = new InvoiceMaterialRepository();
+                            const invoiceMaterial: InvoiceMaterial | undefined = await invoiceMaterialRepository.findByMaterial(material);
+
+                            check = invoiceMaterial ? material.id === invoiceMaterial.material.id : false;
+                        }
+
+                        return check ? Promise.reject() : Promise.resolve();
+                    }
+                }
+            },
+            movementLinked: {
+                errorMessage: "Movimentação vinculada a material(ais)",
+                custom: {
+                    options: async (_, { req }: Meta) => {
+                        const material: Material = req.body?.materialRef;
+                        let check = false;
+
+                        if (material) {
+                            const movementRepository: MovementRepository = new MovementRepository();
+                            const movement: Movement | undefined = await movementRepository.findByMaterial(material);
+
+                            check = movement ? material.id === movement.material.id : false;
+                        }
+
+                        return check ? Promise.reject() : Promise.resolve();
+                    }
+                }
+            },
+            requisitionMaterialLinked: {
+                errorMessage: "Requisição vinculada a material(ais)",
+                custom: {
+                    options: async (_, { req }: Meta) => {
+                        const material: Material = req.body?.materialRef;
+                        let check = false;
+
+                        if (material) {
+                            const requisitionMaterialRepository: RequisitionMaterialRepository = new RequisitionMaterialRepository();
+                            const requisitionMaterial: RequisitionMaterial | undefined = await requisitionMaterialRepository.findByMaterial(material);
+
+                            check = requisitionMaterial ? material.id === requisitionMaterial.material.id : false;
+                        }
+
+                        return check ? Promise.reject() : Promise.resolve();
+                    }
+                }
             }
         });
     }
