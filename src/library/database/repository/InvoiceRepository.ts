@@ -2,7 +2,7 @@
 import { Repository } from "typeorm";
 
 // Entities
-import { Invoice } from "@library/database/entity";
+import { Invoice, Supplier } from "@library/database/entity";
 
 // Repositories
 import { BaseRepository } from "./BaseRepository";
@@ -31,5 +31,18 @@ export class InvoiceRepository extends BaseRepository {
         // TODO: criar um InvoiceMaterial para cada material
         const repository: Repository<Invoice> = this.getConnection().getRepository(Invoice);
         return repository.save(repository.create(invoice));
+    }
+
+    /**
+     * findBySupplier
+     *
+     * Busca uma nota fiscal pelo fornecedor
+     *
+     * @param supplier - Fornecedor
+     *
+     * @returns Nota fiscal
+     */
+    public findBySupplier(supplier: Supplier): Promise<Invoice | undefined> {
+        return this.getConnection().getRepository(Invoice).findOne({ supplier });
     }
 }
