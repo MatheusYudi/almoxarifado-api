@@ -124,7 +124,7 @@ export class InvoiceController extends BaseController {
     @Post()
     @Middlewares(InvoiceValidator.post())
     public async add(req: Request, res: Response): Promise<void> {
-        const { userRef: user, supplierRef: supplier, number, key, items } = req.body;
+        const { userRef, supplierRef, number, key, items } = req.body;
 
         const materials: InvoiceMaterial[] = (items as IInvoiceItem[]).map(item => {
             const invoiceMaterial: InvoiceMaterial = new InvoiceMaterial();
@@ -136,7 +136,7 @@ export class InvoiceController extends BaseController {
         });
 
         const newInvoice: Partial<Invoice> = {
-            supplier,
+            supplier: supplierRef,
             number,
             key,
             invoiceMaterials: materials
@@ -148,7 +148,7 @@ export class InvoiceController extends BaseController {
         await Promise.all(
             invoice.invoiceMaterials.map(async ({ material, quantity }: InvoiceMaterial) => {
                 const newMovement: Partial<Movement> = {
-                    user,
+                    user: userRef,
                     material,
                     quantity,
                     type: EnumMovementTypes.IN

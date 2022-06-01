@@ -28,7 +28,6 @@ export class InvoiceRepository extends BaseRepository {
      * @returns Nota fiscal adicionada
      */
     public insert(invoice: Partial<Invoice>): Promise<Invoice> {
-        // TODO: criar um InvoiceMaterial para cada material
         const repository: Repository<Invoice> = this.getConnection().getRepository(Invoice);
         return repository.save(repository.create(invoice));
     }

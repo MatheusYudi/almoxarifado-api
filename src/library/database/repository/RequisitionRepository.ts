@@ -43,6 +43,7 @@ export class RequisitionRepository extends BaseRepository {
      * @returns Requisição alterada
      */
     public update(requisition: Requisition): Promise<Requisition> {
+        // TODO: validar se não está aprovada
         // TODO: alterar o RequisitionMaterial para cada material
         return this.getConnection().getRepository(Requisition).save(requisition);
     }
@@ -58,7 +59,6 @@ export class RequisitionRepository extends BaseRepository {
      */
     public delete(id: string): Promise<DeleteResult> {
         // TODO: validar se não está aprovada
-        // TODO: validar necessidade de apagar os itens
         return this.getConnection().getRepository(Requisition).delete(id);
     }
 
