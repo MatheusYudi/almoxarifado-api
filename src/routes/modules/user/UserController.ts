@@ -62,7 +62,7 @@ export class UserController extends BaseController {
      *
      * /user/{id}:
      *   get:
-     *     summary: Retorna informações de um usuáriso
+     *     summary: Retorna informações de um usuário
      *     tags: [User]
      *     consumes:
      *       - application/json

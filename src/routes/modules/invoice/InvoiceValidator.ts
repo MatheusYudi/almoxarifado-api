@@ -52,7 +52,7 @@ export class InvoiceValidator extends BaseValidator {
             in: "body",
             isArray: true
         },
-        "items.*.id": {
+        "items.*.materialId": {
             errorMessage: "Material não encontrado",
             in: "body",
             custom: {
