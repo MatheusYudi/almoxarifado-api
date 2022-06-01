@@ -26,6 +26,9 @@ export class Movement extends BaseEntity {
     public updatedAt: Date;
 
     @Column()
+    public reason?: string;
+
+    @Column()
     public quantity: number;
 
     @Column()

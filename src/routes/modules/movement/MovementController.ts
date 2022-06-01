@@ -109,11 +109,12 @@ export class MovementController extends BaseController {
     @Post()
     @Middlewares(MovementValidator.post())
     public async add(req: Request, res: Response): Promise<void> {
-        const { userRef: user, materialRef: material, quantity, type } = req.body;
+        const { userRef: user, materialRef: material, reason, quantity, type } = req.body;
 
         const newMovement: Partial<Movement> = {
             user,
             material,
+            reason,
             quantity,
             type
         };

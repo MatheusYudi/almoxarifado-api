@@ -38,6 +38,12 @@ export class MovementValidator extends BaseValidator {
             isIn: {
                 options: [Object.values(EnumMovementTypes)]
             }
+        },
+        reason: {
+            errorMessage: "Motivo inválido",
+            in: "body",
+            optional: true,
+            isString: true
         }
     };
 
