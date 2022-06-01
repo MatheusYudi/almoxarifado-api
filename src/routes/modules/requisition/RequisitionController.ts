@@ -286,7 +286,7 @@ export class RequisitionController extends BaseController {
      */
     @Post("/:id/approve")
     @Middlewares(RequisitionValidator.onlyId())
-    public async startList(req: Request, res: Response): Promise<void> {
+    public async approve(req: Request, res: Response): Promise<void> {
         const { id } = req.params;
         const { userRef, requisitionRef } = req.body;
 

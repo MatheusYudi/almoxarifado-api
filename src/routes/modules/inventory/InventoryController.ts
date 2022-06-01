@@ -294,7 +294,7 @@ export class InventoryController extends BaseController {
      */
     @Post("/:id/close")
     @Middlewares(InventoryValidator.onlyId())
-    public async startList(req: Request, res: Response): Promise<void> {
+    public async close(req: Request, res: Response): Promise<void> {
         const { id } = req.params;
         const { userRef, inventoryRef } = req.body;
 
