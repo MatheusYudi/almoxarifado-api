@@ -29,7 +29,7 @@ interface IUpdateInventoryItem extends Pick<InventoryMaterial, "id" | "systemQua
     inventoryMaterialRef: InventoryMaterial;
 }
 
-@Controller(EnumEndpoints.INVOICE)
+@Controller(EnumEndpoints.INVENTORY)
 export class InventoryController extends BaseController {
     /**
      * @swagger
