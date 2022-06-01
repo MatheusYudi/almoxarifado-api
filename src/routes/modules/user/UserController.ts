@@ -2,8 +2,8 @@
 import { Request, Response } from "express";
 
 // Library
-import { User } from "@library/database/entity";
-import { UserRepository } from "@library/database/repository";
+import { Requisition, User } from "@library/database/entity";
+import { RequisitionRepository, UserRepository } from "@library/database/repository";
 
 // Decorators
 import { Controller, Delete, Get, Middlewares, Post, Put } from "@decorators/index";
@@ -90,6 +90,49 @@ export class UserController extends BaseController {
     @Middlewares(UserValidator.onlyId())
     public async getOne(req: Request, res: Response): Promise<void> {
         RouteResponse.success({ ...req.body.userRef }, res);
+    }
+
+    /**
+     * @swagger
+     *
+     * /user/{id}/requisition:
+     *   get:
+     *     summary: Retorna as requisições de um usuário
+     *     tags: [User]
+     *     consumes:
+     *       - application/json
+     *     produces:
+     *       - application/json
+     *     security:
+     *       - BearerAuth: []
+     *     parameters:
+     *       - in: path
+     *         name: id
+     *         schema:
+     *           type: number
+     *         required: true
+     *       - $ref: '#/components/parameters/listPageRef'
+     *       - $ref: '#/components/parameters/listSizeRef'
+     *       - $ref: '#/components/parameters/listOrderRef'
+     *       - $ref: '#/components/parameters/listOrderByRef'
+     *     responses:
+     *       200:
+     *         $ref: '#/components/responses/200'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       401:
+     *         $ref: '#/components/responses/401'
+     *       500:
+     *         $ref: '#/components/responses/500'
+     */
+    @Get("/:id/requisition")
+    @Middlewares(UserValidator.onlyId())
+    public async getUserRequisitions(req: Request, res: Response): Promise<void> {
+        const [rows, count] = await new RequisitionRepository().list<Requisition>(UserController.listParams(req));
+
+        const userRequisitions: Requisition[] = rows.filter(item => item.user.id === req.body.userRef.id);
+
+        RouteResponse.success({ rows: userRequisitions, count }, res);
     }
 
     /**
