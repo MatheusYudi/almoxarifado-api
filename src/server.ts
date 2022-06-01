@@ -13,7 +13,7 @@ import {
     AuthController,
     AccessGroupController,
     UserController,
-    // InventoryControl
+    InventoryController,
     InvoiceController,
     MaterialController,
     MaterialGroupController,
@@ -33,7 +33,7 @@ const app: App = new App({
         AuthController,
         AccessGroupController,
         UserController,
-        // InventoryController,
+        InventoryController,
         InvoiceController,
         MaterialController,
         MaterialGroupController,

@@ -28,7 +28,6 @@ export class InventoryRepository extends BaseRepository {
      * @returns Inventário adicionado
      */
     public insert(inventory: Partial<Inventory>): Promise<Inventory> {
-        // TODO: criar um InventoryMaterial para cada material
         const repository: Repository<Inventory> = this.getConnection().getRepository(Inventory);
         return repository.save(repository.create(inventory));
     }
@@ -43,7 +42,6 @@ export class InventoryRepository extends BaseRepository {
      * @returns Inventário alterado
      */
     public update(inventory: Inventory): Promise<Inventory> {
-        // TODO: alterar o InventoryMaterial para cada material
         return this.getConnection().getRepository(Inventory).save(inventory);
     }
 
@@ -57,12 +55,8 @@ export class InventoryRepository extends BaseRepository {
      * @returns Resultado da remoção
      */
     public delete(id: string): Promise<DeleteResult> {
-        // TODO: validar se não está finalizado
-        // TODO: validar necessidade de apagar os itens
         return this.getConnection().getRepository(Inventory).delete(id);
     }
-
-    // TODO: finalizar inventário gera movimentação para cada material
 
     /**
      * findByUser
