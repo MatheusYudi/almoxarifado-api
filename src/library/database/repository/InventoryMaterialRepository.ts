@@ -28,7 +28,6 @@ export class InventoryMaterialRepository extends BaseRepository {
      * @returns Material do inventário adicionado
      */
     public insert(inventoryMaterial: Partial<InventoryMaterial>): Promise<InventoryMaterial> {
-        // TODO: criar um InventoryMaterial gera movimentação
         const repository: Repository<InventoryMaterial> = this.getConnection().getRepository(InventoryMaterial);
         return repository.save(repository.create(inventoryMaterial));
     }

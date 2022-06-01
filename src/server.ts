@@ -10,16 +10,16 @@ import { swaggerConfig } from "@config/swagger";
 
 // Routes
 import {
-    AuthController,
     AccessGroupController,
-    UserController,
+    AuthController,
     InventoryController,
     InvoiceController,
     MaterialController,
     MaterialGroupController,
     MovementController,
-    // RequisitionController,
-    SupplierController
+    RequisitionController,
+    SupplierController,
+    UserController
 } from "@routes/modules";
 
 // Utils
@@ -30,16 +30,16 @@ import { App } from "./App";
 const app: App = new App({
     port: Number(process.env.PORT || 8080),
     controllers: [
-        AuthController,
         AccessGroupController,
-        UserController,
+        AuthController,
         InventoryController,
         InvoiceController,
         MaterialController,
         MaterialGroupController,
         MovementController,
-        // RequisitionController,
-        SupplierController
+        RequisitionController,
+        SupplierController,
+        UserController
     ],
     middlewares: [Logger.middleware],
     logger: new Logger(),

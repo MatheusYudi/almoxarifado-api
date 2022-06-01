@@ -28,7 +28,6 @@ export class RequisitionRepository extends BaseRepository {
      * @returns Requisição adicionada
      */
     public insert(requisition: Partial<Requisition>): Promise<Requisition> {
-        // TODO: criar um RequisitionMaterial para cada material
         const repository: Repository<Requisition> = this.getConnection().getRepository(Requisition);
         return repository.save(repository.create(requisition));
     }
@@ -43,8 +42,6 @@ export class RequisitionRepository extends BaseRepository {
      * @returns Requisição alterada
      */
     public update(requisition: Requisition): Promise<Requisition> {
-        // TODO: validar se não está aprovada
-        // TODO: alterar o RequisitionMaterial para cada material
         return this.getConnection().getRepository(Requisition).save(requisition);
     }
 
@@ -58,11 +55,8 @@ export class RequisitionRepository extends BaseRepository {
      * @returns Resultado da remoção
      */
     public delete(id: string): Promise<DeleteResult> {
-        // TODO: validar se não está aprovada
         return this.getConnection().getRepository(Requisition).delete(id);
     }
-
-    // TODO: aprovar requisição gera movimentação para cada material
 
     /**
      * findByUser

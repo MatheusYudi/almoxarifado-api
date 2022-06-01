@@ -28,7 +28,6 @@ export class RequisitionMaterialRepository extends BaseRepository {
      * @returns Material da requisição adicionado
      */
     public insert(requisitionMaterial: Partial<RequisitionMaterial>): Promise<RequisitionMaterial> {
-        // TODO: criar um RequisitionMaterial gera movimentação
         const repository: Repository<RequisitionMaterial> = this.getConnection().getRepository(RequisitionMaterial);
         return repository.save(repository.create(requisitionMaterial));
     }

@@ -28,7 +28,6 @@ export class InvoiceMaterialRepository extends BaseRepository {
      * @returns Material da nota fiscal adicionado
      */
     public insert(invoiceMaterial: Partial<InvoiceMaterial>): Promise<InvoiceMaterial> {
-        // TODO: criar um InvoiceMaterial gera movimentação
         const repository: Repository<InvoiceMaterial> = this.getConnection().getRepository(InvoiceMaterial);
         return repository.save(repository.create(invoiceMaterial));
     }
