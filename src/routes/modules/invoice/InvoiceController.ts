@@ -21,7 +21,7 @@ import { BaseController } from "@middlewares/index";
 import { InvoiceValidator } from "./InvoiceValidator";
 
 interface IInvoiceItem {
-    id: InvoiceMaterial["material"]["id"];
+    materialId: InvoiceMaterial["material"]["id"];
     materialRef: InvoiceMaterial["material"];
     quantity: InvoiceMaterial["quantity"];
 }
@@ -85,7 +85,7 @@ export class InvoiceController extends BaseController {
      *               supplierId: 1
      *               number: 12345
      *               key: 'invoice_key'
-     *               items: [{ id: 1, quantity: 9 }]
+     *               items: [{ materialId: 1, quantity: 9 }]
      *             required:
      *               - supplierId
      *               - number
@@ -104,10 +104,10 @@ export class InvoiceController extends BaseController {
      *                 items:
      *                   type: object
      *                   required:
-     *                     - id
+     *                     - materialId
      *                     - quantity
      *                   properties:
-     *                     id:
+     *                     materialId:
      *                       type: number
      *                     quantity:
      *                       type: number
