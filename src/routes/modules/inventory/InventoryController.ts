@@ -200,7 +200,7 @@ export class InventoryController extends BaseController {
      *         $ref: '#/components/responses/500'
      */
     @Put()
-    @Middlewares(InventoryValidator.post())
+    @Middlewares(InventoryValidator.put())
     public async update(req: Request, res: Response): Promise<void> {
         const { inventoryRef, items } = req.body;
 

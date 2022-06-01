@@ -193,7 +193,7 @@ export class RequisitionController extends BaseController {
      *         $ref: '#/components/responses/500'
      */
     @Put()
-    @Middlewares(RequisitionValidator.post())
+    @Middlewares(RequisitionValidator.put())
     public async update(req: Request, res: Response): Promise<void> {
         const { requisitionRef, items } = req.body;
 
