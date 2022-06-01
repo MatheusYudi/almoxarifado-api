@@ -2,8 +2,8 @@
 import { Request, Response } from "express";
 
 // Library
-import { User } from "@library/database/entity";
-import { UserRepository } from "@library/database/repository";
+import { Requisition, User } from "@library/database/entity";
+import { RequisitionRepository, UserRepository } from "@library/database/repository";
 
 // Decorators
 import { Controller, Delete, Get, Middlewares, Post, Put } from "@decorators/index";
@@ -28,7 +28,7 @@ export class UserController extends BaseController {
      * /user:
      *   get:
      *     summary: Lista os usuários
-     *     tags: [Users]
+     *     tags: [User]
      *     consumes:
      *       - application/json
      *     produces:
@@ -54,25 +54,16 @@ export class UserController extends BaseController {
     public async get(req: Request, res: Response): Promise<void> {
         const [rows, count] = await new UserRepository().list<User>(UserController.listParams(req));
 
-        const usersMap: User[] = rows.map((item: User) => {
-            const data: any = { ...item };
-
-            delete data.password;
-            delete data.salt;
-
-            return data;
-        });
-
-        RouteResponse.success({ rows: usersMap, count }, res);
+        RouteResponse.success({ rows, count }, res);
     }
 
     /**
      * @swagger
      *
-     * /user/{userId}:
+     * /user/{id}:
      *   get:
      *     summary: Retorna informações de um usuário
-     *     tags: [Users]
+     *     tags: [User]
      *     consumes:
      *       - application/json
      *     produces:
@@ -81,7 +72,7 @@ export class UserController extends BaseController {
      *       - BearerAuth: []
      *     parameters:
      *       - in: path
-     *         name: userId
+     *         name: id
      *         schema:
      *           type: number
      *         required: true
@@ -98,12 +89,50 @@ export class UserController extends BaseController {
     @Get("/:id")
     @Middlewares(UserValidator.onlyId())
     public async getOne(req: Request, res: Response): Promise<void> {
-        const user: Partial<User> = { ...req.body.userRef };
+        RouteResponse.success({ ...req.body.userRef }, res);
+    }
 
-        delete user.password;
-        delete user.salt;
+    /**
+     * @swagger
+     *
+     * /user/{id}/requisition:
+     *   get:
+     *     summary: Retorna as requisições de um usuário
+     *     tags: [User]
+     *     consumes:
+     *       - application/json
+     *     produces:
+     *       - application/json
+     *     security:
+     *       - BearerAuth: []
+     *     parameters:
+     *       - in: path
+     *         name: id
+     *         schema:
+     *           type: number
+     *         required: true
+     *       - $ref: '#/components/parameters/listPageRef'
+     *       - $ref: '#/components/parameters/listSizeRef'
+     *       - $ref: '#/components/parameters/listOrderRef'
+     *       - $ref: '#/components/parameters/listOrderByRef'
+     *     responses:
+     *       200:
+     *         $ref: '#/components/responses/200'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       401:
+     *         $ref: '#/components/responses/401'
+     *       500:
+     *         $ref: '#/components/responses/500'
+     */
+    @Get("/:id/requisition")
+    @Middlewares(UserValidator.onlyId())
+    public async getUserRequisitions(req: Request, res: Response): Promise<void> {
+        const [rows, count] = await new RequisitionRepository().list<Requisition>(UserController.listParams(req));
 
-        RouteResponse.success(user, res);
+        const userRequisitions: Requisition[] = rows.filter(item => item.user.id === req.body.userRef.id);
+
+        RouteResponse.success({ rows: userRequisitions, count }, res);
     }
 
     /**
@@ -112,7 +141,7 @@ export class UserController extends BaseController {
      * /user:
      *   post:
      *     summary: Cria um usuário
-     *     tags: [Users]
+     *     tags: [User]
      *     consumes:
      *       - application/json
      *     produces:
@@ -125,16 +154,20 @@ export class UserController extends BaseController {
      *           schema:
      *             type: object
      *             example:
-     *               name: userName
-     *               document: 809.562.280-03
-     *               email: user_email@email.com
-     *               password: user_password
+     *               accessGroupId: 1
+     *               name: 'userName'
+     *               document: '809.562.280-03'
+     *               email: 'user_email@email.com'
+     *               password: 'user_password'
      *             required:
+     *               - accessGroupId
      *               - name
      *               - document
      *               - email
      *               - password
      *             properties:
+     *               accessGroupId:
+     *                 type: number
      *               name:
      *                 type: string
      *               document:
@@ -156,13 +189,14 @@ export class UserController extends BaseController {
     @Post()
     @Middlewares(UserValidator.post())
     public async add(req: Request, res: Response): Promise<void> {
-        // TODO: add group link (accessGroupId)
+        const { accessGroupRef, name, document, email, password } = req.body;
 
         const newUser: Partial<User> = {
-            name: req.body.name,
-            document: req.body.document,
-            email: req.body.email,
-            password: req.body.password
+            accessGroup: accessGroupRef,
+            name,
+            document,
+            email,
+            password
         };
 
         await new UserRepository().insert(newUser);
@@ -176,7 +210,7 @@ export class UserController extends BaseController {
      * /user:
      *   put:
      *     summary: Altera um usuário
-     *     tags: [Users]
+     *     tags: [User]
      *     consumes:
      *       - application/json
      *     produces:
@@ -190,14 +224,17 @@ export class UserController extends BaseController {
      *             type: object
      *             example:
      *               id: 1
-     *               name: userName
-     *               document: 809.562.280-03
-     *               email: user_email@email.com
-     *               password: user_password
+     *               accessGroupId: 1
+     *               name: 'userName'
+     *               document: '809.562.280-03'
+     *               email: 'user_email@email.com'
+     *               password: 'user_password'
      *             required:
      *               - id
      *             properties:
      *               id:
+     *                 type: number
+     *               accessGroupId:
      *                 type: number
      *               name:
      *                 type: string
@@ -220,14 +257,17 @@ export class UserController extends BaseController {
     @Put()
     @Middlewares(UserValidator.put())
     public async update(req: Request, res: Response): Promise<void> {
-        // TODO: add group link (accessGroupId)
+        const { accessGroupRef, userRef, name, document, email, password } = req.body;
 
-        const user: User = req.body.userRef;
+        const user: User = userRef;
+        user.accessGroup = accessGroupRef;
+        user.name = name;
+        user.document = document;
+        user.email = email;
 
-        user.name = req.body.name;
-        user.document = req.body.document;
-        user.email = req.body.email;
-        user.password = req.body.password;
+        if (password) {
+            user.password = password;
+        }
 
         await new UserRepository().update(user);
 
@@ -237,10 +277,10 @@ export class UserController extends BaseController {
     /**
      * @swagger
      *
-     * /user/{userId}:
+     * /user/{id}:
      *   delete:
      *     summary: Remove um usuário
-     *     tags: [Users]
+     *     tags: [User]
      *     consumes:
      *       - application/json
      *     produces:
@@ -249,7 +289,7 @@ export class UserController extends BaseController {
      *       - BearerAuth: []
      *     parameters:
      *       - in: path
-     *         name: userId
+     *         name: id
      *         schema:
      *           type: number
      *         required: true
@@ -264,11 +304,17 @@ export class UserController extends BaseController {
      *         $ref: '#/components/responses/500'
      */
     @Delete("/:id")
-    @Middlewares(UserValidator.onlyId())
+    @Middlewares(UserValidator.delete())
     public async remove(req: Request, res: Response): Promise<void> {
+        const { userRef } = req.body;
         const { id } = req.params;
+        const userRepository: UserRepository = new UserRepository();
 
-        await new UserRepository().delete(id);
+        // Seta status inativo
+        (userRef as User).setRemoveStatus();
+
+        await userRepository.update(userRef);
+        await userRepository.delete(id);
 
         RouteResponse.success({ id }, res);
     }

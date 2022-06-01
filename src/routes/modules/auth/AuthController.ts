@@ -50,8 +50,8 @@ export class AuthController extends BaseController {
      *           schema:
      *             type: object
      *             example:
-     *               email: user_email@email.com
-     *               password: user_password
+     *               email: admin@email.com
+     *               password: admin_pass
      *             required:
      *               - email
      *               - password
@@ -75,15 +75,12 @@ export class AuthController extends BaseController {
     @Middlewares(AuthValidator.login())
     public async login(req: Request, res: Response): Promise<void> {
         const { email, password } = req.body;
-        const userRef: Partial<User> | undefined = await new UserRepository().findByEmailOrDocument(email);
+        const userRef: Partial<User> | undefined = await new UserRepository().findByEmailOrDocument(email, true);
         const hashedPassword: string = CryptoUtils.sha512(password || "", userRef?.salt || "");
 
         if (userRef && hashedPassword === userRef.password) {
             const { id, name, email: userEmail } = userRef;
             const accessToken: string = TokenUtils.create({ id });
-
-            delete userRef.password;
-            delete userRef.salt;
 
             RouteResponse.success({ id, name, email: userEmail, accessToken }, res);
         } else {

@@ -2,12 +2,12 @@
 import "reflect-metadata";
 
 // Enums
-import { EnumDecorators, EnumMethod } from "@common/enums";
+import { EnumDecorators, EnumMethods } from "@common/enums";
 
 // Interfaces
 import { IRouteDef } from "@common/interfaces";
 
-const decorateRoute = (method: EnumMethod, path: string): MethodDecorator => {
+const decorateRoute = (method: EnumMethods, path: string): MethodDecorator => {
     return (target: any, propertyKey: string | symbol): void => {
         if (!Reflect.hasMetadata(EnumDecorators.ROUTES, target.constructor)) {
             Reflect.defineMetadata(EnumDecorators.ROUTES, [], target.constructor);
@@ -25,8 +25,8 @@ const decorateRoute = (method: EnumMethod, path: string): MethodDecorator => {
     };
 };
 
-export const Get = (path = ""): MethodDecorator => decorateRoute(EnumMethod.GET, path);
-export const Post = (path = ""): MethodDecorator => decorateRoute(EnumMethod.POST, path);
-export const Put = (path = ""): MethodDecorator => decorateRoute(EnumMethod.PUT, path);
-export const Patch = (path = ""): MethodDecorator => decorateRoute(EnumMethod.PATCH, path);
-export const Delete = (path = ""): MethodDecorator => decorateRoute(EnumMethod.DELETE, path);
+export const Get = (path = ""): MethodDecorator => decorateRoute(EnumMethods.GET, path);
+export const Post = (path = ""): MethodDecorator => decorateRoute(EnumMethods.POST, path);
+export const Put = (path = ""): MethodDecorator => decorateRoute(EnumMethods.PUT, path);
+export const Patch = (path = ""): MethodDecorator => decorateRoute(EnumMethods.PATCH, path);
+export const Delete = (path = ""): MethodDecorator => decorateRoute(EnumMethods.DELETE, path);

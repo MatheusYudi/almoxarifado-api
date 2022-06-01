@@ -8,15 +8,23 @@ import {
     CreateDateColumn,
     DeleteDateColumn,
     Entity,
+    ManyToOne,
+    OneToMany,
     PrimaryGeneratedColumn,
     UpdateDateColumn
 } from "typeorm";
 
 // Enums
-import { EnumStatus } from "@common/enums";
+import { EnumStatuses } from "@common/enums";
 
 // Utils
 import { CryptoUtils } from "@common/utils";
+
+// Entities
+import { AccessGroup } from "./AccessGroup";
+import { Inventory } from "./Inventory";
+import { Movement } from "./Movement";
+import { Requisition } from "./Requisition";
 
 @Entity()
 export class User extends BaseEntity {
@@ -36,27 +44,43 @@ export class User extends BaseEntity {
     public name: string;
 
     @Column({ unique: true })
-    public document: string;
+    public document: string; // CPF
 
     @Column({ unique: true })
     public email: string;
 
-    @Column()
+    @Column({ select: false })
     public password: string;
 
     @Column({
-        type: "enum",
-        enum: EnumStatus,
-        default: EnumStatus.ACTIVE
+        select: false,
+        update: false
     })
-    public status: EnumStatus;
-
-    @Column({ update: false })
     public salt: string;
+
+    @Column()
+    public status: EnumStatuses = EnumStatuses.ACTIVE;
+
+    // Relations
+
+    @ManyToOne(() => AccessGroup, ({ users }: AccessGroup) => users, {
+        eager: true
+    })
+    public accessGroup: AccessGroup; // FK
+
+    @OneToMany(() => Inventory, ({ user }: Inventory) => user)
+    public inventories: Inventory[];
+
+    @OneToMany(() => Movement, ({ user }: Movement) => user)
+    public movements: Movement[];
+
+    @OneToMany(() => Requisition, ({ user }: Requisition) => user)
+    public requisitions: Requisition[];
 
     // Triggers
 
     @BeforeInsert()
+    @BeforeUpdate()
     public encryptPassword(): void {
         if (this.password) {
             this.salt = CryptoUtils.getRandomString(16);
@@ -65,14 +89,14 @@ export class User extends BaseEntity {
     }
 
     @BeforeUpdate()
-    public updatePassword(): void {
-        if (this.password) {
-            this.password = CryptoUtils.sha512(this.password, this.salt);
+    public updateStatus(): void {
+        if (this.deletedAt) {
+            this.status = EnumStatuses.INACTIVE;
         }
     }
 
     @BeforeSoftRemove()
     public setRemoveStatus(): void {
-        this.status = EnumStatus.INACTIVE;
+        this.status = EnumStatuses.INACTIVE;
     }
 }

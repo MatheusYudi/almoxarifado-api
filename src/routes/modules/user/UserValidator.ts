@@ -3,13 +3,13 @@ import { RequestHandler } from "express";
 import { Meta, Schema } from "express-validator";
 
 // Repositories
-import { UserRepository } from "@library/database/repository";
+import { AccessGroupRepository, InventoryRepository, MovementRepository, RequisitionRepository, UserRepository } from "@library/database/repository";
 
 // Middlewares
 import { BaseValidator } from "@middlewares/index";
 
 // Entities
-import { User } from "@library/database/entity";
+import { Inventory, Movement, Requisition, User } from "@library/database/entity";
 
 // Utils
 import { CPFUtils } from "@common/utils";
@@ -26,18 +26,17 @@ export class UserValidator extends BaseValidator {
         if (value) {
             const user: User | undefined = await new UserRepository().findByEmailOrDocument(value);
 
-            check = user ? req.body.id === user.id.toString() : true;
+            check = user ? req.body.id === user.id : true;
         }
 
         return check ? Promise.resolve() : Promise.reject();
     };
 
     public static model: Schema = {
-        // TODO: add access group validation
-        // accessGroup: {
-        //     ...BaseValidator.validators.id(new AccessGroupRepository()),
-        //     errorMessage: "Grupo de acesso não encontrado"
-        // },
+        accessGroupId: {
+            ...BaseValidator.validators.id(new AccessGroupRepository()),
+            errorMessage: "Grupo de acesso não encontrado"
+        },
         name: {
             ...BaseValidator.validators.name,
             custom: {
@@ -49,7 +48,7 @@ export class UserValidator extends BaseValidator {
                         const userRepository: UserRepository = new UserRepository();
                         const user: User | undefined = await userRepository.findByName(value);
 
-                        check = user ? req.body.id === user.id.toString() : true;
+                        check = user ? req.body.id === user.id : true;
                     }
 
                     return check ? Promise.resolve() : Promise.reject();
@@ -61,6 +60,7 @@ export class UserValidator extends BaseValidator {
             in: "body",
             isString: true,
             custom: {
+                errorMessage: "CPF já existe",
                 options: async (value: string, meta: Meta) => {
                     if (typeof value === "string" && CPFUtils.isValid(value)) {
                         return UserValidator.duplicateEmailOrDocument(value, meta);
@@ -117,5 +117,67 @@ export class UserValidator extends BaseValidator {
                 errorMessage: "Usuário não encontrado"
             }
         });
+    }
+
+    public static delete(): RequestHandler[] {
+        return [
+            ...UserValidator.onlyId(),
+            ...BaseValidator.validationList({
+                movementLinked: {
+                    errorMessage: "Movimentação vinculada a usuário(s)",
+                    custom: {
+                        options: async (_, { req }: Meta) => {
+                            const user: User = req.body?.userRef;
+                            let check = false;
+
+                            if (user) {
+                                const movementRepository: MovementRepository = new MovementRepository();
+                                const movement: Movement | undefined = await movementRepository.findByUser(user);
+
+                                check = movement ? user.id === movement.user.id : false;
+                            }
+
+                            return check ? Promise.reject() : Promise.resolve();
+                        }
+                    }
+                },
+                inventoryLinked: {
+                    errorMessage: "Inventário vinculado a usuário(s)",
+                    custom: {
+                        options: async (_, { req }: Meta) => {
+                            const user: User = req.body?.userRef;
+                            let check = false;
+
+                            if (user) {
+                                const inventoryRepository: InventoryRepository = new InventoryRepository();
+                                const inventory: Inventory | undefined = await inventoryRepository.findByUser(user);
+
+                                check = inventory ? user.id === inventory.user.id : false;
+                            }
+
+                            return check ? Promise.reject() : Promise.resolve();
+                        }
+                    }
+                },
+                requisitionLinked: {
+                    errorMessage: "Requisição vinculada a usuário(s)",
+                    custom: {
+                        options: async (_, { req }: Meta) => {
+                            const user: User = req.body?.userRef;
+                            let check = false;
+
+                            if (user) {
+                                const requisitionRepository: RequisitionRepository = new RequisitionRepository();
+                                const requisition: Requisition | undefined = await requisitionRepository.findByUser(user);
+
+                                check = requisition ? user.id === requisition.user.id : false;
+                            }
+
+                            return check ? Promise.reject() : Promise.resolve();
+                        }
+                    }
+                }
+            })
+        ];
     }
 }
