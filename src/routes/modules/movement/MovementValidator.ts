@@ -1,12 +1,15 @@
 // Libs
+import { Meta, Schema } from "express-validator";
 import { RequestHandler } from "express";
-import { Schema } from "express-validator";
 
 // Repositories
 import { MaterialRepository, MovementRepository, UserRepository } from "@library/database/repository";
 
 // Middlewares
 import { BaseValidator } from "@middlewares/index";
+
+// Entities
+import { Material } from "@library/database/entity";
 
 // Enums
 import { EnumMovementTypes } from "@common/enums";
@@ -22,23 +25,6 @@ export class MovementValidator extends BaseValidator {
             ...BaseValidator.validators.id(new UserRepository()),
             errorMessage: "Usuário não encontrado"
         },
-        materialId: {
-            ...BaseValidator.validators.id(new MaterialRepository()),
-            errorMessage: "Material não encontrado"
-        },
-        quantity: {
-            errorMessage: "Quantidade inválida",
-            in: "body",
-            isFloat: true,
-            toFloat: true
-        },
-        type: {
-            errorMessage: "Tipo da movimentação inválido",
-            in: "body",
-            isIn: {
-                options: [Object.values(EnumMovementTypes)]
-            }
-        },
         reason: {
             errorMessage: "Motivo inválido",
             in: "body",
@@ -48,7 +34,62 @@ export class MovementValidator extends BaseValidator {
     };
 
     public static post(): RequestHandler[] {
-        return BaseValidator.validationList(MovementValidator.model);
+        return BaseValidator.validationList({
+            ...MovementValidator.model,
+            materialId: {
+                ...BaseValidator.validators.id(new MaterialRepository()),
+                errorMessage: "Material não encontrado"
+            },
+            quantity: {
+                errorMessage: "Quantidade inválida",
+                in: "body",
+                isFloat: true,
+                toFloat: true
+            },
+            type: {
+                errorMessage: "Tipo da movimentação inválido",
+                in: "body",
+                isIn: {
+                    options: [Object.values(EnumMovementTypes)]
+                }
+            }
+        });
+    }
+
+    public static batch(): RequestHandler[] {
+        return BaseValidator.validationList({
+            ...MovementValidator.model,
+            items: {
+                errorMessage: "Materiais da movimentação inválidos",
+                in: "body",
+                isArray: true
+            },
+            "items.*.materialId": {
+                errorMessage: "Material não encontrado",
+                in: "body",
+                custom: {
+                    options: async (value: string, { path, req }: Meta) => {
+                        const material: Material | undefined = await new MaterialRepository().findOne(value);
+
+                        if (material) {
+                            const index = path.split("items")[1].replace(/\D/g, "");
+
+                            req.body.items[+index].materialRef = material;
+
+                            return Promise.resolve();
+                        }
+
+                        return Promise.reject();
+                    }
+                }
+            },
+            "items.*.quantity": {
+                errorMessage: "Quantidade inválida",
+                in: "body",
+                isFloat: true,
+                toFloat: true
+            }
+        });
     }
 
     public static onlyId(): RequestHandler[] {
