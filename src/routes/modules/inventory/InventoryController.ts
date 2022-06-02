@@ -317,7 +317,7 @@ export class InventoryController extends BaseController {
                         quantity: isMissing ? physicQuantity - systemQuantity : systemQuantity - physicQuantity,
                         // se estiver faltando material no sistema, realiza uma entrada, caso contrário, uma saída
                         type: isMissing ? EnumMovementTypes.IN : EnumMovementTypes.OUT,
-                        reason: "Saída por inventário"
+                        reason: "Correção de inventário"
                     };
 
                     await new MovementRepository().insert(newMovement);

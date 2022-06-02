@@ -151,7 +151,8 @@ export class InvoiceController extends BaseController {
                     user: userRef,
                     material,
                     quantity,
-                    type: EnumMovementTypes.IN
+                    type: EnumMovementTypes.IN,
+                    reason: "Entrada por nota fiscal"
                 };
 
                 await new MovementRepository().insert(newMovement);

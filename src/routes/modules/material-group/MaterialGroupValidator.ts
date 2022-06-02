@@ -1,6 +1,6 @@
 // Libs
-import { RequestHandler } from "express";
 import { Meta, Schema } from "express-validator";
+import { RequestHandler } from "express";
 
 // Repositories
 import { MaterialGroupRepository, MaterialRepository } from "@library/database/repository";
