@@ -41,13 +41,15 @@ export class SupplierValidator extends BaseValidator {
             in: "body",
             isString: true,
             custom: {
-                errorMessage: "CNPJ já existe",
-                options: async (value: string, meta: Meta) => {
-                    if (typeof value === "string" && CNPJUtils.isValid(value)) {
-                        return SupplierValidator.verifyDuplicate(value, meta);
-                    }
-
-                    return Promise.reject();
+                options: CNPJUtils.isValid
+            }
+        },
+        duplicateDocument: {
+            errorMessage: "CNPJ já existe",
+            in: "body",
+            custom: {
+                options: async (_, meta: Meta): Promise<void> => {
+                    return SupplierValidator.verifyDuplicate(meta.req.body.document, meta);
                 }
             }
         },

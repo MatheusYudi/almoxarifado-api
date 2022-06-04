@@ -68,6 +68,15 @@ export class UserValidator extends BaseValidator {
                 options: CPFUtils.isValid
             }
         },
+        duplicateDocument: {
+            errorMessage: "CPF já existe",
+            in: "body",
+            custom: {
+                options: async (_, meta: Meta): Promise<void> => {
+                    return UserValidator.duplicateEmailOrDocument(meta.req.body.document, meta);
+                }
+            }
+        },
         email: {
             errorMessage: "Email inválido",
             in: "body",
@@ -78,15 +87,6 @@ export class UserValidator extends BaseValidator {
             custom: {
                 errorMessage: "Email já existe",
                 options: UserValidator.duplicateEmailOrDocument
-            }
-        },
-        duplicateDocument: {
-            errorMessage: "CPF já existe",
-            in: "body",
-            custom: {
-                options: async (_, meta: Meta): Promise<void> => {
-                    return UserValidator.duplicateEmailOrDocument(meta.req.body.document, meta);
-                }
             }
         },
         password: {
@@ -109,7 +109,8 @@ export class UserValidator extends BaseValidator {
                         ...acc,
                         [key]: {
                             ...value,
-                            optional: true
+                            optional: true,
+                            ...(key === "password" && { isLength: undefined })
                         }
                     };
                 }, {})
