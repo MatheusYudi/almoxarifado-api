@@ -42,15 +42,21 @@ export class BaseRepository {
      * @returns Lista contendo os itens e a quantidade total de itens
      */
     public list<Entity>(params: IGetListParams): Promise<[Entity[], number]> {
-        const skip: number = (params.page - 1) * params.size;
+        const { order, orderBy, page, size, status } = params;
+
+        const skip: number = (page - 1) * size;
         const options: FindManyOptions<Entity> = {
-            take: params.size,
+            take: size,
             skip,
             withDeleted: true
         };
 
-        if (params.order) {
-            (options.order as Record<string, IGetListParams["orderBy"]>) = { [params.order]: params.orderBy };
+        if (order) {
+            (options.order as Record<string, IGetListParams["orderBy"]>) = { [order]: orderBy };
+        }
+
+        if (status) {
+            options.where = { status };
         }
 
         return this.getConnection().getRepository<Entity>(this.entity).findAndCount(options);

@@ -3,6 +3,7 @@ import { Request } from "express";
 
 // Interfaces
 import { IGetListParams } from "@common/interfaces";
+import { EnumStatuses } from "@common/enums";
 
 /**
  * BaseController
@@ -20,13 +21,14 @@ export class BaseController {
      * @returns Objeto com os parâmetros
      */
     protected static listParams(req: Request): IGetListParams {
-        const { page, size, order, orderBy } = req.query;
+        const { page, size, order, orderBy, status } = req.query;
 
         return {
             page: page ? Number(page) : 1,
             size: size ? Number(size) : 10,
             order: order ? String(order) : undefined,
-            orderBy: <"ASC" | "DESC">String(orderBy) || "ASC"
+            orderBy: <"ASC" | "DESC">String(orderBy) || "ASC",
+            status: status ? <EnumStatuses>String(status) : undefined
         };
     }
 }

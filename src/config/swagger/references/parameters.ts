@@ -26,9 +26,16 @@
  *     listOrderByRef:
  *       in: query
  *       name: orderBy
- *       description: Direção da ordenação (ASC)endente (DESC)endente
+ *       description: Direção da ordenação
  *       schema:
  *         type: string
  *         enum: ['ASC', 'DESC']
  *         default: 'ASC'
+ *     listStatusRef:
+ *       in: query
+ *       name: status
+ *       description: Status do registro
+ *       schema:
+ *         type: string
+ *         enum: ['Ativo', 'Inativo']
  */

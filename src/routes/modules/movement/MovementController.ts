@@ -45,6 +45,7 @@ export class MovementController extends BaseController {
      *       - $ref: '#/components/parameters/listSizeRef'
      *       - $ref: '#/components/parameters/listOrderRef'
      *       - $ref: '#/components/parameters/listOrderByRef'
+     *       - $ref: '#/components/parameters/listStatusRef'
      *     responses:
      *       200:
      *         $ref: '#/components/responses/200'
