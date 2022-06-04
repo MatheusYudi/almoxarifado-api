@@ -27,12 +27,6 @@ export class InventoryValidator extends BaseValidator {
             in: "body",
             isArray: true
         },
-        "items.*.systemQuantity": {
-            errorMessage: "Quantidade do sistema inválida",
-            in: "body",
-            isFloat: true,
-            toFloat: true
-        },
         "items.*.physicQuantity": {
             errorMessage: "Quantidade física inválida",
             in: "body",

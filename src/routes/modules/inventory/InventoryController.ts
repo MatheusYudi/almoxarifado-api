@@ -20,12 +20,12 @@ import { BaseController } from "@middlewares/index";
 // Validators
 import { InventoryValidator } from "./InventoryValidator";
 
-interface IAddInventoryItem extends Pick<InventoryMaterial, "systemQuantity" | "physicQuantity"> {
+interface IAddInventoryItem extends Pick<InventoryMaterial, "physicQuantity"> {
     materialId: InventoryMaterial["material"]["id"];
     materialRef: InventoryMaterial["material"];
 }
 
-interface IUpdateInventoryItem extends Pick<InventoryMaterial, "id" | "systemQuantity" | "physicQuantity"> {
+interface IUpdateInventoryItem extends Pick<InventoryMaterial, "id" | "physicQuantity"> {
     inventoryMaterialRef: InventoryMaterial;
 }
 
@@ -86,7 +86,7 @@ export class InventoryController extends BaseController {
      *             type: object
      *             example:
      *               userId: 1
-     *               items: [{ materialId: 1, systemQuantity: 9, physicQuantity: 29 }]
+     *               items: [{ materialId: 1, physicQuantity: 29 }]
      *             required:
      *               - userId
      *               - items
@@ -100,12 +100,9 @@ export class InventoryController extends BaseController {
      *                   type: object
      *                   required:
      *                     - materialId
-     *                     - systemQuantity
      *                     - physicQuantity
      *                   properties:
      *                     materialId:
-     *                       type: number
-     *                     systemQuantity:
      *                       type: number
      *                     physicQuantity:
      *                       type: number
@@ -125,12 +122,12 @@ export class InventoryController extends BaseController {
         const { userRef, items } = req.body;
 
         const materials: InventoryMaterial[] = (items as IAddInventoryItem[]).map(item => {
-            const { materialRef, physicQuantity, systemQuantity } = item;
+            const { materialRef, physicQuantity } = item;
             const inventoryMaterial: InventoryMaterial = new InventoryMaterial();
 
             inventoryMaterial.material = materialRef;
             inventoryMaterial.physicQuantity = physicQuantity;
-            inventoryMaterial.systemQuantity = systemQuantity;
+            inventoryMaterial.systemQuantity = materialRef.stockQuantity;
 
             return inventoryMaterial;
         });
@@ -165,7 +162,7 @@ export class InventoryController extends BaseController {
      *             type: object
      *             example:
      *               inventoryId: 1
-     *               items: [{ id: 1, systemQuantity: 9, physicQuantity: 29 }]
+     *               items: [{ id: 1, physicQuantity: 29 }]
      *             required:
      *               - inventoryId
      *               - items
@@ -179,13 +176,10 @@ export class InventoryController extends BaseController {
      *                   type: object
      *                   required:
      *                     - id
-     *                     - systemQuantity
      *                     - physicQuantity
      *                   properties:
      *                     id:
      *                       description: ID do item do inventário
-     *                       type: number
-     *                     systemQuantity:
      *                       type: number
      *                     physicQuantity:
      *                       type: number
@@ -208,12 +202,12 @@ export class InventoryController extends BaseController {
             RouteResponse.error("Inventário finalizado", res);
         } else {
             const materials: InventoryMaterial[] = (items as IUpdateInventoryItem[]).map(item => {
-                const { inventoryMaterialRef, physicQuantity, systemQuantity } = item;
+                const { inventoryMaterialRef, physicQuantity } = item;
 
                 return {
                     ...inventoryMaterialRef,
                     physicQuantity,
-                    systemQuantity
+                    systemQuantity: inventoryMaterialRef.material.stockQuantity
                 } as InventoryMaterial;
             });
 
