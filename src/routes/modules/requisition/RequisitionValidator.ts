@@ -41,6 +41,7 @@ export class RequisitionValidator extends BaseValidator {
             "items.*.materialId": {
                 errorMessage: "Material não encontrado",
                 in: "body",
+                isNumeric: true,
                 custom: {
                     options: async (value: string, { path, req }: Meta) => {
                         const material: Material | undefined = await new MaterialRepository().findOne(value);
