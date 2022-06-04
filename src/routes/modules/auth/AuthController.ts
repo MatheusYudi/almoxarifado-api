@@ -9,12 +9,8 @@ import { AppDef } from "@common/AppDef";
 
 // Library
 import { Mailer } from "@library/Mailer";
-
-// Repositories
-import { UserRepository } from "@library/database/repository";
-
-// Entities
 import { User } from "@library/database/entity";
+import { UserRepository } from "@library/database/repository";
 
 // Enums
 import { EnumEndpoints } from "@common/enums";
