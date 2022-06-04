@@ -22,6 +22,40 @@ import { SupplierValidator } from "./SupplierValidator";
 
 @Controller(EnumEndpoints.SUPPLIER)
 export class SupplierController extends BaseController {
+    private static extractSupplierData(body: any): Partial<Supplier> {
+        const {
+            document,
+            stateRegistrationType,
+            stateRegistration,
+            corporateName,
+            tradingName,
+            calculationRegime,
+            state,
+            postalCode,
+            address,
+            addressNumber,
+            city,
+            district,
+            complement
+        } = body;
+
+        return {
+            document,
+            stateRegistrationType,
+            stateRegistration,
+            corporateName,
+            tradingName,
+            calculationRegime,
+            state,
+            postalCode,
+            address,
+            addressNumber,
+            city,
+            district,
+            complement
+        };
+    }
+
     /**
      * @swagger
      *
@@ -331,39 +365,5 @@ export class SupplierController extends BaseController {
         await supplierRepository.delete(id);
 
         RouteResponse.success({ id }, res);
-    }
-
-    private static extractSupplierData(body: any): Partial<Supplier> {
-        const {
-            document,
-            stateRegistrationType,
-            stateRegistration,
-            corporateName,
-            tradingName,
-            calculationRegime,
-            state,
-            postalCode,
-            address,
-            addressNumber,
-            city,
-            district,
-            complement
-        } = body;
-
-        return {
-            document,
-            stateRegistrationType,
-            stateRegistration,
-            corporateName,
-            tradingName,
-            calculationRegime,
-            state,
-            postalCode,
-            address,
-            addressNumber,
-            city,
-            district,
-            complement
-        };
     }
 }

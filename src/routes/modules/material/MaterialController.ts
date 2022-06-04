@@ -22,6 +22,21 @@ import { MaterialValidator } from "./MaterialValidator";
 
 @Controller(EnumEndpoints.MATERIAL)
 export class MaterialController extends BaseController {
+    private static extractMaterialData(body: any): Partial<Material> {
+        const { materialGroupRef: materialGroup, unit, name, ncm, barcode, unitPrice, stockQuantity, minimumStock } = body;
+
+        return {
+            materialGroup,
+            unit,
+            name,
+            ncm,
+            barcode,
+            unitPrice,
+            stockQuantity,
+            minimumStock
+        };
+    }
+
     /**
      * @swagger
      *
@@ -283,20 +298,5 @@ export class MaterialController extends BaseController {
         await materialRepository.delete(id);
 
         RouteResponse.success({ id }, res);
-    }
-
-    private static extractMaterialData(body: any): Partial<Material> {
-        const { materialGroupRef: materialGroup, unit, name, ncm, barcode, unitPrice, stockQuantity, minimumStock } = body;
-
-        return {
-            materialGroup,
-            unit,
-            name,
-            ncm,
-            barcode,
-            unitPrice,
-            stockQuantity,
-            minimumStock
-        };
     }
 }
