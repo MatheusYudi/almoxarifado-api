@@ -47,12 +47,13 @@ export class InventoryValidator extends BaseValidator {
             "items.*.materialId": {
                 errorMessage: "Material não encontrado",
                 in: "body",
+                isNumeric: true,
                 custom: {
-                    options: async (value: string, { path, req }: Meta) => {
+                    options: async (value: number, { path, req }: Meta) => {
                         const material: Material | undefined = await new MaterialRepository().findOne(value);
 
                         if (material) {
-                            const index = path.split("items")[1].replace(/\D/g, "");
+                            const index: string = path.split("items")[1].replace(/\D/g, "");
 
                             req.body.items[+index].materialRef = material;
 
@@ -79,7 +80,7 @@ export class InventoryValidator extends BaseValidator {
                             const inventoryMaterial: InventoryMaterial | undefined = await new InventoryMaterialRepository().findOne(value);
 
                             if (inventoryMaterial) {
-                                const index = path.split("items")[1].replace(/\D/g, "");
+                                const index: string = path.split("items")[1].replace(/\D/g, "");
 
                                 req.body.items[+index].inventoryMaterialRef = inventoryMaterial;
 
