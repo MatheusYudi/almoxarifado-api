@@ -199,7 +199,7 @@ export class InventoryController extends BaseController {
         const { inventoryRef, items } = req.body;
 
         if (inventoryRef.closed) {
-            RouteResponse.error("Inventário finalizado", res);
+            RouteResponse.error("Inventário já finalizado", res);
         } else {
             const materials: InventoryMaterial[] = (items as IUpdateInventoryItem[]).map(item => {
                 const { inventoryMaterialRef, physicQuantity } = item;
@@ -357,7 +357,7 @@ export class InventoryController extends BaseController {
         const { id } = req.params;
 
         if (req.body.inventoryRef.closed) {
-            RouteResponse.error("Inventário finalizado", res);
+            RouteResponse.error("Inventário já finalizado", res);
         } else {
             await new InventoryRepository().delete(id);
             RouteResponse.success({ id }, res);
