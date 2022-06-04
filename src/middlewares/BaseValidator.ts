@@ -28,7 +28,7 @@ export class BaseValidator {
                 in: ["body", "params"],
                 isNumeric: true,
                 custom: {
-                    options: async (value: string, { req }: Meta) => {
+                    options: async (value: number, { req }: Meta) => {
                         const data = await repository.findOne(value);
 
                         if (data) {

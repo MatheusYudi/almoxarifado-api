@@ -31,23 +31,35 @@ export class RequisitionValidator extends BaseValidator {
             errorMessage: "Quantidade inválida",
             in: "body",
             isFloat: true,
-            toFloat: true
+            toFloat: true,
+            custom: {
+                errorMessage: "Quantidade requisitada é maior que a disponível em estoque",
+                options: async (value: number, { path, req }: Meta) => {
+                    const index: string = path.split("items")[1].replace(/\D/g, "");
+                    const { materialRef } = req.body.items[+index];
+
+                    if (materialRef && value <= (materialRef as Material).stockQuantity) {
+                        return Promise.resolve();
+                    }
+
+                    return Promise.reject();
+                }
+            }
         }
     };
 
     public static post(): RequestHandler[] {
         return BaseValidator.validationList({
-            ...RequisitionValidator.model,
             "items.*.materialId": {
                 errorMessage: "Material não encontrado",
                 in: "body",
                 isNumeric: true,
                 custom: {
-                    options: async (value: string, { path, req }: Meta) => {
+                    options: async (value: number, { path, req }: Meta) => {
                         const material: Material | undefined = await new MaterialRepository().findOne(value);
 
                         if (material) {
-                            const index = path.split("items")[1].replace(/\D/g, "");
+                            const index: string = path.split("items")[1].replace(/\D/g, "");
 
                             req.body.items[+index].materialRef = material;
 
@@ -57,7 +69,8 @@ export class RequisitionValidator extends BaseValidator {
                         return Promise.reject();
                     }
                 }
-            }
+            },
+            ...RequisitionValidator.model
         });
     }
 
@@ -65,16 +78,15 @@ export class RequisitionValidator extends BaseValidator {
         return [
             ...RequisitionValidator.onlyId(),
             ...BaseValidator.validationList({
-                ...RequisitionValidator.model,
                 "items.*.id": {
                     errorMessage: "Item da requisição não encontrado",
                     in: "body",
                     custom: {
-                        options: async (value: string, { path, req }: Meta) => {
+                        options: async (value: number, { path, req }: Meta) => {
                             const requisitionMaterial: RequisitionMaterial | undefined = await new RequisitionMaterialRepository().findOne(value);
 
                             if (requisitionMaterial) {
-                                const index = path.split("items")[1].replace(/\D/g, "");
+                                const index: string = path.split("items")[1].replace(/\D/g, "");
 
                                 req.body.items[+index].requisitionMaterialRef = requisitionMaterial;
 
@@ -84,7 +96,8 @@ export class RequisitionValidator extends BaseValidator {
                             return Promise.reject();
                         }
                     }
-                }
+                },
+                ...RequisitionValidator.model
             })
         ];
     }
