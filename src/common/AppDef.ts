@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 // Decorators
 import { Singleton } from "@decorators/index";
 
@@ -11,13 +12,13 @@ export class AppDef {
     constructor() {
         this.logger = {
             log: () => {
-                // empty
+                console.warn("Not implemented");
             },
             error: () => {
-                // empty
+                console.warn("Not implemented");
             },
             warning: () => {
-                // empty
+                console.warn("Not implemented");
             }
         };
     }
