@@ -198,26 +198,26 @@ export class RequisitionController extends BaseController {
         const { requisitionRef, items } = req.body;
 
         if (requisitionRef.closed) {
-            throw new Error("Requisição aprovada");
+            RouteResponse.error("Requisição aprovada", res);
+        } else {
+            const materials: RequisitionMaterial[] = (items as IUpdateRequisitionItem[]).map(item => {
+                const { requisitionMaterialRef, quantity } = item;
+
+                return {
+                    ...requisitionMaterialRef,
+                    quantity
+                } as RequisitionMaterial;
+            });
+
+            const requisition: Requisition = {
+                ...requisitionRef,
+                requisitionMaterials: materials
+            };
+
+            await new RequisitionRepository().update(requisition);
+
+            RouteResponse.successCreate(res);
         }
-
-        const materials: RequisitionMaterial[] = (items as IUpdateRequisitionItem[]).map(item => {
-            const { requisitionMaterialRef, quantity } = item;
-
-            return {
-                ...requisitionMaterialRef,
-                quantity
-            } as RequisitionMaterial;
-        });
-
-        const requisition: Requisition = {
-            ...requisitionRef,
-            requisitionMaterials: materials
-        };
-
-        await new RequisitionRepository().update(requisition);
-
-        RouteResponse.successCreate(res);
     }
 
     /**
@@ -349,11 +349,10 @@ export class RequisitionController extends BaseController {
         const { id } = req.params;
 
         if (req.body.requisitionRef.closed) {
-            throw new Error("Requisição aprovada");
+            RouteResponse.error("Requisição aprovada", res);
+        } else {
+            await new RequisitionRepository().delete(id);
+            RouteResponse.success({ id }, res);
         }
-
-        await new RequisitionRepository().delete(id);
-
-        RouteResponse.success({ id }, res);
     }
 }

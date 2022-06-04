@@ -190,7 +190,7 @@ export class AuthController extends BaseController {
             await new UserRepository().changePassword(decodedToken.id, password);
             RouteResponse.successEmpty(res);
         } catch (error) {
-            throw new Error("Erro ao redefinir a senha");
+            RouteResponse.error("Erro ao redefinir a senha", res);
         }
     }
 }

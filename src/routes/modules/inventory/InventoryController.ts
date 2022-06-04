@@ -205,27 +205,27 @@ export class InventoryController extends BaseController {
         const { inventoryRef, items } = req.body;
 
         if (inventoryRef.closed) {
-            throw new Error("Inventário finalizado");
+            RouteResponse.error("Inventário finalizado", res);
+        } else {
+            const materials: InventoryMaterial[] = (items as IUpdateInventoryItem[]).map(item => {
+                const { inventoryMaterialRef, physicQuantity, systemQuantity } = item;
+
+                return {
+                    ...inventoryMaterialRef,
+                    physicQuantity,
+                    systemQuantity
+                } as InventoryMaterial;
+            });
+
+            const inventory: Inventory = {
+                ...inventoryRef,
+                inventoryMaterials: materials
+            };
+
+            await new InventoryRepository().update(inventory);
+
+            RouteResponse.successCreate(res);
         }
-
-        const materials: InventoryMaterial[] = (items as IUpdateInventoryItem[]).map(item => {
-            const { inventoryMaterialRef, physicQuantity, systemQuantity } = item;
-
-            return {
-                ...inventoryMaterialRef,
-                physicQuantity,
-                systemQuantity
-            } as InventoryMaterial;
-        });
-
-        const inventory: Inventory = {
-            ...inventoryRef,
-            inventoryMaterials: materials
-        };
-
-        await new InventoryRepository().update(inventory);
-
-        RouteResponse.successCreate(res);
     }
 
     /**
@@ -363,11 +363,10 @@ export class InventoryController extends BaseController {
         const { id } = req.params;
 
         if (req.body.inventoryRef.closed) {
-            throw new Error("Inventário finalizado");
+            RouteResponse.error("Inventário finalizado", res);
+        } else {
+            await new InventoryRepository().delete(id);
+            RouteResponse.success({ id }, res);
         }
-
-        await new InventoryRepository().delete(id);
-
-        RouteResponse.success({ id }, res);
     }
 }
