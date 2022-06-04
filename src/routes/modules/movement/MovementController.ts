@@ -116,7 +116,7 @@ export class MovementController extends BaseController {
      *         $ref: '#/components/responses/500'
      */
     @Post("/in/batch")
-    @Middlewares(MovementValidator.post())
+    @Middlewares(MovementValidator.batch())
     public async in(req: Request, res: Response): Promise<void> {
         const { userRef, reason, items } = req.body;
 
