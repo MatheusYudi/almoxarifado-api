@@ -67,7 +67,7 @@ export class MovementController extends BaseController {
      *
      * /movement/in/batch:
      *   post:
-     *     summary: Cria uma movimentação para cada material informado
+     *     summary: Cria uma movimentação de entrada para cada material informado
      *     tags: [Movement]
      *     consumes:
      *       - application/json
