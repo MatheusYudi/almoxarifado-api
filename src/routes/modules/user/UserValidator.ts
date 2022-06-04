@@ -59,15 +59,13 @@ export class UserValidator extends BaseValidator {
             errorMessage: "CPF inválido",
             in: "body",
             isString: true,
-            custom: {
-                errorMessage: "CPF já existe",
-                options: async (value: string, meta: Meta) => {
-                    if (typeof value === "string" && CPFUtils.isValid(value)) {
-                        return UserValidator.duplicateEmailOrDocument(value, meta);
-                    }
-
-                    return Promise.reject();
+            customSanitizer: {
+                options: (value: string) => {
+                    return value?.replace(/[^\d]+/g, "");
                 }
+            },
+            custom: {
+                options: CPFUtils.isValid
             }
         },
         email: {
@@ -80,6 +78,15 @@ export class UserValidator extends BaseValidator {
             custom: {
                 errorMessage: "Email já existe",
                 options: UserValidator.duplicateEmailOrDocument
+            }
+        },
+        duplicateDocument: {
+            errorMessage: "CPF já existe",
+            in: "body",
+            custom: {
+                options: async (_, meta: Meta): Promise<void> => {
+                    return UserValidator.duplicateEmailOrDocument(meta.req.body.document, meta);
+                }
             }
         },
         password: {
