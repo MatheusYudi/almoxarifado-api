@@ -198,7 +198,7 @@ export class RequisitionController extends BaseController {
         const { requisitionRef, items } = req.body;
 
         if (requisitionRef.closed) {
-            RouteResponse.error("Requisição aprovada", res);
+            RouteResponse.error("Requisição já aprovada", res);
         } else {
             const materials: RequisitionMaterial[] = (items as IUpdateRequisitionItem[]).map(item => {
                 const { requisitionMaterialRef, quantity } = item;
@@ -349,7 +349,7 @@ export class RequisitionController extends BaseController {
         const { id } = req.params;
 
         if (req.body.requisitionRef.closed) {
-            RouteResponse.error("Requisição aprovada", res);
+            RouteResponse.error("Requisição já aprovada", res);
         } else {
             await new RequisitionRepository().delete(id);
             RouteResponse.success({ id }, res);
