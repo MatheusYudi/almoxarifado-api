@@ -96,4 +96,20 @@ export class MaterialRepository extends BaseRepository {
     public findByMaterialGroup(materialGroup: MaterialGroup): Promise<Material | undefined> {
         return this.getConnection().getRepository(Material).findOne({ materialGroup });
     }
+
+    /**
+     * findOutOfStock
+     *
+     * Busca os materiais abaixo do estoque mínimo
+     *
+     * @returns Materiais
+     */
+    public async findOutOfStock(): Promise<Material[]> {
+        const materiais: Material[] = await super.find();
+
+        // Filter items out of stock
+        const outOfStock: Material[] = materiais.filter(({ stockQuantity, minimumStock }) => stockQuantity < minimumStock);
+
+        return outOfStock;
+    }
 }

@@ -4,9 +4,13 @@ import { Request, Response } from "express";
 // Library
 import { Material } from "@library/database/entity";
 import { MaterialRepository } from "@library/database/repository";
+import { Mailer } from "@library/Mailer";
 
 // Decorators
 import { Controller, Delete, Get, Middlewares, Post, Put } from "@decorators/index";
+
+// Common
+import { AppDef } from "@common/AppDef";
 
 // Enums
 import { EnumEndpoints } from "@common/enums";
@@ -16,6 +20,8 @@ import { RouteResponse } from "@routes/index";
 
 // Middlewares
 import { BaseController } from "@middlewares/index";
+
+// Library
 
 // Validators
 import { MaterialValidator } from "./MaterialValidator";
@@ -298,5 +304,72 @@ export class MaterialController extends BaseController {
         await materialRepository.delete(id);
 
         RouteResponse.success({ id }, res);
+    }
+
+    /**
+     * @swagger
+     *
+     * /material/purchase-request:
+     *   post:
+     *     summary: Dispara email de solicitação de compra
+     *     tags: [Material]
+     *     consumes:
+     *       - application/json
+     *     produces:
+     *       - application/json
+     *     security:
+     *       - BearerAuth: []
+     *     requestBody:
+     *       content:
+     *         application/json:
+     *           schema:
+     *             type: object
+     *             example:
+     *               email: purchase_email@email.com
+     *             required:
+     *               - email
+     *             properties:
+     *               email:
+     *                 type: string
+     *                 description: Email a ser enviada a solicitação
+     *     responses:
+     *       200:
+     *         $ref: '#/components/responses/200'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       500:
+     *         $ref: '#/components/responses/500'
+     */
+    @Post("/purchase-request")
+    @Middlewares(MaterialValidator.requestPurchase())
+    public async requestPurchase(req: Request, res: Response): Promise<void> {
+        const { userRef, email } = req.body;
+        const materials: Material[] = await new MaterialRepository().findOutOfStock();
+
+        // para cada material cria uma linha da tabela de solicitação
+        const tableHeader = `
+            <tr>
+                <th>Nome</th>
+                <th>NCM</th>
+                <th>Quantidade</th>
+            </tr>
+        `;
+        const tableRows: string[] = [tableHeader].concat(
+            ...materials.map(({ name, ncm, minimumStock, stockQuantity }) => {
+                return `
+                <tr>
+                    <td>${name}</td>
+                    <td>${ncm}</td>
+                    <td>${minimumStock - stockQuantity}</td>
+                </tr>
+            `;
+            })
+        );
+
+        new Mailer().sendPurchaseRequestEmail({ email: userRef.email, name: userRef.name }, { email }, tableRows).catch((error: Error) => {
+            new AppDef().logger.warning("purchase_request_email", error.message);
+        });
+
+        RouteResponse.success("Solicitação de compra enviada com sucesso.", res);
     }
 }

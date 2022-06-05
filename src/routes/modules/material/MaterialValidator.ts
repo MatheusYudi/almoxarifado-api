@@ -195,4 +195,17 @@ export class MaterialValidator extends BaseValidator {
             })
         ];
     }
+
+    public static requestPurchase(): Array<any> {
+        return MaterialValidator.validationList({
+            email: {
+                errorMessage: "Email inválido",
+                in: "body",
+                normalizeEmail: true,
+                isEmail: {
+                    bail: true
+                }
+            }
+        });
+    }
 }

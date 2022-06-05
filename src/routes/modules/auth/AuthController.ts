@@ -131,7 +131,7 @@ export class AuthController extends BaseController {
         if (user) {
             const resetToken: string = TokenUtils.create({ id: user.id });
 
-            Mailer.sendRecoveryEmail(email, user.name, `${resetUrl}/${resetToken}`).catch((error: Error) => {
+            new Mailer().sendRecoveryEmail({ email, name: user.name }, `${resetUrl}/${resetToken}`).catch((error: Error) => {
                 new AppDef().logger.warning("recover_email", error.message);
             });
         }
