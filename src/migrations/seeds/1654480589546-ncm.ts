@@ -7,10 +7,10 @@ import { NCM } from "../../library/database/entity";
 // Common
 import { NCM_LIST } from "../../common/NCM_LIST";
 
-export class ncm1654467576835 implements MigrationInterface {
+export class ncm1654480589546 implements MigrationInterface {
     public async up(queryRunner: QueryRunner): Promise<void> {
         await Promise.all(
-            NCM_LIST.slice(0, 5015).map(({ code, description }) => {
+            NCM_LIST.slice(5015, 10030).map(({ code, description }) => {
                 const accessGroup: NCM = queryRunner.manager.create(NCM, { code, description });
                 return queryRunner.manager.save(accessGroup);
             })
