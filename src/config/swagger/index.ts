@@ -20,8 +20,8 @@ export const swaggerConfig: OAS3Options = {
         },
         tags: [
             { name: "Auth" },
-            { name: "User" },
             { name: "Access Group" },
+            { name: "User" },
             { name: "Inventory" },
             { name: "Material Group" },
             { name: "Material" },
