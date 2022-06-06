@@ -62,7 +62,8 @@ export class Material extends BaseEntity {
     // Relations
 
     @ManyToOne(() => NCM, ({ materials }: NCM) => materials, {
-        eager: true
+        eager: true,
+        nullable: false
     })
     public ncm: NCM; // FK
 
