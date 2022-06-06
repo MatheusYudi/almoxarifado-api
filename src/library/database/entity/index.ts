@@ -7,6 +7,7 @@ export * from "./InvoiceMaterial";
 export * from "./Material";
 export * from "./MaterialGroup";
 export * from "./Movement";
+export * from "./NCM";
 export * from "./Requisition";
 export * from "./RequisitionMaterial";
 export * from "./Supplier";

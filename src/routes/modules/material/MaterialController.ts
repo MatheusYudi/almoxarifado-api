@@ -2,9 +2,9 @@
 import { Request, Response } from "express";
 
 // Library
-import { Material } from "@library/database/entity";
-import { MaterialRepository } from "@library/database/repository";
 import { Mailer } from "@library/Mailer";
+import { Material, NCM } from "@library/database/entity";
+import { MaterialRepository, NCMRepository } from "@library/database/repository";
 
 // Decorators
 import { Controller, Delete, Get, Middlewares, Post, Put } from "@decorators/index";
@@ -20,8 +20,6 @@ import { RouteResponse } from "@routes/index";
 
 // Middlewares
 import { BaseController } from "@middlewares/index";
-
-// Library
 
 // Validators
 import { MaterialValidator } from "./MaterialValidator";
@@ -136,7 +134,7 @@ export class MaterialController extends BaseController {
      *               materialGroupId: 1
      *               unit: 'kg'
      *               name: 'materialName'
-     *               ncm: '246810'
+     *               ncmId: 1
      *               barcode: '01234567890'
      *               unitPrice: 1.99
      *               stockQuantity: 99
@@ -157,8 +155,8 @@ export class MaterialController extends BaseController {
      *                 type: string
      *               name:
      *                 type: string
-     *               ncm:
-     *                 type: string
+     *               ncmId:
+     *                 type: number
      *               barcode:
      *                 type: string
      *               unitPrice:
@@ -210,7 +208,7 @@ export class MaterialController extends BaseController {
      *               materialGroupId: 1
      *               unit: 'kg'
      *               name: 'materialName'
-     *               ncm: '246810'
+     *               ncmId: 1
      *               barcode: '01234567890'
      *               unitPrice: 1.99
      *               stockQuantity: 99
@@ -226,8 +224,8 @@ export class MaterialController extends BaseController {
      *                 type: string
      *               name:
      *                 type: string
-     *               ncm:
-     *                 type: string
+     *               ncmId:
+     *                 type: number
      *               barcode:
      *                 type: string
      *               unitPrice:
@@ -371,5 +369,35 @@ export class MaterialController extends BaseController {
         });
 
         RouteResponse.success("Solicitação de compra enviada com sucesso.", res);
+    }
+
+    /**
+     * @swagger
+     *
+     * /material/code/ncm:
+     *   get:
+     *     summary: Lista os códigos NCM
+     *     tags: [Material]
+     *     consumes:
+     *       - application/json
+     *     produces:
+     *       - application/json
+     *     security:
+     *       - BearerAuth: []
+     *     responses:
+     *       200:
+     *         $ref: '#/components/responses/200'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       401:
+     *         $ref: '#/components/responses/401'
+     *       500:
+     *         $ref: '#/components/responses/500'
+     */
+    @Get("/code/ncm")
+    public async getNCM(req: Request, res: Response): Promise<void> {
+        const [rows, count] = await new NCMRepository().list<NCM>(MaterialController.listParams(req));
+
+        RouteResponse.success({ rows, count }, res);
     }
 }

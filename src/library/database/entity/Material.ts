@@ -21,6 +21,7 @@ import { InventoryMaterial } from "./InventoryMaterial";
 import { InvoiceMaterial } from "./InvoiceMaterial";
 import { MaterialGroup } from "./MaterialGroup";
 import { Movement } from "./Movement";
+import { NCM } from "./NCM";
 import { RequisitionMaterial } from "./RequisitionMaterial";
 
 @Entity()
@@ -43,9 +44,6 @@ export class Material extends BaseEntity {
     @Column({ unique: true })
     public name: string;
 
-    @Column()
-    public ncm: string;
-
     @Column({ unique: true })
     public barcode: string;
 
@@ -62,6 +60,11 @@ export class Material extends BaseEntity {
     public status: EnumStatuses = EnumStatuses.ACTIVE;
 
     // Relations
+
+    @ManyToOne(() => NCM, ({ materials }: NCM) => materials, {
+        eager: true
+    })
+    public ncm: NCM; // FK
 
     @ManyToOne(() => MaterialGroup, ({ materials }: MaterialGroup) => materials, {
         eager: true

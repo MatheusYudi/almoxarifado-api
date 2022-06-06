@@ -9,6 +9,7 @@ import {
     MaterialGroupRepository,
     MaterialRepository,
     MovementRepository,
+    NCMRepository,
     RequisitionMaterialRepository
 } from "@library/database/repository";
 
@@ -52,10 +53,9 @@ export class MaterialValidator extends BaseValidator {
             in: "body",
             isString: true
         },
-        ncm: {
-            errorMessage: "NCM inválido",
-            in: "body",
-            isString: true
+        ncmId: {
+            ...BaseValidator.validators.id(new NCMRepository()),
+            errorMessage: "Código NCM não encontrado"
         },
         barcode: {
             errorMessage: "Código de barras inválido",

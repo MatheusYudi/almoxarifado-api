@@ -8,6 +8,7 @@ export * from "./InvoiceRepository";
 export * from "./MaterialGroupRepository";
 export * from "./MaterialRepository";
 export * from "./MovementRepository";
+export * from "./NCMRepository";
 export * from "./RequisitionMaterialRepository";
 export * from "./RequisitionRepository";
 export * from "./SupplierRepository";
