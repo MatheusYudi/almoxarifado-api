@@ -27,13 +27,13 @@ import { MaterialValidator } from "./MaterialValidator";
 @Controller(EnumEndpoints.MATERIAL)
 export class MaterialController extends BaseController {
     private static extractMaterialData(body: any): Partial<Material> {
-        const { materialGroupRef: materialGroup, unit, name, ncm, barcode, unitPrice, stockQuantity, minimumStock } = body;
+        const { materialGroupRef, unit, name, nCMRef, barcode, unitPrice, stockQuantity, minimumStock } = body;
 
         return {
-            materialGroup,
+            materialGroup: materialGroupRef,
             unit,
             name,
-            ncm,
+            ncm: nCMRef,
             barcode,
             unitPrice,
             stockQuantity,
@@ -143,7 +143,7 @@ export class MaterialController extends BaseController {
      *               - materialGroupId
      *               - unit
      *               - name
-     *               - ncm
+     *               - ncmId
      *               - barcode
      *               - unitPrice
      *               - stockQuantity
@@ -357,7 +357,7 @@ export class MaterialController extends BaseController {
                 return `
                 <tr>
                     <td>${name}</td>
-                    <td>${ncm}</td>
+                    <td>${ncm.code}</td>
                     <td>${minimumStock - stockQuantity}</td>
                 </tr>
             `;
@@ -389,7 +389,6 @@ export class MaterialController extends BaseController {
      *       - $ref: '#/components/parameters/listSizeRef'
      *       - $ref: '#/components/parameters/listOrderRef'
      *       - $ref: '#/components/parameters/listOrderByRef'
-     *       - $ref: '#/components/parameters/listStatusRef'
      *     responses:
      *       200:
      *         $ref: '#/components/responses/200'
