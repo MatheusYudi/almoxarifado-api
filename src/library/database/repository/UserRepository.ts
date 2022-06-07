@@ -102,14 +102,21 @@ export class UserRepository extends BaseRepository {
      *
      * @returns Usuário buscado
      */
-    public findByEmailOrDocument(value: string, withCredentials = false): Promise<User | undefined> {
+    public findByEmailOrDocument(value: string, withCredentials = false, withDeleted = false): Promise<User | undefined> {
         const select: SelectQueryBuilder<User> = this.getConnection().getRepository(User).createQueryBuilder("user").select();
         const selectCredentials: SelectQueryBuilder<User> = select.addSelect("user.password").addSelect("user.salt");
+
+        if (withDeleted) {
+            return (withCredentials ? selectCredentials : select)
+                .where("user.email = :email", { email: value })
+                .orWhere("user.document = :document", { document: value })
+                .withDeleted()
+                .getOne();
+        }
 
         return (withCredentials ? selectCredentials : select)
             .where("user.email = :email", { email: value })
             .orWhere("user.document = :document", { document: value })
-            .withDeleted()
             .getOne();
     }
 

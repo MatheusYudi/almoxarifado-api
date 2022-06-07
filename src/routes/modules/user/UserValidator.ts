@@ -24,7 +24,7 @@ export class UserValidator extends BaseValidator {
         let check = false;
 
         if (value) {
-            const user: User | undefined = await new UserRepository().findByEmailOrDocument(value);
+            const user: User | undefined = await new UserRepository().findByEmailOrDocument(value, false, true);
 
             check = user ? req.body.id === user.id : true;
         }
