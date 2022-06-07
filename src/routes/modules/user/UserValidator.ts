@@ -21,7 +21,7 @@ import { CPFUtils } from "@common/utils";
  */
 export class UserValidator extends BaseValidator {
     private static duplicateEmailOrDocument = async (value: string, { req }: Meta): Promise<void> => {
-        let check = false;
+        let check = !value;
 
         if (value) {
             const user: User | undefined = await new UserRepository().findByEmailOrDocument(value, false, true);
@@ -42,7 +42,7 @@ export class UserValidator extends BaseValidator {
             custom: {
                 errorMessage: "Usuário já existe",
                 options: async (value: string, { req }: Meta) => {
-                    let check = false;
+                    let check = !value;
 
                     if (value) {
                         const userRepository: UserRepository = new UserRepository();

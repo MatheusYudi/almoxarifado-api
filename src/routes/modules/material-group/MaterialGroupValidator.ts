@@ -23,7 +23,7 @@ export class MaterialGroupValidator extends BaseValidator {
             custom: {
                 errorMessage: "Grupo de material já existe",
                 options: async (value: string, { req }: Meta) => {
-                    let check = false;
+                    let check = !value;
 
                     if (value) {
                         const materialGroupRepository: MaterialGroupRepository = new MaterialGroupRepository();

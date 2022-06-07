@@ -23,7 +23,7 @@ export class AccessGroupValidator extends BaseValidator {
             custom: {
                 errorMessage: "Grupo de acesso já existe",
                 options: async (value: string, { req }: Meta) => {
-                    let check = false;
+                    let check = !value;
 
                     if (value) {
                         const accessGroupRepository: AccessGroupRepository = new AccessGroupRepository();

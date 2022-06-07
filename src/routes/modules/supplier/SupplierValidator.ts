@@ -24,7 +24,7 @@ import { EnumBrazilStates, EnumCalculationRegimes, EnumStateRegistrationTypes } 
  */
 export class SupplierValidator extends BaseValidator {
     private static verifyDuplicate = async (value: string, { req }: Meta): Promise<void> => {
-        let check = false;
+        let check = !value;
 
         if (value) {
             const supplier: Supplier | undefined = await new SupplierRepository().findDuplicate(value);

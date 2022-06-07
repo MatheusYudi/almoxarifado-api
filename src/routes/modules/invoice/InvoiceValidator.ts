@@ -34,7 +34,7 @@ export class InvoiceValidator extends BaseValidator {
             custom: {
                 errorMessage: "Chave já existe",
                 options: async (value: string, { req }: Meta) => {
-                    let check = false;
+                    let check = !value;
 
                     if (value) {
                         const invoiceRepository: InvoiceRepository = new InvoiceRepository();

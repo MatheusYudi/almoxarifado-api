@@ -31,7 +31,7 @@ export class MaterialValidator extends BaseValidator {
             custom: {
                 errorMessage: "Material já existe",
                 options: async (value: string, { req }: Meta) => {
-                    let check = false;
+                    let check = !value;
 
                     if (value) {
                         const materialRepository: MaterialRepository = new MaterialRepository();
@@ -64,7 +64,7 @@ export class MaterialValidator extends BaseValidator {
             custom: {
                 errorMessage: "Código de barras já existe",
                 options: async (value: string, { req }: Meta) => {
-                    let check = false;
+                    let check = !value;
 
                     if (value) {
                         const materialRepository: MaterialRepository = new MaterialRepository();
