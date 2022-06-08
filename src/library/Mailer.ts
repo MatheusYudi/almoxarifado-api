@@ -17,15 +17,15 @@ export class Mailer {
 
     constructor() {
         this.transporter = nodemailer.createTransport({
-            host: "smtp.gmail.com",
-            port: 465,
-            secure: true,
+            host: "smtp-mail.outlook.com",
+            port: 587,
+            secure: false,
             auth: {
                 user: process.env.MAILER_USER,
                 pass: process.env.MAILER_PASS
             },
             tls: {
-                rejectUnauthorized: false
+                ciphers: "SSLv3"
             }
         });
     }
