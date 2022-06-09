@@ -66,7 +66,7 @@ export class MaterialValidator extends BaseValidator {
                         const ncmRepository: NCMRepository = new NCMRepository();
                         const ncm: NCM | undefined = await ncmRepository.findByCode(value);
 
-                        req.body.ncmRef = ncm;
+                        req.body.nCMRef = ncm;
                         check = !!ncm;
                     }
 
