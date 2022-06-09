@@ -14,4 +14,17 @@ export class NCMRepository extends BaseRepository {
         super();
         this.entity = NCM;
     }
+
+    /**
+     * findByCode
+     *
+     * Busca um NCM pelo código
+     *
+     * @param code - Código do NCM
+     *
+     * @returns NCM buscado
+     */
+    public findByCode(code: string): Promise<NCM | undefined> {
+        return this.getConnection().getRepository(NCM).findOne({ code });
+    }
 }

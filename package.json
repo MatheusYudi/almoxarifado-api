@@ -20,6 +20,7 @@
         "deploy:stage": "heroku container:push web -a almoxarifado-api-v1-staging && heroku container:release web -a almoxarifado-api-v1-staging",
         "dev": "nodemon",
         "lint": "eslint . --ext .ts",
+        "lint:fix": "npm run lint -- --fix",
         "logs": "heroku logs --tail -a almoxarifado-api-v1",
         "logs:stage": "heroku logs --tail -a almoxarifado-api-v1-staging",
         "prepare": "husky install",

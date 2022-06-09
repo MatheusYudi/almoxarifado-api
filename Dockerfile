@@ -21,11 +21,11 @@ WORKDIR /app
 RUN echo "Installing..."
 COPY package.json ./
 # Needed to ignore husky prepare
-RUN npm install --production --ignore-scripts
+RUN npm install --omit=dev --ignore-scripts
 
 RUN echo "Running..."
 COPY --from=build /app/dist ./
-RUN npm install -g pm2
+RUN npm install --location=global pm2
 
 # Default command on container run CMD (overwritted) / ENTRYPOINT
 CMD [ "pm2-runtime", "server.js" ]

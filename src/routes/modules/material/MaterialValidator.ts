@@ -17,7 +17,7 @@ import {
 import { BaseValidator } from "@middlewares/index";
 
 // Entities
-import { InventoryMaterial, InvoiceMaterial, Material, Movement, RequisitionMaterial } from "@library/database/entity";
+import { InventoryMaterial, InvoiceMaterial, Material, Movement, NCM, RequisitionMaterial } from "@library/database/entity";
 
 /**
  * MaterialValidator
@@ -54,8 +54,24 @@ export class MaterialValidator extends BaseValidator {
             isString: true
         },
         ncmId: {
-            ...BaseValidator.validators.id(new NCMRepository()),
-            errorMessage: "Código NCM não encontrado"
+            errorMessage: "Código NCM inválido",
+            in: "body",
+            isString: true,
+            custom: {
+                errorMessage: "Código NCM não encontrado",
+                options: async (value: string) => {
+                    let check = !value;
+
+                    if (value) {
+                        const ncmRepository: NCMRepository = new NCMRepository();
+                        const ncm: NCM | undefined = await ncmRepository.findByCode(value);
+
+                        check = !!ncm;
+                    }
+
+                    return check ? Promise.resolve() : Promise.reject();
+                }
+            }
         },
         barcode: {
             errorMessage: "Código de barras inválido",
@@ -201,7 +217,6 @@ export class MaterialValidator extends BaseValidator {
             email: {
                 errorMessage: "Email inválido",
                 in: "body",
-                normalizeEmail: true,
                 isEmail: {
                     bail: true
                 }

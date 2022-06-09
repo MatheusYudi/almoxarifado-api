@@ -10,9 +10,15 @@ import { NCM_LIST } from "../../common/NCM_LIST";
 export class ncm1654480594878 implements MigrationInterface {
     public async up(queryRunner: QueryRunner): Promise<void> {
         await Promise.all(
-            NCM_LIST.slice(10030).map(({ code, description }) => {
-                const accessGroup: NCM = queryRunner.manager.create(NCM, { code, description });
-                return queryRunner.manager.save(accessGroup);
+            NCM_LIST.slice(10030).map(async ({ code, description }) => {
+                const duplicate: NCM | undefined = await queryRunner.manager.findOne(NCM, { code });
+
+                if (!duplicate) {
+                    const ncm: NCM = queryRunner.manager.create(NCM, { code, description });
+                    return queryRunner.manager.save(ncm);
+                }
+
+                return Promise.resolve();
             })
         );
     }

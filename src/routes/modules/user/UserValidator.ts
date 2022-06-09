@@ -80,7 +80,6 @@ export class UserValidator extends BaseValidator {
         email: {
             errorMessage: "Email inválido",
             in: "body",
-            normalizeEmail: true,
             isEmail: {
                 bail: true
             },
