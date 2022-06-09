@@ -293,7 +293,7 @@ export class RequisitionController extends BaseController {
         // finaliza a requisição
         const requisition: Requisition = await new RequisitionRepository().update({
             ...requisitionRef,
-            closed: true
+            approved: true
         });
 
         // para cada RequisitionMaterial gera uma movimentação
