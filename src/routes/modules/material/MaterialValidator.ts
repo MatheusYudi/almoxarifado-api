@@ -59,13 +59,14 @@ export class MaterialValidator extends BaseValidator {
             isString: true,
             custom: {
                 errorMessage: "Código NCM não encontrado",
-                options: async (value: string) => {
+                options: async (value: string, { req }: Meta) => {
                     let check = !value;
 
                     if (value) {
                         const ncmRepository: NCMRepository = new NCMRepository();
                         const ncm: NCM | undefined = await ncmRepository.findByCode(value);
 
+                        req.body.ncmRef = ncm;
                         check = !!ncm;
                     }
 
