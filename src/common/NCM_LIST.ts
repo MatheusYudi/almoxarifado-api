@@ -42412,18722 +42412,18721 @@ export const NCM_LIST = [
         description: "-- Ganchos, escápulas e pitões"
     },
     {
-        code: "731814.00",
+        code: "73181400",
         description: "-- Parafusos autoperfurantes"
     },
     {
-        code: "7318.15.00",
+        code: "73181500",
         description: "-- Outros parafusos e pinos ou pernos, mesmo com as porcas e arruelas (anilhas)"
     },
     {
-        code: "7318.16.00",
+        code: "73181600",
         description: "-- Porcas"
     },
     {
-        code: "7318.19.00",
+        code: "73181900",
         description: "-- Outros"
     },
     {
-        code: "7318.2",
+        code: "73182",
         description: "- Artigos não roscados:"
     },
     {
-        code: "7318.21.00",
+        code: "73182100",
         description: "-- Arruelas (anilhas) de pressão e outras arruelas (anilhas) de segurança"
     },
     {
-        code: "7318.22.00",
+        code: "73182200",
         description: "-- Outras arruelas (anilhas)"
     },
     {
-        code: "7318.23.00",
+        code: "73182300",
         description: "-- Rebites"
     },
     {
-        code: "7318.24.00",
+        code: "73182400",
         description: "-- Chavetas e contrapinos ou troços"
     },
     {
-        code: "7318.29.00",
+        code: "73182900",
         description: "-- Outros"
     },
     {
-        code: "73.19",
+        code: "7319",
         description:
-            "Agulhas de costura, agulhas de tricô, agulhas-passadoras, agulhas de crochê, furadores para bordar e artigos semelhantes, para uso manual, de ferro ou aço; alfinetes de segurança e outros alfinetes, de ferro ou aço, não especificados nem compreendidos noutras posições."
+            "Agulhas de costura, agulhas de tricô, agulhas-passadoras, agulhas de crochê, furadores para bordar e artigos semelhantes, para uso manual, de ferro ou aço; alfinetes de segurança e outros alfinetes, de ferro ou aço, não especificados nem compreendidos noutras posições"
     },
     {
-        code: "7319.40.00",
+        code: "73194000",
         description: "- Alfinetes de segurança e outros alfinetes"
     },
     {
-        code: "7319.90.00",
+        code: "73199000",
         description: "- Outros"
     },
     {
-        code: "73.20",
-        description: "Molas e folhas de molas, de ferro ou aço."
+        code: "7320",
+        description: "Molas e folhas de molas, de ferro ou aço"
     },
     {
-        code: "7320.10.00",
+        code: "73201000",
         description: "- Molas de folhas e suas folhas"
     },
     {
-        code: "7320.20",
+        code: "732020",
         description: "- Molas helicoidais"
     },
     {
-        code: "7320.20.10",
+        code: "73202010",
         description: "Cilíndricas"
     },
     {
-        code: "7320.20.90",
+        code: "73202090",
         description: "Outras"
     },
     {
-        code: "7320.90.00",
+        code: "73209000",
         description: "- Outras"
     },
     {
-        code: "73.21",
+        code: "7321",
         description:
-            "Aquecedores de ambiente (fogões de sala), caldeiras de fornalha, fogões de cozinha (incluindo os que possam ser utilizados acessoriamente no aquecimento central), churrasqueiras (grelhadores), braseiras, fogareiros a gás, aquecedores de pratos, e aparelhos não elétricos semelhantes, de uso doméstico, e suas partes, de ferro fundido, ferro ou aço."
+            "Aquecedores de ambiente (fogões de sala), caldeiras de fornalha, fogões de cozinha (incluindo os que possam ser utilizados acessoriamente no aquecimento central), churrasqueiras (grelhadores), braseiras, fogareiros a gás, aquecedores de pratos, e aparelhos não elétricos semelhantes, de uso doméstico, e suas partes, de ferro fundido, ferro ou aço"
     },
     {
-        code: "7321.1",
+        code: "73211",
         description: "- Aparelhos para cozinhar e aquecedores de pratos:"
     },
     {
-        code: "7321.11.00",
+        code: "73211100",
         description: "-- A combustíveis gasosos, ou a gás e outros combustíveis"
     },
     {
-        code: "7321.12.00",
+        code: "73211200",
         description: "-- A combustíveis líquidos"
     },
     {
-        code: "7321.19.00",
+        code: "73211900",
         description: "-- Outros, incluindo os aparelhos a combustíveis sólidos"
     },
     {
-        code: "7321.8",
+        code: "73218",
         description: "- Outros aparelhos:"
     },
     {
-        code: "7321.81.00",
+        code: "73218100",
         description: "-- A combustíveis gasosos, ou a gás e outros combustíveis"
     },
     {
-        code: "7321.82.00",
+        code: "73218200",
         description: "-- A combustíveis líquidos"
     },
     {
-        code: "7321.89.00",
+        code: "73218900",
         description: "-- Outros, incluindo os aparelhos a combustíveis sólidos"
     },
     {
-        code: "7321.90.00",
+        code: "73219000",
         description: "- Partes"
     },
     {
-        code: "73.22",
+        code: "7322",
         description:
-            "Radiadores para aquecimento central, não elétricos, e suas partes, de ferro fundido, ferro ou aço; geradores e distribuidores de ar quente (incluindo os distribuidores que possam também funcionar como distribuidores de ar frio ou condicionado), não elétricos, munidos de ventilador ou fole com motor, e suas partes, de ferro fundido, ferro ou aço."
+            "Radiadores para aquecimento central, não elétricos, e suas partes, de ferro fundido, ferro ou aço; geradores e distribuidores de ar quente (incluindo os distribuidores que possam também funcionar como distribuidores de ar frio ou condicionado), não elétricos, munidos de ventilador ou fole com motor, e suas partes, de ferro fundido, ferro ou aço"
     },
     {
-        code: "7322.1",
+        code: "73221",
         description: "- Radiadores e suas partes:"
     },
     {
-        code: "7322.11.00",
+        code: "73221100",
         description: "-- De ferro fundido"
     },
     {
-        code: "7322.19.00",
+        code: "73221900",
         description: "-- Outros"
     },
     {
-        code: "7322.90",
+        code: "732290",
         description: "- Outros"
     },
     {
-        code: "7322.90.10",
+        code: "73229010",
         description:
-            "Geradores de ar quente a combustível líquido, com capacidade igual ou superior a 1.500 kcal/h, mas não superior a 10.400 kcal/h, do tipo utilizado em veículos automóveis"
+            "Geradores de ar quente a combustível líquido, com capacidade igual ou superior a 1500 kcal/h, mas não superior a 10400 kcal/h, do tipo utilizado em veículos automóveis"
     },
     {
-        code: "7322.90.90",
+        code: "73229090",
         description: "Outros"
     },
     {
-        code: "73.23",
+        code: "7323",
         description:
-            "Serviços de mesa, artigos de cozinha e outros artigos de uso doméstico, e suas partes, de ferro fundido, ferro ou aço; palha de ferro ou aço; esponjas, esfregões, luvas e artigos semelhantes para limpeza, polimento ou usos semelhantes, de ferro ou aço."
+            "Serviços de mesa, artigos de cozinha e outros artigos de uso doméstico, e suas partes, de ferro fundido, ferro ou aço; palha de ferro ou aço; esponjas, esfregões, luvas e artigos semelhantes para limpeza, polimento ou usos semelhantes, de ferro ou aço"
     },
     {
-        code: "7323.10.00",
+        code: "73231000",
         description: "- Palha de ferro ou aço; esponjas, esfregões, luvas e artigos semelhantes para limpeza, polimento ou usos semelhantes"
     },
     {
-        code: "7323.9",
+        code: "73239",
         description: "- Outros:"
     },
     {
-        code: "7323.91.00",
+        code: "73239100",
         description: "-- De ferro fundido, não esmaltados"
     },
     {
-        code: "7323.92.00",
+        code: "73239200",
         description: "-- De ferro fundido, esmaltados"
     },
     {
-        code: "7323.93.00",
+        code: "73239300",
         description: "-- De aço inoxidável"
     },
     {
-        code: "7323.94.00",
+        code: "73239400",
         description: "-- De ferro ou aço, esmaltados"
     },
     {
-        code: "7323.99.00",
+        code: "73239900",
         description: "-- Outros"
     },
     {
-        code: "73.24",
-        description: "Artigos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço."
+        code: "7324",
+        description: "Artigos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço"
     },
     {
-        code: "7324.10.00",
+        code: "73241000",
         description: "- Pias e lavatórios, de aço inoxidável"
     },
     {
-        code: "7324.2",
+        code: "73242",
         description: "- Banheiras:"
     },
     {
-        code: "7324.21.00",
+        code: "73242100",
         description: "-- De ferro fundido, mesmo esmaltadas"
     },
     {
-        code: "7324.29.00",
+        code: "73242900",
         description: "-- Outras"
     },
     {
-        code: "7324.90.00",
+        code: "73249000",
         description: "- Outros, incluindo as partes"
     },
     {
-        code: "73.25",
-        description: "Outras obras moldadas, de ferro fundido, ferro ou aço."
+        code: "7325",
+        description: "Outras obras moldadas, de ferro fundido, ferro ou aço"
     },
     {
-        code: "7325.10.00",
+        code: "73251000",
         description: "- De ferro fundido, não maleável"
     },
     {
-        code: "7325.9",
+        code: "73259",
         description: "- Outras:"
     },
     {
-        code: "7325.91.00",
+        code: "73259100",
         description: "-- Esferas e artigos semelhantes, para moinhos"
     },
     {
-        code: "7325.99",
+        code: "732599",
         description: "-- Outras"
     },
     {
-        code: "7325.99.10",
+        code: "73259910",
         description: "De aço"
     },
     {
-        code: "7325.99.90",
+        code: "73259990",
         description: "Outras"
     },
     {
-        code: "73.26",
-        description: "Outras obras de ferro ou aço."
+        code: "7326",
+        description: "Outras obras de ferro ou aço"
     },
     {
-        code: "7326.1",
+        code: "73261",
         description: "- Simplesmente forjadas ou estampadas:"
     },
     {
-        code: "7326.11.00",
+        code: "73261100",
         description: "-- Esferas e artigos semelhantes, para moinhos"
     },
     {
-        code: "7326.19.00",
+        code: "73261900",
         description: "-- Outras"
     },
     {
-        code: "7326.20.00",
+        code: "73262000",
         description: "- Obras de fio de ferro ou aço"
     },
     {
-        code: "7326.90",
+        code: "732690",
         description: "- Outras"
     },
     {
-        code: "7326.90.10",
+        code: "73269010",
         description:
             "Calotas elípticas de aço ao níquel, segundo Norma ASME SA 353, do tipo utilizado na fabricação de recipientes para gases comprimidos ou liquefeitos"
     },
     {
-        code: "7326.90.20",
+        code: "73269020",
         description: "Discos próprios para cunhagem de moedas"
     },
     {
-        code: "7326.90.90",
+        code: "73269090",
         description: "Outras"
     },
     {
         code: "74",
-        description: "Cobre e suas obras."
+        description: "Cobre e suas obras"
     },
     {
-        code: "7401.00.00",
-        description: "Mates de cobre; cobre de cementação (precipitado de cobre)."
+        code: "74010000",
+        description: "Mates de cobre; cobre de cementação (precipitado de cobre)"
     },
     {
-        code: "7402.00.00",
-        description: "Cobre não refinado (afinado); ânodos de cobre para refinação (afinação) eletrolítica."
+        code: "74020000",
+        description: "Cobre não refinado (afinado); ânodos de cobre para refinação (afinação) eletrolítica"
     },
     {
-        code: "74.03",
-        description: "Cobre refinado (afinado) e ligas de cobre em formas brutas."
+        code: "7403",
+        description: "Cobre refinado (afinado) e ligas de cobre em formas brutas"
     },
     {
-        code: "7403.1",
+        code: "74031",
         description: "- Cobre refinado (afinado):"
     },
     {
-        code: "7403.11.00",
+        code: "74031100",
         description: "-- Cátodos e seus elementos"
     },
     {
-        code: "7403.12.00",
+        code: "74031200",
         description: "-- Barras para obtenção de fios (<i>wire-bars</i>)"
     },
     {
-        code: "7403.13.00",
+        code: "74031300",
         description: "-- Palanquilhas (Lingotes*) (<i>billets</i>)"
     },
     {
-        code: "7403.19.00",
+        code: "74031900",
         description: "-- Outro"
     },
     {
-        code: "7403.2",
+        code: "74032",
         description: "- Ligas de cobre:"
     },
     {
-        code: "7403.21.00",
+        code: "74032100",
         description: "-- À base de cobrezinco (latão)"
     },
     {
-        code: "7403.22.00",
+        code: "74032200",
         description: "-- À base de cobre-estanho (bronze)"
     },
     {
-        code: "7403.29.00",
-        description: "-- Outras ligas de cobre (exceto ligas-mãe da posição 74.05)"
+        code: "74032900",
+        description: "-- Outras ligas de cobre (exceto ligas-mãe da posição 7405)"
     },
     {
-        code: "7404.00.00",
-        description: "Desperdícios e resíduos, e sucata, de cobre."
+        code: "74040000",
+        description: "Desperdícios e resíduos, e sucata, de cobre"
     },
     {
-        code: "7405.00.00",
-        description: "Ligas-mãe de cobre."
+        code: "74050000",
+        description: "Ligas-mãe de cobre"
     },
     {
-        code: "74.06",
-        description: "Pós e escamas, de cobre."
+        code: "7406",
+        description: "Pós e escamas, de cobre"
     },
     {
-        code: "7406.10.00",
+        code: "74061000",
         description: "- Pós de estrutura não lamelar"
     },
     {
-        code: "7406.20.00",
+        code: "74062000",
         description: "- Pós de estrutura lamelar; escamas"
     },
     {
-        code: "74.07",
-        description: "Barras e perfis, de cobre."
+        code: "7407",
+        description: "Barras e perfis, de cobre"
     },
     {
-        code: "7407.10",
+        code: "740710",
         description: "- De cobre refinado (afinado)"
     },
     {
-        code: "7407.10.10",
+        code: "74071010",
         description: "Barras"
     },
     {
-        code: "7407.10.2",
+        code: "7407102",
         description: "Perfis"
     },
     {
-        code: "7407.10.21",
+        code: "74071021",
         description: "Ocos"
     },
     {
-        code: "7407.10.29",
+        code: "74071029",
         description: "Outros"
     },
     {
-        code: "7407.2",
+        code: "74072",
         description: "- De ligas de cobre:"
     },
     {
-        code: "7407.21",
+        code: "740721",
         description: "-- À base de cobrezinco (latão)"
     },
     {
-        code: "7407.21.10",
+        code: "74072110",
         description: "Barras"
     },
     {
-        code: "7407.21.20",
+        code: "74072120",
         description: "Perfis"
     },
     {
-        code: "7407.29",
+        code: "740729",
         description: "-- Outros"
     },
     {
-        code: "7407.29.10",
+        code: "74072910",
         description: "Barras"
     },
     {
-        code: "7407.29.2",
+        code: "7407292",
         description: "Perfis"
     },
     {
-        code: "7407.29.21",
+        code: "74072921",
         description: "Ocos"
     },
     {
-        code: "7407.29.29",
+        code: "74072929",
         description: "Outros"
     },
     {
-        code: "74.08",
-        description: "Fios de cobre."
+        code: "7408",
+        description: "Fios de cobre"
     },
     {
-        code: "7408.1",
+        code: "74081",
         description: "- De cobre refinado (afinado):"
     },
     {
-        code: "7408.11.00",
+        code: "74081100",
         description: "-- Com a maior dimensão da seção transversal superior a 6 mm"
     },
     {
-        code: "7408.19.00",
+        code: "74081900",
         description: "-- Outros"
     },
     {
-        code: "7408.2",
+        code: "74082",
         description: "- De ligas de cobre:"
     },
     {
-        code: "7408.21.00",
+        code: "74082100",
         description: "-- À base de cobrezinco (latão)"
     },
     {
-        code: "7408.22.00",
+        code: "74082200",
         description: "-- À base de cobreníquel (cuproníquel) ou de cobreniquelzinco (<i>maillechort</i>)"
     },
     {
-        code: "7408.29",
+        code: "740829",
         description: "-- Outros"
     },
     {
-        code: "7408.29.1",
+        code: "7408291",
         description: "À base de cobre-estanho (bronze)"
     },
     {
-        code: "7408.29.12",
+        code: "74082912",
         description: "Fosforoso, de seção transversal circular, de diâmetro inferior ou igual a 0,8 mm"
     },
     {
-        code: "7408.29.13",
+        code: "74082913",
         description: "Outros, fosforosos"
     },
     {
-        code: "7408.29.19",
+        code: "74082919",
         description: "Outros"
     },
     {
-        code: "7408.29.90",
+        code: "74082990",
         description: "Outros"
     },
     {
-        code: "74.09",
-        description: "Chapas e tiras, de cobre, de espessura superior a 0,15 mm."
+        code: "7409",
+        description: "Chapas e tiras, de cobre, de espessura superior a 0,15 mm"
     },
     {
-        code: "7409.1",
+        code: "74091",
         description: "- De cobre refinado (afinado):"
     },
     {
-        code: "7409.11.00",
+        code: "74091100",
         description: "-- Em rolos"
     },
     {
-        code: "7409.19.00",
+        code: "74091900",
         description: "-- Outras"
     },
     {
-        code: "7409.2",
+        code: "74092",
         description: "- De ligas à base de cobrezinco (latão):"
     },
     {
-        code: "7409.21.00",
+        code: "74092100",
         description: "-- Em rolos"
     },
     {
-        code: "7409.29.00",
+        code: "74092900",
         description: "-- Outras"
     },
     {
-        code: "7409.3",
+        code: "74093",
         description: "- De ligas à base de cobre-estanho (bronze):"
     },
     {
-        code: "7409.31",
+        code: "740931",
         description: "-- Em rolos"
     },
     {
-        code: "7409.31.1",
+        code: "7409311",
         description: "Revestidas de plástico"
     },
     {
-        code: "7409.31.11",
+        code: "74093111",
         description: "Com uma camada intermediária de liga de cobre-estanho ou cobre-estanho-chumbo, aplicada por sinterização"
     },
     {
-        code: "7409.31.19",
+        code: "74093119",
         description: "Outras"
     },
     {
-        code: "7409.31.90",
+        code: "74093190",
         description: "Outras"
     },
     {
-        code: "7409.39.00",
+        code: "74093900",
         description: "-- Outras"
     },
     {
-        code: "7409.40",
+        code: "740940",
         description: "- De ligas à base de cobreníquel (cuproníquel) ou de cobreniquelzinco (<i>maillechort</i>)"
     },
     {
-        code: "7409.40.10",
+        code: "74094010",
         description: "Em rolos"
     },
     {
-        code: "7409.40.90",
+        code: "74094090",
         description: "Outras"
     },
     {
-        code: "7409.90.00",
+        code: "74099000",
         description: "- De outras ligas de cobre"
     },
     {
-        code: "74.10",
+        code: "7410",
         description:
-            "Folhas e tiras, delgadas, de cobre (mesmo impressas ou com suporte de papel, cartão, plástico ou semelhantes), de espessura não superior a 0,15 mm (excluindo o suporte)."
+            "Folhas e tiras, delgadas, de cobre (mesmo impressas ou com suporte de papel, cartão, plástico ou semelhantes), de espessura não superior a 0,15 mm (excluindo o suporte)"
     },
     {
-        code: "7410.1",
+        code: "74101",
         description: "- Sem suporte:"
     },
     {
-        code: "7410.11",
+        code: "741011",
         description: "-- De cobre refinado (afinado)"
     },
     {
-        code: "7410.11.1",
+        code: "7410111",
         description: "Folha de espessura inferior ou igual a 0,07 mm e com pureza igual ou superior a 99,85 %, em peso"
     },
     {
-        code: "7410.11.12",
-        description: "De espessura inferior ou igual a 0,04 mm e uma resistividade elétrica inferior ou igual a 0,017241 ohm.mm<sup>2</sup>/m"
+        code: "74101112",
+        description: "De espessura inferior ou igual a 0,04 mm e uma resistividade elétrica inferior ou igual a 0,017241 ohmmm<sup>2</sup>/m"
     },
     {
-        code: "7410.11.13",
+        code: "74101113",
         description: "Outras, de espessura inferior ou igual a 0,04 mm"
     },
     {
-        code: "7410.11.19",
+        code: "74101119",
         description: "Outras"
     },
     {
-        code: "7410.11.90",
+        code: "74101190",
         description: "Outras"
     },
     {
-        code: "7410.12.00",
+        code: "74101200",
         description: "-- De ligas de cobre"
     },
     {
-        code: "7410.2",
+        code: "74102",
         description: "- Com suporte:"
     },
     {
-        code: "7410.21",
+        code: "741021",
         description: "-- De cobre refinado (afinado)"
     },
     {
-        code: "7410.21.10",
+        code: "74102110",
         description: "Com suporte isolante de resina epóxida e fibra de vidro, do tipo utilizado para circuitos impressos"
     },
     {
-        code: "7410.21.20",
+        code: "74102120",
         description:
             "Com espessura superior a 0,012 mm, sobre suporte de poliéster ou poliimida e com espessura total, incluindo o suporte, inferior ou igual a 0,195 mm"
     },
     {
-        code: "7410.21.30",
+        code: "74102130",
         description: "Com suporte isolante de resina fenólica e papel, do tipo utilizado para circuitos impressos"
     },
     {
-        code: "7410.21.90",
+        code: "74102190",
         description: "Outras"
     },
     {
-        code: "7410.22.00",
+        code: "74102200",
         description: "-- De ligas de cobre"
     },
     {
-        code: "74.11",
-        description: "Tubos de cobre."
+        code: "7411",
+        description: "Tubos de cobre"
     },
     {
-        code: "7411.10",
+        code: "741110",
         description: "- De cobre refinado (afinado)"
     },
     {
-        code: "7411.10.10",
+        code: "74111010",
         description: "Não aletados nem ranhurados"
     },
     {
-        code: "7411.10.90",
+        code: "74111090",
         description: "Outros"
     },
     {
-        code: "7411.2",
+        code: "74112",
         description: "- De ligas de cobre:"
     },
     {
-        code: "7411.21",
+        code: "741121",
         description: "-- À base de cobrezinco (latão)"
     },
     {
-        code: "7411.21.10",
+        code: "74112110",
         description: "Não aletados nem ranhurados"
     },
     {
-        code: "7411.21.90",
+        code: "74112190",
         description: "Outros"
     },
     {
-        code: "7411.22",
+        code: "741122",
         description: "-- À base de cobreníquel (cuproníquel) ou de cobreniquelzinco (<i>maillechort</i>)"
     },
     {
-        code: "7411.22.10",
+        code: "74112210",
         description: "Não aletados nem ranhurados"
     },
     {
-        code: "7411.22.90",
+        code: "74112290",
         description: "Outros"
     },
     {
-        code: "7411.29",
+        code: "741129",
         description: "-- Outros"
     },
     {
-        code: "7411.29.10",
+        code: "74112910",
         description: "Não aletados nem ranhurados"
     },
     {
-        code: "7411.29.90",
+        code: "74112990",
         description: "Outros"
     },
     {
-        code: "74.12",
-        description: "Acessórios para tubos (por exemplo, uniões, cotovelos, luvas (mangas*)), de cobre."
+        code: "7412",
+        description: "Acessórios para tubos (por exemplo, uniões, cotovelos, luvas (mangas*)), de cobre"
     },
     {
-        code: "7412.10.00",
+        code: "74121000",
         description: "- De cobre refinado (afinado)"
     },
     {
-        code: "7412.20.00",
+        code: "74122000",
         description: "- De ligas de cobre"
     },
     {
-        code: "7413.00.00",
-        description: "Cordas, cabos, tranças (entrançados*) e artigos semelhantes, de cobre, não isolados para usos elétricos."
+        code: "74130000",
+        description: "Cordas, cabos, tranças (entrançados*) e artigos semelhantes, de cobre, não isolados para usos elétricos"
     },
     {
-        code: "74.15",
+        code: "7415",
         description:
-            "Tachas, pregos, percevejos, escápulas (pregos para tacos) e artigos semelhantes, de cobre ou de ferro ou aço com cabeça de cobre; parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos ou troços, arruelas (anilhas) (incluindo as de pressão), e artigos semelhantes, de cobre."
+            "Tachas, pregos, percevejos, escápulas (pregos para tacos) e artigos semelhantes, de cobre ou de ferro ou aço com cabeça de cobre; parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos ou troços, arruelas (anilhas) (incluindo as de pressão), e artigos semelhantes, de cobre"
     },
     {
-        code: "7415.10.00",
+        code: "74151000",
         description: "- Tachas, pregos, percevejos, escápulas (pregos para tacos) e artigos semelhantes"
     },
     {
-        code: "7415.2",
+        code: "74152",
         description: "- Outros artigos, não roscados:"
     },
     {
-        code: "7415.21.00",
+        code: "74152100",
         description: "-- Arruelas (anilhas) (incluindo as de pressão)"
     },
     {
-        code: "7415.29.00",
+        code: "74152900",
         description: "-- Outros"
     },
     {
-        code: "7415.3",
+        code: "74153",
         description: "- Outros artigos, roscados:"
     },
     {
-        code: "7415.33.00",
+        code: "74153300",
         description: "-- Parafusos; pinos ou pernos e porcas"
     },
     {
-        code: "7415.39.00",
+        code: "74153900",
         description: "-- Outros"
     },
     {
-        code: "74.18",
+        code: "7418",
         description:
-            "Serviços de mesa, artigos de cozinha e outros artigos de uso doméstico, e suas partes, de cobre; esponjas, esfregões, luvas e artigos semelhantes, para limpeza, polimento ou usos semelhantes, de cobre; artigos de higiene ou de toucador, e suas partes, de cobre."
+            "Serviços de mesa, artigos de cozinha e outros artigos de uso doméstico, e suas partes, de cobre; esponjas, esfregões, luvas e artigos semelhantes, para limpeza, polimento ou usos semelhantes, de cobre; artigos de higiene ou de toucador, e suas partes, de cobre"
     },
     {
-        code: "7418.10.00",
+        code: "74181000",
         description:
             "- Serviços de mesa, artigos de cozinha e outros artigos de uso doméstico, e suas partes; esponjas, esfregões, luvas e artigos semelhantes, para limpeza, polimento ou usos semelhantes"
     },
     {
-        code: "7418.20.00",
+        code: "74182000",
         description: "- Artigos de higiene ou de toucador, e suas partes"
     },
     {
-        code: "74.19",
-        description: "Outras obras de cobre."
+        code: "7419",
+        description: "Outras obras de cobre"
     },
     {
-        code: "7419.20.00",
+        code: "74192000",
         description: "- Vazadas, moldadas, estampadas ou forjadas, mas não trabalhadas de outro modo"
     },
     {
-        code: "7419.80",
+        code: "741980",
         description: "- Outras"
     },
     {
-        code: "7419.80.10",
+        code: "74198010",
         description: "Telas metálicas de fio de cobre"
     },
     {
-        code: "7419.80.20",
+        code: "74198020",
         description: "Grades e redes, de fio de cobre; chapas e tiras, distendidas"
     },
     {
-        code: "7419.80.30",
+        code: "74198030",
         description: "Molas"
     },
     {
-        code: "7419.80.40",
+        code: "74198040",
         description: "Discos próprios para cunhagem de moedas"
     },
     {
-        code: "7419.80.90",
+        code: "74198090",
         description: "Outras"
     },
     {
         code: "75",
-        description: "Níquel e suas obras."
+        description: "Níquel e suas obras"
     },
     {
-        code: "75.01",
-        description: "Mates de níquel, <i>sinters</i> de óxidos de níquel e outros produtos intermediários da metalurgia do níquel."
+        code: "7501",
+        description: "Mates de níquel, <i>sinters</i> de óxidos de níquel e outros produtos intermediários da metalurgia do níquel"
     },
     {
-        code: "7501.10.00",
+        code: "75011000",
         description: "- Mates de níquel"
     },
     {
-        code: "7501.20.00",
+        code: "75012000",
         description: "- <i>Sinters</i> de óxidos de níquel e outros produtos intermediários da metalurgia do níquel"
     },
     {
-        code: "75.02",
-        description: "Níquel em formas brutas."
+        code: "7502",
+        description: "Níquel em formas brutas"
     },
     {
-        code: "7502.10",
+        code: "750210",
         description: "- Níquel não ligado"
     },
     {
-        code: "7502.10.10",
+        code: "75021010",
         description: "Catodos"
     },
     {
-        code: "7502.10.90",
+        code: "75021090",
         description: "Outro"
     },
     {
-        code: "7502.20.00",
+        code: "75022000",
         description: "- Ligas de níquel"
     },
     {
-        code: "7503.00.00",
-        description: "Desperdícios e resíduos, e sucata, de níquel."
+        code: "75030000",
+        description: "Desperdícios e resíduos, e sucata, de níquel"
     },
     {
-        code: "7504.00",
-        description: "Pós e escamas, de níquel."
+        code: "750400",
+        description: "Pós e escamas, de níquel"
     },
     {
-        code: "7504.00.10",
+        code: "75040010",
         description: "Não ligado"
     },
     {
-        code: "7504.00.90",
+        code: "75040090",
         description: "Outros"
     },
     {
-        code: "75.05",
-        description: "Barras, perfis e fios, de níquel."
+        code: "7505",
+        description: "Barras, perfis e fios, de níquel"
     },
     {
-        code: "7505.1",
+        code: "75051",
         description: "- Barras e perfis:"
     },
     {
-        code: "7505.11",
+        code: "750511",
         description: "-- De níquel não ligado"
     },
     {
-        code: "7505.11.10",
+        code: "75051110",
         description: "Barras"
     },
     {
-        code: "7505.11.2",
+        code: "7505112",
         description: "Perfis"
     },
     {
-        code: "7505.11.21",
+        code: "75051121",
         description: "Ocos"
     },
     {
-        code: "7505.11.29",
+        code: "75051129",
         description: "Outros"
     },
     {
-        code: "7505.12",
+        code: "750512",
         description: "-- De ligas de níquel"
     },
     {
-        code: "7505.12.10",
+        code: "75051210",
         description: "Barras"
     },
     {
-        code: "7505.12.2",
+        code: "7505122",
         description: "Perfis"
     },
     {
-        code: "7505.12.21",
+        code: "75051221",
         description: "Ocos"
     },
     {
-        code: "7505.12.29",
+        code: "75051229",
         description: "Outros"
     },
     {
-        code: "7505.2",
+        code: "75052",
         description: "- Fios:"
     },
     {
-        code: "7505.21.00",
+        code: "75052100",
         description: "-- De níquel não ligado"
     },
     {
-        code: "7505.22",
+        code: "750522",
         description: "-- De ligas de níquel"
     },
     {
-        code: "7505.22.10",
+        code: "75052210",
         description: "À base de niqueltitânio (nitinol)"
     },
     {
-        code: "7505.22.90",
+        code: "75052290",
         description: "Outros"
     },
     {
-        code: "75.06",
-        description: "Chapas, tiras e folhas, de níquel."
+        code: "7506",
+        description: "Chapas, tiras e folhas, de níquel"
     },
     {
-        code: "7506.10.00",
+        code: "75061000",
         description: "- De níquel não ligado"
     },
     {
-        code: "7506.20.00",
+        code: "75062000",
         description: "- De ligas de níquel"
     },
     {
-        code: "75.07",
-        description: "Tubos e seus acessórios (por exemplo, uniões, cotovelos, luvas (mangas*)), de níquel."
+        code: "7507",
+        description: "Tubos e seus acessórios (por exemplo, uniões, cotovelos, luvas (mangas*)), de níquel"
     },
     {
-        code: "7507.1",
+        code: "75071",
         description: "- Tubos:"
     },
     {
-        code: "7507.11.00",
+        code: "75071100",
         description: "-- De níquel não ligado"
     },
     {
-        code: "7507.12.00",
+        code: "75071200",
         description: "-- De ligas de níquel"
     },
     {
-        code: "7507.20.00",
+        code: "75072000",
         description: "- Acessórios para tubos"
     },
     {
-        code: "75.08",
-        description: "Outras obras de níquel."
+        code: "7508",
+        description: "Outras obras de níquel"
     },
     {
-        code: "7508.10.00",
+        code: "75081000",
         description: "- Telas metálicas e grades, de fios de níquel"
     },
     {
-        code: "7508.90",
+        code: "750890",
         description: "- Outras"
     },
     {
-        code: "7508.90.10",
+        code: "75089010",
         description: "Cilindros ocos de seção variável, obtidos por centrifugação, do tipo utilizado em reformadores estequiométricos de gás natural"
     },
     {
-        code: "7508.90.90",
+        code: "75089090",
         description: "Outras"
     },
     {
         code: "76",
-        description: "Alumínio e suas obras."
+        description: "Alumínio e suas obras"
     },
     {
-        code: "76.01",
-        description: "Alumínio em formas brutas."
+        code: "7601",
+        description: "Alumínio em formas brutas"
     },
     {
-        code: "7601.10.00",
+        code: "76011000",
         description: "- Alumínio não ligado"
     },
     {
-        code: "7601.20.00",
+        code: "76012000",
         description: "- Ligas de alumínio"
     },
     {
-        code: "7602.00.00",
-        description: "Desperdícios e resíduos, e sucata, de alumínio."
+        code: "76020000",
+        description: "Desperdícios e resíduos, e sucata, de alumínio"
     },
     {
-        code: "76.03",
-        description: "Pós e escamas, de alumínio."
+        code: "7603",
+        description: "Pós e escamas, de alumínio"
     },
     {
-        code: "7603.10.00",
+        code: "76031000",
         description: "- Pós de estrutura não lamelar"
     },
     {
-        code: "7603.20.00",
+        code: "76032000",
         description: "- Pós de estrutura lamelar; escamas"
     },
     {
-        code: "76.04",
-        description: "Barras e perfis, de alumínio."
+        code: "7604",
+        description: "Barras e perfis, de alumínio"
     },
     {
-        code: "7604.10",
+        code: "760410",
         description: "- De alumínio não ligado"
     },
     {
-        code: "7604.10.10",
+        code: "76041010",
         description: "Barras"
     },
     {
-        code: "7604.10.2",
+        code: "7604102",
         description: "Perfis"
     },
     {
-        code: "7604.10.21",
+        code: "76041021",
         description: "Ocos"
     },
     {
-        code: "7604.10.29",
+        code: "76041029",
         description: "Outros"
     },
     {
-        code: "7604.2",
+        code: "76042",
         description: "- De ligas de alumínio:"
     },
     {
-        code: "7604.21.00",
+        code: "76042100",
         description: "-- Perfis ocos"
     },
     {
-        code: "7604.29",
+        code: "760429",
         description: "-- Outros"
     },
     {
-        code: "7604.29.1",
+        code: "7604291",
         description: "Barras"
     },
     {
-        code: "7604.29.11",
+        code: "76042911",
         description: "Forjadas, de seção transversal circular, de diâmetro igual ou superior a 400 mm, mas não superior a 760 mm"
     },
     {
-        code: "7604.29.19",
+        code: "76042919",
         description: "Outras"
     },
     {
-        code: "7604.29.20",
+        code: "76042920",
         description: "Perfis"
     },
     {
-        code: "76.05",
-        description: "Fios de alumínio."
+        code: "7605",
+        description: "Fios de alumínio"
     },
     {
-        code: "7605.1",
+        code: "76051",
         description: "- De alumínio não ligado:"
     },
     {
-        code: "7605.11",
+        code: "760511",
         description: "-- Com a maior dimensão da seção transversal superior a 7 mm"
     },
     {
-        code: "7605.11.10",
+        code: "76051110",
         description:
-            "Com um teor de alumínio igual ou superior a 99,45 %, em peso, e uma resistividade elétrica inferior ou igual a 0,0283 ohm.mm<sup>2</sup>/m"
+            "Com um teor de alumínio igual ou superior a 99,45 %, em peso, e uma resistividade elétrica inferior ou igual a 0,0283 ohmmm<sup>2</sup>/m"
     },
     {
-        code: "7605.11.90",
+        code: "76051190",
         description: "Outros"
     },
     {
-        code: "7605.19",
+        code: "760519",
         description: "-- Outros"
     },
     {
-        code: "7605.19.10",
+        code: "76051910",
         description:
-            "Com um teor de alumínio igual ou superior a 99,45 %, em peso, e uma resistividade elétrica inferior ou igual a 0,0283 ohm.mm<sup>2</sup>/m"
+            "Com um teor de alumínio igual ou superior a 99,45 %, em peso, e uma resistividade elétrica inferior ou igual a 0,0283 ohmmm<sup>2</sup>/m"
     },
     {
-        code: "7605.19.90",
+        code: "76051990",
         description: "Outros"
     },
     {
-        code: "7605.2",
+        code: "76052",
         description: "- De ligas de alumínio:"
     },
     {
-        code: "7605.21",
+        code: "760521",
         description: "-- Com a maior dimensão da seção transversal superior a 7 mm"
     },
     {
-        code: "7605.21.10",
+        code: "76052110",
         description:
-            "Com um teor, em peso, de alumínio igual ou superior a 98,45 %, e de magnésio e silício, considerados individualmente, igual ou superior a 0,45 % e inferior ou igual a 0,55 % e uma resistividade elétrica inferior ou igual a 0,0328 ohm.mm<sup>2</sup>/m"
+            "Com um teor, em peso, de alumínio igual ou superior a 98,45 %, e de magnésio e silício, considerados individualmente, igual ou superior a 0,45 % e inferior ou igual a 0,55 % e uma resistividade elétrica inferior ou igual a 0,0328 ohmmm<sup>2</sup>/m"
     },
     {
-        code: "7605.21.90",
+        code: "76052190",
         description: "Outros"
     },
     {
-        code: "7605.29",
+        code: "760529",
         description: "-- Outros"
     },
     {
-        code: "7605.29.10",
+        code: "76052910",
         description:
-            "Com um teor, em peso, de alumínio igual ou superior a 98,45 %, e de magnésio e silício, considerados individualmente, igual ou superior a 0,45 % e inferior ou igual a 0,55 % e uma resistividade elétrica inferior ou igual a 0,0328 ohm.mm<sup>2</sup>/m"
+            "Com um teor, em peso, de alumínio igual ou superior a 98,45 %, e de magnésio e silício, considerados individualmente, igual ou superior a 0,45 % e inferior ou igual a 0,55 % e uma resistividade elétrica inferior ou igual a 0,0328 ohmmm<sup>2</sup>/m"
     },
     {
-        code: "7605.29.90",
+        code: "76052990",
         description: "Outros"
     },
     {
-        code: "76.06",
-        description: "Chapas e tiras, de alumínio, de espessura superior a 0,2 mm."
+        code: "7606",
+        description: "Chapas e tiras, de alumínio, de espessura superior a 0,2 mm"
     },
     {
-        code: "7606.1",
+        code: "76061",
         description: "- De forma quadrada ou retangular:"
     },
     {
-        code: "7606.11",
+        code: "760611",
         description: "-- De alumínio não ligado"
     },
     {
-        code: "7606.11.10",
+        code: "76061110",
         description:
             "Com um teor, em peso, de silício igual ou superior a 0,05 % e inferior ou igual a 0,20 %, de ferro igual ou superior a 0,20 % e inferior ou igual a 0,40 %, de cobre inferior ou igual a 0,05 %, de zinco inferior ou igual a 0,05 %, de manganês inferior ou igual a 0,1 % e de outros elementos, cada um, inferior ou igual a 0,1 %, de espessura inferior ou igual a 0,4 mm, em bobinas de largura superior a 900 mm, com uma relação entre as rugosidades máxima e aritmética média igual ou superior a 1,25 e inferior ou igual a 1,30 em cada uma das faces e com um limite de resistência à tração igual ou superior a 115 MPa"
     },
     {
-        code: "7606.11.90",
+        code: "76061190",
         description: "Outras"
     },
     {
-        code: "7606.12",
+        code: "760612",
         description: "-- De ligas de alumínio"
     },
     {
-        code: "7606.12.10",
+        code: "76061210",
         description:
-            "Com teores, em peso, de magnésio igual ou superior a 4 % e inferior ou igual a 5 %, de manganês igual ou superior a 0,20 % e inferior ou igual a 0,50 %, de ferro inferior ou igual a 0,35 %, de silício inferior ou igual a 0,20 % e de outros metais, em conjunto, inferior ou igual a 0,75 %, e de espessura inferior ou igual a 0,3 mm e largura igual ou superior a 1.450 mm, envernizadas em ambas as faces"
+            "Com teores, em peso, de magnésio igual ou superior a 4 % e inferior ou igual a 5 %, de manganês igual ou superior a 0,20 % e inferior ou igual a 0,50 %, de ferro inferior ou igual a 0,35 %, de silício inferior ou igual a 0,20 % e de outros metais, em conjunto, inferior ou igual a 0,75 %, e de espessura inferior ou igual a 0,3 mm e largura igual ou superior a 1450 mm, envernizadas em ambas as faces"
     },
     {
-        code: "7606.12.20",
+        code: "76061220",
         description:
             "Com um teor, em peso, de alumínio igual ou superior a 99 % e de magnésio superior a 0,10 %, de espessura inferior ou igual a 0,40 mm, com um limite de resistência a tração igual ou superior a 140 MPa, mas inferior ou igual a 240 MPa, e alongamento igual ou superior a 0,90 %, mas inferior ou igual a 7 %"
     },
     {
-        code: "7606.12.90",
+        code: "76061290",
         description: "Outras"
     },
     {
-        code: "7606.9",
+        code: "76069",
         description: "- Outras:"
     },
     {
-        code: "7606.91.00",
+        code: "76069100",
         description: "-- De alumínio não ligado"
     },
     {
-        code: "7606.92.00",
+        code: "76069200",
         description: "-- De ligas de alumínio"
     },
     {
-        code: "76.07",
+        code: "7607",
         description:
-            "Folhas e tiras, delgadas, de alumínio (mesmo impressas ou com suporte de papel, cartão, plástico ou semelhantes), de espessura não superior a 0,2 mm (excluindo o suporte)."
+            "Folhas e tiras, delgadas, de alumínio (mesmo impressas ou com suporte de papel, cartão, plástico ou semelhantes), de espessura não superior a 0,2 mm (excluindo o suporte)"
     },
     {
-        code: "7607.1",
+        code: "76071",
         description: "- Sem suporte:"
     },
     {
-        code: "7607.11",
+        code: "760711",
         description: "-- Simplesmente laminadas"
     },
     {
-        code: "7607.11.10",
+        code: "76071110",
         description:
             "Com um teor, em peso, de alumínio igual ou superior a 99 % e de magnésio superior a 0,06 %, de espessura igual ou superior a 0,12 mm, com um limite de resistência a tração igual ou superior a 140 MPa, mas inferior ou igual a 240 MPa, e alongamento igual ou superior a 0,90 %, mas inferior ou igual a 7 %"
     },
     {
-        code: "7607.11.90",
+        code: "76071190",
         description: "Outras"
     },
     {
-        code: "7607.19",
+        code: "760719",
         description: "-- Outras"
     },
     {
-        code: "7607.19.10",
+        code: "76071910",
         description:
             "Gravadas por processo eletroquímico de corrosão, mesmo com camada de óxido de alumínio, de espessura inferior ou igual a 110 micrômetros (mícrons) e com um conteúdo de alumínio igual ou superior a 98 %, em peso"
     },
     {
-        code: "7607.19.90",
+        code: "76071990",
         description: "Outras"
     },
     {
-        code: "7607.20.00",
+        code: "76072000",
         description: "- Com suporte"
     },
     {
-        code: "76.08",
-        description: "Tubos de alumínio."
+        code: "7608",
+        description: "Tubos de alumínio"
     },
     {
-        code: "7608.10.00",
+        code: "76081000",
         description: "- De alumínio não ligado"
     },
     {
-        code: "7608.20",
+        code: "760820",
         description: "- De ligas de alumínio"
     },
     {
-        code: "7608.20.10",
+        code: "76082010",
         description:
-            "Sem costura, extrudados e trefilados, segundo Norma ASTM B210, de seção circular, de liga AA 6061 (<i>Aluminium Association</i>), com limite elástico aparente de Johnson (JAEL) superior a 3.000 Nm, segundo Norma SAE AE7, diâmetro externo igual ou superior a 85 mm, mas inferior ou igual a 105 mm e espessura igual ou superior a 1,9 mm, mas inferior ou igual a 2,3 mm"
+            "Sem costura, extrudados e trefilados, segundo Norma ASTM B210, de seção circular, de liga AA 6061 (<i>Aluminium Association</i>), com limite elástico aparente de Johnson (JAEL) superior a 3000 Nm, segundo Norma SAE AE7, diâmetro externo igual ou superior a 85 mm, mas inferior ou igual a 105 mm e espessura igual ou superior a 1,9 mm, mas inferior ou igual a 2,3 mm"
     },
     {
-        code: "7608.20.90",
+        code: "76082090",
         description: "Outros"
     },
     {
-        code: "7609.00.00",
-        description: "Acessórios para tubos (por exemplo, uniões, cotovelos, luvas (mangas*)), de alumínio."
+        code: "76090000",
+        description: "Acessórios para tubos (por exemplo, uniões, cotovelos, luvas (mangas*)), de alumínio"
     },
     {
-        code: "76.10",
+        code: "7610",
         description:
-            "Construções e suas partes (por exemplo, pontes e elementos de pontes, torres, pórticos ou pilones, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas), de alumínio, exceto as construções pré-fabricadas da posição 94.06; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construções."
+            "Construções e suas partes (por exemplo, pontes e elementos de pontes, torres, pórticos ou pilones, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas), de alumínio, exceto as construções pré-fabricadas da posição 9406; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construções"
     },
     {
-        code: "7610.10.00",
+        code: "76101000",
         description: "- Portas e janelas, e seus caixilhos, alizares e soleiras"
     },
     {
-        code: "7610.90.00",
+        code: "76109000",
         description: "- Outros"
     },
     {
-        code: "7611.00.00",
+        code: "76110000",
         description:
-            "Reservatórios, tonéis, cubas e recipientes semelhantes para quaisquer matérias (exceto gases comprimidos ou liquefeitos), de alumínio, de capacidade superior a 300 l, sem dispositivos mecânicos ou térmicos, mesmo com revestimento interior ou calorífugo."
+            "Reservatórios, tonéis, cubas e recipientes semelhantes para quaisquer matérias (exceto gases comprimidos ou liquefeitos), de alumínio, de capacidade superior a 300 l, sem dispositivos mecânicos ou térmicos, mesmo com revestimento interior ou calorífugo"
     },
     {
-        code: "76.12",
+        code: "7612",
         description:
-            "Reservatórios, barris, tambores, latas, caixas e recipientes semelhantes (incluindo os recipientes tubulares, rígidos ou flexíveis) para quaisquer matérias (exceto gases comprimidos ou liquefeitos), de alumínio, de capacidade não superior a 300 l, sem dispositivos mecânicos ou térmicos, mesmo com revestimento interior ou calorífugo."
+            "Reservatórios, barris, tambores, latas, caixas e recipientes semelhantes (incluindo os recipientes tubulares, rígidos ou flexíveis) para quaisquer matérias (exceto gases comprimidos ou liquefeitos), de alumínio, de capacidade não superior a 300 l, sem dispositivos mecânicos ou térmicos, mesmo com revestimento interior ou calorífugo"
     },
     {
-        code: "7612.10.00",
+        code: "76121000",
         description: "- Recipientes tubulares, flexíveis"
     },
     {
-        code: "7612.90",
+        code: "761290",
         description: "- Outros"
     },
     {
-        code: "7612.90.1",
+        code: "7612901",
         description: "Recipientes tubulares"
     },
     {
-        code: "7612.90.11",
+        code: "76129011",
         description: "Para aerossóis, com capacidade inferior ou igual a 700 cm<sup>3</sup>"
     },
     {
-        code: "7612.90.12",
+        code: "76129012",
         description:
             "Isotérmicos, refrigerados a nitrogênio (azoto) líquido, do tipo utilizado para sêmen, sangue, tecidos biológicos e outros produtos semelhantes"
     },
     {
-        code: "7612.90.19",
+        code: "76129019",
         description: "Outros"
     },
     {
-        code: "7612.90.90",
+        code: "76129090",
         description: "Outros"
     },
     {
-        code: "7613.00.00",
-        description: "Recipientes para gases comprimidos ou liquefeitos, de alumínio."
+        code: "76130000",
+        description: "Recipientes para gases comprimidos ou liquefeitos, de alumínio"
     },
     {
-        code: "76.14",
-        description: "Cordas, cabos, tranças (entrançados*) e semelhantes, de alumínio, não isolados para usos elétricos."
+        code: "7614",
+        description: "Cordas, cabos, tranças (entrançados*) e semelhantes, de alumínio, não isolados para usos elétricos"
     },
     {
-        code: "7614.10",
+        code: "761410",
         description: "- Com alma de aço"
     },
     {
-        code: "7614.10.10",
+        code: "76141010",
         description: "Cordas e cabos"
     },
     {
-        code: "7614.10.90",
+        code: "76141090",
         description: "Outros"
     },
     {
-        code: "7614.90",
+        code: "761490",
         description: "- Outros"
     },
     {
-        code: "7614.90.10",
+        code: "76149010",
         description: "Cabos"
     },
     {
-        code: "7614.90.90",
+        code: "76149090",
         description: "Outros"
     },
     {
-        code: "76.15",
+        code: "7615",
         description:
-            "Serviços de mesa, artigos de cozinha e outros artigos de uso doméstico, e suas partes, de alumínio; esponjas, esfregões, luvas e artigos semelhantes, para limpeza, polimento ou usos semelhantes, de alumínio; artigos de higiene ou de toucador, e suas partes, de alumínio."
+            "Serviços de mesa, artigos de cozinha e outros artigos de uso doméstico, e suas partes, de alumínio; esponjas, esfregões, luvas e artigos semelhantes, para limpeza, polimento ou usos semelhantes, de alumínio; artigos de higiene ou de toucador, e suas partes, de alumínio"
     },
     {
-        code: "7615.10.00",
+        code: "76151000",
         description:
             "- Serviços de mesa, artigos de cozinha e outros artigos de uso doméstico, e suas partes; esponjas, esfregões, luvas e artigos semelhantes, para limpeza, polimento ou usos semelhantes"
     },
     {
-        code: "7615.20.00",
+        code: "76152000",
         description: "- Artigos de higiene ou de toucador, e suas partes"
     },
     {
-        code: "76.16",
-        description: "Outras obras de alumínio."
+        code: "7616",
+        description: "Outras obras de alumínio"
     },
     {
-        code: "7616.10.00",
+        code: "76161000",
         description:
             "- Tachas, pregos, escápulas (pregos para tacos), parafusos, pinos ou pernos roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos ou troços, arruelas (anilhas) e artigos semelhantes"
     },
     {
-        code: "7616.9",
+        code: "76169",
         description: "- Outras:"
     },
     {
-        code: "7616.91.00",
+        code: "76169100",
         description: "-- Telas metálicas, grades e redes, de fios de alumínio"
     },
     {
-        code: "7616.99.00",
+        code: "76169900",
         description: "-- Outras"
     },
     {
         code: "78",
-        description: "Chumbo e suas obras."
+        description: "Chumbo e suas obras"
     },
     {
-        code: "78.01",
-        description: "Chumbo em formas brutas."
+        code: "7801",
+        description: "Chumbo em formas brutas"
     },
     {
-        code: "7801.10",
+        code: "780110",
         description: "- Chumbo refinado (afinado)"
     },
     {
-        code: "7801.10.1",
+        code: "7801101",
         description: "Eletrolítico"
     },
     {
-        code: "7801.10.11",
+        code: "78011011",
         description: "Em lingotes"
     },
     {
-        code: "7801.10.19",
+        code: "78011019",
         description: "Outro"
     },
     {
-        code: "7801.10.90",
+        code: "78011090",
         description: "Outro"
     },
     {
-        code: "7801.9",
+        code: "78019",
         description: "- Outro:"
     },
     {
-        code: "7801.91.00",
+        code: "78019100",
         description: "-- Que contenha antimônio como segundo elemento predominante em peso"
     },
     {
-        code: "7801.99.00",
+        code: "78019900",
         description: "-- Outro"
     },
     {
-        code: "7802.00.00",
-        description: "Desperdícios e resíduos, e sucata, de chumbo."
+        code: "78020000",
+        description: "Desperdícios e resíduos, e sucata, de chumbo"
     },
     {
-        code: "78.04",
-        description: "Chapas, folhas e tiras, de chumbo; pós e escamas, de chumbo."
+        code: "7804",
+        description: "Chapas, folhas e tiras, de chumbo; pós e escamas, de chumbo"
     },
     {
-        code: "7804.1",
+        code: "78041",
         description: "- Chapas, folhas e tiras:"
     },
     {
-        code: "7804.11.00",
+        code: "78041100",
         description: "-- Folhas e tiras, de espessura não superior a 0,2 mm (excluindo o suporte)"
     },
     {
-        code: "7804.19.00",
+        code: "78041900",
         description: "-- Outras"
     },
     {
-        code: "7804.20.00",
+        code: "78042000",
         description: "- Pós e escamas"
     },
     {
-        code: "7806.00",
-        description: "Outras obras de chumbo."
+        code: "780600",
+        description: "Outras obras de chumbo"
     },
     {
-        code: "7806.00.10",
+        code: "78060010",
         description: "Barras, perfis e fios"
     },
     {
-        code: "7806.00.20",
+        code: "78060020",
         description: "Tubos e seus acessórios"
     },
     {
-        code: "7806.00.90",
+        code: "78060090",
         description: "Outras"
     },
     {
         code: "79",
-        description: "Zinco e suas obras."
+        description: "Zinco e suas obras"
     },
     {
-        code: "79.01",
-        description: "Zinco em formas brutas."
+        code: "7901",
+        description: "Zinco em formas brutas"
     },
     {
-        code: "7901.1",
+        code: "79011",
         description: "- Zinco não ligado:"
     },
     {
-        code: "7901.11",
+        code: "790111",
         description: "-- Que contenha, em peso, 99,99 % ou mais de zinco"
     },
     {
-        code: "7901.11.1",
+        code: "7901111",
         description: "Eletrolítico"
     },
     {
-        code: "7901.11.11",
+        code: "79011111",
         description: "Em lingotes"
     },
     {
-        code: "7901.11.19",
+        code: "79011119",
         description: "Outro"
     },
     {
-        code: "7901.11.9",
+        code: "7901119",
         description: "Outro"
     },
     {
-        code: "7901.11.91",
+        code: "79011191",
         description: "Em lingotes"
     },
     {
-        code: "7901.11.99",
+        code: "79011199",
         description: "Outro"
     },
     {
-        code: "7901.12",
+        code: "790112",
         description: "-- Que contenha, em peso, menos de 99,99 % de zinco"
     },
     {
-        code: "7901.12.10",
+        code: "79011210",
         description: "Em lingotes"
     },
     {
-        code: "7901.12.90",
+        code: "79011290",
         description: "Outro"
     },
     {
-        code: "7901.20",
+        code: "790120",
         description: "- Ligas de zinco"
     },
     {
-        code: "7901.20.10",
+        code: "79012010",
         description: "Em lingotes"
     },
     {
-        code: "7901.20.90",
+        code: "79012090",
         description: "Outro"
     },
     {
-        code: "7902.00.00",
-        description: "Desperdícios e resíduos, e sucata, de zinco."
+        code: "79020000",
+        description: "Desperdícios e resíduos, e sucata, de zinco"
     },
     {
-        code: "79.03",
-        description: "Poeiras, pós e escamas, de zinco."
+        code: "7903",
+        description: "Poeiras, pós e escamas, de zinco"
     },
     {
-        code: "7903.10.00",
+        code: "79031000",
         description: "- Poeiras de zinco"
     },
     {
-        code: "7903.90.00",
+        code: "79039000",
         description: "- Outros"
     },
     {
-        code: "7904.00.00",
-        description: "Barras, perfis e fios, de zinco."
+        code: "79040000",
+        description: "Barras, perfis e fios, de zinco"
     },
     {
-        code: "7905.00.00",
-        description: "Chapas, folhas e tiras, de zinco."
+        code: "79050000",
+        description: "Chapas, folhas e tiras, de zinco"
     },
     {
-        code: "7907.00",
-        description: "Outras obras de zinco."
+        code: "790700",
+        description: "Outras obras de zinco"
     },
     {
-        code: "7907.00.10",
+        code: "79070010",
         description: "Tubos e seus acessórios"
     },
     {
-        code: "7907.00.90",
+        code: "79070090",
         description: "Outras"
     },
     {
         code: "80",
-        description: "Estanho e suas obras."
+        description: "Estanho e suas obras"
     },
     {
-        code: "80.01",
-        description: "Estanho em formas brutas."
+        code: "8001",
+        description: "Estanho em formas brutas"
     },
     {
-        code: "8001.10.00",
+        code: "80011000",
         description: "- Estanho não ligado"
     },
     {
-        code: "8001.20.00",
+        code: "80012000",
         description: "- Ligas de estanho"
     },
     {
-        code: "8002.00.00",
-        description: "Desperdícios e resíduos, e sucata, de estanho."
+        code: "80020000",
+        description: "Desperdícios e resíduos, e sucata, de estanho"
     },
     {
-        code: "8003.00.00",
-        description: "Barras, perfis e fios, de estanho."
+        code: "80030000",
+        description: "Barras, perfis e fios, de estanho"
     },
     {
-        code: "8007.00",
-        description: "Outras obras de estanho."
+        code: "800700",
+        description: "Outras obras de estanho"
     },
     {
-        code: "8007.00.10",
+        code: "80070010",
         description: "Chapas, folhas e tiras"
     },
     {
-        code: "8007.00.20",
+        code: "80070020",
         description: "Pós e escamas"
     },
     {
-        code: "8007.00.30",
+        code: "80070030",
         description: "Tubos e seus acessórios"
     },
     {
-        code: "8007.00.90",
+        code: "80070090",
         description: "Outras"
     },
     {
         code: "81",
-        description: "Outros metais comuns; <i>cermets</i>; obras dessas matérias."
+        description: "Outros metais comuns; <i>cermets</i>; obras dessas matérias"
     },
     {
-        code: "81.01",
-        description: "Tungstênio (volfrâmio) e suas obras, incluindo os desperdícios e resíduos, e sucata."
+        code: "8101",
+        description: "Tungstênio (volfrâmio) e suas obras, incluindo os desperdícios e resíduos, e sucata"
     },
     {
-        code: "8101.10.00",
+        code: "81011000",
         description: "- Pós"
     },
     {
-        code: "8101.9",
+        code: "81019",
         description: "- Outros:"
     },
     {
-        code: "8101.94.00",
+        code: "81019400",
         description: "-- Tungstênio (volfrâmio) em formas brutas, incluindo as barras simplesmente obtidas por sinterização"
     },
     {
-        code: "8101.96.00",
+        code: "81019600",
         description: "-- Fios"
     },
     {
-        code: "8101.97.00",
+        code: "81019700",
         description: "-- Desperdícios e resíduos, e sucata"
     },
     {
-        code: "8101.99",
+        code: "810199",
         description: "-- Outros"
     },
     {
-        code: "8101.99.10",
+        code: "81019910",
         description: "Do tipo utilizado na fabricação de contatos elétricos"
     },
     {
-        code: "8101.99.90",
+        code: "81019990",
         description: "Outros"
     },
     {
-        code: "81.02",
-        description: "Molibdênio e suas obras, incluindo os desperdícios e resíduos, e sucata."
+        code: "8102",
+        description: "Molibdênio e suas obras, incluindo os desperdícios e resíduos, e sucata"
     },
     {
-        code: "8102.10.00",
+        code: "81021000",
         description: "- Pós"
     },
     {
-        code: "8102.9",
+        code: "81029",
         description: "- Outros:"
     },
     {
-        code: "8102.94.00",
+        code: "81029400",
         description: "-- Molibdênio em formas brutas, incluindo as barras simplesmente obtidas por sinterização"
     },
     {
-        code: "8102.95.00",
+        code: "81029500",
         description: "-- Barras, exceto as simplesmente obtidas por sinterização, perfis, chapas, tiras e folhas"
     },
     {
-        code: "8102.96.00",
+        code: "81029600",
         description: "-- Fios"
     },
     {
-        code: "8102.97.00",
+        code: "81029700",
         description: "-- Desperdícios e resíduos, e sucata"
     },
     {
-        code: "8102.99.00",
+        code: "81029900",
         description: "-- Outros"
     },
     {
-        code: "81.03",
-        description: "Tântalo e suas obras, incluindo os desperdícios e resíduos, e sucata."
+        code: "8103",
+        description: "Tântalo e suas obras, incluindo os desperdícios e resíduos, e sucata"
     },
     {
-        code: "8103.20.00",
+        code: "81032000",
         description: "- Tântalo em formas brutas, incluindo as barras simplesmente obtidas por sinterização; pós"
     },
     {
-        code: "8103.30.00",
+        code: "81033000",
         description: "- Desperdícios e resíduos, e sucata"
     },
     {
-        code: "8103.9",
+        code: "81039",
         description: "- Outros:"
     },
     {
-        code: "8103.91.00",
+        code: "81039100",
         description: "-- Cadinhos"
     },
     {
-        code: "8103.99.00",
+        code: "81039900",
         description: "-- Outros"
     },
     {
-        code: "81.04",
-        description: "Magnésio e suas obras, incluindo os desperdícios e resíduos, e sucata."
+        code: "8104",
+        description: "Magnésio e suas obras, incluindo os desperdícios e resíduos, e sucata"
     },
     {
-        code: "8104.1",
+        code: "81041",
         description: "- Magnésio em formas brutas:"
     },
     {
-        code: "8104.11.00",
+        code: "81041100",
         description: "-- Que contenha pelo menos 99,8 %, em peso, de magnésio"
     },
     {
-        code: "8104.19.00",
+        code: "81041900",
         description: "-- Outro"
     },
     {
-        code: "8104.20.00",
+        code: "81042000",
         description: "- Desperdícios e resíduos, e sucata"
     },
     {
-        code: "8104.30.00",
+        code: "81043000",
         description: "- Aparas, resíduos de torno e grânulos, calibrados; pós"
     },
     {
-        code: "8104.90.00",
+        code: "81049000",
         description: "- Outros"
     },
     {
-        code: "81.05",
+        code: "8105",
         description:
-            "Mates de cobalto e outros produtos intermediários da metalurgia do cobalto; cobalto e suas obras, incluindo os desperdícios e resíduos, e sucata."
+            "Mates de cobalto e outros produtos intermediários da metalurgia do cobalto; cobalto e suas obras, incluindo os desperdícios e resíduos, e sucata"
     },
     {
-        code: "8105.20",
+        code: "810520",
         description: "- Mates de cobalto e outros produtos intermediários da metalurgia do cobalto; cobalto em formas brutas; pós"
     },
     {
-        code: "8105.20.10",
+        code: "81052010",
         description: "Em formas brutas"
     },
     {
-        code: "8105.20.2",
+        code: "8105202",
         description: "Pós"
     },
     {
-        code: "8105.20.21",
+        code: "81052021",
         description: "De ligas à base de cobalto-cromo-tungstênio (volfrâmio) (estelites)"
     },
     {
-        code: "8105.20.29",
+        code: "81052029",
         description: "Outros"
     },
     {
-        code: "8105.20.90",
+        code: "81052090",
         description: "Outros"
     },
     {
-        code: "8105.30.00",
+        code: "81053000",
         description: "- Desperdícios e resíduos, e sucata"
     },
     {
-        code: "8105.90",
+        code: "810590",
         description: "- Outros"
     },
     {
-        code: "8105.90.10",
+        code: "81059010",
         description: "Chapas, folhas, tiras, fios, hastes, pastilhas e plaquetas"
     },
     {
-        code: "8105.90.90",
+        code: "81059090",
         description: "Outros"
     },
     {
-        code: "81.06",
-        description: "Bismuto e suas obras, incluindo os desperdícios e resíduos, e sucata."
+        code: "8106",
+        description: "Bismuto e suas obras, incluindo os desperdícios e resíduos, e sucata"
     },
     {
-        code: "8106.10.00",
+        code: "81061000",
         description: "- Que contenham mais de 99,99 %, em peso, de bismuto"
     },
     {
-        code: "8106.90.00",
+        code: "81069000",
         description: "- Outros"
     },
     {
-        code: "81.08",
-        description: "Titânio e suas obras, incluindo os desperdícios e resíduos, e sucata."
+        code: "8108",
+        description: "Titânio e suas obras, incluindo os desperdícios e resíduos, e sucata"
     },
     {
-        code: "8108.20.00",
+        code: "81082000",
         description: "- Titânio em formas brutas; pós"
     },
     {
-        code: "8108.30.00",
+        code: "81083000",
         description: "- Desperdícios e resíduos, e sucata"
     },
     {
-        code: "8108.90.00",
+        code: "81089000",
         description: "- Outros"
     },
     {
-        code: "81.09",
-        description: "Zircônio e suas obras, incluindo os desperdícios e resíduos, e sucata."
+        code: "8109",
+        description: "Zircônio e suas obras, incluindo os desperdícios e resíduos, e sucata"
     },
     {
-        code: "8109.2",
+        code: "81092",
         description: "- Zircônio em formas brutas; pós:"
     },
     {
-        code: "8109.21.00",
+        code: "81092100",
         description: "-- Que contenham menos de uma parte de háfnio para 500 partes, em peso, de zircônio"
     },
     {
-        code: "8109.29.00",
+        code: "81092900",
         description: "-- Outros"
     },
     {
-        code: "8109.3",
+        code: "81093",
         description: "- Desperdícios e resíduos, e sucata:"
     },
     {
-        code: "8109.31.00",
+        code: "81093100",
         description: "-- Que contenham menos de uma parte de háfnio para 500 partes, em peso, de zircônio"
     },
     {
-        code: "8109.39.00",
+        code: "81093900",
         description: "-- Outros"
     },
     {
-        code: "8109.9",
+        code: "81099",
         description: "- Outros:"
     },
     {
-        code: "8109.91.00",
+        code: "81099100",
         description: "-- Que contenham menos de uma parte de háfnio para 500 partes, em peso, de zircônio"
     },
     {
-        code: "8109.99.00",
+        code: "81099900",
         description: "-- Outros"
     },
     {
-        code: "81.10",
-        description: "Antimônio e suas obras, incluindo os desperdícios e resíduos, e sucata."
+        code: "8110",
+        description: "Antimônio e suas obras, incluindo os desperdícios e resíduos, e sucata"
     },
     {
-        code: "8110.10",
+        code: "811010",
         description: "- Antimônio em formas brutas; pós"
     },
     {
-        code: "8110.10.10",
+        code: "81101010",
         description: "Em formas brutas"
     },
     {
-        code: "8110.10.20",
+        code: "81101020",
         description: "Pós"
     },
     {
-        code: "8110.20.00",
+        code: "81102000",
         description: "- Desperdícios e resíduos, e sucata"
     },
     {
-        code: "8110.90.00",
+        code: "81109000",
         description: "- Outros"
     },
     {
-        code: "8111.00",
-        description: "Manganês e suas obras, incluindo os desperdícios e resíduos, e sucata."
+        code: "811100",
+        description: "Manganês e suas obras, incluindo os desperdícios e resíduos, e sucata"
     },
     {
-        code: "8111.00.10",
+        code: "81110010",
         description: "Em formas brutas"
     },
     {
-        code: "8111.00.20",
+        code: "81110020",
         description: "Chapas, folhas, tiras, fios, hastes, pastilhas e plaquetas"
     },
     {
-        code: "8111.00.90",
+        code: "81110090",
         description: "Outros"
     },
     {
-        code: "81.12",
+        code: "8112",
         description:
-            "Berílio, cromo, háfnio (céltio), rênio, tálio, cádmio, germânio, vanádio, gálio, índio e nióbio (colômbio), e suas obras, incluindo os desperdícios e resíduos, e sucata."
+            "Berílio, cromo, háfnio (céltio), rênio, tálio, cádmio, germânio, vanádio, gálio, índio e nióbio (colômbio), e suas obras, incluindo os desperdícios e resíduos, e sucata"
     },
     {
-        code: "8112.1",
+        code: "81121",
         description: "- Berílio:"
     },
     {
-        code: "8112.12.00",
+        code: "81121200",
         description: "-- Em formas brutas; pós"
     },
     {
-        code: "8112.13.00",
+        code: "81121300",
         description: "-- Desperdícios e resíduos, e sucata"
     },
     {
-        code: "8112.19.00",
+        code: "81121900",
         description: "-- Outros"
     },
     {
-        code: "8112.2",
+        code: "81122",
         description: "- Cromo:"
     },
     {
-        code: "8112.21",
+        code: "811221",
         description: "-- Em formas brutas; pós"
     },
     {
-        code: "8112.21.10",
+        code: "81122110",
         description: "Em formas brutas"
     },
     {
-        code: "8112.21.20",
+        code: "81122120",
         description: "Pós"
     },
     {
-        code: "8112.22.00",
+        code: "81122200",
         description: "-- Desperdícios e resíduos, e sucata"
     },
     {
-        code: "8112.29.00",
+        code: "81122900",
         description: "-- Outros"
     },
     {
-        code: "8112.3",
+        code: "81123",
         description: "- Háfnio (céltio):"
     },
     {
-        code: "8112.31.00",
+        code: "81123100",
         description: "-- Em formas brutas; desperdícios e resíduos, e sucata; pós"
     },
     {
-        code: "8112.39.00",
+        code: "81123900",
         description: "-- Outros"
     },
     {
-        code: "8112.4",
+        code: "81124",
         description: "- Rênio:"
     },
     {
-        code: "8112.41.00",
+        code: "81124100",
         description: "-- Em formas brutas; desperdícios e resíduos, e sucata; pós"
     },
     {
-        code: "8112.49.00",
+        code: "81124900",
         description: "-- Outros"
     },
     {
-        code: "8112.5",
+        code: "81125",
         description: "- Tálio:"
     },
     {
-        code: "8112.51.00",
+        code: "81125100",
         description: "-- Em formas brutas; pós"
     },
     {
-        code: "8112.52.00",
+        code: "81125200",
         description: "-- Desperdícios e resíduos, e sucata"
     },
     {
-        code: "8112.59.00",
+        code: "81125900",
         description: "-- Outros"
     },
     {
-        code: "8112.6",
+        code: "81126",
         description: "- Cádmio:"
     },
     {
-        code: "8112.61.00",
+        code: "81126100",
         description: "-- Desperdícios e resíduos, e sucata"
     },
     {
-        code: "8112.69.00",
+        code: "81126900",
         description: "-- Outros"
     },
     {
-        code: "8112.9",
+        code: "81129",
         description: "- Outros:"
     },
     {
-        code: "8112.92.00",
+        code: "81129200",
         description: "-- Em formas brutas; desperdícios e resíduos, e sucata; pós"
     },
     {
-        code: "8112.99.00",
+        code: "81129900",
         description: "-- Outros"
     },
     {
-        code: "8113.00",
-        description: "<i>Cermets</i> e suas obras, incluindo os desperdícios e resíduos, e sucata."
+        code: "811300",
+        description: "<i>Cermets</i> e suas obras, incluindo os desperdícios e resíduos, e sucata"
     },
     {
-        code: "8113.00.10",
+        code: "81130010",
         description: "Chapas, folhas, tiras, fios, hastes, pastilhas e plaquetas"
     },
     {
-        code: "8113.00.90",
+        code: "81130090",
         description: "Outros"
     },
     {
         code: "82",
-        description: "Ferramentas, artigos de cutelaria e talheres, e suas partes, de metais comuns."
+        description: "Ferramentas, artigos de cutelaria e talheres, e suas partes, de metais comuns"
     },
     {
-        code: "82.01",
+        code: "8201",
         description:
-            "Pás, alviões, picaretas, enxadas, sachos, forcados, forquilhas, ancinhos e raspadeiras; machados, podões e ferramentas semelhantes com gume; tesouras de podar de qualquer tipo; foices e foicinhas, facas para feno ou para palha, tesouras para sebes, cunhas e outras ferramentas manuais para agricultura, horticultura ou silvicultura."
+            "Pás, alviões, picaretas, enxadas, sachos, forcados, forquilhas, ancinhos e raspadeiras; machados, podões e ferramentas semelhantes com gume; tesouras de podar de qualquer tipo; foices e foicinhas, facas para feno ou para palha, tesouras para sebes, cunhas e outras ferramentas manuais para agricultura, horticultura ou silvicultura"
     },
     {
-        code: "8201.10.00",
+        code: "82011000",
         description: "- Pás"
     },
     {
-        code: "8201.30.00",
+        code: "82013000",
         description: "- Alviões, picaretas, enxadas, sachos, ancinhos e raspadeiras"
     },
     {
-        code: "8201.40.00",
+        code: "82014000",
         description: "- Machados, podões e ferramentas semelhantes com gume"
     },
     {
-        code: "8201.50.00",
+        code: "82015000",
         description: "- Tesouras de podar (incluindo as tesouras para aves) manipuladas com uma das mãos"
     },
     {
-        code: "8201.60.00",
+        code: "82016000",
         description: "- Tesouras para sebes, tesouras de podar e ferramentas semelhantes, manipuladas com as duas mãos"
     },
     {
-        code: "8201.90.00",
+        code: "82019000",
         description: "- Outras ferramentas manuais para agricultura, horticultura e silvicultura"
     },
     {
-        code: "82.02",
-        description: "Serras manuais; folhas de serras de qualquer tipo (incluindo as fresas-serras e as folhas não dentadas para serrar)."
+        code: "8202",
+        description: "Serras manuais; folhas de serras de qualquer tipo (incluindo as fresas-serras e as folhas não dentadas para serrar)"
     },
     {
-        code: "8202.10.00",
+        code: "82021000",
         description: "- Serras manuais"
     },
     {
-        code: "8202.20.00",
+        code: "82022000",
         description: "- Folhas de serras de fita"
     },
     {
-        code: "8202.3",
+        code: "82023",
         description: "- Folhas de serras circulares (incluindo as fresas-serras):"
     },
     {
-        code: "8202.31.00",
+        code: "82023100",
         description: "-- Com parte operante de aço"
     },
     {
-        code: "8202.39.00",
+        code: "82023900",
         description: "-- Outras, incluindo as partes"
     },
     {
-        code: "8202.40.00",
+        code: "82024000",
         description: "- Correntes cortantes de serras"
     },
     {
-        code: "8202.9",
+        code: "82029",
         description: "- Outras folhas de serras:"
     },
     {
-        code: "8202.91.00",
+        code: "82029100",
         description: "-- Folhas de serras retilíneas, para trabalhar metais"
     },
     {
-        code: "8202.99",
+        code: "820299",
         description: "-- Outras"
     },
     {
-        code: "8202.99.10",
+        code: "82029910",
         description: "Retas, não dentadas, para serrar pedras"
     },
     {
-        code: "8202.99.90",
+        code: "82029990",
         description: "Outras"
     },
     {
-        code: "82.03",
+        code: "8203",
         description:
-            "Limas, grosas, alicates (mesmo cortantes), tenazes, pinças, cisalhas para metais, corta-tubos, corta-pinos, saca-bocados e ferramentas semelhantes, manuais."
+            "Limas, grosas, alicates (mesmo cortantes), tenazes, pinças, cisalhas para metais, corta-tubos, corta-pinos, saca-bocados e ferramentas semelhantes, manuais"
     },
     {
-        code: "8203.10",
+        code: "820310",
         description: "- Limas, grosas e ferramentas semelhantes"
     },
     {
-        code: "8203.10.10",
+        code: "82031010",
         description: "Limas e grosas"
     },
     {
-        code: "8203.10.90",
+        code: "82031090",
         description: "Outras"
     },
     {
-        code: "8203.20",
+        code: "820320",
         description: "- Alicates (mesmo cortantes), tenazes, pinças e ferramentas semelhantes"
     },
     {
-        code: "8203.20.10",
+        code: "82032010",
         description: "Alicates (mesmo cortantes)"
     },
     {
-        code: "8203.20.90",
+        code: "82032090",
         description: "Outras"
     },
     {
-        code: "8203.30.00",
+        code: "82033000",
         description: "- Cisalhas para metais e ferramentas semelhantes"
     },
     {
-        code: "8203.40.00",
+        code: "82034000",
         description: "- Corta-tubos, corta-pinos, saca-bocados e ferramentas semelhantes"
     },
     {
-        code: "82.04",
-        description: "Chaves de porcas, manuais (incluindo as chaves dinamométricas); chaves de caixa intercambiáveis, mesmo com cabos."
+        code: "8204",
+        description: "Chaves de porcas, manuais (incluindo as chaves dinamométricas); chaves de caixa intercambiáveis, mesmo com cabos"
     },
     {
-        code: "8204.1",
+        code: "82041",
         description: "- Chaves de porcas, manuais:"
     },
     {
-        code: "8204.11.00",
+        code: "82041100",
         description: "-- De abertura fixa"
     },
     {
-        code: "8204.12.00",
+        code: "82041200",
         description: "-- De abertura variável"
     },
     {
-        code: "8204.20.00",
+        code: "82042000",
         description: "- Chaves de caixa intercambiáveis, mesmo com cabos"
     },
     {
-        code: "82.05",
+        code: "8205",
         description:
-            "Ferramentas manuais (incluindo os corta-vidros (diamantes de vidraceiro)) não especificadas nem compreendidas noutras posições; lâmpadas ou lamparinas de soldar (maçaricos) e semelhantes; tornos de apertar, sargentos e semelhantes, exceto os acessórios ou partes de máquinas-ferramentas ou de máquinas de corte a jato de água; bigornas; forjas portáteis; mós com armação, manuais ou de pedal."
+            "Ferramentas manuais (incluindo os corta-vidros (diamantes de vidraceiro)) não especificadas nem compreendidas noutras posições; lâmpadas ou lamparinas de soldar (maçaricos) e semelhantes; tornos de apertar, sargentos e semelhantes, exceto os acessórios ou partes de máquinas-ferramentas ou de máquinas de corte a jato de água; bigornas; forjas portáteis; mós com armação, manuais ou de pedal"
     },
     {
-        code: "8205.10.00",
+        code: "82051000",
         description: "- Ferramentas de furar ou de roscar"
     },
     {
-        code: "8205.20.00",
+        code: "82052000",
         description: "- Martelos e marretas"
     },
     {
-        code: "8205.30.00",
+        code: "82053000",
         description: "- Plainas, formões, goivas e ferramentas cortantes semelhantes, para trabalhar madeira"
     },
     {
-        code: "8205.40.00",
+        code: "82054000",
         description: "- Chaves de fenda"
     },
     {
-        code: "8205.5",
+        code: "82055",
         description: "- Outras ferramentas manuais (incluindo os corta-vidros (diamantes de vidraceiro)):"
     },
     {
-        code: "8205.51.00",
+        code: "82055100",
         description: "-- De uso doméstico"
     },
     {
-        code: "8205.59.00",
+        code: "82055900",
         description: "-- Outras"
     },
     {
-        code: "8205.60.00",
+        code: "82056000",
         description: "- Lâmpadas ou lamparinas de soldar (maçaricos) e semelhantes"
     },
     {
-        code: "8205.70.00",
+        code: "82057000",
         description: "- Tornos de apertar, sargentos e semelhantes"
     },
     {
-        code: "8205.90.00",
+        code: "82059000",
         description: "- Outros, incluindo os sortidos constituídos por artigos incluídos em pelo menos duas das subposições da presente posição"
     },
     {
-        code: "8206.00.00",
-        description: "Ferramentas de pelo menos duas das posições 82.02 a 82.05, acondicionadas em sortidos para venda a retalho."
+        code: "82060000",
+        description: "Ferramentas de pelo menos duas das posições 8202 a 8205, acondicionadas em sortidos para venda a retalho"
     },
     {
-        code: "82.07",
+        code: "8207",
         description:
-            "Ferramentas intercambiáveis para ferramentas manuais, mesmo mecânicas, ou para máquinas-ferramentas (por exemplo, de embutir, estampar, puncionar, roscar (incluindo atarraxar), furar, escarear, mandrilar, brochar, fresar, tornear, aparafusar), incluindo as fieiras de estiramento ou de extrusão, para metais, e as ferramentas de perfuração ou de sondagem."
+            "Ferramentas intercambiáveis para ferramentas manuais, mesmo mecânicas, ou para máquinas-ferramentas (por exemplo, de embutir, estampar, puncionar, roscar (incluindo atarraxar), furar, escarear, mandrilar, brochar, fresar, tornear, aparafusar), incluindo as fieiras de estiramento ou de extrusão, para metais, e as ferramentas de perfuração ou de sondagem"
     },
     {
-        code: "8207.1",
+        code: "82071",
         description: "- Ferramentas de perfuração ou de sondagem:"
     },
     {
-        code: "8207.13.00",
+        code: "82071300",
         description: "-- Com parte operante de <i>cermets</i>"
     },
     {
-        code: "8207.19",
+        code: "820719",
         description: "-- Outras, incluindo as partes"
     },
     {
-        code: "8207.19.10",
+        code: "82071910",
         description: "Brocas (<i>drill bits</i>)"
     },
     {
-        code: "8207.19.90",
+        code: "82071990",
         description: "Outras"
     },
     {
-        code: "8207.20.00",
+        code: "82072000",
         description: "- Fieiras de estiramento ou de extrusão, para metais"
     },
     {
-        code: "8207.30.00",
+        code: "82073000",
         description: "- Ferramentas de embutir, de estampar ou de puncionar"
     },
     {
-        code: "8207.40",
+        code: "820740",
         description: "- Ferramentas de roscar (incluindo atarraxar) interior ou exteriormente"
     },
     {
-        code: "8207.40.10",
+        code: "82074010",
         description: "De roscar interiormente"
     },
     {
-        code: "8207.40.20",
+        code: "82074020",
         description: "De roscar exteriormente"
     },
     {
-        code: "8207.50",
+        code: "820750",
         description: "- Ferramentas de furar"
     },
     {
-        code: "8207.50.1",
+        code: "8207501",
         description: "Brocas, mesmo diamantadas"
     },
     {
-        code: "8207.50.11",
+        code: "82075011",
         description: "Helicoidais, de diâmetro inferior ou igual a 52 mm"
     },
     {
-        code: "8207.50.19",
+        code: "82075019",
         description: "Outras"
     },
     {
-        code: "8207.50.90",
+        code: "82075090",
         description: "Outras"
     },
     {
-        code: "8207.60.00",
+        code: "82076000",
         description: "- Ferramentas de escarear, mandrilar ou de brochar"
     },
     {
-        code: "8207.70",
+        code: "820770",
         description: "- Ferramentas de fresar"
     },
     {
-        code: "8207.70.10",
+        code: "82077010",
         description: "De topo"
     },
     {
-        code: "8207.70.20",
+        code: "82077020",
         description: "Para cortar engrenagens"
     },
     {
-        code: "8207.70.90",
+        code: "82077090",
         description: "Outras"
     },
     {
-        code: "8207.80.00",
+        code: "82078000",
         description: "- Ferramentas de tornear"
     },
     {
-        code: "8207.90.00",
+        code: "82079000",
         description: "- Outras ferramentas intercambiáveis"
     },
     {
-        code: "82.08",
-        description: "Facas e lâminas cortantes, para máquinas ou para aparelhos mecânicos."
+        code: "8208",
+        description: "Facas e lâminas cortantes, para máquinas ou para aparelhos mecânicos"
     },
     {
-        code: "8208.10.00",
+        code: "82081000",
         description: "- Para trabalhar metais"
     },
     {
-        code: "8208.20.00",
+        code: "82082000",
         description: "- Para trabalhar madeira"
     },
     {
-        code: "8208.30.00",
+        code: "82083000",
         description: "- Para aparelhos de cozinha ou para máquinas das indústrias alimentares"
     },
     {
-        code: "8208.40.00",
+        code: "82084000",
         description: "- Para máquinas de agricultura, horticultura ou silvicultura"
     },
     {
-        code: "8208.90.00",
+        code: "82089000",
         description: "- Outras"
     },
     {
-        code: "8209.00",
-        description: "Plaquetas, varetas, pontas e objetos semelhantes para ferramentas, não montados, de <i>cermets</i>."
+        code: "820900",
+        description: "Plaquetas, varetas, pontas e objetos semelhantes para ferramentas, não montados, de <i>cermets</i>"
     },
     {
-        code: "8209.00.1",
+        code: "8209001",
         description: "Plaquetas ou pastilhas"
     },
     {
-        code: "8209.00.11",
+        code: "82090011",
         description: "Intercambiáveis"
     },
     {
-        code: "8209.00.19",
+        code: "82090019",
         description: "Outras"
     },
     {
-        code: "8209.00.90",
+        code: "82090090",
         description: "Outros"
     },
     {
-        code: "8210.00",
+        code: "821000",
         description:
-            "Aparelhos mecânicos de acionamento manual, pesando até 10 kg, utilizados para preparar, acondicionar ou servir alimentos ou bebidas."
+            "Aparelhos mecânicos de acionamento manual, pesando até 10 kg, utilizados para preparar, acondicionar ou servir alimentos ou bebidas"
     },
     {
-        code: "8210.00.10",
+        code: "82100010",
         description: "Moinhos"
     },
     {
-        code: "8210.00.90",
+        code: "82100090",
         description: "Outros"
     },
     {
-        code: "82.11",
-        description: "Facas (exceto as da posição 82.08) de lâmina cortante ou serrilhada, incluindo as podadeiras de lâmina móvel, e suas lâminas."
+        code: "8211",
+        description: "Facas (exceto as da posição 8208) de lâmina cortante ou serrilhada, incluindo as podadeiras de lâmina móvel, e suas lâminas"
     },
     {
-        code: "8211.10.00",
+        code: "82111000",
         description: "- Sortidos"
     },
     {
-        code: "8211.9",
+        code: "82119",
         description: "- Outras:"
     },
     {
-        code: "8211.91.00",
+        code: "82119100",
         description: "-- Facas de mesa, de lâmina fixa"
     },
     {
-        code: "8211.92",
+        code: "821192",
         description: "-- Outras facas de lâmina fixa"
     },
     {
-        code: "8211.92.10",
+        code: "82119210",
         description: "Para cozinha e açougue"
     },
     {
-        code: "8211.92.20",
+        code: "82119220",
         description: "Para caça"
     },
     {
-        code: "8211.92.90",
+        code: "82119290",
         description: "Outras"
     },
     {
-        code: "8211.93",
+        code: "821193",
         description: "-- Facas, exceto as de lâmina fixa, incluindo as podadeiras de lâmina móvel"
     },
     {
-        code: "8211.93.10",
+        code: "82119310",
         description: "Podadeiras e suas partes"
     },
     {
-        code: "8211.93.20",
+        code: "82119320",
         description: "Canivetes com uma ou várias lâminas ou outras peças"
     },
     {
-        code: "8211.93.90",
+        code: "82119390",
         description: "Outras"
     },
     {
-        code: "8211.94.00",
+        code: "82119400",
         description: "-- Lâminas"
     },
     {
-        code: "8211.95.00",
+        code: "82119500",
         description: "-- Cabos de metais comuns"
     },
     {
-        code: "82.12",
-        description: "Navalhas e aparelhos, de barbear, e suas lâminas (incluindo os esboços em tiras)."
+        code: "8212",
+        description: "Navalhas e aparelhos, de barbear, e suas lâminas (incluindo os esboços em tiras)"
     },
     {
-        code: "8212.10",
+        code: "821210",
         description: "- Navalhas e aparelhos, de barbear"
     },
     {
-        code: "8212.10.10",
+        code: "82121010",
         description: "Navalhas"
     },
     {
-        code: "8212.10.20",
+        code: "82121020",
         description: "Aparelhos"
     },
     {
-        code: "8212.20",
+        code: "821220",
         description: "- Lâminas de barbear de segurança, incluindo os esboços em tiras"
     },
     {
-        code: "8212.20.10",
+        code: "82122010",
         description: "Lâminas"
     },
     {
-        code: "8212.20.20",
+        code: "82122020",
         description: "Esboços em tiras"
     },
     {
-        code: "8212.90.00",
+        code: "82129000",
         description: "- Outras partes"
     },
     {
-        code: "8213.00.00",
-        description: "Tesouras e suas lâminas."
+        code: "82130000",
+        description: "Tesouras e suas lâminas"
     },
     {
-        code: "82.14",
+        code: "8214",
         description:
-            "Outros artigos de cutelaria (por exemplo, máquinas de cortar o cabelo ou tosquiar, fendeleiras, cutelos, incluindo os de açougue (talho) e de cozinha, e espátulas (corta-papéis)); utensílios e sortidos de utensílios de manicuros ou de pedicuros (incluindo as limas para unhas)."
+            "Outros artigos de cutelaria (por exemplo, máquinas de cortar o cabelo ou tosquiar, fendeleiras, cutelos, incluindo os de açougue (talho) e de cozinha, e espátulas (corta-papéis)); utensílios e sortidos de utensílios de manicuros ou de pedicuros (incluindo as limas para unhas)"
     },
     {
-        code: "8214.10.00",
+        code: "82141000",
         description: "- Espátulas (corta-papéis), abre-cartas, raspadeiras, apontadores de lápis (apara-lápis) e suas lâminas"
     },
     {
-        code: "8214.20.00",
+        code: "82142000",
         description: "- Utensílios e sortidos de utensílios de manicuros ou de pedicuros (incluindo as limas para unhas)"
     },
     {
-        code: "8214.90",
+        code: "821490",
         description: "- Outros"
     },
     {
-        code: "8214.90.10",
+        code: "82149010",
         description: "Máquinas de tosquiar e suas partes"
     },
     {
-        code: "8214.90.90",
+        code: "82149090",
         description: "Outros"
     },
     {
-        code: "82.15",
+        code: "8215",
         description:
-            "Colheres, garfos, conchas, escumadeiras, pás para tortas, facas especiais para peixe ou para manteiga, pinças para açúcar e artigos semelhantes."
+            "Colheres, garfos, conchas, escumadeiras, pás para tortas, facas especiais para peixe ou para manteiga, pinças para açúcar e artigos semelhantes"
     },
     {
-        code: "8215.10.00",
+        code: "82151000",
         description: "- Sortidos que contenham pelo menos um objeto prateado, dourado ou platinado"
     },
     {
-        code: "8215.20.00",
+        code: "82152000",
         description: "- Outros sortidos"
     },
     {
-        code: "8215.9",
+        code: "82159",
         description: "- Outros:"
     },
     {
-        code: "8215.91.00",
+        code: "82159100",
         description: "-- Prateados, dourados ou platinados"
     },
     {
-        code: "8215.99",
+        code: "821599",
         description: "-- Outros"
     },
     {
-        code: "8215.99.10",
+        code: "82159910",
         description: "De aço inoxidável"
     },
     {
-        code: "8215.99.90",
+        code: "82159990",
         description: "Outros"
     },
     {
         code: "83",
-        description: "Obras diversas de metais comuns."
+        description: "Obras diversas de metais comuns"
     },
     {
-        code: "83.01",
+        code: "8301",
         description:
-            "Cadeados, fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns; fechos e armações com fecho, com fechadura, de metais comuns; chaves para estes artigos, de metais comuns."
+            "Cadeados, fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns; fechos e armações com fecho, com fechadura, de metais comuns; chaves para estes artigos, de metais comuns"
     },
     {
-        code: "8301.10.00",
+        code: "83011000",
         description: "- Cadeados"
     },
     {
-        code: "8301.20.00",
+        code: "83012000",
         description: "- Fechaduras do tipo utilizado em veículos automóveis"
     },
     {
-        code: "8301.30.00",
+        code: "83013000",
         description: "- Fechaduras do tipo utilizado em móveis"
     },
     {
-        code: "8301.40.00",
+        code: "83014000",
         description: "- Outras fechaduras; ferrolhos"
     },
     {
-        code: "8301.50.00",
+        code: "83015000",
         description: "- Fechos e armações com fecho, com fechadura"
     },
     {
-        code: "8301.60.00",
+        code: "83016000",
         description: "- Partes"
     },
     {
-        code: "8301.70.00",
+        code: "83017000",
         description: "- Chaves apresentadas isoladamente"
     },
     {
-        code: "83.02",
+        code: "8302",
         description:
-            "Guarnições, ferragens e artigos semelhantes, de metais comuns, para móveis, portas, escadas, janelas, persianas, carroçarias, artigos de seleiro, malas, cofres, caixas de segurança e outras obras semelhantes; pateras, porta-chapéus, cabides e artigos semelhantes, de metais comuns; rodízios com armação de metais comuns; fechos automáticos para portas, de metais comuns."
+            "Guarnições, ferragens e artigos semelhantes, de metais comuns, para móveis, portas, escadas, janelas, persianas, carroçarias, artigos de seleiro, malas, cofres, caixas de segurança e outras obras semelhantes; pateras, porta-chapéus, cabides e artigos semelhantes, de metais comuns; rodízios com armação de metais comuns; fechos automáticos para portas, de metais comuns"
     },
     {
-        code: "8302.10.00",
+        code: "83021000",
         description: "- Dobradiças de qualquer espécie (incluindo os gonzos e as charneiras)"
     },
     {
-        code: "8302.20.00",
+        code: "83022000",
         description: "- Rodízios"
     },
     {
-        code: "8302.30.00",
+        code: "83023000",
         description: "- Outras guarnições, ferragens e artigos semelhantes, para veículos automóveis"
     },
     {
-        code: "8302.4",
+        code: "83024",
         description: "- Outras guarnições, ferragens e artigos semelhantes:"
     },
     {
-        code: "8302.41.00",
+        code: "83024100",
         description: "-- Para construções"
     },
     {
-        code: "8302.42.00",
+        code: "83024200",
         description: "-- Outros, para móveis"
     },
     {
-        code: "8302.49.00",
+        code: "83024900",
         description: "-- Outros"
     },
     {
-        code: "8302.50.00",
+        code: "83025000",
         description: "- Pateras, porta-chapéus, cabides e artigos semelhantes"
     },
     {
-        code: "8302.60.00",
+        code: "83026000",
         description: "- Fechos automáticos para portas"
     },
     {
-        code: "8303.00.00",
+        code: "83030000",
         description:
-            "Cofres-fortes, portas blindadas e compartimentos para casas-fortes, cofres e caixas de segurança e artigos semelhantes, de metais comuns."
+            "Cofres-fortes, portas blindadas e compartimentos para casas-fortes, cofres e caixas de segurança e artigos semelhantes, de metais comuns"
     },
     {
-        code: "8304.00.00",
+        code: "83040000",
         description:
-            "Classificadores, fichários (ficheiros), caixas de classificação, porta-cópias, porta-canetas, porta-carimbos e artigos semelhantes, de escritório, de metais comuns, excluindo os móveis de escritório da posição 94.03."
+            "Classificadores, fichários (ficheiros), caixas de classificação, porta-cópias, porta-canetas, porta-carimbos e artigos semelhantes, de escritório, de metais comuns, excluindo os móveis de escritório da posição 9403"
     },
     {
-        code: "83.05",
+        code: "8305",
         description:
-            "Ferragens para encadernação de folhas soltas ou para classificadores, prendedores (molas*) para papéis, cantos para cartas, clipes, indicadores para fichas ou cavaleiros e objetos semelhantes de escritório, de metais comuns; grampos (agrafos*) apresentados em barretas (por exemplo, de escritório, para atapetar, para embalagem), de metais comuns."
+            "Ferragens para encadernação de folhas soltas ou para classificadores, prendedores (molas*) para papéis, cantos para cartas, clipes, indicadores para fichas ou cavaleiros e objetos semelhantes de escritório, de metais comuns; grampos (agrafos*) apresentados em barretas (por exemplo, de escritório, para atapetar, para embalagem), de metais comuns"
     },
     {
-        code: "8305.10.00",
+        code: "83051000",
         description: "- Ferragens para encadernação de folhas soltas ou para classificadores"
     },
     {
-        code: "8305.20.00",
+        code: "83052000",
         description: "- Grampos (Agrafos*) apresentados em barretas"
     },
     {
-        code: "8305.90.00",
+        code: "83059000",
         description: "- Outros, incluindo as partes"
     },
     {
-        code: "83.06",
+        code: "8306",
         description:
-            "Sinos, campainhas, gongos e artigos semelhantes, não elétricos, de metais comuns; estatuetas e outros objetos de ornamentação, de metais comuns; molduras para fotografias, gravuras ou semelhantes, de metais comuns; espelhos de metais comuns."
+            "Sinos, campainhas, gongos e artigos semelhantes, não elétricos, de metais comuns; estatuetas e outros objetos de ornamentação, de metais comuns; molduras para fotografias, gravuras ou semelhantes, de metais comuns; espelhos de metais comuns"
     },
     {
-        code: "8306.10.00",
+        code: "83061000",
         description: "- Sinos, campainhas, gongos e artigos semelhantes"
     },
     {
-        code: "8306.2",
+        code: "83062",
         description: "- Estatuetas e outros objetos de ornamentação:"
     },
     {
-        code: "8306.21.00",
+        code: "83062100",
         description: "-- Prateados, dourados ou platinados"
     },
     {
-        code: "8306.29.00",
+        code: "83062900",
         description: "-- Outros"
     },
     {
-        code: "8306.30.00",
+        code: "83063000",
         description: "- Molduras para fotografias, gravuras ou semelhantes; espelhos"
     },
     {
-        code: "83.07",
-        description: "Tubos flexíveis de metais comuns, mesmo com acessórios."
+        code: "8307",
+        description: "Tubos flexíveis de metais comuns, mesmo com acessórios"
     },
     {
-        code: "8307.10",
+        code: "830710",
         description: "- De ferro ou aço"
     },
     {
-        code: "8307.10.10",
+        code: "83071010",
         description:
             "Do tipo utilizado na exploração submarina de petróleo ou gás, constituídos por camadas flexíveis de aço e camadas de plástico, de diâmetro interior superior a 254 mm"
     },
     {
-        code: "8307.10.90",
+        code: "83071090",
         description: "Outros"
     },
     {
-        code: "8307.90.00",
+        code: "83079000",
         description: "- De outros metais comuns"
     },
     {
-        code: "83.08",
+        code: "8308",
         description:
-            "Fechos, armações com fecho, fivelas, fivelas-fecho, grampos, colchetes, ilhoses e artigos semelhantes, de metais comuns, para vestuário ou acessórios de vestuário, calçado, joalheria, relógios de pulso, livros, encerados, artigos de couro, artigos de seleiro, artigos de viagem, ou para outras confecções; rebites tubulares ou de haste fendida, de metais comuns; contas e lantejoulas, de metais comuns."
+            "Fechos, armações com fecho, fivelas, fivelas-fecho, grampos, colchetes, ilhoses e artigos semelhantes, de metais comuns, para vestuário ou acessórios de vestuário, calçado, joalheria, relógios de pulso, livros, encerados, artigos de couro, artigos de seleiro, artigos de viagem, ou para outras confecções; rebites tubulares ou de haste fendida, de metais comuns; contas e lantejoulas, de metais comuns"
     },
     {
-        code: "8308.10.00",
+        code: "83081000",
         description: "- Grampos, colchetes e ilhoses"
     },
     {
-        code: "8308.20.00",
+        code: "83082000",
         description: "- Rebites tubulares ou de haste fendida"
     },
     {
-        code: "8308.90",
+        code: "830890",
         description: "- Outros, incluindo as partes"
     },
     {
-        code: "8308.90.10",
+        code: "83089010",
         description: "Fivelas"
     },
     {
-        code: "8308.90.20",
+        code: "83089020",
         description: "Contas e lantejoulas"
     },
     {
-        code: "8308.90.90",
+        code: "83089090",
         description: "Outros"
     },
     {
-        code: "83.09",
+        code: "8309",
         description:
-            "Rolhas, tampas e cápsulas para garrafas (incluindo as cápsulas de coroa, as rolhas e cápsulas, de rosca, e as rolhas vertedoras), batoques ou tampões roscados, protetores de batoques ou de tampões, selos de garantia e outros acessórios para embalagem, de metais comuns."
+            "Rolhas, tampas e cápsulas para garrafas (incluindo as cápsulas de coroa, as rolhas e cápsulas, de rosca, e as rolhas vertedoras), batoques ou tampões roscados, protetores de batoques ou de tampões, selos de garantia e outros acessórios para embalagem, de metais comuns"
     },
     {
-        code: "8309.10.00",
+        code: "83091000",
         description: "- Cápsulas de coroa"
     },
     {
-        code: "8309.90.00",
+        code: "83099000",
         description: "- Outros"
     },
     {
-        code: "8310.00.00",
+        code: "83100000",
         description:
-            "Placas indicadoras, placas sinalizadoras, placas-endereços e placas semelhantes, números, letras e sinais diversos, de metais comuns, exceto os da posição 94.05."
+            "Placas indicadoras, placas sinalizadoras, placas-endereços e placas semelhantes, números, letras e sinais diversos, de metais comuns, exceto os da posição 9405"
     },
     {
-        code: "83.11",
+        code: "8311",
         description:
-            "Fios, varetas, tubos, chapas, eletrodos e artigos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos interior ou exteriormente de decapantes ou de fundentes, para soldadura ou depósito de metal ou de carbonetos metálicos; fios e varetas, de pós de metais comuns aglomerados, para metalização por projeção."
+            "Fios, varetas, tubos, chapas, eletrodos e artigos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos interior ou exteriormente de decapantes ou de fundentes, para soldadura ou depósito de metal ou de carbonetos metálicos; fios e varetas, de pós de metais comuns aglomerados, para metalização por projeção"
     },
     {
-        code: "8311.10.00",
+        code: "83111000",
         description: "- Eletrodos revestidos exteriormente para soldar a arco, de metais comuns"
     },
     {
-        code: "8311.20.00",
+        code: "83112000",
         description: "- Fios revestidos interiormente para soldar a arco, de metais comuns"
     },
     {
-        code: "8311.30.00",
+        code: "83113000",
         description: "- Varetas revestidas exteriormente e fios revestidos interiormente, para soldar à chama, de metais comuns"
     },
     {
-        code: "8311.90.00",
+        code: "83119000",
         description: "- Outros"
     },
     {
         code: "84",
-        description: "Reatores nucleares, caldeiras, máquinas, aparelhos e instrumentos mecânicos, e suas partes."
+        description: "Reatores nucleares, caldeiras, máquinas, aparelhos e instrumentos mecânicos, e suas partes"
     },
     {
-        code: "84.01",
+        code: "8401",
         description:
-            "Reatores nucleares; elementos combustíveis (cartuchos) não irradiados, para reatores nucleares; máquinas e aparelhos para a separação de isótopos."
+            "Reatores nucleares; elementos combustíveis (cartuchos) não irradiados, para reatores nucleares; máquinas e aparelhos para a separação de isótopos"
     },
     {
-        code: "8401.10.00",
+        code: "84011000",
         description: "- Reatores nucleares"
     },
     {
-        code: "8401.20.00",
+        code: "84012000",
         description: "- Máquinas e aparelhos para a separação de isótopos, e suas partes"
     },
     {
-        code: "8401.30.00",
+        code: "84013000",
         description: "- Elementos combustíveis (cartuchos) não irradiados"
     },
     {
-        code: "8401.40.00",
+        code: "84014000",
         description: "- Partes de reatores nucleares"
     },
     {
-        code: "84.02",
+        code: "8402",
         description:
-            'Caldeiras de vapor (geradores de vapor), excluindo as caldeiras para aquecimento central concebidas para produção de água quente e vapor de baixa pressão; caldeiras denominadas "de água superaquecida".'
+            'Caldeiras de vapor (geradores de vapor), excluindo as caldeiras para aquecimento central concebidas para produção de água quente e vapor de baixa pressão; caldeiras denominadas "de água superaquecida"'
     },
     {
-        code: "8402.1",
+        code: "84021",
         description: "- Caldeiras de vapor:"
     },
     {
-        code: "8402.11.00",
+        code: "84021100",
         description: "-- Caldeiras aquatubulares com produção de vapor superior a 45 t por hora"
     },
     {
-        code: "8402.12.00",
+        code: "84021200",
         description: "-- Caldeiras aquatubulares com produção de vapor não superior a 45 t por hora"
     },
     {
-        code: "8402.19.00",
+        code: "84021900",
         description: "-- Outras caldeiras para produção de vapor, incluindo as caldeiras mistas"
     },
     {
-        code: "8402.20.00",
+        code: "84022000",
         description: '- Caldeiras denominadas "de água superaquecida"'
     },
     {
-        code: "8402.90.00",
+        code: "84029000",
         description: "- Partes"
     },
     {
-        code: "84.03",
-        description: "Caldeiras para aquecimento central, exceto as da posição 84.02."
+        code: "8403",
+        description: "Caldeiras para aquecimento central, exceto as da posição 8402"
     },
     {
-        code: "8403.10",
+        code: "840310",
         description: "- Caldeiras"
     },
     {
-        code: "8403.10.10",
-        description: "Com capacidade inferior ou igual a 200.000 kcal/hora"
+        code: "84031010",
+        description: "Com capacidade inferior ou igual a 200000 kcal/hora"
     },
     {
-        code: "8403.10.90",
+        code: "84031090",
         description: "Outras"
     },
     {
-        code: "8403.90.00",
+        code: "84039000",
         description: "- Partes"
     },
     {
-        code: "84.04",
+        code: "8404",
         description:
-            "Aparelhos auxiliares para caldeiras das posições 84.02 ou 84.03 (por exemplo, economizadores, superaquecedores, aparelhos de limpeza de tubos ou de recuperação de gás); condensadores para máquinas a vapor."
+            "Aparelhos auxiliares para caldeiras das posições 8402 ou 8403 (por exemplo, economizadores, superaquecedores, aparelhos de limpeza de tubos ou de recuperação de gás); condensadores para máquinas a vapor"
     },
     {
-        code: "8404.10",
-        description: "- Aparelhos auxiliares para caldeiras das posições 84.02 ou 84.03"
+        code: "840410",
+        description: "- Aparelhos auxiliares para caldeiras das posições 8402 ou 8403"
     },
     {
-        code: "8404.10.10",
-        description: "Da posição 84.02"
+        code: "84041010",
+        description: "Da posição 8402"
     },
     {
-        code: "8404.10.20",
-        description: "Da posição 84.03"
+        code: "84041020",
+        description: "Da posição 8403"
     },
     {
-        code: "8404.20.00",
+        code: "84042000",
         description: "- Condensadores para máquinas a vapor"
     },
     {
-        code: "8404.90",
+        code: "840490",
         description: "- Partes"
     },
     {
-        code: "8404.90.10",
-        description: "De aparelhos auxiliares para caldeiras da posição 84.02"
+        code: "84049010",
+        description: "De aparelhos auxiliares para caldeiras da posição 8402"
     },
     {
-        code: "8404.90.90",
+        code: "84049090",
         description: "Outras"
     },
     {
-        code: "84.05",
+        code: "8405",
         description:
-            "Geradores de gás de ar (gás pobre) ou de gás de água, mesmo com depuradores; geradores de acetileno e geradores semelhantes de gás, operados a água, mesmo com depuradores."
+            "Geradores de gás de ar (gás pobre) ou de gás de água, mesmo com depuradores; geradores de acetileno e geradores semelhantes de gás, operados a água, mesmo com depuradores"
     },
     {
-        code: "8405.10.00",
+        code: "84051000",
         description:
             "- Geradores de gás de ar (gás pobre) ou de gás de água, mesmo com depuradores; geradores de acetileno e geradores semelhantes de gás, operados a água, mesmo com depuradores"
     },
     {
-        code: "8405.90.00",
+        code: "84059000",
         description: "- Partes"
     },
     {
-        code: "84.06",
-        description: "Turbinas a vapor."
+        code: "8406",
+        description: "Turbinas a vapor"
     },
     {
-        code: "8406.10.00",
+        code: "84061000",
         description: "- Turbinas para propulsão de embarcações"
     },
     {
-        code: "8406.8",
+        code: "84068",
         description: "- Outras turbinas:"
     },
     {
-        code: "8406.81.00",
+        code: "84068100",
         description: "-- De potência superior a 40 MW"
     },
     {
-        code: "8406.82.00",
+        code: "84068200",
         description: "-- De potência não superior a 40 MW"
     },
     {
-        code: "8406.90",
+        code: "840690",
         description: "- Partes"
     },
     {
-        code: "8406.90.1",
+        code: "8406901",
         description: "Rotores"
     },
     {
-        code: "8406.90.11",
+        code: "84069011",
         description: "De turbinas a reação, de múltiplos estágios"
     },
     {
-        code: "8406.90.19",
+        code: "84069019",
         description: "Outras"
     },
     {
-        code: "8406.90.2",
+        code: "8406902",
         description: "Palhetas"
     },
     {
-        code: "8406.90.21",
+        code: "84069021",
         description: "Fixas (de estator)"
     },
     {
-        code: "8406.90.29",
+        code: "84069029",
         description: "Outras"
     },
     {
-        code: "8406.90.90",
+        code: "84069090",
         description: "Outras"
     },
     {
-        code: "84.07",
-        description: "Motores de pistão, alternativo ou rotativo, de ignição por centelha (faísca) (motores de explosão)."
+        code: "8407",
+        description: "Motores de pistão, alternativo ou rotativo, de ignição por centelha (faísca) (motores de explosão)"
     },
     {
-        code: "8407.10.00",
+        code: "84071000",
         description: "- Motores para aviação"
     },
     {
-        code: "8407.2",
+        code: "84072",
         description: "- Motores para propulsão de embarcações:"
     },
     {
-        code: "8407.21",
+        code: "840721",
         description: "-- Do tipo fora de borda"
     },
     {
-        code: "8407.21.10",
+        code: "84072110",
         description: "Monocilíndricos"
     },
     {
-        code: "8407.21.90",
+        code: "84072190",
         description: "Outros"
     },
     {
-        code: "8407.29",
+        code: "840729",
         description: "-- Outros"
     },
     {
-        code: "8407.29.10",
+        code: "84072910",
         description: "Monocilíndricos"
     },
     {
-        code: "8407.29.90",
+        code: "84072990",
         description: "Outros"
     },
     {
-        code: "8407.3",
+        code: "84073",
         description: "- Motores de pistão alternativo do tipo utilizado para propulsão de veículos do Capítulo 87:"
     },
     {
-        code: "8407.31",
+        code: "840731",
         description: "-- De cilindrada não superior a 50 cm<sup>3</sup>"
     },
     {
-        code: "8407.31.10",
+        code: "84073110",
         description: "Monocilíndricos"
     },
     {
-        code: "8407.31.90",
+        code: "84073190",
         description: "Outros"
     },
     {
-        code: "8407.32.00",
+        code: "84073200",
         description: "-- De cilindrada superior a 50 cm<sup>3</sup>, mas não superior a 250 cm<sup>3</sup>"
     },
     {
-        code: "8407.33",
-        description: "-- De cilindrada superior a 250 cm<sup>3</sup>, mas não superior a 1.000 cm<sup>3</sup>"
+        code: "840733",
+        description: "-- De cilindrada superior a 250 cm<sup>3</sup>, mas não superior a 1000 cm<sup>3</sup>"
     },
     {
-        code: "8407.33.10",
+        code: "84073310",
         description: "Monocilíndricos"
     },
     {
-        code: "8407.33.90",
+        code: "84073390",
         description: "Outros"
     },
     {
-        code: "8407.34",
-        description: "-- De cilindrada superior a 1.000 cm<sup>3</sup>"
+        code: "840734",
+        description: "-- De cilindrada superior a 1000 cm<sup>3</sup>"
     },
     {
-        code: "8407.34.10",
+        code: "84073410",
         description: "Monocilíndricos"
     },
     {
-        code: "8407.34.90",
+        code: "84073490",
         description: "Outros"
     },
     {
-        code: "8407.90.00",
+        code: "84079000",
         description: "- Outros motores"
     },
     {
-        code: "84.08",
-        description: "Motores de pistão, de ignição por compressão (motores diesel ou semidiesel)."
+        code: "8408",
+        description: "Motores de pistão, de ignição por compressão (motores diesel ou semidiesel)"
     },
     {
-        code: "8408.10",
+        code: "840810",
         description: "- Motores para propulsão de embarcações"
     },
     {
-        code: "8408.10.10",
+        code: "84081010",
         description: "Do tipo fora de borda"
     },
     {
-        code: "8408.10.90",
+        code: "84081090",
         description: "Outros"
     },
     {
-        code: "8408.20",
+        code: "840820",
         description: "- Motores do tipo utilizado para propulsão de veículos do Capítulo 87"
     },
     {
-        code: "8408.20.10",
-        description: "De cilindrada inferior ou igual a 1.500 cm<sup>3</sup>"
+        code: "84082010",
+        description: "De cilindrada inferior ou igual a 1500 cm<sup>3</sup>"
     },
     {
-        code: "8408.20.20",
-        description: "De cilindrada superior a 1.500 cm<sup>3</sup>, mas não superior a 2.500 cm<sup>3</sup>"
+        code: "84082020",
+        description: "De cilindrada superior a 1500 cm<sup>3</sup>, mas não superior a 2500 cm<sup>3</sup>"
     },
     {
-        code: "8408.20.30",
-        description: "De cilindrada superior a 2.500 cm<sup>3</sup>, mas não superior a 3.500 cm<sup>3</sup>"
+        code: "84082030",
+        description: "De cilindrada superior a 2500 cm<sup>3</sup>, mas não superior a 3500 cm<sup>3</sup>"
     },
     {
-        code: "8408.20.90",
+        code: "84082090",
         description: "Outros"
     },
     {
-        code: "8408.90",
+        code: "840890",
         description: "- Outros motores"
     },
     {
-        code: "8408.90.10",
+        code: "84089010",
         description: "Estacionários, de potência normal ISO superior a 497,5 kW (663 HP), segundo Norma ISO 3046/1"
     },
     {
-        code: "8408.90.90",
+        code: "84089090",
         description: "Outros"
     },
     {
-        code: "84.09",
-        description: "Partes reconhecíveis como exclusiva ou principalmente destinadas aos motores das posições 84.07 ou 84.08."
+        code: "8409",
+        description: "Partes reconhecíveis como exclusiva ou principalmente destinadas aos motores das posições 8407 ou 8408"
     },
     {
-        code: "8409.10.00",
+        code: "84091000",
         description: "- De motores para aviação"
     },
     {
-        code: "8409.9",
+        code: "84099",
         description: "- Outras:"
     },
     {
-        code: "8409.91",
+        code: "840991",
         description: "-- Reconhecíveis como exclusiva ou principalmente destinadas aos motores de pistão, de ignição por centelha (faísca)"
     },
     {
-        code: "8409.91.1",
+        code: "8409911",
         description:
             "Bielas, blocos de cilindros, cabeçotes, cárteres, carburadores, válvulas de admissão ou de escape, coletores de admissão ou de escape, anéis de segmento e guias de válvulas"
     },
     {
-        code: "8409.91.11",
+        code: "84099111",
         description: "Bielas"
     },
     {
-        code: "8409.91.12",
+        code: "84099112",
         description: "Blocos de cilindros, cabeçotes e cárteres"
     },
     {
-        code: "8409.91.13",
+        code: "84099113",
         description:
             "Carburadores, com bomba e dispositivo de compensação de nível de combustível incorporados, ambos a membrana, de diâmetro de venturi inferior ou igual a 22,8 mm e peso inferior ou igual a 280 g"
     },
     {
-        code: "8409.91.14",
+        code: "84099114",
         description: "Válvulas de admissão ou de escape"
     },
     {
-        code: "8409.91.15",
+        code: "84099115",
         description: "Coletores de admissão ou de escape"
     },
     {
-        code: "8409.91.16",
+        code: "84099116",
         description: "Anéis de segmento"
     },
     {
-        code: "8409.91.17",
+        code: "84099117",
         description: "Guias de válvulas"
     },
     {
-        code: "8409.91.18",
+        code: "84099118",
         description: "Outros carburadores"
     },
     {
-        code: "8409.91.20",
+        code: "84099120",
         description: "Pistões ou êmbolos"
     },
     {
-        code: "8409.91.30",
+        code: "84099130",
         description: "Camisas de cilindro"
     },
     {
-        code: "8409.91.40",
+        code: "84099140",
         description: "Sistema de injeção eletrônica"
     },
     {
-        code: "8409.91.90",
+        code: "84099190",
         description: "Outras"
     },
     {
-        code: "8409.99",
+        code: "840999",
         description: "-- Outras"
     },
     {
-        code: "8409.99.1",
+        code: "8409991",
         description: "Blocos de cilindros, cárteres, válvulas de admissão ou de escape, coletores de admissão ou escape e guias de válvulas"
     },
     {
-        code: "8409.99.12",
+        code: "84099912",
         description: "Blocos de cilindros e cárteres"
     },
     {
-        code: "8409.99.14",
+        code: "84099914",
         description: "Válvulas de admissão ou de escape"
     },
     {
-        code: "8409.99.15",
+        code: "84099915",
         description: "Coletores de admissão ou de escape"
     },
     {
-        code: "8409.99.17",
+        code: "84099917",
         description: "Guias de válvulas"
     },
     {
-        code: "8409.99.2",
+        code: "8409992",
         description: "Pistões ou êmbolos"
     },
     {
-        code: "8409.99.21",
+        code: "84099921",
         description: "De diâmetro igual ou superior a 200 mm"
     },
     {
-        code: "8409.99.29",
+        code: "84099929",
         description: "Outros"
     },
     {
-        code: "8409.99.30",
+        code: "84099930",
         description: "Camisas de cilindro"
     },
     {
-        code: "8409.99.4",
+        code: "8409994",
         description: "Bielas"
     },
     {
-        code: "8409.99.41",
+        code: "84099941",
         description: "De peso igual ou superior a 30 kg"
     },
     {
-        code: "8409.99.49",
+        code: "84099949",
         description: "Outras"
     },
     {
-        code: "8409.99.5",
+        code: "8409995",
         description: "Cabeçotes"
     },
     {
-        code: "8409.99.51",
+        code: "84099951",
         description: "De diâmetro igual ou superior a 200 mm"
     },
     {
-        code: "8409.99.59",
+        code: "84099959",
         description: "Outros"
     },
     {
-        code: "8409.99.6",
+        code: "8409996",
         description: "Bicos injetores (incluindo os porta-injetores)"
     },
     {
-        code: "8409.99.61",
+        code: "84099961",
         description: "De diâmetro igual ou superior a 20 mm"
     },
     {
-        code: "8409.99.69",
+        code: "84099969",
         description: "Outros"
     },
     {
-        code: "8409.99.7",
+        code: "8409997",
         description: "Anéis de segmento"
     },
     {
-        code: "8409.99.71",
+        code: "84099971",
         description: "De diâmetro igual ou superior a 200 mm"
     },
     {
-        code: "8409.99.79",
+        code: "84099979",
         description: "Outros"
     },
     {
-        code: "8409.99.9",
+        code: "8409999",
         description: "Outras"
     },
     {
-        code: "8409.99.91",
+        code: "84099991",
         description: "Camisas de cilindro soldadas a cabeçotes, de diâmetro igual ou superior a 200 mm"
     },
     {
-        code: "8409.99.99",
+        code: "84099999",
         description: "Outras"
     },
     {
-        code: "84.10",
-        description: "Turbinas hidráulicas, rodas hidráulicas, e seus reguladores."
+        code: "8410",
+        description: "Turbinas hidráulicas, rodas hidráulicas, e seus reguladores"
     },
     {
-        code: "8410.1",
+        code: "84101",
         description: "- Turbinas e rodas hidráulicas:"
     },
     {
-        code: "8410.11.00",
-        description: "-- De potência não superior a 1.000 kW"
+        code: "84101100",
+        description: "-- De potência não superior a 1000 kW"
     },
     {
-        code: "8410.12.00",
-        description: "-- De potência superior a 1.000 kW, mas não superior a 10.000 kW"
+        code: "84101200",
+        description: "-- De potência superior a 1000 kW, mas não superior a 10000 kW"
     },
     {
-        code: "8410.13.00",
-        description: "-- De potência superior a 10.000 kW"
+        code: "84101300",
+        description: "-- De potência superior a 10000 kW"
     },
     {
-        code: "8410.90.00",
+        code: "84109000",
         description: "- Partes, incluindo os reguladores"
     },
     {
-        code: "84.11",
-        description: "Turborreatores, turbopropulsores e outras turbinas a gás."
+        code: "8411",
+        description: "Turborreatores, turbopropulsores e outras turbinas a gás"
     },
     {
-        code: "8411.1",
+        code: "84111",
         description: "- Turborreatores:"
     },
     {
-        code: "8411.11.00",
+        code: "84111100",
         description: "-- De empuxo (impulso*) não superior a 25 kN"
     },
     {
-        code: "8411.12.00",
+        code: "84111200",
         description: "-- De empuxo (impulso*) superior a 25 kN"
     },
     {
-        code: "8411.2",
+        code: "84112",
         description: "- Turbopropulsores:"
     },
     {
-        code: "8411.21.00",
-        description: "-- De potência não superior a 1.100 kW"
+        code: "84112100",
+        description: "-- De potência não superior a 1100 kW"
     },
     {
-        code: "8411.22.00",
-        description: "-- De potência superior a 1.100 kW"
+        code: "84112200",
+        description: "-- De potência superior a 1100 kW"
     },
     {
-        code: "8411.8",
+        code: "84118",
         description: "- Outras turbinas a gás:"
     },
     {
-        code: "8411.81.00",
-        description: "-- De potência não superior a 5.000 kW"
+        code: "84118100",
+        description: "-- De potência não superior a 5000 kW"
     },
     {
-        code: "8411.82.00",
-        description: "-- De potência superior a 5.000 kW"
+        code: "84118200",
+        description: "-- De potência superior a 5000 kW"
     },
     {
-        code: "8411.9",
+        code: "84119",
         description: "- Partes:"
     },
     {
-        code: "8411.91.00",
+        code: "84119100",
         description: "-- De turborreatores ou de turbopropulsores"
     },
     {
-        code: "8411.99.00",
+        code: "84119900",
         description: "-- Outras"
     },
     {
-        code: "84.12",
-        description: "Outros motores e máquinas motrizes."
+        code: "8412",
+        description: "Outros motores e máquinas motrizes"
     },
     {
-        code: "8412.10.00",
+        code: "84121000",
         description: "- Propulsores a reação, excluindo os turborreatores"
     },
     {
-        code: "8412.2",
+        code: "84122",
         description: "- Motores hidráulicos:"
     },
     {
-        code: "8412.21",
+        code: "841221",
         description: "-- De movimento retilíneo (cilindros)"
     },
     {
-        code: "8412.21.10",
+        code: "84122110",
         description: "Cilindros hidráulicos"
     },
     {
-        code: "8412.21.90",
+        code: "84122190",
         description: "Outros"
     },
     {
-        code: "8412.29.00",
+        code: "84122900",
         description: "-- Outros"
     },
     {
-        code: "8412.3",
+        code: "84123",
         description: "- Motores pneumáticos:"
     },
     {
-        code: "8412.31",
+        code: "841231",
         description: "-- De movimento retilíneo (cilindros)"
     },
     {
-        code: "8412.31.10",
+        code: "84123110",
         description: "Cilindros pneumáticos"
     },
     {
-        code: "8412.31.90",
+        code: "84123190",
         description: "Outros"
     },
     {
-        code: "8412.39.00",
+        code: "84123900",
         description: "-- Outros"
     },
     {
-        code: "8412.80.00",
+        code: "84128000",
         description: "- Outros"
     },
     {
-        code: "8412.90",
+        code: "841290",
         description: "- Partes"
     },
     {
-        code: "8412.90.10",
+        code: "84129010",
         description: "De propulsores a reação"
     },
     {
-        code: "8412.90.20",
+        code: "84129020",
         description: "De máquinas a vapor de movimento retilíneo (cilindros)"
     },
     {
-        code: "8412.90.80",
-        description: "Outras, de máquinas das subposições 8412.21 ou 8412.31"
+        code: "84129080",
+        description: "Outras, de máquinas das subposições 841221 ou 841231"
     },
     {
-        code: "8412.90.90",
+        code: "84129090",
         description: "Outras"
     },
     {
-        code: "84.13",
-        description: "Bombas para líquidos, mesmo com dispositivo medidor; elevadores de líquidos."
+        code: "8413",
+        description: "Bombas para líquidos, mesmo com dispositivo medidor; elevadores de líquidos"
     },
     {
-        code: "8413.1",
+        code: "84131",
         description: "- Bombas com dispositivo medidor ou concebidas para comportá-lo:"
     },
     {
-        code: "8413.11.00",
+        code: "84131100",
         description: "-- Bombas para distribuição de combustíveis ou lubrificantes, do tipo utilizado em postos (estações) de serviço ou garagens"
     },
     {
-        code: "8413.19.00",
+        code: "84131900",
         description: "-- Outras"
     },
     {
-        code: "8413.20.00",
-        description: "- Bombas manuais, exceto das subposições 8413.11 ou 8413.19"
+        code: "84132000",
+        description: "- Bombas manuais, exceto das subposições 841311 ou 841319"
     },
     {
-        code: "8413.30",
+        code: "841330",
         description:
             "- Bombas para combustíveis, lubrificantes ou líquidos de arrefecimento, próprias para motores de ignição por centelha (faísca) ou por compressão"
     },
     {
-        code: "8413.30.10",
+        code: "84133010",
         description: "Para gasolina ou álcool"
     },
     {
-        code: "8413.30.20",
+        code: "84133020",
         description: "Injetoras de combustível para motor de ignição por compressão"
     },
     {
-        code: "8413.30.30",
+        code: "84133030",
         description: "Para óleo lubrificante"
     },
     {
-        code: "8413.30.90",
+        code: "84133090",
         description: "Outras"
     },
     {
-        code: "8413.40.00",
+        code: "84134000",
         description: "- Bombas para concreto (betão)"
     },
     {
-        code: "8413.50",
+        code: "841350",
         description: "- Outras bombas volumétricas alternativas"
     },
     {
-        code: "8413.50.10",
+        code: "84135010",
         description: "De potência superior a 3,73 kW (5 HP), mas não superior a 447,42 kW (600 HP), excluídas as para oxigênio líquido"
     },
     {
-        code: "8413.50.90",
+        code: "84135090",
         description: "Outras"
     },
     {
-        code: "8413.60",
+        code: "841360",
         description: "- Outras bombas volumétricas rotativas"
     },
     {
-        code: "8413.60.1",
+        code: "8413601",
         description: "De vazão inferior ou igual a 300 l/min"
     },
     {
-        code: "8413.60.11",
+        code: "84136011",
         description: "De engrenagem"
     },
     {
-        code: "8413.60.19",
+        code: "84136019",
         description: "Outras"
     },
     {
-        code: "8413.60.90",
+        code: "84136090",
         description: "Outras"
     },
     {
-        code: "8413.70",
+        code: "841370",
         description: "- Outras bombas centrífugas"
     },
     {
-        code: "8413.70.10",
+        code: "84137010",
         description: "Eletrobombas submersíveis"
     },
     {
-        code: "8413.70.80",
+        code: "84137080",
         description: "Outras, de vazão inferior ou igual a 300 l/min"
     },
     {
-        code: "8413.70.90",
+        code: "84137090",
         description: "Outras"
     },
     {
-        code: "8413.8",
+        code: "84138",
         description: "- Outras bombas; elevadores de líquidos:"
     },
     {
-        code: "8413.81.00",
+        code: "84138100",
         description: "-- Bombas"
     },
     {
-        code: "8413.82.00",
+        code: "84138200",
         description: "-- Elevadores de líquidos"
     },
     {
-        code: "8413.9",
+        code: "84139",
         description: "- Partes:"
     },
     {
-        code: "8413.91",
+        code: "841391",
         description: "-- De bombas"
     },
     {
-        code: "8413.91.10",
+        code: "84139110",
         description: "Hastes de bombeamento, do tipo utilizado para extração de petróleo"
     },
     {
-        code: "8413.91.90",
+        code: "84139190",
         description: "Outras"
     },
     {
-        code: "8413.92.00",
+        code: "84139200",
         description: "-- De elevadores de líquidos"
     },
     {
-        code: "84.14",
+        code: "8414",
         description:
-            "Bombas de ar ou de vácuo, compressores de ar ou de outros gases e ventiladores; coifas aspirantes (exaustores) para extração ou reciclagem, com ventilador incorporado, mesmo filtrantes; cabinas (câmaras) de segurança biológica estanques aos gases, mesmo filtrantes."
+            "Bombas de ar ou de vácuo, compressores de ar ou de outros gases e ventiladores; coifas aspirantes (exaustores) para extração ou reciclagem, com ventilador incorporado, mesmo filtrantes; cabinas (câmaras) de segurança biológica estanques aos gases, mesmo filtrantes"
     },
     {
-        code: "8414.10.00",
+        code: "84141000",
         description: "- Bombas de vácuo"
     },
     {
-        code: "8414.20.00",
+        code: "84142000",
         description: "- Bombas de ar, de mão ou de pé"
     },
     {
-        code: "8414.30",
+        code: "841430",
         description: "- Compressores do tipo utilizado nos equipamentos frigoríficos"
     },
     {
-        code: "8414.30.1",
+        code: "8414301",
         description: "Motocompressores herméticos"
     },
     {
-        code: "8414.30.11",
-        description: "Com capacidade inferior a 4.700 frigorias/hora"
+        code: "84143011",
+        description: "Com capacidade inferior a 4700 frigorias/hora"
     },
     {
-        code: "8414.30.19",
+        code: "84143019",
         description: "Outros"
     },
     {
-        code: "8414.30.9",
+        code: "8414309",
         description: "Outros"
     },
     {
-        code: "8414.30.91",
-        description: "Com capacidade inferior ou igual a 16.000 frigorias/hora"
+        code: "84143091",
+        description: "Com capacidade inferior ou igual a 16000 frigorias/hora"
     },
     {
-        code: "8414.30.99",
+        code: "84143099",
         description: "Outros"
     },
     {
-        code: "8414.40",
+        code: "841440",
         description: "- Compressores de ar montados sobre chassis com rodas e rebocáveis"
     },
     {
-        code: "8414.40.10",
+        code: "84144010",
         description: "De deslocamento alternativo"
     },
     {
-        code: "8414.40.20",
+        code: "84144020",
         description: "De parafuso"
     },
     {
-        code: "8414.40.90",
+        code: "84144090",
         description: "Outros"
     },
     {
-        code: "8414.5",
+        code: "84145",
         description: "- Ventiladores:"
     },
     {
-        code: "8414.51",
+        code: "841451",
         description:
             "-- Ventiladores de mesa, de assentar no solo, de parede, de teto ou de janela, com motor elétrico incorporado de potência não superior a 125 W"
     },
     {
-        code: "8414.51.10",
+        code: "84145110",
         description: "De mesa"
     },
     {
-        code: "8414.51.20",
+        code: "84145120",
         description: "De teto"
     },
     {
-        code: "8414.51.90",
+        code: "84145190",
         description: "Outros"
     },
     {
-        code: "8414.59",
+        code: "841459",
         description: "-- Outros"
     },
     {
-        code: "8414.59.10",
+        code: "84145910",
         description: "Microventiladores com área de carcaça inferior a 90 cm<sup>2</sup>"
     },
     {
-        code: "8414.59.90",
+        code: "84145990",
         description: "Outros"
     },
     {
-        code: "8414.60.00",
+        code: "84146000",
         description: "- Coifas aspirantes (exaustores) com dimensão horizontal máxima não superior a 120 cm"
     },
     {
-        code: "8414.70.00",
+        code: "84147000",
         description: "- Cabinas (câmaras) de segurança biológica estanques aos gases"
     },
     {
-        code: "8414.80",
+        code: "841480",
         description: "- Outros"
     },
     {
-        code: "8414.80.1",
+        code: "8414801",
         description: "Compressores de ar"
     },
     {
-        code: "8414.80.11",
+        code: "84148011",
         description: "Estacionários, de pistão"
     },
     {
-        code: "8414.80.12",
+        code: "84148012",
         description: "De parafuso"
     },
     {
-        code: "8414.80.13",
+        code: "84148013",
         description: "De lóbulos paralelos (tipo <i>Roots</i>)"
     },
     {
-        code: "8414.80.19",
+        code: "84148019",
         description: "Outros"
     },
     {
-        code: "8414.80.2",
+        code: "8414802",
         description: "Turbocompressores de ar"
     },
     {
-        code: "8414.80.21",
+        code: "84148021",
         description:
-            "Turboalimentadores de ar, de peso inferior ou igual a 50 kg para motores das posições 84.07 ou 84.08, acionado pelos gases de escapamento dos mesmos"
+            "Turboalimentadores de ar, de peso inferior ou igual a 50 kg para motores das posições 8407 ou 8408, acionado pelos gases de escapamento dos mesmos"
     },
     {
-        code: "8414.80.22",
+        code: "84148022",
         description:
-            "Turboalimentadores de ar, de peso superior a 50 kg para motores das posições 84.07 ou 84.08, acionados pelos gases de escapamento dos mesmos"
+            "Turboalimentadores de ar, de peso superior a 50 kg para motores das posições 8407 ou 8408, acionados pelos gases de escapamento dos mesmos"
     },
     {
-        code: "8414.80.29",
+        code: "84148029",
         description: "Outros"
     },
     {
-        code: "8414.80.3",
+        code: "8414803",
         description: "Compressores de gases (exceto ar)"
     },
     {
-        code: "8414.80.31",
+        code: "84148031",
         description: "De pistão"
     },
     {
-        code: "8414.80.32",
+        code: "84148032",
         description: "De parafuso"
     },
     {
-        code: "8414.80.33",
-        description: "Centrífugos, de vazão máxima inferior a 22.000 m<sup>3</sup>/h"
+        code: "84148033",
+        description: "Centrífugos, de vazão máxima inferior a 22000 m<sup>3</sup>/h"
     },
     {
-        code: "8414.80.38",
+        code: "84148038",
         description: "Outros compressores centrífugos"
     },
     {
-        code: "8414.80.39",
+        code: "84148039",
         description: "Outros"
     },
     {
-        code: "8414.80.90",
+        code: "84148090",
         description: "Outros"
     },
     {
-        code: "8414.90",
+        code: "841490",
         description: "- Partes"
     },
     {
-        code: "8414.90.10",
+        code: "84149010",
         description: "De bombas"
     },
     {
-        code: "8414.90.20",
+        code: "84149020",
         description: "De ventiladores ou coifas aspirantes"
     },
     {
-        code: "8414.90.3",
+        code: "8414903",
         description: "De compressores"
     },
     {
-        code: "8414.90.31",
+        code: "84149031",
         description: "Pistões ou êmbolos"
     },
     {
-        code: "8414.90.32",
+        code: "84149032",
         description: "Anéis de segmento"
     },
     {
-        code: "8414.90.33",
+        code: "84149033",
         description: "Blocos de cilindros, cabeçotes e cárteres"
     },
     {
-        code: "8414.90.34",
+        code: "84149034",
         description: "Válvulas"
     },
     {
-        code: "8414.90.39",
+        code: "84149039",
         description: "Outras"
     },
     {
-        code: "8414.90.40",
+        code: "84149040",
         description: "De cabinas (câmaras) de segurança"
     },
     {
-        code: "84.15",
+        code: "8415",
         description:
-            "Máquinas e aparelhos de ar-condicionado que contenham um ventilador motorizado e dispositivos próprios para modificar a temperatura e a umidade, incluindo as máquinas e aparelhos em que a umidade não seja regulável separadamente."
+            "Máquinas e aparelhos de ar-condicionado que contenham um ventilador motorizado e dispositivos próprios para modificar a temperatura e a umidade, incluindo as máquinas e aparelhos em que a umidade não seja regulável separadamente"
     },
     {
-        code: "8415.10",
+        code: "841510",
         description:
             "- Do tipo concebido para ser fixado numa janela, parede, teto ou piso (pavimento), formando um corpo único ou do tipo <i>split-system</i> (sistema com elementos separados)"
     },
     {
-        code: "8415.10.1",
-        description: "Com capacidade inferior ou igual a 30.000 frigorias/hora"
+        code: "8415101",
+        description: "Com capacidade inferior ou igual a 30000 frigorias/hora"
     },
     {
-        code: "8415.10.11",
+        code: "84151011",
         description: "Do tipo <i>split-system</i> (sistema com elementos separados)"
     },
     {
-        code: "8415.10.19",
+        code: "84151019",
         description: "Outros"
     },
     {
-        code: "8415.10.90",
+        code: "84151090",
         description: "Outros"
     },
     {
-        code: "8415.20",
+        code: "841520",
         description: "- Do tipo utilizado para o conforto dos passageiros nos veículos automóveis"
     },
     {
-        code: "8415.20.10",
-        description: "Com capacidade inferior ou igual a 30.000 frigorias/hora"
+        code: "84152010",
+        description: "Com capacidade inferior ou igual a 30000 frigorias/hora"
     },
     {
-        code: "8415.20.90",
+        code: "84152090",
         description: "Outros"
     },
     {
-        code: "8415.8",
+        code: "84158",
         description: "- Outros:"
     },
     {
-        code: "8415.81",
+        code: "841581",
         description: "-- Com dispositivo de refrigeração e válvula de inversão do ciclo térmico (bombas de calor reversíveis)"
     },
     {
-        code: "8415.81.10",
-        description: "Com capacidade inferior ou igual a 30.000 frigorias/hora"
+        code: "84158110",
+        description: "Com capacidade inferior ou igual a 30000 frigorias/hora"
     },
     {
-        code: "8415.81.90",
+        code: "84158190",
         description: "Outros"
     },
     {
-        code: "8415.82",
+        code: "841582",
         description: "-- Outros, com dispositivo de refrigeração"
     },
     {
-        code: "8415.82.10",
-        description: "Com capacidade inferior ou igual a 30.000 frigorias/hora"
+        code: "84158210",
+        description: "Com capacidade inferior ou igual a 30000 frigorias/hora"
     },
     {
-        code: "8415.82.90",
+        code: "84158290",
         description: "Outros"
     },
     {
-        code: "8415.83.00",
+        code: "84158300",
         description: "-- Sem dispositivo de refrigeração"
     },
     {
-        code: "8415.90",
+        code: "841590",
         description: "- Partes"
     },
     {
-        code: "8415.90.10",
+        code: "84159010",
         description:
-            "Unidades evaporadoras (internas) de aparelho de ar-condicionado do tipo <i>split-system</i> (sistema com elementos separados), com capacidade inferior ou igual a 30.000 frigorias/hora"
+            "Unidades evaporadoras (internas) de aparelho de ar-condicionado do tipo <i>split-system</i> (sistema com elementos separados), com capacidade inferior ou igual a 30000 frigorias/hora"
     },
     {
-        code: "8415.90.20",
+        code: "84159020",
         description:
-            "Unidades condensadoras (externas) de aparelho de ar-condicionado do tipo <i>split-system</i> (sistema com elementos separados), com capacidade inferior ou igual a 30.000 frigorias/hora"
+            "Unidades condensadoras (externas) de aparelho de ar-condicionado do tipo <i>split-system</i> (sistema com elementos separados), com capacidade inferior ou igual a 30000 frigorias/hora"
     },
     {
-        code: "8415.90.90",
+        code: "84159090",
         description: "Outras"
     },
     {
-        code: "84.16",
+        code: "8416",
         description:
-            "Queimadores para alimentação de fornalhas de combustíveis líquidos, combustíveis sólidos pulverizados ou de gás; fornalhas automáticas, incluindo as antefornalhas, grelhas mecânicas, descarregadores mecânicos de cinzas e dispositivos semelhantes."
+            "Queimadores para alimentação de fornalhas de combustíveis líquidos, combustíveis sólidos pulverizados ou de gás; fornalhas automáticas, incluindo as antefornalhas, grelhas mecânicas, descarregadores mecânicos de cinzas e dispositivos semelhantes"
     },
     {
-        code: "8416.10.00",
+        code: "84161000",
         description: "- Queimadores de combustíveis líquidos"
     },
     {
-        code: "8416.20",
+        code: "841620",
         description: "- Outros queimadores, incluindo os mistos"
     },
     {
-        code: "8416.20.10",
+        code: "84162010",
         description: "De gases"
     },
     {
-        code: "8416.20.90",
+        code: "84162090",
         description: "Outros"
     },
     {
-        code: "8416.30.00",
+        code: "84163000",
         description:
             "- Fornalhas automáticas, incluindo as antefornalhas, grelhas mecânicas, descarregadores mecânicos de cinzas e dispositivos semelhantes"
     },
     {
-        code: "8416.90.00",
+        code: "84169000",
         description: "- Partes"
     },
     {
-        code: "84.17",
-        description: "Fornos industriais ou de laboratório, incluindo os incineradores, não elétricos."
+        code: "8417",
+        description: "Fornos industriais ou de laboratório, incluindo os incineradores, não elétricos"
     },
     {
-        code: "8417.10",
+        code: "841710",
         description: "- Fornos para ustulação, fusão ou outros tratamentos térmicos de minérios ou de metais"
     },
     {
-        code: "8417.10.10",
+        code: "84171010",
         description: "Fornos industriais para fusão de metais"
     },
     {
-        code: "8417.10.20",
+        code: "84171020",
         description: "Fornos industriais para tratamento térmico de metais"
     },
     {
-        code: "8417.10.90",
+        code: "84171090",
         description: "Outros"
     },
     {
-        code: "8417.20.00",
+        code: "84172000",
         description: "- Fornos de padaria, pastelaria ou para a indústria de bolachas e biscoitos"
     },
     {
-        code: "8417.80",
+        code: "841780",
         description: "- Outros"
     },
     {
-        code: "8417.80.10",
+        code: "84178010",
         description: "Fornos industriais para cerâmica"
     },
     {
-        code: "8417.80.20",
+        code: "84178020",
         description: "Fornos industriais para fusão de vidro"
     },
     {
-        code: "8417.80.90",
+        code: "84178090",
         description: "Outros"
     },
     {
-        code: "8417.90.00",
+        code: "84179000",
         description: "- Partes"
     },
     {
-        code: "84.18",
+        code: "8418",
         description:
-            "Refrigeradores, congeladores (<i>freezers</i>) e outros materiais, máquinas e aparelhos, para a produção de frio, com equipamento elétrico ou outro; bombas de calor, exceto as máquinas e aparelhos de ar-condicionado da posição 84.15."
+            "Refrigeradores, congeladores (<i>freezers</i>) e outros materiais, máquinas e aparelhos, para a produção de frio, com equipamento elétrico ou outro; bombas de calor, exceto as máquinas e aparelhos de ar-condicionado da posição 8415"
     },
     {
-        code: "8418.10.00",
+        code: "84181000",
         description:
             "- Combinações de refrigeradores e congeladores (<i>freezers</i>), munidos de portas ou gavetas exteriores separadas, ou de uma combinação desses elementos"
     },
     {
-        code: "8418.2",
+        code: "84182",
         description: "- Refrigeradores do tipo doméstico:"
     },
     {
-        code: "8418.21.00",
+        code: "84182100",
         description: "-- De compressão"
     },
     {
-        code: "8418.29.00",
+        code: "84182900",
         description: "-- Outros"
     },
     {
-        code: "8418.30.00",
+        code: "84183000",
         description: "- Congeladores (<i>freezers</i>) horizontais (arcas), de capacidade não superior a 800 l"
     },
     {
-        code: "8418.40.00",
+        code: "84184000",
         description: "- Congeladores (<i>freezers</i>) verticais, de capacidade não superior a 900 l"
     },
     {
-        code: "8418.50",
+        code: "841850",
         description:
             "- Outros móveis (arcas, armários, vitrines, balcões e móveis semelhantes) para a conservação e exposição de produtos, que incorporem um equipamento para a produção de frio"
     },
     {
-        code: "8418.50.10",
+        code: "84185010",
         description: "Congeladores (<i>freezers</i>)"
     },
     {
-        code: "8418.50.90",
+        code: "84185090",
         description: "Outros"
     },
     {
-        code: "8418.6",
+        code: "84186",
         description: "- Outros materiais, máquinas e aparelhos, para a produção de frio; bombas de calor:"
     },
     {
-        code: "8418.61.00",
-        description: "-- Bombas de calor, exceto as máquinas e aparelhos de ar-condicionado da posição 84.15"
+        code: "84186100",
+        description: "-- Bombas de calor, exceto as máquinas e aparelhos de ar-condicionado da posição 8415"
     },
     {
-        code: "8418.69",
+        code: "841869",
         description: "-- Outros"
     },
     {
-        code: "8418.69.10",
+        code: "84186910",
         description: "Máquinas não domésticas para preparação de sorvetes"
     },
     {
-        code: "8418.69.20",
+        code: "84186920",
         description: "Resfriadores de leite"
     },
     {
-        code: "8418.69.3",
+        code: "8418693",
         description: "Unidades fornecedoras de água, sucos ou bebidas carbonatadas"
     },
     {
-        code: "8418.69.31",
+        code: "84186931",
         description: "De água ou sucos"
     },
     {
-        code: "8418.69.32",
+        code: "84186932",
         description: "De bebidas carbonatadas"
     },
     {
-        code: "8418.69.40",
-        description: "Grupos frigoríficos de compressão com capacidade inferior ou igual a 30.000 frigorias/hora"
+        code: "84186940",
+        description: "Grupos frigoríficos de compressão com capacidade inferior ou igual a 30000 frigorias/hora"
     },
     {
-        code: "8418.69.9",
+        code: "8418699",
         description: "Outros"
     },
     {
-        code: "8418.69.91",
+        code: "84186991",
         description: "Resfriadores de água, de absorção por brometo de lítio"
     },
     {
-        code: "8418.69.99",
+        code: "84186999",
         description: "Outros"
     },
     {
-        code: "8418.9",
+        code: "84189",
         description: "- Partes:"
     },
     {
-        code: "8418.91.00",
+        code: "84189100",
         description: "-- Móveis concebidos para receber um equipamento para a produção de frio"
     },
     {
-        code: "8418.99.00",
+        code: "84189900",
         description: "-- Outras"
     },
     {
-        code: "84.19",
+        code: "8419",
         description:
-            "Aparelhos, dispositivos ou equipamentos de laboratório, mesmo aquecidos eletricamente (exceto os fornos e outros aparelhos da posição 85.14), para tratamento de matérias por meio de operações que impliquem mudança de temperatura, tais como aquecimento, cozimento, torrefação, destilação, retificação, esterilização, pasteurização, estufagem, secagem, evaporação, vaporização, condensação ou arrefecimento, exceto os de uso doméstico; aquecedores de água não elétricos, de aquecimento instantâneo ou de acumulação."
+            "Aparelhos, dispositivos ou equipamentos de laboratório, mesmo aquecidos eletricamente (exceto os fornos e outros aparelhos da posição 8514), para tratamento de matérias por meio de operações que impliquem mudança de temperatura, tais como aquecimento, cozimento, torrefação, destilação, retificação, esterilização, pasteurização, estufagem, secagem, evaporação, vaporização, condensação ou arrefecimento, exceto os de uso doméstico; aquecedores de água não elétricos, de aquecimento instantâneo ou de acumulação"
     },
     {
-        code: "8419.1",
+        code: "84191",
         description: "- Aquecedores de água não elétricos, de aquecimento instantâneo ou de acumulação:"
     },
     {
-        code: "8419.11.00",
+        code: "84191100",
         description: "-- De aquecimento instantâneo, a gás"
     },
     {
-        code: "8419.12.00",
+        code: "84191200",
         description: "-- Aquecedores de água solares"
     },
     {
-        code: "8419.19.00",
+        code: "84191900",
         description: "-- Outros"
     },
     {
-        code: "8419.20.00",
+        code: "84192000",
         description: "- Esterilizadores médico-cirúrgicos ou de laboratório"
     },
     {
-        code: "8419.3",
+        code: "84193",
         description: "- Secadores:"
     },
     {
-        code: "8419.33.00",
+        code: "84193300",
         description: "-- Aparelhos de liofilização, aparelhos de criodessecação e secadores por pulverização"
     },
     {
-        code: "8419.34.00",
+        code: "84193400",
         description: "-- Outros, para produtos agrícolas"
     },
     {
-        code: "8419.35.00",
+        code: "84193500",
         description: "-- Outros, para madeiras, pastas de papel, papel ou cartão"
     },
     {
-        code: "8419.39.00",
+        code: "84193900",
         description: "-- Outros"
     },
     {
-        code: "8419.40",
+        code: "841940",
         description: "- Aparelhos de destilação ou de retificação"
     },
     {
-        code: "8419.40.10",
+        code: "84194010",
         description: "De destilação de água"
     },
     {
-        code: "8419.40.20",
+        code: "84194020",
         description: "De destilação ou retificação de álcoois e outros fluídos voláteis ou de hidrocarbonetos"
     },
     {
-        code: "8419.40.90",
+        code: "84194090",
         description: "Outros"
     },
     {
-        code: "8419.50",
+        code: "841950",
         description: "- Trocadores (permutadores) de calor"
     },
     {
-        code: "8419.50.10",
+        code: "84195010",
         description: "De placas"
     },
     {
-        code: "8419.50.2",
+        code: "8419502",
         description: "Tubulares"
     },
     {
-        code: "8419.50.21",
+        code: "84195021",
         description: "Metálicos"
     },
     {
-        code: "8419.50.22",
+        code: "84195022",
         description: "De grafita"
     },
     {
-        code: "8419.50.29",
+        code: "84195029",
         description: "Outros"
     },
     {
-        code: "8419.50.90",
+        code: "84195090",
         description: "Outros"
     },
     {
-        code: "8419.60.00",
+        code: "84196000",
         description: "- Aparelhos e dispositivos para liquefação do ar ou de outros gases"
     },
     {
-        code: "8419.8",
+        code: "84198",
         description: "- Outros aparelhos e dispositivos:"
     },
     {
-        code: "8419.81",
+        code: "841981",
         description: "-- Para preparação de bebidas quentes ou para cozimento ou aquecimento de alimentos"
     },
     {
-        code: "8419.81.10",
+        code: "84198110",
         description: "Autoclaves"
     },
     {
-        code: "8419.81.90",
+        code: "84198190",
         description: "Outros"
     },
     {
-        code: "8419.89",
+        code: "841989",
         description: "-- Outros"
     },
     {
-        code: "8419.89.1",
+        code: "8419891",
         description: "Esterilizadores"
     },
     {
-        code: "8419.89.11",
+        code: "84198911",
         description:
-            "De alimentos, mediante Ultra Alta Temperatura (UHT - <i>Ultra High Temperature</i>) por injeção direta de vapor, com capacidade igual ou superior a 6.500 l/h"
+            "De alimentos, mediante Ultra Alta Temperatura (UHT - <i>Ultra High Temperature</i>) por injeção direta de vapor, com capacidade igual ou superior a 6500 l/h"
     },
     {
-        code: "8419.89.19",
+        code: "84198919",
         description: "Outros"
     },
     {
-        code: "8419.89.20",
+        code: "84198920",
         description: "Estufas"
     },
     {
-        code: "8419.89.30",
+        code: "84198930",
         description: "Torrefadores"
     },
     {
-        code: "8419.89.40",
+        code: "84198940",
         description: "Evaporadores"
     },
     {
-        code: "8419.89.9",
+        code: "8419899",
         description: "Outros"
     },
     {
-        code: "8419.89.91",
+        code: "84198991",
         description: "Recipiente refrigerador, com dispositivo de circulação de fluido refrigerante"
     },
     {
-        code: "8419.89.99",
+        code: "84198999",
         description: "Outros"
     },
     {
-        code: "8419.90",
+        code: "841990",
         description: "- Partes"
     },
     {
-        code: "8419.90.10",
-        description: "De aquecedores de água das subposições 8419.11 ou 8419.19"
+        code: "84199010",
+        description: "De aquecedores de água das subposições 841911 ou 841919"
     },
     {
-        code: "8419.90.20",
+        code: "84199020",
         description: "De colunas de destilação ou de retificação"
     },
     {
-        code: "8419.90.3",
+        code: "8419903",
         description: "De trocadores de calor, de placas"
     },
     {
-        code: "8419.90.31",
+        code: "84199031",
         description: "Placa corrugada, de aço inoxidável ou de alumínio, com superfície de troca térmica de área superior a 0,4 m<sup>2</sup>"
     },
     {
-        code: "8419.90.39",
+        code: "84199039",
         description: "Outras"
     },
     {
-        code: "8419.90.40",
-        description: "De aparelhos ou dispositivos das subposições 8419.81 ou 8419.89"
+        code: "84199040",
+        description: "De aparelhos ou dispositivos das subposições 841981 ou 841989"
     },
     {
-        code: "8419.90.90",
+        code: "84199090",
         description: "Outras"
     },
     {
-        code: "84.20",
-        description: "Calandras e laminadores, exceto os destinados ao tratamento de metais ou vidro, e seus cilindros."
+        code: "8420",
+        description: "Calandras e laminadores, exceto os destinados ao tratamento de metais ou vidro, e seus cilindros"
     },
     {
-        code: "8420.10",
+        code: "842010",
         description: "- Calandras e laminadores"
     },
     {
-        code: "8420.10.10",
+        code: "84201010",
         description: "Para papel ou cartão"
     },
     {
-        code: "8420.10.90",
+        code: "84201090",
         description: "Outros"
     },
     {
-        code: "8420.9",
+        code: "84209",
         description: "- Partes:"
     },
     {
-        code: "8420.91.00",
+        code: "84209100",
         description: "-- Cilindros"
     },
     {
-        code: "8420.99.00",
+        code: "84209900",
         description: "-- Outras"
     },
     {
-        code: "84.21",
-        description: "Centrifugadores, incluindo os secadores centrífugos; aparelhos para filtrar ou depurar líquidos ou gases."
+        code: "8421",
+        description: "Centrifugadores, incluindo os secadores centrífugos; aparelhos para filtrar ou depurar líquidos ou gases"
     },
     {
-        code: "8421.1",
+        code: "84211",
         description: "- Centrifugadores, incluindo os secadores centrífugos:"
     },
     {
-        code: "8421.11",
+        code: "842111",
         description: "-- Desnatadeiras"
     },
     {
-        code: "8421.11.10",
-        description: "Com capacidade de processamento de leite igual ou superior a 30.000 l/h"
+        code: "84211110",
+        description: "Com capacidade de processamento de leite igual ou superior a 30000 l/h"
     },
     {
-        code: "8421.11.90",
+        code: "84211190",
         description: "Outras"
     },
     {
-        code: "8421.12",
+        code: "842112",
         description: "-- Secadores de roupa"
     },
     {
-        code: "8421.12.10",
+        code: "84211210",
         description: "Com tambor de capacidade inferior ou igual a 23 l"
     },
     {
-        code: "8421.12.90",
+        code: "84211290",
         description: "Outros"
     },
     {
-        code: "8421.19",
+        code: "842119",
         description: "-- Outros"
     },
     {
-        code: "8421.19.10",
+        code: "84211910",
         description: "Centrifugadores para laboratórios de análises, ensaios ou pesquisas científicas"
     },
     {
-        code: "8421.19.90",
+        code: "84211990",
         description: "Outros"
     },
     {
-        code: "8421.2",
+        code: "84212",
         description: "- Aparelhos para filtrar ou depurar líquidos:"
     },
     {
-        code: "8421.21.00",
+        code: "84212100",
         description: "-- Para filtrar ou depurar água"
     },
     {
-        code: "8421.22.00",
+        code: "84212200",
         description: "-- Para filtrar ou depurar bebidas, exceto água"
     },
     {
-        code: "8421.23.00",
+        code: "84212300",
         description: "-- Para filtrar carburantes ou óleos lubrificantes nos motores de ignição por centelha (faísca) ou por compressão"
     },
     {
-        code: "8421.29",
+        code: "842129",
         description: "-- Outros"
     },
     {
-        code: "8421.29.1",
+        code: "8421291",
         description: "Do tipo utilizado em hemodiálise"
     },
     {
-        code: "8421.29.11",
+        code: "84212911",
         description: "Capilares"
     },
     {
-        code: "8421.29.19",
+        code: "84212919",
         description: "Outros"
     },
     {
-        code: "8421.29.20",
+        code: "84212920",
         description: "Aparelho de osmose inversa"
     },
     {
-        code: "8421.29.30",
+        code: "84212930",
         description: "Filtros-prensa"
     },
     {
-        code: "8421.29.90",
+        code: "84212990",
         description: "Outros"
     },
     {
-        code: "8421.3",
+        code: "84213",
         description: "- Aparelhos para filtrar ou depurar gases:"
     },
     {
-        code: "8421.31.00",
+        code: "84213100",
         description: "-- Filtros de entrada de ar para motores de ignição por centelha (faísca) ou por compressão"
     },
     {
-        code: "8421.32.00",
+        code: "84213200",
         description:
             "-- Conversores catalíticos e filtros de partículas, mesmo combinados, para depurar ou filtrar os gases de escape dos motores de ignição por centelha (faísca) ou por compressão"
     },
     {
-        code: "8421.39",
+        code: "842139",
         description: "-- Outros"
     },
     {
-        code: "8421.39.10",
+        code: "84213910",
         description: "Filtros eletrostáticos"
     },
     {
-        code: "8421.39.30",
+        code: "84213930",
         description: "Concentradores de oxigênio por depuração do ar, com capacidade de saída inferior ou igual a 6 l/min"
     },
     {
-        code: "8421.39.90",
+        code: "84213990",
         description: "Outros"
     },
     {
-        code: "8421.9",
+        code: "84219",
         description: "- Partes:"
     },
     {
-        code: "8421.91",
+        code: "842191",
         description: "-- De centrifugadores, incluindo as dos secadores centrífugos"
     },
     {
-        code: "8421.91.10",
-        description: "De secadores de roupa do item 8421.12.10"
+        code: "84219110",
+        description: "De secadores de roupa do item 84211210"
     },
     {
-        code: "8421.91.9",
+        code: "8421919",
         description: "Outras"
     },
     {
-        code: "8421.91.91",
+        code: "84219191",
         description: "Tambores rotativos com pratos ou discos separadores, de peso superior a 300 kg"
     },
     {
-        code: "8421.91.99",
+        code: "84219199",
         description: "Outras"
     },
     {
-        code: "8421.99",
+        code: "842199",
         description: "-- Outras"
     },
     {
-        code: "8421.99.10",
-        description: "De aparelhos para filtrar ou depurar gases, da subposição 8421.39"
+        code: "84219910",
+        description: "De aparelhos para filtrar ou depurar gases, da subposição 842139"
     },
     {
-        code: "8421.99.20",
+        code: "84219920",
         description: "Do tipo utilizado em linhas de sangue para hemodiálise"
     },
     {
-        code: "8421.99.9",
+        code: "8421999",
         description: "Outras"
     },
     {
-        code: "8421.99.91",
+        code: "84219991",
         description: "Cartuchos de membrana de aparelhos de osmose inversa"
     },
     {
-        code: "8421.99.99",
+        code: "84219999",
         description: "Outras"
     },
     {
-        code: "84.22",
+        code: "8422",
         description:
-            "Máquinas de lavar louça; máquinas e aparelhos para limpar ou secar garrafas ou outros recipientes; máquinas e aparelhos para encher, fechar, arrolhar ou rotular garrafas, caixas, latas, sacos ou outros recipientes; máquinas e aparelhos para capsular garrafas, vasos, tubos e recipientes semelhantes; outras máquinas e aparelhos para empacotar ou embalar mercadorias (incluindo as máquinas e aparelhos para embalar com película termorretrátil); máquinas e aparelhos para gaseificar bebidas."
+            "Máquinas de lavar louça; máquinas e aparelhos para limpar ou secar garrafas ou outros recipientes; máquinas e aparelhos para encher, fechar, arrolhar ou rotular garrafas, caixas, latas, sacos ou outros recipientes; máquinas e aparelhos para capsular garrafas, vasos, tubos e recipientes semelhantes; outras máquinas e aparelhos para empacotar ou embalar mercadorias (incluindo as máquinas e aparelhos para embalar com película termorretrátil); máquinas e aparelhos para gaseificar bebidas"
     },
     {
-        code: "8422.1",
+        code: "84221",
         description: "- Máquinas de lavar louça:"
     },
     {
-        code: "8422.11.00",
+        code: "84221100",
         description: "-- Do tipo doméstico"
     },
     {
-        code: "8422.19.00",
+        code: "84221900",
         description: "-- Outras"
     },
     {
-        code: "8422.20.00",
+        code: "84222000",
         description: "- Máquinas e aparelhos para limpar ou secar garrafas ou outros recipientes"
     },
     {
-        code: "8422.30",
+        code: "842230",
         description:
             "- Máquinas e aparelhos para encher, fechar, arrolhar ou rotular garrafas, caixas, latas, sacos ou outros recipientes; máquinas e aparelhos para capsular garrafas, vasos, tubos e recipientes semelhantes; máquinas e aparelhos para gaseificar bebidas"
     },
     {
-        code: "8422.30.10",
+        code: "84223010",
         description: "Máquinas e aparelhos para encher, fechar, arrolhar, capsular ou rotular garrafas"
     },
     {
-        code: "8422.30.2",
+        code: "8422302",
         description:
             "Máquinas e aparelhos para encher, fechar, arrolhar ou rotular caixas, latas, sacos ou outros recipientes; Máquinas e aparelhos para capsular vasos, tubos e recipientes semelhantes"
     },
     {
-        code: "8422.30.21",
+        code: "84223021",
         description: "Para encher caixas ou sacos com pó ou grãos"
     },
     {
-        code: "8422.30.22",
+        code: "84223022",
         description:
-            "Para encher e fechar embalagens confeccionadas com papel ou cartão dos subitens 4811.51.22 ou 4811.59.23, mesmo com dispositivo de rotulagem"
+            "Para encher e fechar embalagens confeccionadas com papel ou cartão dos subitens 48115122 ou 48115923, mesmo com dispositivo de rotulagem"
     },
     {
-        code: "8422.30.23",
+        code: "84223023",
         description: "Para encher e fechar recipientes tubulares flexíveis (bisnagas), com capacidade igual ou superior a 100 unidades por minuto"
     },
     {
-        code: "8422.30.29",
+        code: "84223029",
         description: "Outros"
     },
     {
-        code: "8422.30.30",
+        code: "84223030",
         description: "Para gaseificar bebidas"
     },
     {
-        code: "8422.40",
+        code: "842240",
         description:
             "- Outras máquinas e aparelhos para empacotar ou embalar mercadorias (incluindo as máquinas e aparelhos para embalar com película termorretrátil)"
     },
     {
-        code: "8422.40.10",
+        code: "84224010",
         description:
             "Horizontais, próprias para empacotamento de massas alimentícias longas (comprimento superior a 200 mm) em pacotes tipo almofadas (<i>pillow pack</i>), com capacidade de produção superior a 100 pacotes por minuto e controlador lógico programável (CLP)"
     },
     {
-        code: "8422.40.20",
+        code: "84224020",
         description:
-            "Automática, para embalar tubos ou barras de metal, em atados de peso inferior ou igual a 2.000 kg e comprimento inferior ou igual a 12 m"
+            "Automática, para embalar tubos ou barras de metal, em atados de peso inferior ou igual a 2000 kg e comprimento inferior ou igual a 12 m"
     },
     {
-        code: "8422.40.30",
+        code: "84224030",
         description:
-            "De empacotar embalagens confeccionadas com papel ou cartão dos subitens 4811.51.22 ou 4811.59.23 em caixas ou bandejas de papel ou cartão dobráveis, com capacidade igual ou superior a 5.000 embalagens por hora"
+            "De empacotar embalagens confeccionadas com papel ou cartão dos subitens 48115122 ou 48115923 em caixas ou bandejas de papel ou cartão dobráveis, com capacidade igual ou superior a 5000 embalagens por hora"
     },
     {
-        code: "8422.40.90",
+        code: "84224090",
         description: "Outros"
     },
     {
-        code: "8422.90",
+        code: "842290",
         description: "- Partes"
     },
     {
-        code: "8422.90.10",
+        code: "84229010",
         description: "De máquinas de lavar louça, de uso doméstico"
     },
     {
-        code: "8422.90.90",
+        code: "84229090",
         description: "Outras"
     },
     {
-        code: "84.23",
+        code: "8423",
         description:
-            "Aparelhos e instrumentos de pesagem, incluindo as básculas e balanças para verificar peças usinadas (fabricadas*), excluindo as balanças sensíveis a pesos não superiores a 5 cg; pesos para quaisquer balanças."
+            "Aparelhos e instrumentos de pesagem, incluindo as básculas e balanças para verificar peças usinadas (fabricadas*), excluindo as balanças sensíveis a pesos não superiores a 5 cg; pesos para quaisquer balanças"
     },
     {
-        code: "8423.10.00",
+        code: "84231000",
         description: "- Balanças para pessoas, incluindo as balanças para bebês; balanças de uso doméstico"
     },
     {
-        code: "8423.20.00",
+        code: "84232000",
         description: "- Básculas de pesagem contínua em transportadores"
     },
     {
-        code: "8423.30",
+        code: "842330",
         description: "- Básculas de pesagem constante e balanças e básculas ensacadoras ou doseadoras"
     },
     {
-        code: "8423.30.1",
+        code: "8423301",
         description: "Dosadoras"
     },
     {
-        code: "8423.30.11",
+        code: "84233011",
         description: "Com aparelhos periféricos, que constituam unidade funcional"
     },
     {
-        code: "8423.30.19",
+        code: "84233019",
         description: "Outras"
     },
     {
-        code: "8423.30.90",
+        code: "84233090",
         description: "Outras"
     },
     {
-        code: "8423.8",
+        code: "84238",
         description: "- Outros aparelhos e instrumentos de pesagem:"
     },
     {
-        code: "8423.81",
+        code: "842381",
         description: "-- De capacidade não superior a 30 kg"
     },
     {
-        code: "8423.81.10",
+        code: "84238110",
         description: "De mesa, com dispositivo registrador ou impressor de etiquetas"
     },
     {
-        code: "8423.81.90",
+        code: "84238190",
         description: "Outros"
     },
     {
-        code: "8423.82.00",
-        description: "-- De capacidade superior a 30 kg, mas não superior a 5.000 kg"
+        code: "84238200",
+        description: "-- De capacidade superior a 30 kg, mas não superior a 5000 kg"
     },
     {
-        code: "8423.89.00",
+        code: "84238900",
         description: "-- Outros"
     },
     {
-        code: "8423.90",
+        code: "842390",
         description: "- Pesos para quaisquer balanças; partes de aparelhos ou instrumentos de pesagem"
     },
     {
-        code: "8423.90.10",
+        code: "84239010",
         description: "Pesos"
     },
     {
-        code: "8423.90.2",
+        code: "8423902",
         description: "Partes"
     },
     {
-        code: "8423.90.21",
-        description: "De aparelhos ou instrumentos da subposição 8423.10"
+        code: "84239021",
+        description: "De aparelhos ou instrumentos da subposição 842310"
     },
     {
-        code: "8423.90.29",
+        code: "84239029",
         description: "Outras"
     },
     {
-        code: "84.24",
+        code: "8424",
         description:
-            "Aparelhos mecânicos (mesmo manuais) para projetar, dispersar ou pulverizar líquidos ou pós; extintores, mesmo carregados; pistolas aerográficas e aparelhos semelhantes; máquinas e aparelhos de jato de areia, de jato de vapor e aparelhos de jato semelhantes."
+            "Aparelhos mecânicos (mesmo manuais) para projetar, dispersar ou pulverizar líquidos ou pós; extintores, mesmo carregados; pistolas aerográficas e aparelhos semelhantes; máquinas e aparelhos de jato de areia, de jato de vapor e aparelhos de jato semelhantes"
     },
     {
-        code: "8424.10.00",
+        code: "84241000",
         description: "- Extintores, mesmo carregados"
     },
     {
-        code: "8424.20.00",
+        code: "84242000",
         description: "- Pistolas aerográficas e aparelhos semelhantes"
     },
     {
-        code: "8424.30",
+        code: "842430",
         description: "- Máquinas e aparelhos de jato de areia, de jato de vapor e aparelhos de jato semelhantes"
     },
     {
-        code: "8424.30.10",
+        code: "84243010",
         description: "Máquinas e aparelhos de desobstrução de tubulação ou de limpeza, por jato de água"
     },
     {
-        code: "8424.30.20",
+        code: "84243020",
         description: "De jato de areia própria para desgaste localizado de peças de vestuário"
     },
     {
-        code: "8424.30.30",
+        code: "84243030",
         description: "Perfuradoras por jato de água com pressão de trabalho máxima igual ou superior a 10 MPa"
     },
     {
-        code: "8424.30.90",
+        code: "84243090",
         description: "Outros"
     },
     {
-        code: "8424.4",
+        code: "84244",
         description: "- Pulverizadores para agricultura ou horticultura:"
     },
     {
-        code: "8424.41.00",
+        code: "84244100",
         description: "-- Pulverizadores portáteis"
     },
     {
-        code: "8424.49.00",
+        code: "84244900",
         description: "-- Outros"
     },
     {
-        code: "8424.8",
+        code: "84248",
         description: "- Outros aparelhos:"
     },
     {
-        code: "8424.82",
+        code: "842482",
         description: "-- Para agricultura ou horticultura"
     },
     {
-        code: "8424.82.2",
+        code: "8424822",
         description: "Irrigadores e sistemas de irrigação"
     },
     {
-        code: "8424.82.21",
+        code: "84248221",
         description: "Por aspersão"
     },
     {
-        code: "8424.82.29",
+        code: "84248229",
         description: "Outros"
     },
     {
-        code: "8424.82.90",
+        code: "84248290",
         description: "Outros"
     },
     {
-        code: "8424.89",
+        code: "842489",
         description: "-- Outros"
     },
     {
-        code: "8424.89.10",
+        code: "84248910",
         description:
             "Aparelhos de pulverização constituídos por botão de pressão com bocal (tampa <i>spray</i>), válvula do tipo aerossol, junta de estanqueidade (junta de canopla) e tubo de imersão, montados sobre um corpo metálico (canopla), do tipo utilizado para serem montados no gargalo de recipientes, para projetar líquidos, pós ou espumas"
     },
     {
-        code: "8424.89.20",
+        code: "84248920",
         description:
             "Aparelhos automáticos para projetar lubrificantes sobre pneumáticos, que contenham uma estação de secagem por ar preaquecido e dispositivos para agarrar e movimentar pneumáticos"
     },
     {
-        code: "8424.89.90",
+        code: "84248990",
         description: "Outros"
     },
     {
-        code: "8424.90",
+        code: "842490",
         description: "- Partes"
     },
     {
-        code: "8424.90.10",
-        description: "De aparelhos da subposição 8424.10 ou do item 8424.89.10"
+        code: "84249010",
+        description: "De aparelhos da subposição 842410 ou do item 84248910"
     },
     {
-        code: "8424.90.90",
+        code: "84249090",
         description: "Outras"
     },
     {
-        code: "84.25",
-        description: "Talhas, cadernais e moitões; guinchos e cabrestantes; macacos."
+        code: "8425",
+        description: "Talhas, cadernais e moitões; guinchos e cabrestantes; macacos"
     },
     {
-        code: "8425.1",
+        code: "84251",
         description: "- Talhas, cadernais e moitões:"
     },
     {
-        code: "8425.11.00",
+        code: "84251100",
         description: "-- De motor elétrico"
     },
     {
-        code: "8425.19",
+        code: "842519",
         description: "-- Outros"
     },
     {
-        code: "8425.19.10",
+        code: "84251910",
         description: "Talhas, cadernais e moitões, manuais"
     },
     {
-        code: "8425.19.90",
+        code: "84251990",
         description: "Outros"
     },
     {
-        code: "8425.3",
+        code: "84253",
         description: "- Guinchos; cabrestantes:"
     },
     {
-        code: "8425.31",
+        code: "842531",
         description: "-- De motor elétrico"
     },
     {
-        code: "8425.31.10",
+        code: "84253110",
         description: "Com capacidade inferior ou igual a 100 t"
     },
     {
-        code: "8425.31.90",
+        code: "84253190",
         description: "Outros"
     },
     {
-        code: "8425.39",
+        code: "842539",
         description: "-- Outros"
     },
     {
-        code: "8425.39.10",
+        code: "84253910",
         description: "Com capacidade inferior ou igual a 100 t"
     },
     {
-        code: "8425.39.90",
+        code: "84253990",
         description: "Outros"
     },
     {
-        code: "8425.4",
+        code: "84254",
         description: "- Macacos:"
     },
     {
-        code: "8425.41.00",
+        code: "84254100",
         description: "-- Elevadores fixos de veículos, para garagens (oficinas)"
     },
     {
-        code: "8425.42.00",
+        code: "84254200",
         description: "-- Outros macacos, hidráulicos"
     },
     {
-        code: "8425.49",
+        code: "842549",
         description: "-- Outros"
     },
     {
-        code: "8425.49.10",
+        code: "84254910",
         description: "Manuais"
     },
     {
-        code: "8425.49.90",
+        code: "84254990",
         description: "Outros"
     },
     {
-        code: "84.26",
+        code: "8426",
         description:
-            "Cábreas; guindastes, incluindo os de cabo; pontes rolantes, pórticos de descarga ou de movimentação, pontes-guindastes, carros-pórticos e carros-guindastes."
+            "Cábreas; guindastes, incluindo os de cabo; pontes rolantes, pórticos de descarga ou de movimentação, pontes-guindastes, carros-pórticos e carros-guindastes"
     },
     {
-        code: "8426.1",
+        code: "84261",
         description: "- Pontes e vigas, rolantes, pórticos, pontes-guindastes e carros-pórticos:"
     },
     {
-        code: "8426.11.00",
+        code: "84261100",
         description: "-- Pontes e vigas, rolantes, de suportes fixos"
     },
     {
-        code: "8426.12.00",
+        code: "84261200",
         description: "-- Pórticos móveis de pneumáticos e carros-pórticos"
     },
     {
-        code: "8426.19.00",
+        code: "84261900",
         description: "-- Outros"
     },
     {
-        code: "8426.20.00",
+        code: "84262000",
         description: "- Guindastes de torre"
     },
     {
-        code: "8426.30.00",
+        code: "84263000",
         description: "- Guindastes de pórtico"
     },
     {
-        code: "8426.4",
+        code: "84264",
         description: "- Outras máquinas e aparelhos, autopropulsados:"
     },
     {
-        code: "8426.41",
+        code: "842641",
         description: "-- De pneumáticos"
     },
     {
-        code: "8426.41.10",
+        code: "84264110",
         description:
             "Com deslocamento em sentido longitudinal, transversal e diagonal (tipo caranguejo) com capacidade de carga igual ou superior a 60 t"
     },
     {
-        code: "8426.41.90",
+        code: "84264190",
         description: "Outros"
     },
     {
-        code: "8426.49",
+        code: "842649",
         description: "-- Outros"
     },
     {
-        code: "8426.49.10",
+        code: "84264910",
         description: "De lagartas (esteiras), com capacidade de elevação igual ou superior a 70 t"
     },
     {
-        code: "8426.49.90",
+        code: "84264990",
         description: "Outros"
     },
     {
-        code: "8426.9",
+        code: "84269",
         description: "- Outras máquinas e aparelhos:"
     },
     {
-        code: "8426.91.00",
+        code: "84269100",
         description: "-- Próprios para serem montados em veículos rodoviários"
     },
     {
-        code: "8426.99.00",
+        code: "84269900",
         description: "-- Outros"
     },
     {
-        code: "84.27",
-        description: "Empilhadeiras; outros veículos para movimentação de carga e semelhantes, equipados com dispositivos de elevação."
+        code: "8427",
+        description: "Empilhadeiras; outros veículos para movimentação de carga e semelhantes, equipados com dispositivos de elevação"
     },
     {
-        code: "8427.10",
+        code: "842710",
         description: "- Autopropulsados, de motor elétrico"
     },
     {
-        code: "8427.10.1",
+        code: "8427101",
         description: "Empilhadeiras"
     },
     {
-        code: "8427.10.11",
+        code: "84271011",
         description: "De capacidade de carga superior a 6,5 t"
     },
     {
-        code: "8427.10.19",
+        code: "84271019",
         description: "Outras"
     },
     {
-        code: "8427.10.90",
+        code: "84271090",
         description: "Outros"
     },
     {
-        code: "8427.20",
+        code: "842720",
         description: "- Outros, autopropulsados"
     },
     {
-        code: "8427.20.10",
+        code: "84272010",
         description: "Empilhadeiras com capacidade de carga superior a 6,5 t"
     },
     {
-        code: "8427.20.90",
+        code: "84272090",
         description: "Outros"
     },
     {
-        code: "8427.90.00",
+        code: "84279000",
         description: "- Outros"
     },
     {
-        code: "84.28",
+        code: "8428",
         description:
-            "Outras máquinas e aparelhos de elevação, de carga, de descarga ou de movimentação (por exemplo, elevadores, escadas rolantes, transportadores, teleféricos)."
+            "Outras máquinas e aparelhos de elevação, de carga, de descarga ou de movimentação (por exemplo, elevadores, escadas rolantes, transportadores, teleféricos)"
     },
     {
-        code: "8428.10.00",
+        code: "84281000",
         description: "- Elevadores e monta-cargas"
     },
     {
-        code: "8428.20",
+        code: "842820",
         description: "- Aparelhos elevadores ou transportadores, pneumáticos"
     },
     {
-        code: "8428.20.10",
+        code: "84282010",
         description: "Transportadores tubulares (transvasadores) móveis, acionados com motor de potência superior a 90 kW (120 HP)"
     },
     {
-        code: "8428.20.90",
+        code: "84282090",
         description: "Outros"
     },
     {
-        code: "8428.3",
+        code: "84283",
         description: "- Outros aparelhos elevadores ou transportadores, de ação contínua, para mercadorias:"
     },
     {
-        code: "8428.31.00",
+        code: "84283100",
         description: "-- Especialmente concebidos para uso subterrâneo"
     },
     {
-        code: "8428.32.00",
+        code: "84283200",
         description: "-- Outros, de caçamba (balde*)"
     },
     {
-        code: "8428.33.00",
+        code: "84283300",
         description: "-- Outros, de correia"
     },
     {
-        code: "8428.39",
+        code: "842839",
         description: "-- Outros"
     },
     {
-        code: "8428.39.10",
+        code: "84283910",
         description: "De correntes"
     },
     {
-        code: "8428.39.20",
+        code: "84283920",
         description: "De rolos motores"
     },
     {
-        code: "8428.39.30",
+        code: "84283930",
         description: "De pinças laterais, do tipo utilizado para o transporte de jornais"
     },
     {
-        code: "8428.39.90",
+        code: "84283990",
         description: "Outros"
     },
     {
-        code: "8428.40.00",
+        code: "84284000",
         description: "- Escadas e tapetes, rolantes"
     },
     {
-        code: "8428.60.00",
+        code: "84286000",
         description: "- Teleféricos (incluindo as telecadeiras e os telesquis); mecanismos de tração para funiculares"
     },
     {
-        code: "8428.70.00",
+        code: "84287000",
         description: "- Robôs industriais"
     },
     {
-        code: "8428.90",
+        code: "842890",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "8428.90.10",
+        code: "84289010",
         description: "Do tipo utilizado para desembarque de botes salva-vidas, motorizados ou providos de dispositivo de compensação de inclinação"
     },
     {
-        code: "8428.90.20",
+        code: "84289020",
         description: "Transportadores-elevadores (transelevadores) automáticos, de deslocamento horizontal sobre guias"
     },
     {
-        code: "8428.90.30",
+        code: "84289030",
         description:
-            "Máquina para formação de pilhas de jornais, dispostos em sentido alternado, de capacidade igual ou superior a 80.000 exemplares/h"
+            "Máquina para formação de pilhas de jornais, dispostos em sentido alternado, de capacidade igual ou superior a 80000 exemplares/h"
     },
     {
-        code: "8428.90.90",
+        code: "84289090",
         description: "Outros"
     },
     {
-        code: "84.29",
+        code: "8429",
         description:
-            "<i>Bulldozers</i>, <i>angledozers</i>, niveladores, raspo-transportadores (<i>scrapers</i>), pás mecânicas, escavadores, carregadores e pás carregadoras, compactadores e rolos ou cilindros compressores, autopropulsados."
+            "<i>Bulldozers</i>, <i>angledozers</i>, niveladores, raspo-transportadores (<i>scrapers</i>), pás mecânicas, escavadores, carregadores e pás carregadoras, compactadores e rolos ou cilindros compressores, autopropulsados"
     },
     {
-        code: "8429.1",
+        code: "84291",
         description: "- <i>Bulldozers</i> e <i>angledozers</i>:"
     },
     {
-        code: "8429.11",
+        code: "842911",
         description: "-- De lagartas (esteiras)"
     },
     {
-        code: "8429.11.10",
+        code: "84291110",
         description: "De potência no volante igual ou superior a 387,76 kW (520 HP)"
     },
     {
-        code: "8429.11.90",
+        code: "84291190",
         description: "Outros"
     },
     {
-        code: "8429.19",
+        code: "842919",
         description: "-- Outros"
     },
     {
-        code: "8429.19.10",
+        code: "84291910",
         description: "<i>Bulldozers</i> de potência no volante igual ou superior a 234,90 kW (315 HP)"
     },
     {
-        code: "8429.19.90",
+        code: "84291990",
         description: "Outros"
     },
     {
-        code: "8429.20",
+        code: "842920",
         description: "- Niveladores"
     },
     {
-        code: "8429.20.10",
+        code: "84292010",
         description: "Motoniveladores articulados, de potência no volante igual ou superior a 205,07 kW (275 HP)"
     },
     {
-        code: "8429.20.90",
+        code: "84292090",
         description: "Outros"
     },
     {
-        code: "8429.30.00",
+        code: "84293000",
         description: "- Raspo-transportadores (<i>scrapers</i>)"
     },
     {
-        code: "8429.40.00",
+        code: "84294000",
         description: "- Compactadores e rolos ou cilindros compressores"
     },
     {
-        code: "8429.5",
+        code: "84295",
         description: "- Pás mecânicas, escavadores, carregadores e pás carregadoras:"
     },
     {
-        code: "8429.51",
+        code: "842951",
         description: "-- Carregadores e pás carregadoras, de carregamento frontal"
     },
     {
-        code: "8429.51.1",
+        code: "8429511",
         description: "Carregadores-transportadores"
     },
     {
-        code: "8429.51.11",
+        code: "84295111",
         description: "Do tipo utilizado em minas subterrâneas"
     },
     {
-        code: "8429.51.19",
+        code: "84295119",
         description: "Outras"
     },
     {
-        code: "8429.51.2",
-        description: "Infraestruturas motoras, próprias para receber equipamentos do item 8430.69.1"
+        code: "8429512",
+        description: "Infraestruturas motoras, próprias para receber equipamentos do item 8430691"
     },
     {
-        code: "8429.51.21",
+        code: "84295121",
         description: "De potência no volante igual ou superior a 454,13 kW (609 HP)"
     },
     {
-        code: "8429.51.29",
+        code: "84295129",
         description: "Outras"
     },
     {
-        code: "8429.51.9",
+        code: "8429519",
         description: "Outras"
     },
     {
-        code: "8429.51.91",
+        code: "84295191",
         description: "De potência no volante igual ou superior a 297,5 kW (399 HP)"
     },
     {
-        code: "8429.51.92",
+        code: "84295192",
         description: "De potência no volante inferior ou igual a 43,99 kW (59 HP)"
     },
     {
-        code: "8429.51.99",
+        code: "84295199",
         description: "Outras"
     },
     {
-        code: "8429.52",
+        code: "842952",
         description: "-- Máquinas cuja superestrutura é capaz de efetuar uma rotação de 360°"
     },
     {
-        code: "8429.52.1",
+        code: "8429521",
         description: "Escavadores"
     },
     {
-        code: "8429.52.11",
+        code: "84295211",
         description: "De potência no volante igual ou superior a 484,7 kW (650 HP)"
     },
     {
-        code: "8429.52.12",
+        code: "84295212",
         description: "De potência no volante inferior ou igual a 40,3 kW (54 HP)"
     },
     {
-        code: "8429.52.19",
+        code: "84295219",
         description: "Outras"
     },
     {
-        code: "8429.52.20",
+        code: "84295220",
         description:
-            "Infraestruturas motoras, próprias para receber equipamentos das subposições 8430.49, 8430.61 ou 8430.69, mesmo com dispositivo de deslocamento sobre trilhos"
+            "Infraestruturas motoras, próprias para receber equipamentos das subposições 843049, 843061 ou 843069, mesmo com dispositivo de deslocamento sobre trilhos"
     },
     {
-        code: "8429.52.90",
+        code: "84295290",
         description: "Outras"
     },
     {
-        code: "8429.59.00",
+        code: "84295900",
         description: "-- Outros"
     },
     {
-        code: "84.30",
+        code: "8430",
         description:
-            "Outras máquinas e aparelhos de terraplenagem, nivelamento, raspagem, escavação, compactação, extração ou perfuração da terra, de minerais ou minérios; bate-estacas e arranca-estacas; limpa-neves."
+            "Outras máquinas e aparelhos de terraplenagem, nivelamento, raspagem, escavação, compactação, extração ou perfuração da terra, de minerais ou minérios; bate-estacas e arranca-estacas; limpa-neves"
     },
     {
-        code: "8430.10.00",
+        code: "84301000",
         description: "- Bate-estacas e arranca-estacas"
     },
     {
-        code: "8430.20.00",
+        code: "84302000",
         description: "- Limpa-neves"
     },
     {
-        code: "8430.3",
+        code: "84303",
         description: "- Cortadores de carvão ou de rocha e máquinas para perfuração de túneis ou de galerias:"
     },
     {
-        code: "8430.31",
+        code: "843031",
         description: "-- Autopropulsados"
     },
     {
-        code: "8430.31.10",
+        code: "84303110",
         description: "Cortadores de carvão ou de rocha"
     },
     {
-        code: "8430.31.90",
+        code: "84303190",
         description: "Outros"
     },
     {
-        code: "8430.39",
+        code: "843039",
         description: "-- Outros"
     },
     {
-        code: "8430.39.10",
+        code: "84303910",
         description: "Cortadores de carvão ou de rocha"
     },
     {
-        code: "8430.39.90",
+        code: "84303990",
         description: "Outras"
     },
     {
-        code: "8430.4",
+        code: "84304",
         description: "- Outras máquinas de sondagem ou de perfuração:"
     },
     {
-        code: "8430.41",
+        code: "843041",
         description: "-- Autopropulsadas"
     },
     {
-        code: "8430.41.10",
+        code: "84304110",
         description: "Perfuratriz de percussão"
     },
     {
-        code: "8430.41.20",
+        code: "84304120",
         description: "Perfuratriz rotativa"
     },
     {
-        code: "8430.41.30",
+        code: "84304130",
         description: "Máquinas de sondagem, rotativas"
     },
     {
-        code: "8430.41.90",
+        code: "84304190",
         description: "Outras"
     },
     {
-        code: "8430.49",
+        code: "843049",
         description: "-- Outras"
     },
     {
-        code: "8430.49.10",
+        code: "84304910",
         description: "Perfuratriz de percussão"
     },
     {
-        code: "8430.49.20",
+        code: "84304920",
         description: "Máquinas de sondagem, rotativas"
     },
     {
-        code: "8430.49.90",
+        code: "84304990",
         description: "Outras"
     },
     {
-        code: "8430.50.00",
+        code: "84305000",
         description: "- Outras máquinas e aparelhos, autopropulsados"
     },
     {
-        code: "8430.6",
+        code: "84306",
         description: "- Outras máquinas e aparelhos, exceto autopropulsados:"
     },
     {
-        code: "8430.61.00",
+        code: "84306100",
         description: "-- Máquinas de comprimir ou de compactar"
     },
     {
-        code: "8430.69",
+        code: "843069",
         description: "-- Outros"
     },
     {
-        code: "8430.69.1",
+        code: "8430691",
         description: "Equipamentos frontais para escavo-carregadores ou carregadores"
     },
     {
-        code: "8430.69.11",
+        code: "84306911",
         description: "Com capacidade de carga superior a 4 m<sup>3</sup>"
     },
     {
-        code: "8430.69.19",
+        code: "84306919",
         description: "Outros"
     },
     {
-        code: "8430.69.90",
+        code: "84306990",
         description: "Outros"
     },
     {
-        code: "84.31",
-        description: "Partes reconhecíveis como exclusiva ou principalmente destinadas às máquinas e aparelhos das posições 84.25 a 84.30."
+        code: "8431",
+        description: "Partes reconhecíveis como exclusiva ou principalmente destinadas às máquinas e aparelhos das posições 8425 a 8430"
     },
     {
-        code: "8431.10",
-        description: "- De máquinas ou aparelhos da posição 84.25"
+        code: "843110",
+        description: "- De máquinas ou aparelhos da posição 8425"
     },
     {
-        code: "8431.10.10",
-        description: "Do item 8425.19.10 ou das subposições 8425.39, 8425.42 ou 8425.49"
+        code: "84311010",
+        description: "Do item 84251910 ou das subposições 842539, 842542 ou 842549"
     },
     {
-        code: "8431.10.90",
+        code: "84311090",
         description: "Outras"
     },
     {
-        code: "8431.20",
-        description: "- De máquinas ou aparelhos da posição 84.27"
+        code: "843120",
+        description: "- De máquinas ou aparelhos da posição 8427"
     },
     {
-        code: "8431.20.1",
+        code: "8431201",
         description: "De empilhadeiras"
     },
     {
-        code: "8431.20.11",
+        code: "84312011",
         description: "Autopropulsadas"
     },
     {
-        code: "8431.20.19",
+        code: "84312019",
         description: "De outras empilhadeiras"
     },
     {
-        code: "8431.20.90",
+        code: "84312090",
         description: "Outras"
     },
     {
-        code: "8431.3",
-        description: "- De máquinas ou aparelhos da posição 84.28:"
+        code: "84313",
+        description: "- De máquinas ou aparelhos da posição 8428:"
     },
     {
-        code: "8431.31",
+        code: "843131",
         description: "-- De elevadores, monta-cargas ou de escadas rolantes"
     },
     {
-        code: "8431.31.10",
+        code: "84313110",
         description: "De elevadores"
     },
     {
-        code: "8431.31.90",
+        code: "84313190",
         description: "Outras"
     },
     {
-        code: "8431.39.00",
+        code: "84313900",
         description: "-- Outras"
     },
     {
-        code: "8431.4",
-        description: "- De máquinas ou aparelhos das posições 84.26, 84.29 ou 84.30:"
+        code: "84314",
+        description: "- De máquinas ou aparelhos das posições 8426, 8429 ou 8430:"
     },
     {
-        code: "8431.41.00",
+        code: "84314100",
         description: "-- Caçambas (Baldes*), mesmo de mandíbulas, pás, ganchos e tenazes"
     },
     {
-        code: "8431.42.00",
+        code: "84314200",
         description: "-- Lâminas para <i>bulldozers</i> ou <i>angledozers</i>"
     },
     {
-        code: "8431.43",
-        description: "-- Partes de máquinas de sondagem ou de perfuração das subposições 8430.41 ou 8430.49"
+        code: "843143",
+        description: "-- Partes de máquinas de sondagem ou de perfuração das subposições 843041 ou 843049"
     },
     {
-        code: "8431.43.10",
+        code: "84314310",
         description: "De máquinas de sondagem rotativas"
     },
     {
-        code: "8431.43.90",
+        code: "84314390",
         description: "Outras"
     },
     {
-        code: "8431.49",
+        code: "843149",
         description: "-- Outras"
     },
     {
-        code: "8431.49.10",
-        description: "De máquinas ou aparelhos da posição 84.26"
+        code: "84314910",
+        description: "De máquinas ou aparelhos da posição 8426"
     },
     {
-        code: "8431.49.2",
-        description: "De máquinas ou aparelhos das posições 84.29 ou 84.30"
+        code: "8431492",
+        description: "De máquinas ou aparelhos das posições 8429 ou 8430"
     },
     {
-        code: "8431.49.21",
+        code: "84314921",
         description: "Cabinas"
     },
     {
-        code: "8431.49.22",
+        code: "84314922",
         description: "Lagartas (esteiras)"
     },
     {
-        code: "8431.49.23",
+        code: "84314923",
         description: "Tanques de combustível e demais reservatórios"
     },
     {
-        code: "8431.49.29",
+        code: "84314929",
         description: "Outras"
     },
     {
-        code: "84.32",
+        code: "8432",
         description:
-            "Máquinas e aparelhos de uso agrícola, hortícola ou florestal, para preparação ou trabalho do solo ou para cultura; rolos para gramados (relvados) ou para campos de esporte."
+            "Máquinas e aparelhos de uso agrícola, hortícola ou florestal, para preparação ou trabalho do solo ou para cultura; rolos para gramados (relvados) ou para campos de esporte"
     },
     {
-        code: "8432.10.00",
+        code: "84321000",
         description: "- Arados e charruas"
     },
     {
-        code: "8432.2",
+        code: "84322",
         description: "- Grades, escarificadores, cultivadores, extirpadores, enxadas e sachadores:"
     },
     {
-        code: "8432.21.00",
+        code: "84322100",
         description: "-- Grades de discos"
     },
     {
-        code: "8432.29.00",
+        code: "84322900",
         description: "-- Outros"
     },
     {
-        code: "8432.3",
+        code: "84323",
         description: "- Semeadores, plantadores e transplantadores:"
     },
     {
-        code: "8432.31",
+        code: "843231",
         description: "-- Semeadores, plantadores e transplantadores, de plantio direto"
     },
     {
-        code: "8432.31.10",
+        code: "84323110",
         description: "Semeadores-adubadores"
     },
     {
-        code: "8432.31.90",
+        code: "84323190",
         description: "Outros"
     },
     {
-        code: "8432.39",
+        code: "843239",
         description: "-- Outros"
     },
     {
-        code: "8432.39.10",
+        code: "84323910",
         description: "Semeadores-adubadores"
     },
     {
-        code: "8432.39.90",
+        code: "84323990",
         description: "Outros"
     },
     {
-        code: "8432.4",
+        code: "84324",
         description: "- Espalhadores de estrume e distribuidores de adubos (fertilizantes):"
     },
     {
-        code: "8432.41.00",
+        code: "84324100",
         description: "-- Espalhadores de estrume"
     },
     {
-        code: "8432.42.00",
+        code: "84324200",
         description: "-- Distribuidores de adubos (fertilizantes)"
     },
     {
-        code: "8432.80.00",
+        code: "84328000",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "8432.90.00",
+        code: "84329000",
         description: "- Partes"
     },
     {
-        code: "84.33",
+        code: "8433",
         description:
-            "Máquinas e aparelhos para colheita ou debulha de produtos agrícolas, incluindo as enfardadeiras de palha ou forragem; cortadores de grama (relva) e ceifeiras; máquinas para limpar ou selecionar ovos, fruta ou outros produtos agrícolas, exceto as da posição 84.37."
+            "Máquinas e aparelhos para colheita ou debulha de produtos agrícolas, incluindo as enfardadeiras de palha ou forragem; cortadores de grama (relva) e ceifeiras; máquinas para limpar ou selecionar ovos, fruta ou outros produtos agrícolas, exceto as da posição 8437"
     },
     {
-        code: "8433.1",
+        code: "84331",
         description: "- Cortadores de grama (relva):"
     },
     {
-        code: "8433.11.00",
+        code: "84331100",
         description: "-- Motorizados, cujo dispositivo de corte gira num plano horizontal"
     },
     {
-        code: "8433.19.00",
+        code: "84331900",
         description: "-- Outros"
     },
     {
-        code: "8433.20",
+        code: "843320",
         description: "- Ceifeiras, incluindo as barras de corte para montagem em tratores"
     },
     {
-        code: "8433.20.10",
+        code: "84332010",
         description: "Com dispositivo de acondicionamento em fileiras constituído por rotor de dedos e pente"
     },
     {
-        code: "8433.20.90",
+        code: "84332090",
         description: "Outras"
     },
     {
-        code: "8433.30.00",
+        code: "84333000",
         description: "- Outras máquinas e aparelhos para colher e dispor o feno"
     },
     {
-        code: "8433.40.00",
+        code: "84334000",
         description: "- Enfardadeiras de palha ou de forragem, incluindo as enfardadeiras-apanhadeiras"
     },
     {
-        code: "8433.5",
+        code: "84335",
         description: "- Outras máquinas e aparelhos para colheita; máquinas e aparelhos para debulha:"
     },
     {
-        code: "8433.51.00",
+        code: "84335100",
         description: "-- Colheitadeiras combinadas com debulhadoras (ceifeiras-debulhadoras)"
     },
     {
-        code: "8433.52.00",
+        code: "84335200",
         description: "-- Outras máquinas e aparelhos para debulha"
     },
     {
-        code: "8433.53.00",
+        code: "84335300",
         description: "-- Máquinas para colheita de raízes ou tubérculos"
     },
     {
-        code: "8433.59",
+        code: "843359",
         description: "-- Outros"
     },
     {
-        code: "8433.59.1",
+        code: "8433591",
         description: "Colheitadeiras de algodão"
     },
     {
-        code: "8433.59.11",
+        code: "84335911",
         description: "Com capacidade para trabalhar até dois sulcos de colheita e potência no volante inferior ou igual a 59,7 kW (80 HP)"
     },
     {
-        code: "8433.59.19",
+        code: "84335919",
         description: "Outras"
     },
     {
-        code: "8433.59.90",
+        code: "84335990",
         description: "Outros"
     },
     {
-        code: "8433.60",
+        code: "843360",
         description: "- Máquinas para limpar ou selecionar ovos, fruta ou outros produtos agrícolas"
     },
     {
-        code: "8433.60.10",
+        code: "84336010",
         description: "Selecionadores de fruta"
     },
     {
-        code: "8433.60.2",
+        code: "8433602",
         description: "Para limpar ou selecionar ovos"
     },
     {
-        code: "8433.60.21",
-        description: "Com capacidade superior a 250.000 ovos por hora"
+        code: "84336021",
+        description: "Com capacidade superior a 250000 ovos por hora"
     },
     {
-        code: "8433.60.29",
+        code: "84336029",
         description: "Outras"
     },
     {
-        code: "8433.60.90",
+        code: "84336090",
         description: "Outras"
     },
     {
-        code: "8433.90",
+        code: "843390",
         description: "- Partes"
     },
     {
-        code: "8433.90.10",
+        code: "84339010",
         description: "De cortadores de grama (relva)"
     },
     {
-        code: "8433.90.90",
+        code: "84339090",
         description: "Outras"
     },
     {
-        code: "84.34",
-        description: "Máquinas de ordenhar e máquinas e aparelhos para a indústria de laticínios."
+        code: "8434",
+        description: "Máquinas de ordenhar e máquinas e aparelhos para a indústria de laticínios"
     },
     {
-        code: "8434.10.00",
+        code: "84341000",
         description: "- Máquinas de ordenhar"
     },
     {
-        code: "8434.20",
+        code: "843420",
         description: "- Máquinas e aparelhos para a indústria de laticínios"
     },
     {
-        code: "8434.20.10",
+        code: "84342010",
         description: "Para tratamento do leite"
     },
     {
-        code: "8434.20.90",
+        code: "84342090",
         description: "Outros"
     },
     {
-        code: "8434.90.00",
+        code: "84349000",
         description: "- Partes"
     },
     {
-        code: "84.35",
+        code: "8435",
         description:
-            "Prensas, esmagadores e máquinas e aparelhos semelhantes, para fabricação de vinho, sidra, sucos (sumos) de fruta ou bebidas semelhantes."
+            "Prensas, esmagadores e máquinas e aparelhos semelhantes, para fabricação de vinho, sidra, sucos (sumos) de fruta ou bebidas semelhantes"
     },
     {
-        code: "8435.10.00",
+        code: "84351000",
         description: "- Máquinas e aparelhos"
     },
     {
-        code: "8435.90.00",
+        code: "84359000",
         description: "- Partes"
     },
     {
-        code: "84.36",
+        code: "8436",
         description:
-            "Outras máquinas e aparelhos para agricultura, horticultura, silvicultura, avicultura ou apicultura, incluindo os germinadores equipados com dispositivos mecânicos ou térmicos e as chocadeiras e criadeiras para avicultura."
+            "Outras máquinas e aparelhos para agricultura, horticultura, silvicultura, avicultura ou apicultura, incluindo os germinadores equipados com dispositivos mecânicos ou térmicos e as chocadeiras e criadeiras para avicultura"
     },
     {
-        code: "8436.10.00",
+        code: "84361000",
         description: "- Máquinas e aparelhos para preparação de alimentos ou rações para animais"
     },
     {
-        code: "8436.2",
+        code: "84362",
         description: "- Máquinas e aparelhos para avicultura, incluindo as chocadeiras e criadeiras:"
     },
     {
-        code: "8436.21.00",
+        code: "84362100",
         description: "-- Chocadeiras e criadeiras"
     },
     {
-        code: "8436.29.00",
+        code: "84362900",
         description: "-- Outros"
     },
     {
-        code: "8436.80.00",
+        code: "84368000",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "8436.9",
+        code: "84369",
         description: "- Partes:"
     },
     {
-        code: "8436.91.00",
+        code: "84369100",
         description: "-- De máquinas ou aparelhos para avicultura"
     },
     {
-        code: "8436.99.00",
+        code: "84369900",
         description: "-- Outras"
     },
     {
-        code: "84.37",
+        code: "8437",
         description:
-            "Máquinas para limpeza, seleção ou peneiração de grãos ou de produtos hortícolas secos; máquinas e aparelhos para a indústria de moagem ou tratamento de cereais ou de produtos hortícolas secos, exceto do tipo utilizado em fazendas."
+            "Máquinas para limpeza, seleção ou peneiração de grãos ou de produtos hortícolas secos; máquinas e aparelhos para a indústria de moagem ou tratamento de cereais ou de produtos hortícolas secos, exceto do tipo utilizado em fazendas"
     },
     {
-        code: "8437.10.00",
+        code: "84371000",
         description: "- Máquinas para limpeza, seleção ou peneiração de grãos ou de produtos hortícolas secos"
     },
     {
-        code: "8437.80",
+        code: "843780",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "8437.80.10",
+        code: "84378010",
         description: "Para trituração ou moagem de grãos"
     },
     {
-        code: "8437.80.90",
+        code: "84378090",
         description: "Outros"
     },
     {
-        code: "8437.90.00",
+        code: "84379000",
         description: "- Partes"
     },
     {
-        code: "84.38",
+        code: "8438",
         description:
-            "Máquinas e aparelhos não especificados nem compreendidos noutras posições do presente Capítulo, para preparação ou fabricação industrial de alimentos ou de bebidas, exceto as máquinas e aparelhos para extração ou preparação de óleos ou gorduras vegetais ou de origem microbiana, fixos, ou de animais."
+            "Máquinas e aparelhos não especificados nem compreendidos noutras posições do presente Capítulo, para preparação ou fabricação industrial de alimentos ou de bebidas, exceto as máquinas e aparelhos para extração ou preparação de óleos ou gorduras vegetais ou de origem microbiana, fixos, ou de animais"
     },
     {
-        code: "8438.10.00",
+        code: "84381000",
         description: "- Máquinas e aparelhos para as indústrias de panificação, pastelaria, bolachas e biscoitos e de massas alimentícias"
     },
     {
-        code: "8438.20",
+        code: "843820",
         description: "- Máquinas e aparelhos para as indústrias de confeitaria e de cacau ou de chocolate"
     },
     {
-        code: "8438.20.1",
+        code: "8438201",
         description: "Para as indústrias de confeitaria"
     },
     {
-        code: "8438.20.11",
+        code: "84382011",
         description: "Para fabricar bombons de chocolate por moldagem, de capacidade de produção igual ou superior a 150 kg/h"
     },
     {
-        code: "8438.20.19",
+        code: "84382019",
         description: "Outros"
     },
     {
-        code: "8438.20.90",
+        code: "84382090",
         description: "Outros"
     },
     {
-        code: "8438.30.00",
+        code: "84383000",
         description: "- Máquinas e aparelhos para a indústria de açúcar"
     },
     {
-        code: "8438.40.00",
+        code: "84384000",
         description: "- Máquinas e aparelhos para a indústria cervejeira"
     },
     {
-        code: "8438.50.00",
+        code: "84385000",
         description: "- Máquinas e aparelhos para preparação de carnes"
     },
     {
-        code: "8438.60.00",
+        code: "84386000",
         description: "- Máquinas e aparelhos para preparação de fruta ou de produtos hortícolas"
     },
     {
-        code: "8438.80",
+        code: "843880",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "8438.80.10",
+        code: "84388010",
         description: "Máquinas para extração de óleo essencial de citros"
     },
     {
-        code: "8438.80.20",
+        code: "84388020",
         description: "Automática, para descabeçar, cortar a cauda e eviscerar peixes, com capacidade superior a 350 unidades por minuto"
     },
     {
-        code: "8438.80.90",
+        code: "84388090",
         description: "Outros"
     },
     {
-        code: "8438.90.00",
+        code: "84389000",
         description: "- Partes"
     },
     {
-        code: "84.39",
+        code: "8439",
         description:
-            "Máquinas e aparelhos para fabricação de pasta de matérias fibrosas celulósicas ou para fabricação ou acabamento de papel ou cartão."
+            "Máquinas e aparelhos para fabricação de pasta de matérias fibrosas celulósicas ou para fabricação ou acabamento de papel ou cartão"
     },
     {
-        code: "8439.10",
+        code: "843910",
         description: "- Máquinas e aparelhos para fabricação de pasta de matérias fibrosas celulósicas"
     },
     {
-        code: "8439.10.10",
+        code: "84391010",
         description: "Para tratamento preliminar das matérias-primas"
     },
     {
-        code: "8439.10.20",
+        code: "84391020",
         description: "Classificadoras e classificadoras-depuradoras de pasta"
     },
     {
-        code: "8439.10.30",
+        code: "84391030",
         description: "Refinadoras"
     },
     {
-        code: "8439.10.90",
+        code: "84391090",
         description: "Outros"
     },
     {
-        code: "8439.20.00",
+        code: "84392000",
         description: "- Máquinas e aparelhos para fabricação de papel ou cartão"
     },
     {
-        code: "8439.30",
+        code: "843930",
         description: "- Máquinas e aparelhos para acabamento de papel ou cartão"
     },
     {
-        code: "8439.30.10",
+        code: "84393010",
         description: "Bobinadoras-esticadoras"
     },
     {
-        code: "8439.30.20",
+        code: "84393020",
         description: "Para impregnar"
     },
     {
-        code: "8439.30.30",
+        code: "84393030",
         description: "Para ondular"
     },
     {
-        code: "8439.30.90",
+        code: "84393090",
         description: "Outros"
     },
     {
-        code: "8439.9",
+        code: "84399",
         description: "- Partes:"
     },
     {
-        code: "8439.91.00",
+        code: "84399100",
         description: "-- De máquinas ou aparelhos para fabricação de pasta de matérias fibrosas celulósicas"
     },
     {
-        code: "8439.99",
+        code: "843999",
         description: "-- Outras"
     },
     {
-        code: "8439.99.10",
-        description: "Rolos, corrugadores ou de pressão, de máquinas para ondular, com largura útil igual ou superior a 2.500 mm"
+        code: "84399910",
+        description: "Rolos, corrugadores ou de pressão, de máquinas para ondular, com largura útil igual ou superior a 2500 mm"
     },
     {
-        code: "8439.99.90",
+        code: "84399990",
         description: "Outras"
     },
     {
-        code: "84.40",
-        description: "Máquinas e aparelhos para brochura ou encadernação, incluindo as máquinas de costurar cadernos."
+        code: "8440",
+        description: "Máquinas e aparelhos para brochura ou encadernação, incluindo as máquinas de costurar cadernos"
     },
     {
-        code: "8440.10",
+        code: "844010",
         description: "- Máquinas e aparelhos"
     },
     {
-        code: "8440.10.1",
+        code: "8440101",
         description: "De costurar cadernos"
     },
     {
-        code: "8440.10.11",
+        code: "84401011",
         description: "Com alimentação automática"
     },
     {
-        code: "8440.10.19",
+        code: "84401019",
         description: "Outros"
     },
     {
-        code: "8440.10.20",
+        code: "84401020",
         description: "Máquinas para fabricar capas de papelão, com dispositivo de colagem e capacidade de produção superior a 60 unidades por minuto"
     },
     {
-        code: "8440.10.90",
+        code: "84401090",
         description: "Outros"
     },
     {
-        code: "8440.90.00",
+        code: "84409000",
         description: "- Partes"
     },
     {
-        code: "84.41",
-        description: "Outras máquinas e aparelhos para o trabalho de pasta de papel, papel ou cartão, incluindo as cortadeiras de qualquer tipo."
+        code: "8441",
+        description: "Outras máquinas e aparelhos para o trabalho de pasta de papel, papel ou cartão, incluindo as cortadeiras de qualquer tipo"
     },
     {
-        code: "8441.10",
+        code: "844110",
         description: "- Cortadeiras"
     },
     {
-        code: "8441.10.10",
-        description: "Cortadeiras bobinadoras com velocidade de bobinado superior a 2.000 m/min"
+        code: "84411010",
+        description: "Cortadeiras bobinadoras com velocidade de bobinado superior a 2000 m/min"
     },
     {
-        code: "8441.10.90",
+        code: "84411090",
         description: "Outras"
     },
     {
-        code: "8441.20.00",
+        code: "84412000",
         description: "- Máquinas para fabricação de sacos de quaisquer dimensões ou de envelopes"
     },
     {
-        code: "8441.30",
+        code: "844130",
         description: "- Máquinas para fabricação de caixas, tubos, tambores ou de recipientes semelhantes, por qualquer processo, exceto moldagem"
     },
     {
-        code: "8441.30.10",
+        code: "84413010",
         description: "De dobrar e colar, para fabricação de caixas"
     },
     {
-        code: "8441.30.90",
+        code: "84413090",
         description: "Outras"
     },
     {
-        code: "8441.40.00",
+        code: "84414000",
         description: "- Máquinas de moldar artigos de pasta de papel, papel ou cartão"
     },
     {
-        code: "8441.80.00",
+        code: "84418000",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "8441.90.00",
+        code: "84419000",
         description: "- Partes"
     },
     {
-        code: "84.42",
+        code: "8442",
         description:
-            "Máquinas, aparelhos e equipamentos (exceto as máquinas das posições 84.56 a 84.65), para preparação ou fabricação de clichês, placas, cilindros ou outros elementos de impressão; clichês, placas, cilindros e outros elementos de impressão; pedras litográficas, placas e cilindros, preparados para impressão (por exemplo, aplainados, granulados ou polidos)."
+            "Máquinas, aparelhos e equipamentos (exceto as máquinas das posições 8456 a 8465), para preparação ou fabricação de clichês, placas, cilindros ou outros elementos de impressão; clichês, placas, cilindros e outros elementos de impressão; pedras litográficas, placas e cilindros, preparados para impressão (por exemplo, aplainados, granulados ou polidos)"
     },
     {
-        code: "8442.30",
+        code: "844230",
         description: "- Máquinas, aparelhos e equipamentos"
     },
     {
-        code: "8442.30.10",
+        code: "84423010",
         description: "De compor por processo fotográfico"
     },
     {
-        code: "8442.30.20",
+        code: "84423020",
         description: "De compor caracteres tipográficos por outros processos, mesmo com dispositivo de fundir"
     },
     {
-        code: "8442.30.90",
+        code: "84423090",
         description: "Outros"
     },
     {
-        code: "8442.40",
+        code: "844240",
         description: "- Partes dessas máquinas, aparelhos e equipamentos"
     },
     {
-        code: "8442.40.10",
-        description: "De máquinas do item 8442.30.10"
+        code: "84424010",
+        description: "De máquinas do item 84423010"
     },
     {
-        code: "8442.40.20",
-        description: "De máquinas do item 8442.30.20"
+        code: "84424020",
+        description: "De máquinas do item 84423020"
     },
     {
-        code: "8442.40.90",
+        code: "84424090",
         description: "Outras"
     },
     {
-        code: "8442.50.00",
+        code: "84425000",
         description:
             "- Clichês, placas, cilindros e outros elementos de impressão; pedras litográficas, placas e cilindros, preparados para impressão (por exemplo, aplainados, granulados ou polidos)"
     },
     {
-        code: "84.43",
+        code: "8443",
         description:
-            "Máquinas e aparelhos de impressão por meio de placas, cilindros e outros elementos de impressão da posição 84.42; outras impressoras, aparelhos de copiar e aparelhos de telecopiar (fax), mesmo combinados entre si; partes e acessórios."
+            "Máquinas e aparelhos de impressão por meio de placas, cilindros e outros elementos de impressão da posição 8442; outras impressoras, aparelhos de copiar e aparelhos de telecopiar (fax), mesmo combinados entre si; partes e acessórios"
     },
     {
-        code: "8443.1",
-        description: "- Máquinas e aparelhos de impressão por meio de placas, cilindros e outros elementos de impressão da posição 84.42:"
+        code: "84431",
+        description: "- Máquinas e aparelhos de impressão por meio de placas, cilindros e outros elementos de impressão da posição 8442:"
     },
     {
-        code: "8443.11",
+        code: "844311",
         description: "-- Máquinas e aparelhos de impressão, por ofsete, alimentados por bobinas"
     },
     {
-        code: "8443.11.10",
+        code: "84431110",
         description:
             "Para impressão multicolor de jornais, de largura igual ou superior a 900 mm, com unidades de impressão em configuração torre e dispositivos automáticos de emendar bobinas"
     },
     {
-        code: "8443.11.90",
+        code: "84431190",
         description: "Outros"
     },
     {
-        code: "8443.12.00",
+        code: "84431200",
         description:
             "-- Máquinas e aparelhos de impressão, por ofsete, do tipo utilizado em escritórios, alimentados por folhas em que um lado não seja superior a 22 cm e que o outro não seja superior a 36 cm, quando não dobradas"
     },
     {
-        code: "8443.13",
+        code: "844313",
         description: "-- Outras máquinas e aparelhos de impressão, por ofsete"
     },
     {
-        code: "8443.13.10",
+        code: "84431310",
         description: "Para impressão multicolor de recipientes de matérias plásticas, cilíndricos, cônicos ou de faces planas"
     },
     {
-        code: "8443.13.2",
+        code: "8443132",
         description: "Alimentados por folhas de formato inferior ou igual a 37,5 cm x 51 cm"
     },
     {
-        code: "8443.13.21",
-        description: "Com velocidade de impressão igual ou superior a 12.000 folhas por hora"
+        code: "84431321",
+        description: "Com velocidade de impressão igual ou superior a 12000 folhas por hora"
     },
     {
-        code: "8443.13.29",
+        code: "84431329",
         description: "Outros"
     },
     {
-        code: "8443.13.90",
+        code: "84431390",
         description: "Outros"
     },
     {
-        code: "8443.14.00",
+        code: "84431400",
         description: "-- Máquinas e aparelhos de impressão, tipográficos, alimentados por bobinas, excluindo as máquinas e aparelhos flexográficos"
     },
     {
-        code: "8443.15.00",
+        code: "84431500",
         description:
             "-- Máquinas e aparelhos de impressão, tipográficos, não alimentados por bobinas, excluindo as máquinas e aparelhos flexográficos"
     },
     {
-        code: "8443.16.00",
+        code: "84431600",
         description: "-- Máquinas e aparelhos de impressão, flexográficos"
     },
     {
-        code: "8443.17",
+        code: "844317",
         description: "-- Máquinas e aparelhos de impressão, heliográficos"
     },
     {
-        code: "8443.17.10",
+        code: "84431710",
         description: "Rotativas para heliogravura"
     },
     {
-        code: "8443.17.90",
+        code: "84431790",
         description: "Outros"
     },
     {
-        code: "8443.19",
+        code: "844319",
         description: "-- Outros"
     },
     {
-        code: "8443.19.10",
+        code: "84431910",
         description: "Para serigrafia"
     },
     {
-        code: "8443.19.90",
+        code: "84431990",
         description: "Outros"
     },
     {
-        code: "8443.3",
+        code: "84433",
         description: "- Outras impressoras, aparelhos de copiar e aparelhos de telecopiar (fax), mesmo combinados entre si:"
     },
     {
-        code: "8443.31",
+        code: "844331",
         description:
             "-- Máquinas que executem pelo menos duas das seguintes funções: impressão, cópia ou transmissão de telecópia (fax), capazes de ser conectadas a uma máquina automática para processamento de dados ou a uma rede"
     },
     {
-        code: "8443.31.1",
+        code: "8443311",
         description:
             "Alimentadas por folhas, com velocidade de impressão, medida no formato A4 (210 mm x 297 mm), inferior ou igual a 45 páginas por minuto (ppm)"
     },
     {
-        code: "8443.31.11",
+        code: "84433111",
         description: "De jato de tinta líquida, com largura de impressão inferior ou igual a 420 mm"
     },
     {
-        code: "8443.31.12",
+        code: "84433112",
         description: "De transferência térmica de cera sólida (por exemplo, <i>solid ink</i> e <i>dye sublimation</i>)"
     },
     {
-        code: "8443.31.13",
+        code: "84433113",
         description:
             "A laser, LED (Diodos Emissores de Luz) ou LCS (Sistema de Cristal Líquido), monocromáticas, com largura de impressão inferior ou igual a 280 mm"
     },
     {
-        code: "8443.31.14",
+        code: "84433114",
         description:
             "A laser, LED (Diodos Emissores de Luz) ou LCS (Sistema de Cristal Líquido), monocromáticas, com largura de impressão superior a 280 mm, mas não superior a 420 mm"
     },
     {
-        code: "8443.31.15",
+        code: "84433115",
         description: "A laser, LED (Diodos Emissores de Luz) ou LCS (Sistema de Cristal Líquido), policromáticas"
     },
     {
-        code: "8443.31.16",
+        code: "84433116",
         description: "Outras, com largura de impressão superior a 420 mm"
     },
     {
-        code: "8443.31.19",
+        code: "84433119",
         description: "Outras"
     },
     {
-        code: "8443.31.9",
+        code: "8443319",
         description: "Outras"
     },
     {
-        code: "8443.31.91",
+        code: "84433191",
         description: "Com impressão por sistema térmico"
     },
     {
-        code: "8443.31.99",
+        code: "84433199",
         description: "Outras"
     },
     {
-        code: "8443.32",
+        code: "844332",
         description: "-- Outros, capazes de ser conectados a uma máquina automática para processamento de dados ou a uma rede"
     },
     {
-        code: "8443.32.2",
+        code: "8443322",
         description: "Impressoras de impacto"
     },
     {
-        code: "8443.32.21",
+        code: "84433221",
         description: "De linha"
     },
     {
-        code: "8443.32.22",
+        code: "84433222",
         description: "De caracteres Braille"
     },
     {
-        code: "8443.32.23",
+        code: "84433223",
         description: "Outras matriciais (por pontos)"
     },
     {
-        code: "8443.32.29",
+        code: "84433229",
         description: "Outras"
     },
     {
-        code: "8443.32.3",
+        code: "8443323",
         description:
             "Outras impressoras, alimentadas por folhas, com velocidade de impressão, medida no formato A4 (210 mm x 297 mm), inferior ou igual a 45 páginas por minuto (ppm)"
     },
     {
-        code: "8443.32.31",
+        code: "84433231",
         description: "De jato de tinta líquida, com largura de impressão inferior ou igual a 420 mm"
     },
     {
-        code: "8443.32.32",
+        code: "84433232",
         description: "De transferência térmica de cera sólida (por exemplo, <i>solid ink</i> e <i>dye sublimation</i>)"
     },
     {
-        code: "8443.32.33",
+        code: "84433233",
         description:
             "A laser, LED (Diodos Emissores de Luz) ou LCS (Sistema de Cristal Líquido), monocromáticas, com largura de impressão inferior ou igual a 280 mm"
     },
     {
-        code: "8443.32.34",
+        code: "84433234",
         description:
             "A laser, LED (Diodos Emissores de Luz) ou LCS (Sistema de Cristal Líquido), monocromáticas, com largura de impressão superior a 280 mm, mas não superior a 420 mm"
     },
     {
-        code: "8443.32.35",
+        code: "84433235",
         description:
             "A laser, LED (Diodos Emissores de Luz) ou LCS (Sistema de Cristal Líquido), policromáticas, com velocidade de impressão inferior ou igual a 20 páginas por minuto (ppm)"
     },
     {
-        code: "8443.32.36",
+        code: "84433236",
         description:
             "A laser, LED (Diodos Emissores de Luz) ou LCS (Sistema de Cristal Líquido), policromáticas, com velocidade de impressão superior a 20 páginas por minuto (ppm)"
     },
     {
-        code: "8443.32.37",
+        code: "84433237",
         description: "Térmicas, do tipo utilizado em impressão de imagens para diagnóstico médico em folhas revestidas com camada termossensível"
     },
     {
-        code: "8443.32.38",
+        code: "84433238",
         description: "Outras, com largura de impressão superior a 420 mm"
     },
     {
-        code: "8443.32.39",
+        code: "84433239",
         description: "Outras"
     },
     {
-        code: "8443.32.40",
+        code: "84433240",
         description: "Outras impressoras alimentadas por folhas"
     },
     {
-        code: "8443.32.5",
+        code: "8443325",
         description: "Traçadores gráficos (<i>plotters</i>)"
     },
     {
-        code: "8443.32.51",
+        code: "84433251",
         description: "Por meio de penas"
     },
     {
-        code: "8443.32.52",
+        code: "84433252",
         description: "Outros, com largura de impressão superior a 580 mm"
     },
     {
-        code: "8443.32.59",
+        code: "84433259",
         description: "Outros"
     },
     {
-        code: "8443.32.9",
+        code: "8443329",
         description: "Outras"
     },
     {
-        code: "8443.32.91",
+        code: "84433291",
         description:
             "Impressoras de código de barras postais, tipo 3 em 5, a jato de tinta fluorescente, com velocidade de até 4,5 m/s e passo de 1,4 mm"
     },
     {
-        code: "8443.32.99",
+        code: "84433299",
         description: "Outras"
     },
     {
-        code: "8443.39",
+        code: "844339",
         description: "-- Outros"
     },
     {
-        code: "8443.39.10",
+        code: "84433910",
         description: "Máquinas de impressão por jato de tinta"
     },
     {
-        code: "8443.39.2",
+        code: "8443392",
         description: "Máquinas copiadoras eletrostáticas"
     },
     {
-        code: "8443.39.21",
+        code: "84433921",
         description:
             "De reprodução da imagem do original sobre a cópia por meio de um suporte intermediário (processo indireto), monocromáticas, para cópias de superfície inferior ou igual a 1 m<sup>2</sup>, com velocidade inferior a 100 cópias por minuto"
     },
     {
-        code: "8443.39.28",
+        code: "84433928",
         description: "Outras, por processo indireto"
     },
     {
-        code: "8443.39.29",
+        code: "84433929",
         description: "Outras"
     },
     {
-        code: "8443.39.30",
+        code: "84433930",
         description: "Outras máquinas copiadoras"
     },
     {
-        code: "8443.39.90",
+        code: "84433990",
         description: "Outros"
     },
     {
-        code: "8443.9",
+        code: "84439",
         description: "- Partes e acessórios:"
     },
     {
-        code: "8443.91",
+        code: "844391",
         description:
-            "-- Partes e acessórios de máquinas e aparelhos de impressão por meio de blocos, cilindros e outros elementos de impressão da posição 84.42"
+            "-- Partes e acessórios de máquinas e aparelhos de impressão por meio de blocos, cilindros e outros elementos de impressão da posição 8442"
     },
     {
-        code: "8443.91.10",
-        description: "De máquinas e aparelhos da subposição 8443.12"
+        code: "84439110",
+        description: "De máquinas e aparelhos da subposição 844312"
     },
     {
-        code: "8443.91.9",
+        code: "8443919",
         description: "Outros"
     },
     {
-        code: "8443.91.91",
+        code: "84439191",
         description: "Dobradoras"
     },
     {
-        code: "8443.91.92",
+        code: "84439192",
         description: "Numeradores automáticos"
     },
     {
-        code: "8443.91.99",
+        code: "84439199",
         description: "Outros"
     },
     {
-        code: "8443.99",
+        code: "844399",
         description: "-- Outros"
     },
     {
-        code: "8443.99.1",
+        code: "8443991",
         description: "Mecanismos de impressão por impacto, suas partes e acessórios"
     },
     {
-        code: "8443.99.11",
+        code: "84439911",
         description: "Mecanismos de impressão, mesmo sem cabeça de impressão incorporada"
     },
     {
-        code: "8443.99.12",
+        code: "84439912",
         description: "Cabeças de impressão"
     },
     {
-        code: "8443.99.19",
+        code: "84439919",
         description: "Outros"
     },
     {
-        code: "8443.99.2",
+        code: "8443992",
         description: "Mecanismos de impressão por jato de tinta, suas partes e acessórios"
     },
     {
-        code: "8443.99.21",
+        code: "84439921",
         description: "Mecanismos de impressão, mesmo sem cabeça de impressão incorporada"
     },
     {
-        code: "8443.99.22",
+        code: "84439922",
         description: "Cabeças de impressão"
     },
     {
-        code: "8443.99.23",
+        code: "84439923",
         description: "Cartuchos de tinta"
     },
     {
-        code: "8443.99.29",
+        code: "84439929",
         description: "Outros"
     },
     {
-        code: "8443.99.3",
+        code: "8443993",
         description:
             "Mecanismos de impressão a laser, a LED (Diodos Emissores de Luz) ou a LCS (Sistema de Cristal Líquido), suas partes e acessórios"
     },
     {
-        code: "8443.99.31",
+        code: "84439931",
         description: "Mecanismos de impressão, mesmo sem cilindro fotossensível incorporado"
     },
     {
-        code: "8443.99.32",
+        code: "84439932",
         description: "Cilindros recobertos de matéria semicondutora fotoelétrica"
     },
     {
-        code: "8443.99.33",
+        code: "84439933",
         description: "Cartuchos de revelador (<i>toners</i>)"
     },
     {
-        code: "8443.99.39",
+        code: "84439939",
         description: "Outros"
     },
     {
-        code: "8443.99.4",
+        code: "8443994",
         description: "Mecanismos de impressão por sistema térmico, suas partes e acessórios"
     },
     {
-        code: "8443.99.41",
+        code: "84439941",
         description: "Mecanismos de impressão, mesmo sem cabeça de impressão incorporada"
     },
     {
-        code: "8443.99.42",
+        code: "84439942",
         description: "Cabeças de impressão"
     },
     {
-        code: "8443.99.49",
+        code: "84439949",
         description: "Outros"
     },
     {
-        code: "8443.99.50",
+        code: "84439950",
         description: "Outros mecanismos de impressão, suas partes e acessórios"
     },
     {
-        code: "8443.99.60",
+        code: "84439960",
         description: "Circuitos impressos com componentes elétricos ou eletrônicos, montados"
     },
     {
-        code: "8443.99.70",
+        code: "84439970",
         description: "Bandejas e gavetas, suas partes e acessórios"
     },
     {
-        code: "8443.99.80",
+        code: "84439980",
         description: "Mecanismos de alimentação ou de triagem de papéis ou documentos, suas partes e acessórios"
     },
     {
-        code: "8443.99.90",
+        code: "84439990",
         description: "Outros"
     },
     {
-        code: "8444.00",
-        description: "Máquinas para extrudar, estirar, texturizar ou cortar matérias têxteis sintéticas ou artificiais."
+        code: "844400",
+        description: "Máquinas para extrudar, estirar, texturizar ou cortar matérias têxteis sintéticas ou artificiais"
     },
     {
-        code: "8444.00.10",
+        code: "84440010",
         description: "Para extrudar"
     },
     {
-        code: "8444.00.20",
+        code: "84440020",
         description: "Para corte ou ruptura de fibras"
     },
     {
-        code: "8444.00.90",
+        code: "84440090",
         description: "Outras"
     },
     {
-        code: "84.45",
+        code: "8445",
         description:
-            "Máquinas para preparação de matérias têxteis; máquinas para fiação, dobragem ou torção, de matérias têxteis e outras máquinas e aparelhos para fabricação de fios têxteis; máquinas de bobinar (incluindo as bobinadoras de trama) ou de dobar matérias têxteis e máquinas para preparação de fios têxteis para a sua utilização nas máquinas das posições 84.46 ou 84.47."
+            "Máquinas para preparação de matérias têxteis; máquinas para fiação, dobragem ou torção, de matérias têxteis e outras máquinas e aparelhos para fabricação de fios têxteis; máquinas de bobinar (incluindo as bobinadoras de trama) ou de dobar matérias têxteis e máquinas para preparação de fios têxteis para a sua utilização nas máquinas das posições 8446 ou 8447"
     },
     {
-        code: "8445.1",
+        code: "84451",
         description: "- Máquinas para preparação de matérias têxteis:"
     },
     {
-        code: "8445.11",
+        code: "844511",
         description: "-- Cardas"
     },
     {
-        code: "8445.11.10",
+        code: "84451110",
         description: "Para lã"
     },
     {
-        code: "8445.11.20",
+        code: "84451120",
         description: "Para fibras do Capítulo 53"
     },
     {
-        code: "8445.11.90",
+        code: "84451190",
         description: "Outras"
     },
     {
-        code: "8445.12.00",
+        code: "84451200",
         description: "-- Penteadoras"
     },
     {
-        code: "8445.13.00",
+        code: "84451300",
         description: "-- Bancos de estiramento (fusos)"
     },
     {
-        code: "8445.19",
+        code: "844519",
         description: "-- Outras"
     },
     {
-        code: "8445.19.10",
+        code: "84451910",
         description: "Máquinas para a preparação da seda"
     },
     {
-        code: "8445.19.2",
+        code: "8445192",
         description: "Máquinas para a preparação de outras matérias têxteis"
     },
     {
-        code: "8445.19.21",
+        code: "84451921",
         description: "Para recuperação de cordas, fios, trapos ou qualquer outro desperdício, transformando-os em fibras adequadas para cardagem"
     },
     {
-        code: "8445.19.22",
+        code: "84451922",
         description: "Descaroçadeiras e deslintadeiras de algodão"
     },
     {
-        code: "8445.19.23",
+        code: "84451923",
         description: "Para desengordurar, lavar, alvejar ou tingir fibras têxteis em massa ou rama"
     },
     {
-        code: "8445.19.24",
+        code: "84451924",
         description: "Abridoras de fibras de lã"
     },
     {
-        code: "8445.19.25",
+        code: "84451925",
         description: "Abridoras de fibras do Capítulo 53"
     },
     {
-        code: "8445.19.26",
+        code: "84451926",
         description: "Máquinas de carbonizar a lã"
     },
     {
-        code: "8445.19.27",
+        code: "84451927",
         description: "Para estirar a lã"
     },
     {
-        code: "8445.19.29",
+        code: "84451929",
         description: "Outras"
     },
     {
-        code: "8445.20.00",
+        code: "84452000",
         description: "- Máquinas para fiação de matérias têxteis"
     },
     {
-        code: "8445.30",
+        code: "844530",
         description: "- Máquinas para dobragem ou torção, de matérias têxteis"
     },
     {
-        code: "8445.30.10",
+        code: "84453010",
         description: "Retorcedeiras"
     },
     {
-        code: "8445.30.90",
+        code: "84453090",
         description: "Outras"
     },
     {
-        code: "8445.40",
+        code: "844540",
         description: "- Máquinas de bobinar (incluindo as bobinadoras de trama) ou de dobar matérias têxteis"
     },
     {
-        code: "8445.40.1",
+        code: "8445401",
         description: "Bobinadoras automáticas"
     },
     {
-        code: "8445.40.11",
+        code: "84454011",
         description: "Bobinadoras de trama (espuladeiras)"
     },
     {
-        code: "8445.40.12",
+        code: "84454012",
         description: "Para fios elastanos"
     },
     {
-        code: "8445.40.18",
+        code: "84454018",
         description: "Outras, com atador automático"
     },
     {
-        code: "8445.40.19",
+        code: "84454019",
         description: "Outras"
     },
     {
-        code: "8445.40.2",
+        code: "8445402",
         description: "Bobinadoras não automáticas"
     },
     {
-        code: "8445.40.21",
-        description: "Com velocidade de bobinado igual ou superior a 4.000 m/min"
+        code: "84454021",
+        description: "Com velocidade de bobinado igual ou superior a 4000 m/min"
     },
     {
-        code: "8445.40.29",
+        code: "84454029",
         description: "Outras"
     },
     {
-        code: "8445.40.3",
+        code: "8445403",
         description: "Meadeiras"
     },
     {
-        code: "8445.40.31",
+        code: "84454031",
         description: "Com controle de comprimento ou peso e atador automático"
     },
     {
-        code: "8445.40.39",
+        code: "84454039",
         description: "Outras"
     },
     {
-        code: "8445.40.40",
+        code: "84454040",
         description: "Noveleiras automáticas"
     },
     {
-        code: "8445.40.90",
+        code: "84454090",
         description: "Outras"
     },
     {
-        code: "8445.90",
+        code: "844590",
         description: "- Outras"
     },
     {
-        code: "8445.90.10",
+        code: "84459010",
         description: "Urdideiras"
     },
     {
-        code: "8445.90.20",
+        code: "84459020",
         description: "Passadeiras para liço e pente"
     },
     {
-        code: "8445.90.30",
+        code: "84459030",
         description: "Para amarrar urdideiras"
     },
     {
-        code: "8445.90.40",
+        code: "84459040",
         description: "Automáticas, para colocar lamelas"
     },
     {
-        code: "8445.90.90",
+        code: "84459090",
         description: "Outras"
     },
     {
-        code: "84.46",
-        description: "Teares para tecidos."
+        code: "8446",
+        description: "Teares para tecidos"
     },
     {
-        code: "8446.10",
+        code: "844610",
         description: "- Para tecidos de largura não superior a 30 cm"
     },
     {
-        code: "8446.10.10",
+        code: "84461010",
         description: "Com mecanismo Jacquard"
     },
     {
-        code: "8446.10.90",
+        code: "84461090",
         description: "Outros"
     },
     {
-        code: "8446.2",
+        code: "84462",
         description: "- Para tecidos de largura superior a 30 cm, de lançadeiras:"
     },
     {
-        code: "8446.21.00",
+        code: "84462100",
         description: "-- A motor"
     },
     {
-        code: "8446.29.00",
+        code: "84462900",
         description: "-- Outros"
     },
     {
-        code: "8446.30",
+        code: "844630",
         description: "- Para tecidos de largura superior a 30 cm, sem lançadeiras"
     },
     {
-        code: "8446.30.10",
+        code: "84463010",
         description: "A jato de ar"
     },
     {
-        code: "8446.30.20",
+        code: "84463020",
         description: "A jato de água"
     },
     {
-        code: "8446.30.30",
+        code: "84463030",
         description: "De projétil"
     },
     {
-        code: "8446.30.40",
+        code: "84463040",
         description: "De pinças"
     },
     {
-        code: "8446.30.90",
+        code: "84463090",
         description: "Outros"
     },
     {
-        code: "84.47",
+        code: "8447",
         description:
-            "Teares para fabricar malhas, máquinas de costura por entrelaçamento (<i>couture-tricotage</i>), máquinas para fabricar guipuras, tules, rendas, bordados, passamanarias, galões ou redes e máquinas para inserir tufos."
+            "Teares para fabricar malhas, máquinas de costura por entrelaçamento (<i>couture-tricotage</i>), máquinas para fabricar guipuras, tules, rendas, bordados, passamanarias, galões ou redes e máquinas para inserir tufos"
     },
     {
-        code: "8447.1",
+        code: "84471",
         description: "- Teares circulares para malhas:"
     },
     {
-        code: "8447.11.00",
+        code: "84471100",
         description: "-- Com cilindro de diâmetro não superior a 165 mm"
     },
     {
-        code: "8447.12.00",
+        code: "84471200",
         description: "-- Com cilindro de diâmetro superior a 165 mm"
     },
     {
-        code: "8447.20",
+        code: "844720",
         description: "- Teares retilíneos para malhas; máquinas de costura por entrelaçamento (<i>couture-tricotage</i>)"
     },
     {
-        code: "8447.20.10",
+        code: "84472010",
         description: "Teares manuais"
     },
     {
-        code: "8447.20.2",
+        code: "8447202",
         description: "Teares motorizados"
     },
     {
-        code: "8447.20.21",
+        code: "84472021",
         description: "Para fabricação de malhas de urdidura"
     },
     {
-        code: "8447.20.29",
+        code: "84472029",
         description: "Outros"
     },
     {
-        code: "8447.20.30",
+        code: "84472030",
         description: "Máquinas de costura por entrelaçamento (<i>couture-tricotage</i>)"
     },
     {
-        code: "8447.90",
+        code: "844790",
         description: "- Outros"
     },
     {
-        code: "8447.90.10",
+        code: "84479010",
         description: "Máquinas para fabricação de redes, tules ou filós"
     },
     {
-        code: "8447.90.20",
+        code: "84479020",
         description: "Máquinas automáticas para bordar"
     },
     {
-        code: "8447.90.90",
+        code: "84479090",
         description: "Outras"
     },
     {
-        code: "84.48",
+        code: "8448",
         description:
-            "Máquinas e aparelhos auxiliares para as máquinas das posições 84.44, 84.45, 84.46 ou 84.47 (por exemplo, ratieras (maquinetas*), mecanismos Jacquard, quebra-urdiduras e quebra-tramas, mecanismos troca-lançadeiras); partes e acessórios reconhecíveis como exclusiva ou principalmente destinados às máquinas da presente posição ou das posições 84.44, 84.45, 84.46 ou 84.47 (por exemplo, fusos, aletas, guarnições de cardas, pentes, barras, fieiras, lançadeiras, liços e quadros de liços, agulhas, platinas, ganchos)."
+            "Máquinas e aparelhos auxiliares para as máquinas das posições 8444, 8445, 8446 ou 8447 (por exemplo, ratieras (maquinetas*), mecanismos Jacquard, quebra-urdiduras e quebra-tramas, mecanismos troca-lançadeiras); partes e acessórios reconhecíveis como exclusiva ou principalmente destinados às máquinas da presente posição ou das posições 8444, 8445, 8446 ou 8447 (por exemplo, fusos, aletas, guarnições de cardas, pentes, barras, fieiras, lançadeiras, liços e quadros de liços, agulhas, platinas, ganchos)"
     },
     {
-        code: "8448.1",
-        description: "- Máquinas e aparelhos auxiliares para as máquinas das posições 84.44, 84.45, 84.46 ou 84.47:"
+        code: "84481",
+        description: "- Máquinas e aparelhos auxiliares para as máquinas das posições 8444, 8445, 8446 ou 8447:"
     },
     {
-        code: "8448.11",
+        code: "844811",
         description:
             "-- Ratieras (Maquinetas*) e mecanismos Jacquard; redutores, perfuradores e copiadores de cartões; máquinas para enlaçar cartões após perfuração"
     },
     {
-        code: "8448.11.10",
+        code: "84481110",
         description: "Ratieras"
     },
     {
-        code: "8448.11.20",
+        code: "84481120",
         description: "Mecanismos Jacquard"
     },
     {
-        code: "8448.11.90",
+        code: "84481190",
         description: "Outros"
     },
     {
-        code: "8448.19.00",
+        code: "84481900",
         description: "-- Outros"
     },
     {
-        code: "8448.20",
-        description: "- Partes e acessórios das máquinas da posição 84.44 ou das suas máquinas e aparelhos auxiliares"
+        code: "844820",
+        description: "- Partes e acessórios das máquinas da posição 8444 ou das suas máquinas e aparelhos auxiliares"
     },
     {
-        code: "8448.20.10",
+        code: "84482010",
         description: "Fieiras para a extrusão"
     },
     {
-        code: "8448.20.20",
+        code: "84482020",
         description: "Outras partes e acessórios de máquinas para a extrusão"
     },
     {
-        code: "8448.20.30",
+        code: "84482030",
         description: "De máquinas para corte ou ruptura de fibras"
     },
     {
-        code: "8448.20.90",
+        code: "84482090",
         description: "Outras"
     },
     {
-        code: "8448.3",
-        description: "- Partes e acessórios das máquinas da posição 84.45 ou das suas máquinas e aparelhos auxiliares:"
+        code: "84483",
+        description: "- Partes e acessórios das máquinas da posição 8445 ou das suas máquinas e aparelhos auxiliares:"
     },
     {
-        code: "8448.31.00",
+        code: "84483100",
         description: "-- Guarnições de cardas"
     },
     {
-        code: "8448.32",
+        code: "844832",
         description: "-- De máquinas para preparação de matérias têxteis, exceto as guarnições de cardas"
     },
     {
-        code: "8448.32.1",
+        code: "8448321",
         description: "De cardas"
     },
     {
-        code: "8448.32.11",
+        code: "84483211",
         description: "Chapéus (<i>flats</i>)"
     },
     {
-        code: "8448.32.19",
+        code: "84483219",
         description: "Outras"
     },
     {
-        code: "8448.32.20",
+        code: "84483220",
         description: "De penteadoras"
     },
     {
-        code: "8448.32.30",
+        code: "84483230",
         description: "De bancas de estiramento (bancas de fusos)"
     },
     {
-        code: "8448.32.40",
+        code: "84483240",
         description: "De máquinas para a preparação da seda"
     },
     {
-        code: "8448.32.50",
+        code: "84483250",
         description: "De máquinas para carbonizar lã"
     },
     {
-        code: "8448.32.90",
+        code: "84483290",
         description: "Outros"
     },
     {
-        code: "8448.33",
+        code: "844833",
         description: "-- Fusos e suas aletas, anéis e cursores"
     },
     {
-        code: "8448.33.10",
+        code: "84483310",
         description: "Cursores"
     },
     {
-        code: "8448.33.90",
+        code: "84483390",
         description: "Outros"
     },
     {
-        code: "8448.39",
+        code: "844839",
         description: "-- Outros"
     },
     {
-        code: "8448.39.1",
+        code: "8448391",
         description: "De máquinas para fiação, dobragem ou torção"
     },
     {
-        code: "8448.39.11",
+        code: "84483911",
         description: "De filatórios intermitentes (selfatinas)"
     },
     {
-        code: "8448.39.12",
+        code: "84483912",
         description: "De máquinas do tipo <i>tow-to-yarn</i>"
     },
     {
-        code: "8448.39.17",
+        code: "84483917",
         description: "De outros filatórios"
     },
     {
-        code: "8448.39.19",
+        code: "84483919",
         description: "Outras"
     },
     {
-        code: "8448.39.2",
+        code: "8448392",
         description: "De máquinas de bobinar ou de dobar"
     },
     {
-        code: "8448.39.21",
+        code: "84483921",
         description: "De bobinadoras de trama (espuladeiras)"
     },
     {
-        code: "8448.39.22",
+        code: "84483922",
         description: "De bobinadoras automáticas para fios elastanos, ou com atador automático"
     },
     {
-        code: "8448.39.23",
+        code: "84483923",
         description: "Outras, de bobinadoras automáticas"
     },
     {
-        code: "8448.39.29",
+        code: "84483929",
         description: "Outras"
     },
     {
-        code: "8448.39.9",
+        code: "8448399",
         description: "Outros"
     },
     {
-        code: "8448.39.91",
+        code: "84483991",
         description: "De urdideiras"
     },
     {
-        code: "8448.39.92",
+        code: "84483992",
         description: "De passadeiras para liço e pente"
     },
     {
-        code: "8448.39.99",
+        code: "84483999",
         description: "Outras"
     },
     {
-        code: "8448.4",
+        code: "84484",
         description: "- Partes e acessórios de teares para tecidos ou das suas máquinas e aparelhos auxiliares:"
     },
     {
-        code: "8448.42.00",
+        code: "84484200",
         description: "-- Pentes, liços e quadros de liços"
     },
     {
-        code: "8448.49",
+        code: "844849",
         description: "-- Outros"
     },
     {
-        code: "8448.49.10",
+        code: "84484910",
         description: "De máquinas ou aparelhos auxiliares de teares"
     },
     {
-        code: "8448.49.20",
+        code: "84484920",
         description: "De teares para tecidos de largura superior a 30 cm, sem lançadeiras, a jato de água ou de projétil"
     },
     {
-        code: "8448.49.90",
+        code: "84484990",
         description: "Outras"
     },
     {
-        code: "8448.5",
-        description: "- Partes e acessórios dos teares, máquinas ou aparelhos, da posição 84.47 ou das suas máquinas e aparelhos auxiliares:"
+        code: "84485",
+        description: "- Partes e acessórios dos teares, máquinas ou aparelhos, da posição 8447 ou das suas máquinas e aparelhos auxiliares:"
     },
     {
-        code: "8448.51",
+        code: "844851",
         description: "-- Platinas, agulhas e outros artigos, utilizados na formação das malhas"
     },
     {
-        code: "8448.51.10",
+        code: "84485110",
         description: "Platinas"
     },
     {
-        code: "8448.51.90",
+        code: "84485190",
         description: "Outros"
     },
     {
-        code: "8448.59",
+        code: "844859",
         description: "-- Outros"
     },
     {
-        code: "8448.59.10",
+        code: "84485910",
         description: "De teares circulares para malhas"
     },
     {
-        code: "8448.59.2",
+        code: "8448592",
         description: "De teares retilíneos"
     },
     {
-        code: "8448.59.21",
+        code: "84485921",
         description: "Manuais"
     },
     {
-        code: "8448.59.22",
+        code: "84485922",
         description: "Para fabricação de malhas de urdidura"
     },
     {
-        code: "8448.59.29",
+        code: "84485929",
         description: "Outras"
     },
     {
-        code: "8448.59.30",
+        code: "84485930",
         description: "De máquinas para fabricação de redes, tules ou filós, ou automáticas para bordar"
     },
     {
-        code: "8448.59.40",
-        description: "De máquinas do item 8447.90.90"
+        code: "84485940",
+        description: "De máquinas do item 84479090"
     },
     {
-        code: "8448.59.90",
+        code: "84485990",
         description: "Outras"
     },
     {
-        code: "8449.00",
+        code: "844900",
         description:
-            "Máquinas e aparelhos para fabricação ou acabamento de feltro ou de falsos tecidos (tecidos não tecidos), em peça ou em forma determinada, incluindo as máquinas e aparelhos para fabricação de chapéus de feltro; formas para chapelaria."
+            "Máquinas e aparelhos para fabricação ou acabamento de feltro ou de falsos tecidos (tecidos não tecidos), em peça ou em forma determinada, incluindo as máquinas e aparelhos para fabricação de chapéus de feltro; formas para chapelaria"
     },
     {
-        code: "8449.00.10",
+        code: "84490010",
         description: "Máquinas e aparelhos para fabricação ou acabamento de feltros"
     },
     {
-        code: "8449.00.20",
+        code: "84490020",
         description: "Máquinas e aparelhos para fabricação de falsos tecidos (tecidos não tecidos)"
     },
     {
-        code: "8449.00.80",
+        code: "84490080",
         description: "Outros"
     },
     {
-        code: "8449.00.9",
+        code: "8449009",
         description: "Partes"
     },
     {
-        code: "8449.00.91",
+        code: "84490091",
         description: "De máquinas ou aparelhos para fabricação de falsos tecidos (tecidos não tecidos)"
     },
     {
-        code: "8449.00.99",
+        code: "84490099",
         description: "Outras"
     },
     {
-        code: "84.50",
-        description: "Máquinas de lavar roupa, mesmo com dispositivos de secagem."
+        code: "8450",
+        description: "Máquinas de lavar roupa, mesmo com dispositivos de secagem"
     },
     {
-        code: "8450.1",
+        code: "84501",
         description: "- Máquinas de capacidade, expressa em peso de roupa seca, não superior a 10 kg:"
     },
     {
-        code: "8450.11.00",
+        code: "84501100",
         description: "-- Máquinas inteiramente automáticas"
     },
     {
-        code: "8450.12.00",
+        code: "84501200",
         description: "-- Outras máquinas, com secador centrífugo incorporado"
     },
     {
-        code: "8450.19.00",
+        code: "84501900",
         description: "-- Outras"
     },
     {
-        code: "8450.20",
+        code: "845020",
         description: "- Máquinas de capacidade, expressa em peso de roupa seca, superior a 10 kg"
     },
     {
-        code: "8450.20.10",
+        code: "84502010",
         description: "Túneis contínuos"
     },
     {
-        code: "8450.20.90",
+        code: "84502090",
         description: "Outras"
     },
     {
-        code: "8450.90",
+        code: "845090",
         description: "- Partes"
     },
     {
-        code: "8450.90.10",
-        description: "De máquinas da subposição 8450.20"
+        code: "84509010",
+        description: "De máquinas da subposição 845020"
     },
     {
-        code: "8450.90.90",
+        code: "84509090",
         description: "Outras"
     },
     {
-        code: "84.51",
+        code: "8451",
         description:
-            "Máquinas e aparelhos (exceto as máquinas da posição 84.50) para lavar, limpar, espremer, secar, passar, prensar (incluindo as prensas de transferência térmica ou de fusão), branquear, tingir, para apresto e acabamento, para revestir ou impregnar fios, tecidos ou obras de matérias têxteis e máquinas para revestir tecidos-base ou outros suportes utilizados na fabricação de revestimentos para pisos (pavimentos), tais como linóleo; máquinas para enrolar, desenrolar, dobrar, cortar ou dentear tecidos."
+            "Máquinas e aparelhos (exceto as máquinas da posição 8450) para lavar, limpar, espremer, secar, passar, prensar (incluindo as prensas de transferência térmica ou de fusão), branquear, tingir, para apresto e acabamento, para revestir ou impregnar fios, tecidos ou obras de matérias têxteis e máquinas para revestir tecidos-base ou outros suportes utilizados na fabricação de revestimentos para pisos (pavimentos), tais como linóleo; máquinas para enrolar, desenrolar, dobrar, cortar ou dentear tecidos"
     },
     {
-        code: "8451.10.00",
+        code: "84511000",
         description: "- Máquinas para lavar a seco"
     },
     {
-        code: "8451.2",
+        code: "84512",
         description: "- Máquinas de secar:"
     },
     {
-        code: "8451.21.00",
+        code: "84512100",
         description: "-- De capacidade, expressa em peso de roupa seca, não superior a 10 kg"
     },
     {
-        code: "8451.29",
+        code: "845129",
         description: "-- Outras"
     },
     {
-        code: "8451.29.10",
+        code: "84512910",
         description: "Que funcionem por meio de ondas eletromagnéticas (micro-ondas), cuja produção seja igual ou superior a 120 kg/h de produto seco"
     },
     {
-        code: "8451.29.90",
+        code: "84512990",
         description: "Outras"
     },
     {
-        code: "8451.30",
+        code: "845130",
         description: "- Máquinas e prensas para passar, incluindo as prensas de transferência térmica ou de fusão"
     },
     {
-        code: "8451.30.10",
+        code: "84513010",
         description: "Automáticas"
     },
     {
-        code: "8451.30.9",
+        code: "8451309",
         description: "Outras"
     },
     {
-        code: "8451.30.91",
+        code: "84513091",
         description: "Prensas para passar de peso inferior ou igual a 14 kg"
     },
     {
-        code: "8451.30.99",
+        code: "84513099",
         description: "Outras"
     },
     {
-        code: "8451.40",
+        code: "845140",
         description: "- Máquinas para lavar, branquear ou tingir"
     },
     {
-        code: "8451.40.10",
+        code: "84514010",
         description: "Para lavar"
     },
     {
-        code: "8451.40.2",
+        code: "8451402",
         description: "Para tingir ou branquear fios ou tecidos"
     },
     {
-        code: "8451.40.21",
+        code: "84514021",
         description:
             "Para tingir tecidos em rolos; para tingir por pressão estática, com molinete (rotor de pás), jato de água (<i>jet</i>) ou combinada"
     },
     {
-        code: "8451.40.29",
+        code: "84514029",
         description: "Outras"
     },
     {
-        code: "8451.40.90",
+        code: "84514090",
         description: "Outras"
     },
     {
-        code: "8451.50",
+        code: "845150",
         description: "- Máquinas para enrolar, desenrolar, dobrar, cortar ou dentear tecidos"
     },
     {
-        code: "8451.50.10",
+        code: "84515010",
         description: "Para inspecionar tecidos"
     },
     {
-        code: "8451.50.20",
+        code: "84515020",
         description: "Automáticas, para enfestar ou cortar"
     },
     {
-        code: "8451.50.90",
+        code: "84515090",
         description: "Outras"
     },
     {
-        code: "8451.80.00",
+        code: "84518000",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "8451.90",
+        code: "845190",
         description: "- Partes"
     },
     {
-        code: "8451.90.10",
-        description: "Para as máquinas da subposição 8451.21"
+        code: "84519010",
+        description: "Para as máquinas da subposição 845121"
     },
     {
-        code: "8451.90.90",
+        code: "84519090",
         description: "Outras"
     },
     {
-        code: "84.52",
+        code: "8452",
         description:
-            "Máquinas de costura, exceto as de costurar cadernos da posição 84.40; móveis, bases e tampas, próprios para máquinas de costura; agulhas para máquinas de costura."
+            "Máquinas de costura, exceto as de costurar cadernos da posição 8440; móveis, bases e tampas, próprios para máquinas de costura; agulhas para máquinas de costura"
     },
     {
-        code: "8452.10.00",
+        code: "84521000",
         description: "- Máquinas de costura de uso doméstico"
     },
     {
-        code: "8452.2",
+        code: "84522",
         description: "- Outras máquinas de costura:"
     },
     {
-        code: "8452.21",
+        code: "845221",
         description: "-- Unidades automáticas"
     },
     {
-        code: "8452.21.10",
+        code: "84522110",
         description: "Para costurar couros ou peles"
     },
     {
-        code: "8452.21.20",
+        code: "84522120",
         description: "Para costurar tecidos"
     },
     {
-        code: "8452.21.90",
+        code: "84522190",
         description: "Outras"
     },
     {
-        code: "8452.29",
+        code: "845229",
         description: "-- Outras"
     },
     {
-        code: "8452.29.10",
+        code: "84522910",
         description: "Para costurar couros ou peles"
     },
     {
-        code: "8452.29.2",
+        code: "8452292",
         description: "Para costurar tecidos"
     },
     {
-        code: "8452.29.21",
+        code: "84522921",
         description: "Remalhadeiras"
     },
     {
-        code: "8452.29.22",
+        code: "84522922",
         description: "Para casear"
     },
     {
-        code: "8452.29.23",
+        code: "84522923",
         description: "Tipo zigue-zague para inserir elástico"
     },
     {
-        code: "8452.29.24",
+        code: "84522924",
         description: "De costura reta"
     },
     {
-        code: "8452.29.25",
+        code: "84522925",
         description: "Galoneiras"
     },
     {
-        code: "8452.29.29",
+        code: "84522929",
         description: "Outras"
     },
     {
-        code: "8452.29.90",
+        code: "84522990",
         description: "Outras"
     },
     {
-        code: "8452.30.00",
+        code: "84523000",
         description: "- Agulhas para máquinas de costura"
     },
     {
-        code: "8452.90",
+        code: "845290",
         description: "- Móveis, bases e tampas, para máquinas de costura, e suas partes; outras partes de máquinas de costura"
     },
     {
-        code: "8452.90.20",
+        code: "84529020",
         description: "Móveis, bases e tampas, para máquinas de costura, e suas partes"
     },
     {
-        code: "8452.90.8",
+        code: "8452908",
         description: "Outras partes de máquinas de costura de uso doméstico"
     },
     {
-        code: "8452.90.81",
+        code: "84529081",
         description: "Guia-fios, lançadeiras e porta-bobinas"
     },
     {
-        code: "8452.90.89",
+        code: "84529089",
         description: "Outras"
     },
     {
-        code: "8452.90.9",
+        code: "8452909",
         description: "Outras"
     },
     {
-        code: "8452.90.91",
+        code: "84529091",
         description: "Guia-fios, lançadeiras não rotativas e porta-bobinas"
     },
     {
-        code: "8452.90.92",
+        code: "84529092",
         description: "Para remalhadeiras"
     },
     {
-        code: "8452.90.93",
+        code: "84529093",
         description: "Lançadeiras rotativas"
     },
     {
-        code: "8452.90.94",
+        code: "84529094",
         description: "Corpos moldados por fundição"
     },
     {
-        code: "8452.90.99",
+        code: "84529099",
         description: "Outras"
     },
     {
-        code: "84.53",
+        code: "8453",
         description:
-            "Máquinas e aparelhos para preparar, curtir ou trabalhar couros ou peles, ou para fabricar ou consertar calçado e outras obras de couro ou de pele, exceto máquinas de costura."
+            "Máquinas e aparelhos para preparar, curtir ou trabalhar couros ou peles, ou para fabricar ou consertar calçado e outras obras de couro ou de pele, exceto máquinas de costura"
     },
     {
-        code: "8453.10",
+        code: "845310",
         description: "- Máquinas e aparelhos para preparar, curtir ou trabalhar couros ou peles"
     },
     {
-        code: "8453.10.10",
+        code: "84531010",
         description:
-            "Máquinas para dividir couros com largura útil inferior ou igual a 3.000 mm, com lâmina sem fim, com controle eletrônico programável"
+            "Máquinas para dividir couros com largura útil inferior ou igual a 3000 mm, com lâmina sem fim, com controle eletrônico programável"
     },
     {
-        code: "8453.10.90",
+        code: "84531090",
         description: "Outros"
     },
     {
-        code: "8453.20.00",
+        code: "84532000",
         description: "- Máquinas e aparelhos para fabricar ou consertar calçado"
     },
     {
-        code: "8453.80.00",
+        code: "84538000",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "8453.90.00",
+        code: "84539000",
         description: "- Partes"
     },
     {
-        code: "84.54",
-        description: "Conversores, cadinhos ou colheres de fundição, lingoteiras e máquinas de vazar (moldar), para metalurgia, aciaria ou fundição."
+        code: "8454",
+        description: "Conversores, cadinhos ou colheres de fundição, lingoteiras e máquinas de vazar (moldar), para metalurgia, aciaria ou fundição"
     },
     {
-        code: "8454.10.00",
+        code: "84541000",
         description: "- Conversores"
     },
     {
-        code: "8454.20",
+        code: "845420",
         description: "- Lingoteiras e cadinhos ou colheres de fundição"
     },
     {
-        code: "8454.20.10",
+        code: "84542010",
         description: "Lingoteiras"
     },
     {
-        code: "8454.20.90",
+        code: "84542090",
         description: "Outras"
     },
     {
-        code: "8454.30",
+        code: "845430",
         description: "- Máquinas de vazar (moldar)"
     },
     {
-        code: "8454.30.10",
+        code: "84543010",
         description: "Sob pressão"
     },
     {
-        code: "8454.30.20",
+        code: "84543020",
         description: "Por centrifugação"
     },
     {
-        code: "8454.30.90",
+        code: "84543090",
         description: "Outras"
     },
     {
-        code: "8454.90",
+        code: "845490",
         description: "- Partes"
     },
     {
-        code: "8454.90.10",
+        code: "84549010",
         description: "De máquinas de vazar (moldar) por centrifugação"
     },
     {
-        code: "8454.90.90",
+        code: "84549090",
         description: "Outras"
     },
     {
-        code: "84.55",
-        description: "Laminadores de metais e seus cilindros."
+        code: "8455",
+        description: "Laminadores de metais e seus cilindros"
     },
     {
-        code: "8455.10.00",
+        code: "84551000",
         description: "- Laminadores de tubos"
     },
     {
-        code: "8455.2",
+        code: "84552",
         description: "- Outros laminadores:"
     },
     {
-        code: "8455.21",
+        code: "845521",
         description: "-- Laminadores a quente e laminadores combinados a quente e a frio"
     },
     {
-        code: "8455.21.10",
+        code: "84552110",
         description: "De cilindros lisos"
     },
     {
-        code: "8455.21.90",
+        code: "84552190",
         description: "Outros"
     },
     {
-        code: "8455.22",
+        code: "845522",
         description: "-- Laminadores a frio"
     },
     {
-        code: "8455.22.10",
+        code: "84552210",
         description: "De cilindros lisos"
     },
     {
-        code: "8455.22.90",
+        code: "84552290",
         description: "Outros"
     },
     {
-        code: "8455.30",
+        code: "845530",
         description: "- Cilindros de laminadores"
     },
     {
-        code: "8455.30.10",
+        code: "84553010",
         description: "Fundidos, de aço ou ferro fundido nodular"
     },
     {
-        code: "8455.30.20",
+        code: "84553020",
         description:
             "Forjados, de aço de corte rápido, com um teor, em peso, de carbono igual ou superior a 0,80 % e inferior ou igual a 0,90 %, de cromo igual ou superior a 3,50 % e inferior ou igual a 4 %, de vanádio igual ou superior a 1,60 % e inferior ou igual a 2,30 %, de molibdênio inferior ou igual a 8,50 % e de tungstênio (volfrâmio) inferior ou igual a 7 %"
     },
     {
-        code: "8455.30.90",
+        code: "84553090",
         description: "Outros"
     },
     {
-        code: "8455.90.00",
+        code: "84559000",
         description: "- Outras partes"
     },
     {
-        code: "84.56",
+        code: "8456",
         description:
-            "Máquinas-ferramentas que trabalhem por eliminação de qualquer matéria, que operem por laser ou por outro feixe de luz ou de fótons, por ultrassom, por eletroerosão, por processos eletroquímicos, por feixes de elétrons, por feixes iônicos ou por jato de plasma; máquinas de corte a jato de água."
+            "Máquinas-ferramentas que trabalhem por eliminação de qualquer matéria, que operem por laser ou por outro feixe de luz ou de fótons, por ultrassom, por eletroerosão, por processos eletroquímicos, por feixes de elétrons, por feixes iônicos ou por jato de plasma; máquinas de corte a jato de água"
     },
     {
-        code: "8456.1",
+        code: "84561",
         description: "- Que operem por laser ou por outro feixe de luz ou de fótons:"
     },
     {
-        code: "8456.11",
+        code: "845611",
         description: "-- Que operem por laser"
     },
     {
-        code: "8456.11.1",
+        code: "8456111",
         description: "De comando numérico"
     },
     {
-        code: "8456.11.11",
+        code: "84561111",
         description: "Para corte de chapas metálicas de espessura superior a 8 mm"
     },
     {
-        code: "8456.11.19",
+        code: "84561119",
         description: "Outras"
     },
     {
-        code: "8456.11.90",
+        code: "84561190",
         description: "Outras"
     },
     {
-        code: "8456.12",
+        code: "845612",
         description: "-- Que operem por outro feixe de luz ou de fótons"
     },
     {
-        code: "8456.12.1",
+        code: "8456121",
         description: "De comando numérico"
     },
     {
-        code: "8456.12.11",
+        code: "84561211",
         description: "Para corte de chapas metálicas de espessura superior a 8 mm"
     },
     {
-        code: "8456.12.19",
+        code: "84561219",
         description: "Outras"
     },
     {
-        code: "8456.12.90",
+        code: "84561290",
         description: "Outras"
     },
     {
-        code: "8456.20",
+        code: "845620",
         description: "- Que operem por ultrassom"
     },
     {
-        code: "8456.20.10",
+        code: "84562010",
         description: "De comando numérico"
     },
     {
-        code: "8456.20.90",
+        code: "84562090",
         description: "Outras"
     },
     {
-        code: "8456.30",
+        code: "845630",
         description: "- Que operem por eletroerosão"
     },
     {
-        code: "8456.30.1",
+        code: "8456301",
         description: "De comando numérico"
     },
     {
-        code: "8456.30.11",
+        code: "84563011",
         description: "Para texturizar superfícies cilíndricas"
     },
     {
-        code: "8456.30.19",
+        code: "84563019",
         description: "Outras"
     },
     {
-        code: "8456.30.90",
+        code: "84563090",
         description: "Outras"
     },
     {
-        code: "8456.40.00",
+        code: "84564000",
         description: "- Que operem por jato de plasma"
     },
     {
-        code: "8456.50.00",
+        code: "84565000",
         description: "- Máquinas de corte a jato de água"
     },
     {
-        code: "8456.90.00",
+        code: "84569000",
         description: "- Outras"
     },
     {
-        code: "84.57",
+        code: "8457",
         description:
-            "Centros de usinagem (fabricação*), máquinas de sistema monostático (<i>single station</i>) e máquinas de estações múltiplas, para trabalhar metais."
+            "Centros de usinagem (fabricação*), máquinas de sistema monostático (<i>single station</i>) e máquinas de estações múltiplas, para trabalhar metais"
     },
     {
-        code: "8457.10.00",
+        code: "84571000",
         description: "- Centros de usinagem (fabricação*)"
     },
     {
-        code: "8457.20",
+        code: "845720",
         description: "- Máquinas de sistema monostático (<i>sin</i><i>gle station</i>)"
     },
     {
-        code: "8457.20.10",
+        code: "84572010",
         description: "De comando numérico"
     },
     {
-        code: "8457.20.90",
+        code: "84572090",
         description: "Outras"
     },
     {
-        code: "8457.30",
+        code: "845730",
         description: "- Máquinas de estações múltiplas"
     },
     {
-        code: "8457.30.10",
+        code: "84573010",
         description: "De comando numérico"
     },
     {
-        code: "8457.30.90",
+        code: "84573090",
         description: "Outras"
     },
     {
-        code: "84.58",
-        description: "Tornos (incluindo os centros de torneamento) para metais."
+        code: "8458",
+        description: "Tornos (incluindo os centros de torneamento) para metais"
     },
     {
-        code: "8458.1",
+        code: "84581",
         description: "- Tornos horizontais:"
     },
     {
-        code: "8458.11",
+        code: "845811",
         description: "-- De comando numérico"
     },
     {
-        code: "8458.11.10",
+        code: "84581110",
         description: "Revólver"
     },
     {
-        code: "8458.11.9",
+        code: "8458119",
         description: "Outros"
     },
     {
-        code: "8458.11.91",
+        code: "84581191",
         description: "De 6 ou mais fusos porta-peças"
     },
     {
-        code: "8458.11.99",
+        code: "84581199",
         description: "Outros"
     },
     {
-        code: "8458.19",
+        code: "845819",
         description: "-- Outros"
     },
     {
-        code: "8458.19.10",
+        code: "84581910",
         description: "Revólver"
     },
     {
-        code: "8458.19.90",
+        code: "84581990",
         description: "Outros"
     },
     {
-        code: "8458.9",
+        code: "84589",
         description: "- Outros tornos:"
     },
     {
-        code: "8458.91.00",
+        code: "84589100",
         description: "-- De comando numérico"
     },
     {
-        code: "8458.99.00",
+        code: "84589900",
         description: "-- Outros"
     },
     {
-        code: "84.59",
+        code: "8459",
         description:
-            "Máquinas-ferramentas (incluindo as unidades com cabeça deslizante) para furar, mandrilar, fresar, roscar interior ou exteriormente metais, por eliminação de matéria, exceto os tornos (incluindo os centros de torneamento) da posição 84.58."
+            "Máquinas-ferramentas (incluindo as unidades com cabeça deslizante) para furar, mandrilar, fresar, roscar interior ou exteriormente metais, por eliminação de matéria, exceto os tornos (incluindo os centros de torneamento) da posição 8458"
     },
     {
-        code: "8459.10.00",
+        code: "84591000",
         description: "- Unidades com cabeça deslizante"
     },
     {
-        code: "8459.2",
+        code: "84592",
         description: "- Outras máquinas para furar:"
     },
     {
-        code: "8459.21",
+        code: "845921",
         description: "-- De comando numérico"
     },
     {
-        code: "8459.21.10",
+        code: "84592110",
         description: "Radiais"
     },
     {
-        code: "8459.21.9",
+        code: "8459219",
         description: "Outras"
     },
     {
-        code: "8459.21.91",
+        code: "84592191",
         description: "De mais de um cabeçote mono ou multifuso"
     },
     {
-        code: "8459.21.99",
+        code: "84592199",
         description: "Outras"
     },
     {
-        code: "8459.29.00",
+        code: "84592900",
         description: "-- Outras"
     },
     {
-        code: "8459.3",
+        code: "84593",
         description: "- Outras mandriladoras-fresadoras:"
     },
     {
-        code: "8459.31.00",
+        code: "84593100",
         description: "-- De comando numérico"
     },
     {
-        code: "8459.39.00",
+        code: "84593900",
         description: "-- Outras"
     },
     {
-        code: "8459.4",
+        code: "84594",
         description: "- Outras máquinas para mandrilar:"
     },
     {
-        code: "8459.41.00",
+        code: "84594100",
         description: "-- De comando numérico"
     },
     {
-        code: "8459.49.00",
+        code: "84594900",
         description: "-- Outras"
     },
     {
-        code: "8459.5",
+        code: "84595",
         description: "- Máquinas para fresar, de console:"
     },
     {
-        code: "8459.51.00",
+        code: "84595100",
         description: "-- De comando numérico"
     },
     {
-        code: "8459.59.00",
+        code: "84595900",
         description: "-- Outras"
     },
     {
-        code: "8459.6",
+        code: "84596",
         description: "- Outras máquinas para fresar:"
     },
     {
-        code: "8459.61.00",
+        code: "84596100",
         description: "-- De comando numérico"
     },
     {
-        code: "8459.69.00",
+        code: "84596900",
         description: "-- Outras"
     },
     {
-        code: "8459.70.00",
+        code: "84597000",
         description: "- Outras máquinas para roscar interior ou exteriormente"
     },
     {
-        code: "84.60",
+        code: "8460",
         description:
-            "Máquinas-ferramentas para rebarbar, afiar, amolar, retificar, brunir, polir ou realizar outras operações de acabamento em metais ou <i>cermets</i> por meio de mós, de abrasivos ou de produtos polidores, exceto as máquinas de cortar ou acabar engrenagens da posição 84.61."
+            "Máquinas-ferramentas para rebarbar, afiar, amolar, retificar, brunir, polir ou realizar outras operações de acabamento em metais ou <i>cermets</i> por meio de mós, de abrasivos ou de produtos polidores, exceto as máquinas de cortar ou acabar engrenagens da posição 8461"
     },
     {
-        code: "8460.1",
+        code: "84601",
         description: "- Máquinas para retificar superfícies planas:"
     },
     {
-        code: "8460.12.00",
+        code: "84601200",
         description: "-- De comando numérico"
     },
     {
-        code: "8460.19.00",
+        code: "84601900",
         description: "-- Outras"
     },
     {
-        code: "8460.2",
+        code: "84602",
         description: "- Outras máquinas para retificar:"
     },
     {
-        code: "8460.22.00",
+        code: "84602200",
         description: "-- Máquinas para retificar sem centro, de comando numérico"
     },
     {
-        code: "8460.23.00",
+        code: "84602300",
         description: "-- Outras máquinas para retificar superfícies cilíndricas, de comando numérico"
     },
     {
-        code: "8460.24.00",
+        code: "84602400",
         description: "-- Outras, de comando numérico"
     },
     {
-        code: "8460.29.00",
+        code: "84602900",
         description: "-- Outras"
     },
     {
-        code: "8460.3",
+        code: "84603",
         description: "- Máquinas para afiar:"
     },
     {
-        code: "8460.31.00",
+        code: "84603100",
         description: "-- De comando numérico"
     },
     {
-        code: "8460.39.00",
+        code: "84603900",
         description: "-- Outras"
     },
     {
-        code: "8460.40",
+        code: "846040",
         description: "- Máquinas para brunir"
     },
     {
-        code: "8460.40.1",
+        code: "8460401",
         description: "De comando numérico"
     },
     {
-        code: "8460.40.11",
+        code: "84604011",
         description: "Brunidoras para cilindros de diâmetro inferior ou igual a 312 mm"
     },
     {
-        code: "8460.40.19",
+        code: "84604019",
         description: "Outras"
     },
     {
-        code: "8460.40.9",
+        code: "8460409",
         description: "Outras"
     },
     {
-        code: "8460.40.91",
+        code: "84604091",
         description: "Brunidoras para cilindros de diâmetro inferior ou igual a 312 mm"
     },
     {
-        code: "8460.40.99",
+        code: "84604099",
         description: "Outras"
     },
     {
-        code: "8460.90",
+        code: "846090",
         description: "- Outras"
     },
     {
-        code: "8460.90.1",
+        code: "8460901",
         description: "De comando numérico"
     },
     {
-        code: "8460.90.11",
+        code: "84609011",
         description: "De polir, com cinco ou mais cabeças e porta -peças rotativo"
     },
     {
-        code: "8460.90.12",
+        code: "84609012",
         description: "De esmerilhar, com duas ou mais cabeças e porta-peças rotativo"
     },
     {
-        code: "8460.90.19",
+        code: "84609019",
         description: "Outras"
     },
     {
-        code: "8460.90.90",
+        code: "84609090",
         description: "Outras"
     },
     {
-        code: "84.61",
+        code: "8461",
         description:
-            "Máquinas-ferramentas para aplainar, plainas-limadoras, máquinas-ferramentas para escatelar, brochar, cortar ou acabar engrenagens, serrar, seccionar e outras máquinas-ferramentas que trabalhem por eliminação de metal ou de <i>cermets</i>, não especificadas nem compreendidas noutras posições."
+            "Máquinas-ferramentas para aplainar, plainas-limadoras, máquinas-ferramentas para escatelar, brochar, cortar ou acabar engrenagens, serrar, seccionar e outras máquinas-ferramentas que trabalhem por eliminação de metal ou de <i>cermets</i>, não especificadas nem compreendidas noutras posições"
     },
     {
-        code: "8461.20",
+        code: "846120",
         description: "- Plainas-limadoras e máquinas para escatelar"
     },
     {
-        code: "8461.20.10",
+        code: "84612010",
         description: "Para escatelar"
     },
     {
-        code: "8461.20.90",
+        code: "84612090",
         description: "Outras"
     },
     {
-        code: "8461.30",
+        code: "846130",
         description: "- Máquinas para brochar"
     },
     {
-        code: "8461.30.10",
+        code: "84613010",
         description: "De comando numérico"
     },
     {
-        code: "8461.30.90",
+        code: "84613090",
         description: "Outras"
     },
     {
-        code: "8461.40",
+        code: "846140",
         description: "- Máquinas para cortar ou acabar engrenagens"
     },
     {
-        code: "8461.40.10",
+        code: "84614010",
         description: "De comando numérico"
     },
     {
-        code: "8461.40.9",
+        code: "8461409",
         description: "Outras"
     },
     {
-        code: "8461.40.91",
+        code: "84614091",
         description: "Redondeadoras de dentes"
     },
     {
-        code: "8461.40.99",
+        code: "84614099",
         description: "Outras"
     },
     {
-        code: "8461.50",
+        code: "846150",
         description: "- Máquinas para serrar ou seccionar"
     },
     {
-        code: "8461.50.10",
+        code: "84615010",
         description: "De fitas sem fim"
     },
     {
-        code: "8461.50.20",
+        code: "84615020",
         description: "Circulares"
     },
     {
-        code: "8461.50.90",
+        code: "84615090",
         description: "Outras"
     },
     {
-        code: "8461.90",
+        code: "846190",
         description: "- Outras"
     },
     {
-        code: "8461.90.10",
+        code: "84619010",
         description: "De comando numérico"
     },
     {
-        code: "8461.90.90",
+        code: "84619090",
         description: "Outras"
     },
     {
-        code: "84.62",
+        code: "8462",
         description:
-            "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima."
+            "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima"
     },
     {
-        code: "8462.1",
+        code: "84621",
         description:
             "- Máquinas para trabalhar a quente (incluindo as prensas) para forjar por matrizagem ou de forjamento livre ou de estampar, martelos, martelos-pilões e martinetes:"
     },
     {
-        code: "8462.11.00",
+        code: "84621100",
         description: "-- Máquinas para forjamento em matriz fechada"
     },
     {
-        code: "8462.19.00",
+        code: "84621900",
         description: "-- Outras"
     },
     {
-        code: "8462.2",
+        code: "84622",
         description: "- Máquinas (incluindo as prensas dobradeiras) para enrolar, arquear, dobrar, endireitar ou aplanar, para produtos planos:"
     },
     {
-        code: "8462.22.00",
+        code: "84622200",
         description: "-- Máquinas para formação de perfis"
     },
     {
-        code: "8462.23.00",
+        code: "84622300",
         description: "-- Prensas dobradeiras, de comando numérico"
     },
     {
-        code: "8462.24.00",
+        code: "84622400",
         description: "-- Prensas para painéis, de comando numérico"
     },
     {
-        code: "8462.25.00",
+        code: "84622500",
         description: "-- Máquinas de conformação por rolos, de comando numérico"
     },
     {
-        code: "8462.26.00",
+        code: "84622600",
         description: "-- Outras máquinas para enrolar, arquear, dobrar, endireitar ou aplanar, de comando numérico"
     },
     {
-        code: "8462.29.00",
+        code: "84622900",
         description: "-- Outras"
     },
     {
-        code: "8462.3",
+        code: "84623",
         description:
             "- Linhas de corte longitudinal, linhas de corte transversal e outras máquinas (excluindo as prensas) para cisalhar, para produtos planos, exceto as máquinas combinadas de puncionar e cisalhar:"
     },
     {
-        code: "8462.32.00",
+        code: "84623200",
         description: "-- Linhas de corte longitudinal e linhas de corte transversal"
     },
     {
-        code: "8462.33.00",
+        code: "84623300",
         description: "-- Máquinas para cisalhar, de comando numérico"
     },
     {
-        code: "8462.39.00",
+        code: "84623900",
         description: "-- Outras"
     },
     {
-        code: "8462.4",
+        code: "84624",
         description:
             "- Máquinas (excluindo as prensas) para puncionar, chanfrar ou mordiscar, para produtos planos, incluindo as máquinas combinadas de puncionar e cisalhar:"
     },
     {
-        code: "8462.42.00",
+        code: "84624200",
         description: "-- De comando numérico"
     },
     {
-        code: "8462.49.00",
+        code: "84624900",
         description: "-- Outras"
     },
     {
-        code: "8462.5",
+        code: "84625",
         description: "- Máquinas (excluindo as prensas) para trabalhar tubos, perfis ocos, perfis e barras:"
     },
     {
-        code: "8462.51.00",
+        code: "84625100",
         description: "-- De comando numérico"
     },
     {
-        code: "8462.59.00",
+        code: "84625900",
         description: "-- Outras"
     },
     {
-        code: "8462.6",
+        code: "84626",
         description: "- Prensas para trabalhar metal a frio:"
     },
     {
-        code: "8462.61.00",
+        code: "84626100",
         description: "-- Prensas hidráulicas"
     },
     {
-        code: "8462.62.00",
+        code: "84626200",
         description: "-- Prensas mecânicas"
     },
     {
-        code: "8462.63.00",
+        code: "84626300",
         description: "-- Servoprensas"
     },
     {
-        code: "8462.69.00",
+        code: "84626900",
         description: "-- Outras"
     },
     {
-        code: "8462.90.00",
+        code: "84629000",
         description: "- Outras"
     },
     {
-        code: "84.63",
-        description: "Outras máquinas-ferramentas para trabalhar metais ou <i>cermets</i>, que trabalhem sem eliminação de matéria."
+        code: "8463",
+        description: "Outras máquinas-ferramentas para trabalhar metais ou <i>cermets</i>, que trabalhem sem eliminação de matéria"
     },
     {
-        code: "8463.10",
+        code: "846310",
         description: "- Bancas para estirar barras, tubos, perfis, fios ou semelhantes"
     },
     {
-        code: "8463.10.10",
+        code: "84631010",
         description: "Para estirar tubos"
     },
     {
-        code: "8463.10.90",
+        code: "84631090",
         description: "Outros"
     },
     {
-        code: "8463.20",
+        code: "846320",
         description: "- Máquinas para fazer roscas internas ou externas por laminagem"
     },
     {
-        code: "8463.20.10",
+        code: "84632010",
         description: "De comando numérico"
     },
     {
-        code: "8463.20.9",
+        code: "8463209",
         description: "Outras"
     },
     {
-        code: "8463.20.91",
+        code: "84632091",
         description:
             "De pente plano, com capacidade de produção igual ou superior a 160 unidades por minuto, de diâmetro de rosca compreendido entre 3 mm e 10 mm"
     },
     {
-        code: "8463.20.99",
+        code: "84632099",
         description: "Outras"
     },
     {
-        code: "8463.30.00",
+        code: "84633000",
         description: "- Máquinas para trabalhar arames e fios de metal"
     },
     {
-        code: "8463.90",
+        code: "846390",
         description: "- Outras"
     },
     {
-        code: "8463.90.10",
+        code: "84639010",
         description: "De comando numérico"
     },
     {
-        code: "8463.90.90",
+        code: "84639090",
         description: "Outras"
     },
     {
-        code: "84.64",
+        code: "8464",
         description:
-            "Máquinas-ferramentas para trabalhar pedra, produtos cerâmicos, concreto (betão), fibrocimento ou matérias minerais semelhantes, ou para o trabalho a frio do vidro."
+            "Máquinas-ferramentas para trabalhar pedra, produtos cerâmicos, concreto (betão), fibrocimento ou matérias minerais semelhantes, ou para o trabalho a frio do vidro"
     },
     {
-        code: "8464.10.00",
+        code: "84641000",
         description: "- Máquinas para serrar"
     },
     {
-        code: "8464.20",
+        code: "846420",
         description: "- Máquinas para esmerilar ou polir"
     },
     {
-        code: "8464.20.10",
+        code: "84642010",
         description: "Para vidro"
     },
     {
-        code: "8464.20.2",
+        code: "8464202",
         description: "Para cerâmica"
     },
     {
-        code: "8464.20.21",
+        code: "84642021",
         description: "De polir placas, para pavimentação ou revestimento, com oito ou mais cabeças"
     },
     {
-        code: "8464.20.29",
+        code: "84642029",
         description: "Outras"
     },
     {
-        code: "8464.20.90",
+        code: "84642090",
         description: "Outras"
     },
     {
-        code: "8464.90",
+        code: "846490",
         description: "- Outras"
     },
     {
-        code: "8464.90.1",
+        code: "8464901",
         description: "Para vidro"
     },
     {
-        code: "8464.90.11",
+        code: "84649011",
         description: "De comando numérico, para retificar, fresar e perfurar"
     },
     {
-        code: "8464.90.19",
+        code: "84649019",
         description: "Outras"
     },
     {
-        code: "8464.90.90",
+        code: "84649090",
         description: "Outras"
     },
     {
-        code: "84.65",
+        code: "8465",
         description:
-            "Máquinas-ferramentas (incluindo as máquinas para pregar, grampear, colar ou reunir por qualquer outro modo) para trabalhar madeira, cortiça, osso, borracha endurecida, plástico duro ou matérias duras semelhantes."
+            "Máquinas-ferramentas (incluindo as máquinas para pregar, grampear, colar ou reunir por qualquer outro modo) para trabalhar madeira, cortiça, osso, borracha endurecida, plástico duro ou matérias duras semelhantes"
     },
     {
-        code: "8465.10.00",
+        code: "84651000",
         description: "- Máquinas-ferramentas capazes de efetuar diferentes tipos de operações sem troca de ferramentas"
     },
     {
-        code: "8465.20.00",
+        code: "84652000",
         description: "- Centros de usinagem (fabricação*)"
     },
     {
-        code: "8465.9",
+        code: "84659",
         description: "- Outras:"
     },
     {
-        code: "8465.91",
+        code: "846591",
         description: "-- Máquinas de serrar"
     },
     {
-        code: "8465.91.10",
+        code: "84659110",
         description: "De fita sem fim"
     },
     {
-        code: "8465.91.20",
+        code: "84659120",
         description: "Circulares"
     },
     {
-        code: "8465.91.90",
+        code: "84659190",
         description: "Outras"
     },
     {
-        code: "8465.92",
+        code: "846592",
         description: "-- Máquinas para desbastar ou aplainar; máquinas para fresar ou moldurar"
     },
     {
-        code: "8465.92.1",
+        code: "8465921",
         description: "De comando numérico"
     },
     {
-        code: "8465.92.11",
+        code: "84659211",
         description: "Fresadoras"
     },
     {
-        code: "8465.92.19",
+        code: "84659219",
         description: "Outras"
     },
     {
-        code: "8465.92.90",
+        code: "84659290",
         description: "Outras"
     },
     {
-        code: "8465.93",
+        code: "846593",
         description: "-- Máquinas para esmerilar, lixar ou polir"
     },
     {
-        code: "8465.93.10",
+        code: "84659310",
         description: "Lixadeiras"
     },
     {
-        code: "8465.93.90",
+        code: "84659390",
         description: "Outras"
     },
     {
-        code: "8465.94.00",
+        code: "84659400",
         description: "-- Máquinas para arquear ou reunir"
     },
     {
-        code: "8465.95",
+        code: "846595",
         description: "-- Máquinas para furar ou escatelar"
     },
     {
-        code: "8465.95.1",
+        code: "8465951",
         description: "De comando numérico"
     },
     {
-        code: "8465.95.11",
+        code: "84659511",
         description: "Para furar"
     },
     {
-        code: "8465.95.12",
+        code: "84659512",
         description: "Para escatelar"
     },
     {
-        code: "8465.95.9",
+        code: "8465959",
         description: "Outras"
     },
     {
-        code: "8465.95.91",
+        code: "84659591",
         description: "Para furar"
     },
     {
-        code: "8465.95.92",
+        code: "84659592",
         description: "Para escatelar"
     },
     {
-        code: "8465.96.00",
+        code: "84659600",
         description: "-- Máquinas para fender, seccionar ou desenrolar"
     },
     {
-        code: "8465.99.00",
+        code: "84659900",
         description: "-- Outras"
     },
     {
-        code: "84.66",
+        code: "8466",
         description:
-            "Partes e acessórios reconhecíveis como exclusiva ou principalmente destinados às máquinas das posições 84.56 a 84.65, incluindo os porta-peças e porta-ferramentas, as fieiras de abertura automática, os dispositivos divisores e outros dispositivos especiais, para estas máquinas; porta-ferramentas para ferramentas manuais de qualquer tipo."
+            "Partes e acessórios reconhecíveis como exclusiva ou principalmente destinados às máquinas das posições 8456 a 8465, incluindo os porta-peças e porta-ferramentas, as fieiras de abertura automática, os dispositivos divisores e outros dispositivos especiais, para estas máquinas; porta-ferramentas para ferramentas manuais de qualquer tipo"
     },
     {
-        code: "8466.10.00",
+        code: "84661000",
         description: "- Porta-ferramentas e fieiras de abertura automática"
     },
     {
-        code: "8466.20",
+        code: "846620",
         description: "- Porta-peças"
     },
     {
-        code: "8466.20.10",
+        code: "84662010",
         description: "Para tornos"
     },
     {
-        code: "8466.20.90",
+        code: "84662090",
         description: "Outros"
     },
     {
-        code: "8466.30.00",
+        code: "84663000",
         description: "- Dispositivos divisores e outros dispositivos especiais, para máquinas"
     },
     {
-        code: "8466.9",
+        code: "84669",
         description: "- Outros:"
     },
     {
-        code: "8466.91.00",
-        description: "-- Para máquinas da posição 84.64"
+        code: "84669100",
+        description: "-- Para máquinas da posição 8464"
     },
     {
-        code: "8466.92.00",
-        description: "-- Para máquinas da posição 84.65"
+        code: "84669200",
+        description: "-- Para máquinas da posição 8465"
     },
     {
-        code: "8466.93",
-        description: "-- Para máquinas das posições 84.56 a 84.61"
+        code: "846693",
+        description: "-- Para máquinas das posições 8456 a 8461"
     },
     {
-        code: "8466.93.1",
-        description: "Para máquinas da posição 84.56"
+        code: "8466931",
+        description: "Para máquinas da posição 8456"
     },
     {
-        code: "8466.93.11",
-        description: "Para máquinas da subposição 8456.20"
+        code: "84669311",
+        description: "Para máquinas da subposição 845620"
     },
     {
-        code: "8466.93.19",
+        code: "84669319",
         description: "Outras"
     },
     {
-        code: "8466.93.20",
-        description: "Para máquinas da posição 84.57"
+        code: "84669320",
+        description: "Para máquinas da posição 8457"
     },
     {
-        code: "8466.93.30",
-        description: "Para máquinas da posição 84.58"
+        code: "84669330",
+        description: "Para máquinas da posição 8458"
     },
     {
-        code: "8466.93.40",
-        description: "Para máquinas da posição 84.59"
+        code: "84669340",
+        description: "Para máquinas da posição 8459"
     },
     {
-        code: "8466.93.50",
-        description: "Para máquinas da posição 84.60"
+        code: "84669350",
+        description: "Para máquinas da posição 8460"
     },
     {
-        code: "8466.93.60",
-        description: "Para máquinas da posição 84.61"
+        code: "84669360",
+        description: "Para máquinas da posição 8461"
     },
     {
-        code: "8466.94",
-        description: "-- Para máquinas das posições 84.62 ou 84.63"
+        code: "846694",
+        description: "-- Para máquinas das posições 8462 ou 8463"
     },
     {
-        code: "8466.94.10",
-        description: "Para máquinas das subposições 8462.11 ou 8462.19"
+        code: "84669410",
+        description: "Para máquinas das subposições 846211 ou 846219"
     },
     {
-        code: "8466.94.20",
-        description: "Para máquinas das subposições 8462.22 a 8462.29"
+        code: "84669420",
+        description: "Para máquinas das subposições 846222 a 846229"
     },
     {
-        code: "8466.94.90",
+        code: "84669490",
         description: "Outras"
     },
     {
-        code: "84.67",
-        description: "Ferramentas pneumáticas, hidráulicas ou com motor (elétrico ou não elétrico) incorporado, de uso manual."
+        code: "8467",
+        description: "Ferramentas pneumáticas, hidráulicas ou com motor (elétrico ou não elétrico) incorporado, de uso manual"
     },
     {
-        code: "8467.1",
+        code: "84671",
         description: "- Pneumáticas:"
     },
     {
-        code: "8467.11",
+        code: "846711",
         description: "-- Rotativas (mesmo com sistema de percussão)"
     },
     {
-        code: "8467.11.10",
+        code: "84671110",
         description: "Furadeiras"
     },
     {
-        code: "8467.11.90",
+        code: "84671190",
         description: "Outras"
     },
     {
-        code: "8467.19.00",
+        code: "84671900",
         description: "-- Outras"
     },
     {
-        code: "8467.2",
+        code: "84672",
         description: "- Com motor elétrico incorporado:"
     },
     {
-        code: "8467.21.00",
+        code: "84672100",
         description: "-- Furadeiras (perfuradoras) de qualquer espécie, incluindo as rotativas"
     },
     {
-        code: "8467.22.00",
+        code: "84672200",
         description: "-- Serras"
     },
     {
-        code: "8467.29",
+        code: "846729",
         description: "-- Outras"
     },
     {
-        code: "8467.29.10",
+        code: "84672910",
         description: "Tesouras"
     },
     {
-        code: "8467.29.9",
+        code: "8467299",
         description: "Outras"
     },
     {
-        code: "8467.29.91",
+        code: "84672991",
         description: "Cortadoras de tecidos"
     },
     {
-        code: "8467.29.92",
+        code: "84672992",
         description: "Parafusadeiras e rosqueadeiras"
     },
     {
-        code: "8467.29.93",
+        code: "84672993",
         description: "Martelos"
     },
     {
-        code: "8467.29.99",
+        code: "84672999",
         description: "Outras"
     },
     {
-        code: "8467.8",
+        code: "84678",
         description: "- Outras ferramentas:"
     },
     {
-        code: "8467.81.00",
+        code: "84678100",
         description: "-- Serras de corrente"
     },
     {
-        code: "8467.89.00",
+        code: "84678900",
         description: "-- Outras"
     },
     {
-        code: "8467.9",
+        code: "84679",
         description: "- Partes:"
     },
     {
-        code: "8467.91.00",
+        code: "84679100",
         description: "-- De serras de corrente"
     },
     {
-        code: "8467.92.00",
+        code: "84679200",
         description: "-- De ferramentas pneumáticas"
     },
     {
-        code: "8467.99.00",
+        code: "84679900",
         description: "-- Outras"
     },
     {
-        code: "84.68",
+        code: "8468",
         description:
-            "Máquinas e aparelhos para soldar, mesmo de corte, exceto os da posição 85.15; máquinas e aparelhos a gás, para têmpera superficial."
+            "Máquinas e aparelhos para soldar, mesmo de corte, exceto os da posição 8515; máquinas e aparelhos a gás, para têmpera superficial"
     },
     {
-        code: "8468.10.00",
+        code: "84681000",
         description: "- Maçaricos de uso manual"
     },
     {
-        code: "8468.20.00",
+        code: "84682000",
         description: "- Outras máquinas e aparelhos a gás"
     },
     {
-        code: "8468.80",
+        code: "846880",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "8468.80.10",
+        code: "84688010",
         description: "Para soldar por fricção"
     },
     {
-        code: "8468.80.90",
+        code: "84688090",
         description: "Outras"
     },
     {
-        code: "8468.90",
+        code: "846890",
         description: "- Partes"
     },
     {
-        code: "8468.90.10",
+        code: "84689010",
         description: "De maçaricos de uso manual"
     },
     {
-        code: "8468.90.20",
+        code: "84689020",
         description: "De máquinas ou aparelhos para soldar por fricção"
     },
     {
-        code: "8468.90.90",
+        code: "84689090",
         description: "Outras"
     },
     {
-        code: "84.70",
+        code: "8470",
         description:
-            "Máquinas de calcular e máquinas de bolso que permitam gravar, reproduzir e visualizar informações, com função de cálculo incorporada; máquinas de contabilidade, máquinas de franquear, de emitir bilhetes e máquinas semelhantes, com dispositivo de cálculo incorporado; caixas registradoras."
+            "Máquinas de calcular e máquinas de bolso que permitam gravar, reproduzir e visualizar informações, com função de cálculo incorporada; máquinas de contabilidade, máquinas de franquear, de emitir bilhetes e máquinas semelhantes, com dispositivo de cálculo incorporado; caixas registradoras"
     },
     {
-        code: "8470.10.00",
+        code: "84701000",
         description:
             "- Calculadoras eletrônicas capazes de funcionar sem fonte externa de energia elétrica e máquinas de bolso com função de cálculo incorporada que permitam gravar, reproduzir e visualizar informações"
     },
     {
-        code: "8470.2",
+        code: "84702",
         description: "- Outras máquinas de calcular, eletrônicas:"
     },
     {
-        code: "8470.21.00",
+        code: "84702100",
         description: "-- Com dispositivo impressor incorporado"
     },
     {
-        code: "8470.29.00",
+        code: "84702900",
         description: "-- Outras"
     },
     {
-        code: "8470.30.00",
+        code: "84703000",
         description: "- Outras máquinas de calcular"
     },
     {
-        code: "8470.50",
+        code: "847050",
         description: "- Caixas registradoras"
     },
     {
-        code: "8470.50.10",
+        code: "84705010",
         description: "Eletrônicas"
     },
     {
-        code: "8470.50.90",
+        code: "84705090",
         description: "Outras"
     },
     {
-        code: "8470.90",
+        code: "847090",
         description: "- Outras"
     },
     {
-        code: "8470.90.10",
+        code: "84709010",
         description: "Máquinas de franquear correspondência"
     },
     {
-        code: "8470.90.90",
+        code: "84709090",
         description: "Outras"
     },
     {
-        code: "84.71",
+        code: "8471",
         description:
-            "Máquinas automáticas para processamento de dados e suas unidades; leitores magnéticos ou ópticos, máquinas para registrar dados em suporte sob forma codificada, e máquinas para processamento desses dados, não especificadas nem compreendidas noutras posições."
+            "Máquinas automáticas para processamento de dados e suas unidades; leitores magnéticos ou ópticos, máquinas para registrar dados em suporte sob forma codificada, e máquinas para processamento desses dados, não especificadas nem compreendidas noutras posições"
     },
     {
-        code: "8471.30",
+        code: "847130",
         description:
             "- Máquinas automáticas para processamento de dados, portáteis, de peso não superior a 10 kg, que contenham pelo menos uma unidade central de processamento, um teclado e uma tela (ecrã*)"
     },
     {
-        code: "8471.30.1",
+        code: "8471301",
         description: "Capazes de funcionar sem fonte externa de energia"
     },
     {
-        code: "8471.30.11",
+        code: "84713011",
         description: "De peso inferior a 350 g, com tela de área não superior a 140 cm<sup>2</sup>"
     },
     {
-        code: "8471.30.12",
+        code: "84713012",
         description: "De peso inferior a 3,5 kg, com tela de área superior a 140 cm<sup>2</sup>, mas inferior a 560 cm<sup>2</sup>"
     },
     {
-        code: "8471.30.19",
+        code: "84713019",
         description: "Outras"
     },
     {
-        code: "8471.30.90",
+        code: "84713090",
         description: "Outras"
     },
     {
-        code: "8471.4",
+        code: "84714",
         description: "- Outras máquinas automáticas para processamento de dados:"
     },
     {
-        code: "8471.41.00",
+        code: "84714100",
         description:
             "-- Que contenham, no mesmo corpo, pelo menos uma unidade central de processamento e, mesmo combinadas, uma unidade de entrada e uma unidade de saída"
     },
     {
-        code: "8471.49.00",
+        code: "84714900",
         description: "-- Outras, apresentadas sob a forma de sistemas"
     },
     {
-        code: "8471.50",
+        code: "847150",
         description:
-            "- Unidades de processamento, exceto as das subposições 8471.41 ou 8471.49, podendo conter, no mesmo corpo, um ou dois dos seguintes tipos de unidades: unidade de memória, unidade de entrada e unidade de saída"
+            "- Unidades de processamento, exceto as das subposições 847141 ou 847149, podendo conter, no mesmo corpo, um ou dois dos seguintes tipos de unidades: unidade de memória, unidade de entrada e unidade de saída"
     },
     {
-        code: "8471.50.10",
+        code: "84715010",
         description:
-            "De pequena capacidade, baseadas em microprocessadores, com capacidade de instalação, dentro do mesmo gabinete, de unidades de memória da subposição 8471.70, podendo conter múltiplos conectores de expansão (<i>slots</i>), e valor FOB inferior ou igual a US$ 12.500,00, por unidade"
+            "De pequena capacidade, baseadas em microprocessadores, com capacidade de instalação, dentro do mesmo gabinete, de unidades de memória da subposição 847170, podendo conter múltiplos conectores de expansão (<i>slots</i>), e valor FOB inferior ou igual a US$ 12500,00, por unidade"
     },
     {
-        code: "8471.50.20",
+        code: "84715020",
         description:
-            "De média capacidade, podendo conter no máximo uma unidade de entrada e outra de saída da subposição 8471.60, com capacidade de instalação, dentro do mesmo gabinete, de unidades de memória da subposição 8471.70, podendo conter múltiplos conectores de expansão (<i>slots</i>), e valor FOB superior a US$ 12.500,00, mas não superior a US$ 46.000,00, por unidade"
+            "De média capacidade, podendo conter no máximo uma unidade de entrada e outra de saída da subposição 847160, com capacidade de instalação, dentro do mesmo gabinete, de unidades de memória da subposição 847170, podendo conter múltiplos conectores de expansão (<i>slots</i>), e valor FOB superior a US$ 12500,00, mas não superior a US$ 46000,00, por unidade"
     },
     {
-        code: "8471.50.30",
+        code: "84715030",
         description:
-            "De grande capacidade, podendo conter no máximo uma unidade de entrada e outra de saída da subposição 8471.60, com capacidade de instalação interna, ou em módulos separados do gabinete do processador central, de unidades de memória da subposição 8471.70, e valor FOB superior a US$ 46.000,00, mas não superior a US$ 100.000,00, por unidade"
+            "De grande capacidade, podendo conter no máximo uma unidade de entrada e outra de saída da subposição 847160, com capacidade de instalação interna, ou em módulos separados do gabinete do processador central, de unidades de memória da subposição 847170, e valor FOB superior a US$ 46000,00, mas não superior a US$ 100000,00, por unidade"
     },
     {
-        code: "8471.50.40",
+        code: "84715040",
         description:
-            "De muito grande capacidade, podendo conter no máximo uma unidade de entrada e outra de saída da subposição 8471.60, com capacidade de instalação interna, ou em módulos separados do gabinete do processador central, de unidades de memória da subposição 8471.70, e valor FOB superior a US$ 100.000,00, por unidade"
+            "De muito grande capacidade, podendo conter no máximo uma unidade de entrada e outra de saída da subposição 847160, com capacidade de instalação interna, ou em módulos separados do gabinete do processador central, de unidades de memória da subposição 847170, e valor FOB superior a US$ 100000,00, por unidade"
     },
     {
-        code: "8471.50.90",
+        code: "84715090",
         description: "Outras"
     },
     {
-        code: "8471.60",
+        code: "847160",
         description: "- Unidades de entrada ou de saída, podendo conter, no mesmo corpo, unidades de memória"
     },
     {
-        code: "8471.60.5",
+        code: "8471605",
         description: "Unidades de entrada"
     },
     {
-        code: "8471.60.52",
+        code: "84716052",
         description: "Teclados"
     },
     {
-        code: "8471.60.53",
+        code: "84716053",
         description: "Indicadores ou apontadores (<i>mouse</i> e <i>track-ball</i>, por exemplo)"
     },
     {
-        code: "8471.60.54",
+        code: "84716054",
         description: "Mesas digitalizadoras"
     },
     {
-        code: "8471.60.59",
+        code: "84716059",
         description: "Outras"
     },
     {
-        code: "8471.60.6",
+        code: "8471606",
         description:
             "Aparelhos terminais que tenham, pelo menos, uma unidade de entrada por teclado alfanumérico e uma unidade de saída por vídeo (terminais de vídeo)"
     },
     {
-        code: "8471.60.61",
+        code: "84716061",
         description: "Com unidade de saída por vídeo monocromático"
     },
     {
-        code: "8471.60.62",
+        code: "84716062",
         description: "Com unidade de saída por vídeo policromático"
     },
     {
-        code: "8471.60.80",
+        code: "84716080",
         description: "Terminais de auto-atendimento bancário"
     },
     {
-        code: "8471.60.90",
+        code: "84716090",
         description: "Outras"
     },
     {
-        code: "8471.70",
+        code: "847170",
         description: "- Unidades de memória"
     },
     {
-        code: "8471.70.10",
+        code: "84717010",
         description: "De discos magnéticos"
     },
     {
-        code: "8471.70.20",
+        code: "84717020",
         description: "De discos para leitura ou gravação de dados por meios ópticos (unidade de disco óptico)"
     },
     {
-        code: "8471.70.30",
+        code: "84717030",
         description: "De fitas magnéticas"
     },
     {
-        code: "8471.70.40",
+        code: "84717040",
         description: "De estado sólido (SSD - <i>Solid-State Drive</i>)"
     },
     {
-        code: "8471.70.90",
+        code: "84717090",
         description: "Outras, incluídas as combinações de unidades de, pelo menos, dois dos itens precedentes"
     },
     {
-        code: "8471.80.00",
+        code: "84718000",
         description: "- Outras unidades de máquinas automáticas para processamento de dados"
     },
     {
-        code: "8471.90",
+        code: "847190",
         description: "- Outros"
     },
     {
-        code: "8471.90.1",
+        code: "8471901",
         description: "Leitores ou gravadores"
     },
     {
-        code: "8471.90.11",
+        code: "84719011",
         description: "De cartões magnéticos"
     },
     {
-        code: "8471.90.12",
+        code: "84719012",
         description: "Leitores de códigos de barras"
     },
     {
-        code: "8471.90.13",
+        code: "84719013",
         description: "Leitores de caracteres magnetizáveis"
     },
     {
-        code: "8471.90.14",
+        code: "84719014",
         description: "Digitalizadores de imagens (<i>scanners</i>)"
     },
     {
-        code: "8471.90.19",
+        code: "84719019",
         description: "Outros"
     },
     {
-        code: "8471.90.90",
+        code: "84719090",
         description: "Outros"
     },
     {
-        code: "84.72",
+        code: "8472",
         description:
-            "Outras máquinas e aparelhos de escritório (por exemplo, duplicadores hectográficos ou a estêncil, máquinas para imprimir endereços, distribuidores automáticos de notas (papéis-moeda), máquinas para selecionar, contar ou empacotar moedas, máquinas apontadoras de lápis (apara-lápis), perfuradores ou grampeadores (agrafadores*))."
+            "Outras máquinas e aparelhos de escritório (por exemplo, duplicadores hectográficos ou a estêncil, máquinas para imprimir endereços, distribuidores automáticos de notas (papéis-moeda), máquinas para selecionar, contar ou empacotar moedas, máquinas apontadoras de lápis (apara-lápis), perfuradores ou grampeadores (agrafadores*))"
     },
     {
-        code: "8472.10.00",
+        code: "84721000",
         description: "- Duplicadores"
     },
     {
-        code: "8472.30",
+        code: "847230",
         description:
             "- Máquinas para selecionar, dobrar, envelopar ou cintar correspondência, máquinas para abrir, fechar ou lacrar correspondência e máquinas para colar ou obliterar selos"
     },
     {
-        code: "8472.30.10",
+        code: "84723010",
         description: "Máquinas automáticas para obliterar selos postais"
     },
     {
-        code: "8472.30.20",
+        code: "84723020",
         description:
             "Máquinas automáticas para seleção de correspondência por formato e classificação e distribuição da mesma por leitura óptica do código postal"
     },
     {
-        code: "8472.30.30",
+        code: "84723030",
         description: "Máquinas automáticas para seleção e distribuição de encomendas, por leitura óptica do código postal"
     },
     {
-        code: "8472.30.90",
+        code: "84723090",
         description: "Outras"
     },
     {
-        code: "8472.90",
+        code: "847290",
         description: "- Outros"
     },
     {
-        code: "8472.90.10",
+        code: "84729010",
         description: "Distribuidores (dispensadores) automáticos de notas (papéis-moeda), incluindo os que efetuam outras operações bancárias"
     },
     {
-        code: "8472.90.20",
+        code: "84729020",
         description: "Máquinas do tipo utilizado em caixas de banco, com dispositivo para autenticar"
     },
     {
-        code: "8472.90.30",
+        code: "84729030",
         description: "Máquinas para selecionar e contar moedas ou notas (papéis-moeda)"
     },
     {
-        code: "8472.90.40",
+        code: "84729040",
         description: "Máquinas apontadoras de lápis (apara-lápis), perfuradores, grampeadores e desgrampeadores"
     },
     {
-        code: "8472.90.5",
-        description: "Classificadoras automáticas de documentos, com leitores ou gravadores do item 8471.90.1 incorporados"
+        code: "8472905",
+        description: "Classificadoras automáticas de documentos, com leitores ou gravadores do item 8471901 incorporados"
     },
     {
-        code: "8472.90.51",
+        code: "84729051",
         description: "Com capacidade de classificação superior a 400 documentos por minuto"
     },
     {
-        code: "8472.90.59",
+        code: "84729059",
         description: "Outras"
     },
     {
-        code: "8472.90.9",
+        code: "8472909",
         description: "Outros"
     },
     {
-        code: "8472.90.91",
+        code: "84729091",
         description: "Máquinas para imprimir endereços ou para estampar placas de endereços"
     },
     {
-        code: "8472.90.99",
+        code: "84729099",
         description: "Outros"
     },
     {
-        code: "84.73",
+        code: "8473",
         description:
-            "Partes e acessórios (exceto estojos, capas e semelhantes) reconhecíveis como exclusiva ou principalmente destinados às máquinas ou aparelhos das posições 84.70 a 84.72."
+            "Partes e acessórios (exceto estojos, capas e semelhantes) reconhecíveis como exclusiva ou principalmente destinados às máquinas ou aparelhos das posições 8470 a 8472"
     },
     {
-        code: "8473.2",
-        description: "- Partes e acessórios das máquinas da posição 84.70:"
+        code: "84732",
+        description: "- Partes e acessórios das máquinas da posição 8470:"
     },
     {
-        code: "8473.21.00",
-        description: "-- Das calculadoras eletrônicas das subposições 8470.10, 8470.21 ou 8470.29"
+        code: "84732100",
+        description: "-- Das calculadoras eletrônicas das subposições 847010, 847021 ou 847029"
     },
     {
-        code: "8473.29",
+        code: "847329",
         description: "-- Outros"
     },
     {
-        code: "8473.29.10",
+        code: "84732910",
         description: "Circuitos impressos com componentes elétricos ou eletrônicos, montados, para caixas registradoras"
     },
     {
-        code: "8473.29.20",
-        description: "De máquinas da subposição 8470.30"
+        code: "84732920",
+        description: "De máquinas da subposição 847030"
     },
     {
-        code: "8473.29.90",
+        code: "84732990",
         description: "Outros"
     },
     {
-        code: "8473.30",
-        description: "- Partes e acessórios das máquinas da posição 84.71"
+        code: "847330",
+        description: "- Partes e acessórios das máquinas da posição 8471"
     },
     {
-        code: "8473.30.1",
+        code: "8473301",
         description: "Gabinete, mesmo com módulo <i>display</i> numérico, fonte de alimentação incorporada ou ambos"
     },
     {
-        code: "8473.30.11",
+        code: "84733011",
         description: "Com fonte de alimentação, mesmo com módulo <i>display</i> numérico"
     },
     {
-        code: "8473.30.19",
+        code: "84733019",
         description: "Outros"
     },
     {
-        code: "8473.30.3",
-        description: "De unidades de discos magnéticos ou de fitas magnéticas, exceto as do item 8473.30.4"
+        code: "8473303",
+        description: "De unidades de discos magnéticos ou de fitas magnéticas, exceto as do item 8473304"
     },
     {
-        code: "8473.30.31",
+        code: "84733031",
         description: "Conjuntos cabeça-disco (HDA - <i>Head Disk Assembly</i>) de unidades de discos rígidos, montados"
     },
     {
-        code: "8473.30.32",
+        code: "84733032",
         description: "Braços posicionadores de cabeças magnéticas"
     },
     {
-        code: "8473.30.33",
+        code: "84733033",
         description: "Cabeças magnéticas"
     },
     {
-        code: "8473.30.34",
+        code: "84733034",
         description: "Mecanismos bobinadores para unidades de fitas magnéticas (<i>magnetic tape transporter</i>)"
     },
     {
-        code: "8473.30.39",
+        code: "84733039",
         description: "Outras"
     },
     {
-        code: "8473.30.4",
+        code: "8473304",
         description: "Circuitos impressos com componentes elétricos ou eletrônicos, montados"
     },
     {
-        code: "8473.30.41",
+        code: "84733041",
         description: "Placas-mãe (<i>mother boards</i>)"
     },
     {
-        code: "8473.30.42",
+        code: "84733042",
         description: "Placas (módulos) de memória com uma superfície inferior ou igual a 50 cm<sup>2</sup>"
     },
     {
-        code: "8473.30.49",
+        code: "84733049",
         description: "Outros"
     },
     {
-        code: "8473.30.90",
+        code: "84733090",
         description: "Outros"
     },
     {
-        code: "8473.40",
-        description: "- Partes e acessórios das máquinas da posição 84.72"
+        code: "847340",
+        description: "- Partes e acessórios das máquinas da posição 8472"
     },
     {
-        code: "8473.40.10",
+        code: "84734010",
         description: "Circuitos impressos com componentes elétricos ou eletrônicos, montados"
     },
     {
-        code: "8473.40.70",
-        description: "Outras partes e acessórios das máquinas dos itens 8472.90.10 ou 8472.90.20"
+        code: "84734070",
+        description: "Outras partes e acessórios das máquinas dos itens 84729010 ou 84729020"
     },
     {
-        code: "8473.40.90",
+        code: "84734090",
         description: "Outros"
     },
     {
-        code: "8473.50",
+        code: "847350",
         description:
-            "- Partes e acessórios que possam ser utilizados indiferentemente com as máquinas ou aparelhos de duas ou mais das posições 84.70 a 84.72"
+            "- Partes e acessórios que possam ser utilizados indiferentemente com as máquinas ou aparelhos de duas ou mais das posições 8470 a 8472"
     },
     {
-        code: "8473.50.10",
+        code: "84735010",
         description: "Circuitos impressos com componentes elétricos ou eletrônicos, montados"
     },
     {
-        code: "8473.50.40",
+        code: "84735040",
         description: "Cabeças magnéticas"
     },
     {
-        code: "8473.50.50",
+        code: "84735050",
         description: "Placas (módulos) de memória com uma superfície inferior ou igual a 50 cm<sup>2</sup>"
     },
     {
-        code: "8473.50.90",
+        code: "84735090",
         description: "Outros"
     },
     {
-        code: "84.74",
+        code: "8474",
         description:
-            "Máquinas e aparelhos para selecionar, peneirar, separar, lavar, esmagar, moer, misturar ou amassar terras, pedras, minérios ou outras substâncias minerais sólidas (incluindo os pós e pastas); máquinas para aglomerar ou moldar combustíveis minerais sólidos, pastas cerâmicas, cimento, gesso ou outras matérias minerais em pó ou em pasta; máquinas para fazer moldes de areia para fundição."
+            "Máquinas e aparelhos para selecionar, peneirar, separar, lavar, esmagar, moer, misturar ou amassar terras, pedras, minérios ou outras substâncias minerais sólidas (incluindo os pós e pastas); máquinas para aglomerar ou moldar combustíveis minerais sólidos, pastas cerâmicas, cimento, gesso ou outras matérias minerais em pó ou em pasta; máquinas para fazer moldes de areia para fundição"
     },
     {
-        code: "8474.10.00",
+        code: "84741000",
         description: "- Máquinas e aparelhos para selecionar, peneirar, separar ou lavar"
     },
     {
-        code: "8474.20",
+        code: "847420",
         description: "- Máquinas e aparelhos para esmagar, moer ou pulverizar"
     },
     {
-        code: "8474.20.10",
+        code: "84742010",
         description: "De bolas"
     },
     {
-        code: "8474.20.90",
+        code: "84742090",
         description: "Outros"
     },
     {
-        code: "8474.3",
+        code: "84743",
         description: "- Máquinas e aparelhos para misturar ou amassar:"
     },
     {
-        code: "8474.31.00",
+        code: "84743100",
         description: "-- Betoneiras e aparelhos para amassar cimento"
     },
     {
-        code: "8474.32.00",
+        code: "84743200",
         description: "-- Máquinas para misturar matérias minerais com betume"
     },
     {
-        code: "8474.39.00",
+        code: "84743900",
         description: "-- Outros"
     },
     {
-        code: "8474.80",
+        code: "847480",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "8474.80.10",
+        code: "84748010",
         description: "Para fazer moldes de areia para fundição"
     },
     {
-        code: "8474.80.90",
+        code: "84748090",
         description: "Outras"
     },
     {
-        code: "8474.90.00",
+        code: "84749000",
         description: "- Partes"
     },
     {
-        code: "84.75",
+        code: "8475",
         description:
-            "Máquinas para montagem de lâmpadas, tubos ou válvulas, elétricos ou eletrônicos, ou de lâmpadas de luz relâmpago (<i>flash</i>), que tenham invólucro de vidro; máquinas para fabricação ou trabalho a quente do vidro ou das suas obras."
+            "Máquinas para montagem de lâmpadas, tubos ou válvulas, elétricos ou eletrônicos, ou de lâmpadas de luz relâmpago (<i>flash</i>), que tenham invólucro de vidro; máquinas para fabricação ou trabalho a quente do vidro ou das suas obras"
     },
     {
-        code: "8475.10.00",
+        code: "84751000",
         description:
             "- Máquinas para montagem de lâmpadas, tubos ou válvulas, elétricos ou eletrônicos, ou de lâmpadas de luz relâmpago (<i>flash</i>), que tenham invólucro de vidro"
     },
     {
-        code: "8475.2",
+        code: "84752",
         description: "- Máquinas para fabricação ou trabalho a quente do vidro ou das suas obras:"
     },
     {
-        code: "8475.21.00",
+        code: "84752100",
         description: "-- Máquinas para fabricação de fibras ópticas e de seus esboços"
     },
     {
-        code: "8475.29",
+        code: "847529",
         description: "-- Outras"
     },
     {
-        code: "8475.29.10",
-        description: "Para fabricação de recipientes da posição 70.10, exceto ampolas"
+        code: "84752910",
+        description: "Para fabricação de recipientes da posição 7010, exceto ampolas"
     },
     {
-        code: "8475.29.90",
+        code: "84752990",
         description: "Outras"
     },
     {
-        code: "8475.90.00",
+        code: "84759000",
         description: "- Partes"
     },
     {
-        code: "84.76",
+        code: "8476",
         description:
-            "Máquinas automáticas de venda de produtos (por exemplo, selos, cigarros, alimentos ou bebidas), incluindo as máquinas de trocar dinheiro."
+            "Máquinas automáticas de venda de produtos (por exemplo, selos, cigarros, alimentos ou bebidas), incluindo as máquinas de trocar dinheiro"
     },
     {
-        code: "8476.2",
+        code: "84762",
         description: "- Máquinas automáticas de venda de bebidas:"
     },
     {
-        code: "8476.21.00",
+        code: "84762100",
         description: "-- Com dispositivo de aquecimento ou de refrigeração incorporado"
     },
     {
-        code: "8476.29.00",
+        code: "84762900",
         description: "-- Outras"
     },
     {
-        code: "8476.8",
+        code: "84768",
         description: "- Outras máquinas:"
     },
     {
-        code: "8476.81.00",
+        code: "84768100",
         description: "-- Com dispositivo de aquecimento ou de refrigeração incorporado"
     },
     {
-        code: "8476.89",
+        code: "847689",
         description: "-- Outras"
     },
     {
-        code: "8476.89.10",
+        code: "84768910",
         description: "Máquinas automáticas de venda de selos postais"
     },
     {
-        code: "8476.89.90",
+        code: "84768990",
         description: "Outras"
     },
     {
-        code: "8476.90.00",
+        code: "84769000",
         description: "- Partes"
     },
     {
-        code: "84.77",
+        code: "8477",
         description:
-            "Máquinas e aparelhos para trabalhar borracha ou plástico ou para fabricação de produtos dessas matérias, não especificados nem compreendidos noutras posições deste Capítulo."
+            "Máquinas e aparelhos para trabalhar borracha ou plástico ou para fabricação de produtos dessas matérias, não especificados nem compreendidos noutras posições deste Capítulo"
     },
     {
-        code: "8477.10",
+        code: "847710",
         description: "- Máquinas de moldar por injeção"
     },
     {
-        code: "8477.10.1",
+        code: "8477101",
         description: "Horizontais, de comando numérico"
     },
     {
-        code: "8477.10.11",
+        code: "84771011",
         description:
-            "Monocolor, para materiais termoplásticos, com capacidade de injeção inferior ou igual a 5.000 g e força de fechamento inferior ou igual a 12.000 kN"
+            "Monocolor, para materiais termoplásticos, com capacidade de injeção inferior ou igual a 5000 g e força de fechamento inferior ou igual a 12000 kN"
     },
     {
-        code: "8477.10.19",
+        code: "84771019",
         description: "Outras"
     },
     {
-        code: "8477.10.2",
+        code: "8477102",
         description: "Outras horizontais"
     },
     {
-        code: "8477.10.21",
+        code: "84771021",
         description:
-            "Monocolor, para materiais termoplásticos, com capacidade de injeção inferior ou igual a 5.000 g e força de fechamento inferior ou igual a 12.000 kN"
+            "Monocolor, para materiais termoplásticos, com capacidade de injeção inferior ou igual a 5000 g e força de fechamento inferior ou igual a 12000 kN"
     },
     {
-        code: "8477.10.29",
+        code: "84771029",
         description: "Outras"
     },
     {
-        code: "8477.10.9",
+        code: "8477109",
         description: "Outras"
     },
     {
-        code: "8477.10.91",
+        code: "84771091",
         description: "De comando numérico"
     },
     {
-        code: "8477.10.99",
+        code: "84771099",
         description: "Outras"
     },
     {
-        code: "8477.20",
+        code: "847720",
         description: "- Extrusoras"
     },
     {
-        code: "8477.20.10",
+        code: "84772010",
         description: "Para materiais termoplásticos, de diâmetro da rosca inferior ou igual a 300 mm"
     },
     {
-        code: "8477.20.90",
+        code: "84772090",
         description: "Outras"
     },
     {
-        code: "8477.30",
+        code: "847730",
         description: "- Máquinas de moldar por insuflação"
     },
     {
-        code: "8477.30.10",
+        code: "84773010",
         description:
-            "Para fabricação de recipientes termoplásticos de capacidade inferior ou igual a 5 l, com uma produção inferior ou igual a 1.000 unidades por hora, referente a recipiente de 1 l"
+            "Para fabricação de recipientes termoplásticos de capacidade inferior ou igual a 5 l, com uma produção inferior ou igual a 1000 unidades por hora, referente a recipiente de 1 l"
     },
     {
-        code: "8477.30.90",
+        code: "84773090",
         description: "Outras"
     },
     {
-        code: "8477.40",
+        code: "847740",
         description: "- Máquinas de moldar a vácuo e outras máquinas de termoformar"
     },
     {
-        code: "8477.40.10",
+        code: "84774010",
         description: "De moldar a vácuo poliestireno expandido (EPS) ou polipropileno expandido (EPP)"
     },
     {
-        code: "8477.40.90",
+        code: "84774090",
         description: "Outras"
     },
     {
-        code: "8477.5",
+        code: "84775",
         description: "- Outras máquinas e aparelhos para moldar ou dar forma:"
     },
     {
-        code: "8477.51.00",
+        code: "84775100",
         description: "-- Para moldar ou recauchutar pneumáticos ou para moldar ou dar forma a câmaras de ar"
     },
     {
-        code: "8477.59",
+        code: "847759",
         description: "-- Outros"
     },
     {
-        code: "8477.59.1",
+        code: "8477591",
         description: "Prensas"
     },
     {
-        code: "8477.59.11",
-        description: "Com capacidade inferior ou igual a 30.000 kN"
+        code: "84775911",
+        description: "Com capacidade inferior ou igual a 30000 kN"
     },
     {
-        code: "8477.59.19",
+        code: "84775919",
         description: "Outras"
     },
     {
-        code: "8477.59.90",
+        code: "84775990",
         description: "Outras"
     },
     {
-        code: "8477.80",
+        code: "847780",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "8477.80.10",
+        code: "84778010",
         description: "Máquina de unir lâminas de borracha entre si ou com tecidos com borracha, para fabricação de pneumáticos"
     },
     {
-        code: "8477.80.90",
+        code: "84778090",
         description: "Outras"
     },
     {
-        code: "8477.90.00",
+        code: "84779000",
         description: "- Partes"
     },
     {
-        code: "84.78",
-        description: "Máquinas e aparelhos para preparar ou transformar tabaco, não especificados nem compreendidos noutras posições deste Capítulo."
+        code: "8478",
+        description: "Máquinas e aparelhos para preparar ou transformar tabaco, não especificados nem compreendidos noutras posições deste Capítulo"
     },
     {
-        code: "8478.10",
+        code: "847810",
         description: "- Máquinas e aparelhos"
     },
     {
-        code: "8478.10.10",
+        code: "84781010",
         description: "Batedoras-separadoras automáticas de talos e folhas"
     },
     {
-        code: "8478.10.90",
+        code: "84781090",
         description: "Outros"
     },
     {
-        code: "8478.90.00",
+        code: "84789000",
         description: "- Partes"
     },
     {
-        code: "84.79",
-        description: "Máquinas e aparelhos mecânicos com função própria, não especificados nem compreendidos noutras posições deste Capítulo."
+        code: "8479",
+        description: "Máquinas e aparelhos mecânicos com função própria, não especificados nem compreendidos noutras posições deste Capítulo"
     },
     {
-        code: "8479.10",
+        code: "847910",
         description: "- Máquinas e aparelhos para obras públicas, construção civil ou trabalhos semelhantes"
     },
     {
-        code: "8479.10.10",
+        code: "84791010",
         description: "Automotrizes para espalhar e calcar pisos (pavimentos) betuminosos"
     },
     {
-        code: "8479.10.90",
+        code: "84791090",
         description: "Outros"
     },
     {
-        code: "8479.20.00",
+        code: "84792000",
         description: "- Máquinas e aparelhos para extração ou preparação de óleos ou gorduras vegetais ou de origem microbiana, fixos, ou de animais"
     },
     {
-        code: "8479.30.00",
+        code: "84793000",
         description:
             "- Prensas para fabricação de painéis de partículas, de fibras de madeira ou de outras matérias lenhosas, e outras máquinas e aparelhos para tratamento de madeira ou de cortiça"
     },
     {
-        code: "8479.40.00",
+        code: "84794000",
         description: "- Máquinas para fabricação de cordas ou cabos"
     },
     {
-        code: "8479.50.00",
+        code: "84795000",
         description: "- Robôs industriais, não especificados nem compreendidos noutras posições"
     },
     {
-        code: "8479.60.00",
+        code: "84796000",
         description: "- Aparelhos de evaporação para arrefecimento do ar"
     },
     {
-        code: "8479.7",
+        code: "84797",
         description: "- Pontes de embarque para passageiros:"
     },
     {
-        code: "8479.71.00",
+        code: "84797100",
         description: "-- Do tipo utilizado em aeroportos"
     },
     {
-        code: "8479.79.00",
+        code: "84797900",
         description: "-- Outras"
     },
     {
-        code: "8479.8",
+        code: "84798",
         description: "- Outras máquinas e aparelhos:"
     },
     {
-        code: "8479.81",
+        code: "847981",
         description: "-- Para tratamento de metais, incluindo as bobinadoras para enrolamentos elétricos"
     },
     {
-        code: "8479.81.10",
+        code: "84798110",
         description: "Diferenciadores das tensões de tração de entrada e saída da chapa, em instalações de galvanoplastia"
     },
     {
-        code: "8479.81.90",
+        code: "84798190",
         description: "Outros"
     },
     {
-        code: "8479.82",
+        code: "847982",
         description: "-- Para misturar, amassar, esmagar, moer, separar, peneirar, homogeneizar, emulsionar ou agitar"
     },
     {
-        code: "8479.82.10",
+        code: "84798210",
         description: "Misturadores"
     },
     {
-        code: "8479.82.90",
+        code: "84798290",
         description: "Outros"
     },
     {
-        code: "8479.83.00",
+        code: "84798300",
         description: "-- Prensas isostáticas a frio"
     },
     {
-        code: "8479.89",
+        code: "847989",
         description: "-- Outros"
     },
     {
-        code: "8479.89.1",
+        code: "8479891",
         description: "Prensas; distribuidores e doseadores de sólidos ou de líquidos"
     },
     {
-        code: "8479.89.11",
+        code: "84798911",
         description: "Prensas"
     },
     {
-        code: "8479.89.12",
+        code: "84798912",
         description: "Distribuidores e doseadores de sólidos ou de líquidos"
     },
     {
-        code: "8479.89.2",
+        code: "8479892",
         description: "Máquinas e aparelhos para cestaria ou espartaria; máquinas e aparelhos para fabricação de pincéis, brochas e escovas"
     },
     {
-        code: "8479.89.21",
+        code: "84798921",
         description: "Máquinas e aparelhos para cestaria ou espartaria"
     },
     {
-        code: "8479.89.22",
+        code: "84798922",
         description: "Máquinas e aparelhos para fabricação de pincéis, brochas ou escovas"
     },
     {
-        code: "8479.89.3",
+        code: "8479893",
         description: "Limpadores de para-brisas elétricos e acumuladores hidráulicos, para aeronaves"
     },
     {
-        code: "8479.89.31",
+        code: "84798931",
         description: "Limpadores de para-brisas"
     },
     {
-        code: "8479.89.32",
+        code: "84798932",
         description: "Acumuladores"
     },
     {
-        code: "8479.89.40",
+        code: "84798940",
         description:
             "Silos metálicos para cereais, fixos (não transportáveis), incluindo as baterias, com mecanismos elevadores ou extratores incorporados"
     },
     {
-        code: "8479.89.9",
+        code: "8479899",
         description: "Outros"
     },
     {
-        code: "8479.89.91",
+        code: "84798991",
         description: "Aparelhos para limpar peças por ultrassom"
     },
     {
-        code: "8479.89.92",
+        code: "84798992",
         description: "Máquinas de leme para embarcações"
     },
     {
-        code: "8479.89.99",
+        code: "84798999",
         description: "Outros"
     },
     {
-        code: "8479.90",
+        code: "847990",
         description: "- Partes"
     },
     {
-        code: "8479.90.10",
+        code: "84799010",
         description: "De limpadores de para-brisas elétricos ou de acumuladores hidráulicos para aeronaves"
     },
     {
-        code: "8479.90.90",
+        code: "84799090",
         description: "Outras"
     },
     {
-        code: "84.80",
+        code: "8480",
         description:
-            "Caixas de fundição; placas de fundo para moldes; modelos para moldes; moldes para metais (exceto lingoteiras), carbonetos metálicos, vidro, matérias minerais, borracha ou plástico."
+            "Caixas de fundição; placas de fundo para moldes; modelos para moldes; moldes para metais (exceto lingoteiras), carbonetos metálicos, vidro, matérias minerais, borracha ou plástico"
     },
     {
-        code: "8480.10.00",
+        code: "84801000",
         description: "- Caixas de fundição"
     },
     {
-        code: "8480.20.00",
+        code: "84802000",
         description: "- Placas de fundo para moldes"
     },
     {
-        code: "8480.30.00",
+        code: "84803000",
         description: "- Modelos para moldes"
     },
     {
-        code: "8480.4",
+        code: "84804",
         description: "- Moldes para metais ou carbonetos metálicos:"
     },
     {
-        code: "8480.41.00",
+        code: "84804100",
         description: "-- Para moldagem por injeção ou por compressão"
     },
     {
-        code: "8480.49",
+        code: "848049",
         description: "-- Outros"
     },
     {
-        code: "8480.49.10",
+        code: "84804910",
         description: "Coquilhas"
     },
     {
-        code: "8480.49.90",
+        code: "84804990",
         description: "Outros"
     },
     {
-        code: "8480.50.00",
+        code: "84805000",
         description: "- Moldes para vidro"
     },
     {
-        code: "8480.60.00",
+        code: "84806000",
         description: "- Moldes para matérias minerais"
     },
     {
-        code: "8480.7",
+        code: "84807",
         description: "- Moldes para borracha ou plástico:"
     },
     {
-        code: "8480.71.00",
+        code: "84807100",
         description: "-- Para moldagem por injeção ou por compressão"
     },
     {
-        code: "8480.79",
+        code: "848079",
         description: "-- Outros"
     },
     {
-        code: "8480.79.10",
+        code: "84807910",
         description: "Para vulcanização de pneumáticos"
     },
     {
-        code: "8480.79.90",
+        code: "84807990",
         description: "Outros"
     },
     {
-        code: "84.81",
+        code: "8481",
         description:
-            "Torneiras, válvulas (incluindo as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes."
+            "Torneiras, válvulas (incluindo as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes"
     },
     {
-        code: "8481.10.00",
+        code: "84811000",
         description: "- Válvulas redutoras de pressão"
     },
     {
-        code: "8481.20",
+        code: "848120",
         description: "- Válvulas para transmissões óleo-hidráulicas ou pneumáticas"
     },
     {
-        code: "8481.20.1",
+        code: "8481201",
         description: "Rotativas, de caixas de direção hidráulica"
     },
     {
-        code: "8481.20.11",
+        code: "84812011",
         description: "Com pinhão"
     },
     {
-        code: "8481.20.19",
+        code: "84812019",
         description: "Outras"
     },
     {
-        code: "8481.20.90",
+        code: "84812090",
         description: "Outras"
     },
     {
-        code: "8481.30.00",
+        code: "84813000",
         description: "- Válvulas de retenção"
     },
     {
-        code: "8481.40.00",
+        code: "84814000",
         description: "- Válvulas de segurança ou de alívio"
     },
     {
-        code: "8481.80",
+        code: "848180",
         description: "- Outros dispositivos"
     },
     {
-        code: "8481.80.1",
+        code: "8481801",
         description: "Do tipo utilizado em banheiros ou cozinhas"
     },
     {
-        code: "8481.80.11",
+        code: "84818011",
         description: "Válvulas para escoamento"
     },
     {
-        code: "8481.80.19",
+        code: "84818019",
         description: "Outros"
     },
     {
-        code: "8481.80.2",
+        code: "8481802",
         description: "Do tipo utilizado em refrigeração"
     },
     {
-        code: "8481.80.21",
+        code: "84818021",
         description: "Válvulas de expansão termostáticas ou pressostáticas"
     },
     {
-        code: "8481.80.29",
+        code: "84818029",
         description: "Outros"
     },
     {
-        code: "8481.80.3",
+        code: "8481803",
         description: "Do tipo utilizado em equipamentos a gás"
     },
     {
-        code: "8481.80.31",
+        code: "84818031",
         description:
             "Com uma pressão de trabalho inferior ou igual a 50 mbar e dispositivo de segurança termoelétrico incorporado, do tipo utilizado em aparelhos domésticos"
     },
     {
-        code: "8481.80.39",
+        code: "84818039",
         description: "Outros"
     },
     {
-        code: "8481.80.9",
+        code: "8481809",
         description: "Outros"
     },
     {
-        code: "8481.80.91",
+        code: "84818091",
         description: "Válvulas tipo aerossol"
     },
     {
-        code: "8481.80.92",
+        code: "84818092",
         description: "Válvulas solenoides"
     },
     {
-        code: "8481.80.93",
+        code: "84818093",
         description: "Válvulas tipo gaveta"
     },
     {
-        code: "8481.80.94",
+        code: "84818094",
         description: "Válvulas tipo globo"
     },
     {
-        code: "8481.80.95",
+        code: "84818095",
         description: "Válvulas tipo esfera"
     },
     {
-        code: "8481.80.96",
+        code: "84818096",
         description: "Válvulas tipo macho"
     },
     {
-        code: "8481.80.97",
+        code: "84818097",
         description: "Válvulas tipo borboleta"
     },
     {
-        code: "8481.80.99",
+        code: "84818099",
         description: "Outros"
     },
     {
-        code: "8481.90",
+        code: "848190",
         description: "- Partes"
     },
     {
-        code: "8481.90.10",
-        description: "De válvulas tipo aerossol ou dos dispositivos do item 8481.80.1"
+        code: "84819010",
+        description: "De válvulas tipo aerossol ou dos dispositivos do item 8481801"
     },
     {
-        code: "8481.90.90",
+        code: "84819090",
         description: "Outras"
     },
     {
-        code: "84.82",
-        description: "Rolamentos de esferas, de roletes ou de agulhas."
+        code: "8482",
+        description: "Rolamentos de esferas, de roletes ou de agulhas"
     },
     {
-        code: "8482.10",
+        code: "848210",
         description: "- Rolamentos de esferas"
     },
     {
-        code: "8482.10.10",
+        code: "84821010",
         description: "De carga radial"
     },
     {
-        code: "8482.10.90",
+        code: "84821090",
         description: "Outros"
     },
     {
-        code: "8482.20",
+        code: "848220",
         description: "- Rolamentos de roletes cônicos, incluindo os conjuntos constituídos por cones e roletes cônicos"
     },
     {
-        code: "8482.20.10",
+        code: "84822010",
         description: "De carga radial"
     },
     {
-        code: "8482.20.90",
+        code: "84822090",
         description: "Outros"
     },
     {
-        code: "8482.30.00",
+        code: "84823000",
         description: "- Rolamentos de roletes em forma de tonel"
     },
     {
-        code: "8482.40.00",
+        code: "84824000",
         description: "- Rolamentos de agulhas, incluindo as montagens de gaiolas e agulhas"
     },
     {
-        code: "8482.50",
+        code: "848250",
         description: "- Rolamentos de roletes cilíndricos, incluindo as montagens de gaiolas e roletes"
     },
     {
-        code: "8482.50.10",
+        code: "84825010",
         description: "De carga radial"
     },
     {
-        code: "8482.50.90",
+        code: "84825090",
         description: "Outros"
     },
     {
-        code: "8482.80.00",
+        code: "84828000",
         description: "- Outros, incluindo os rolamentos combinados"
     },
     {
-        code: "8482.9",
+        code: "84829",
         description: "- Partes:"
     },
     {
-        code: "8482.91",
+        code: "848291",
         description: "-- Esferas, roletes e agulhas"
     },
     {
-        code: "8482.91.1",
+        code: "8482911",
         description: "Esferas de aço calibradas"
     },
     {
-        code: "8482.91.11",
+        code: "84829111",
         description: "Para carga de canetas esferográficas"
     },
     {
-        code: "8482.91.19",
+        code: "84829119",
         description: "Outras"
     },
     {
-        code: "8482.91.20",
+        code: "84829120",
         description: "Roletes cilíndricos"
     },
     {
-        code: "8482.91.30",
+        code: "84829130",
         description: "Roletes cônicos"
     },
     {
-        code: "8482.91.90",
+        code: "84829190",
         description: "Outros"
     },
     {
-        code: "8482.99",
+        code: "848299",
         description: "-- Outras"
     },
     {
-        code: "8482.99.10",
+        code: "84829910",
         description: "Selos, capas e porta-esferas de aço"
     },
     {
-        code: "8482.99.90",
+        code: "84829990",
         description: "Outras"
     },
     {
-        code: "84.83",
+        code: "8483",
         description:
-            'Árvores (veios) de transmissão (incluindo as árvores de cames e virabrequins (cambotas)) e manivelas; mancais (chumaceiras) e "bronzes"; engrenagens e rodas de fricção; eixos de esferas ou de roletes; redutores, multiplicadores, caixas de transmissão e variadores de velocidade, incluindo os conversores de torque (binários*); volantes e polias, incluindo as polias para cadernais; embreagens e dispositivos de acoplamento, incluindo as juntas de articulação.'
+            'Árvores (veios) de transmissão (incluindo as árvores de cames e virabrequins (cambotas)) e manivelas; mancais (chumaceiras) e "bronzes"; engrenagens e rodas de fricção; eixos de esferas ou de roletes; redutores, multiplicadores, caixas de transmissão e variadores de velocidade, incluindo os conversores de torque (binários*); volantes e polias, incluindo as polias para cadernais; embreagens e dispositivos de acoplamento, incluindo as juntas de articulação'
     },
     {
-        code: "8483.10",
+        code: "848310",
         description: "- Árvores (veios) de transmissão (incluindo as árvores de cames e virabrequins (cambotas)) e manivelas"
     },
     {
-        code: "8483.10.1",
+        code: "8483101",
         description: "Virabrequins"
     },
     {
-        code: "8483.10.11",
-        description: "Forjados, de peso igual ou superior a 900 kg e comprimento igual ou superior a 2.000 mm"
+        code: "84831011",
+        description: "Forjados, de peso igual ou superior a 900 kg e comprimento igual ou superior a 2000 mm"
     },
     {
-        code: "8483.10.19",
+        code: "84831019",
         description: "Outros"
     },
     {
-        code: "8483.10.20",
+        code: "84831020",
         description: "Árvores de cames para comando de válvulas"
     },
     {
-        code: "8483.10.30",
+        code: "84831030",
         description: "Veios flexíveis"
     },
     {
-        code: "8483.10.40",
+        code: "84831040",
         description: "Manivelas"
     },
     {
-        code: "8483.10.50",
+        code: "84831050",
         description:
             "Árvores de transmissão providas de acoplamentos dentados com entalhes de proteção contra sobrecarga, de comprimento igual ou superior a 1500 mm e diâmetro do eixo igual ou superior a 400 mm"
     },
     {
-        code: "8483.10.90",
+        code: "84831090",
         description: "Outras"
     },
     {
-        code: "8483.20.00",
+        code: "84832000",
         description: "- Mancais (chumaceiras) com rolamentos incorporados"
     },
     {
-        code: "8483.30",
+        code: "848330",
         description: '- Mancais (chumaceiras) sem rolamentos; "bronzes"'
     },
     {
-        code: "8483.30.10",
+        code: "84833010",
         description: 'Montados com "bronzes" de metal antifricção'
     },
     {
-        code: "8483.30.2",
+        code: "8483302",
         description: '"Bronzes"'
     },
     {
-        code: "8483.30.21",
+        code: "84833021",
         description: "De diâmetro interno igual ou superior a 200 mm"
     },
     {
-        code: "8483.30.29",
+        code: "84833029",
         description: "Outros"
     },
     {
-        code: "8483.30.90",
+        code: "84833090",
         description: "Outros"
     },
     {
-        code: "8483.40",
+        code: "848340",
         description:
             "- Engrenagens e rodas de fricção, exceto rodas dentadas simples e outros elementos de transmissão apresentados separadamente; eixos de esferas ou de roletes; redutores, multiplicadores, caixas de transmissão e variadores de velocidade, incluindo os conversores de torque (binários*)"
     },
     {
-        code: "8483.40.10",
+        code: "84834010",
         description: "Redutores, multiplicadores, caixas de transmissão e variadores de velocidade, incluindo os conversores de torque"
     },
     {
-        code: "8483.40.90",
+        code: "84834090",
         description: "Outros"
     },
     {
-        code: "8483.50",
+        code: "848350",
         description: "- Volantes e polias, incluindo as polias para cadernais"
     },
     {
-        code: "8483.50.10",
+        code: "84835010",
         description: "Polias, exceto as de rolamentos reguladoras de tensão"
     },
     {
-        code: "8483.50.90",
+        code: "84835090",
         description: "Outros"
     },
     {
-        code: "8483.60",
+        code: "848360",
         description: "- Embreagens e dispositivos de acoplamento, incluindo as juntas de articulação"
     },
     {
-        code: "8483.60.1",
+        code: "8483601",
         description: "Embreagens"
     },
     {
-        code: "8483.60.11",
+        code: "84836011",
         description: "De fricção"
     },
     {
-        code: "8483.60.19",
+        code: "84836019",
         description: "Outras"
     },
     {
-        code: "8483.60.90",
+        code: "84836090",
         description: "Outros"
     },
     {
-        code: "8483.90.00",
+        code: "84839000",
         description: "- Rodas dentadas e outros elementos de transmissão apresentados separadamente; partes"
     },
     {
-        code: "84.84",
+        code: "8484",
         description:
-            "Juntas metaloplásticas; jogos ou sortidos de juntas de composições diferentes, apresentados em bolsas, envelopes ou embalagens semelhantes; juntas de vedação mecânicas."
+            "Juntas metaloplásticas; jogos ou sortidos de juntas de composições diferentes, apresentados em bolsas, envelopes ou embalagens semelhantes; juntas de vedação mecânicas"
     },
     {
-        code: "8484.10.00",
+        code: "84841000",
         description: "- Juntas metaloplásticas"
     },
     {
-        code: "8484.20.00",
+        code: "84842000",
         description: "- Juntas de vedação mecânicas"
     },
     {
-        code: "8484.90.00",
+        code: "84849000",
         description: "- Outros"
     },
     {
-        code: "84.85",
-        description: "Máquinas para fabricação aditiva."
+        code: "8485",
+        description: "Máquinas para fabricação aditiva"
     },
     {
-        code: "8485.10.00",
+        code: "84851000",
         description: "- Por depósito de metal"
     },
     {
-        code: "8485.20.00",
+        code: "84852000",
         description: "- Por depósito de plástico ou de borracha"
     },
     {
-        code: "8485.30.00",
+        code: "84853000",
         description: "- Por depósito de gesso, cimento, cerâmica ou de vidro"
     },
     {
-        code: "8485.80.00",
+        code: "84858000",
         description: "- Outras"
     },
     {
-        code: "8485.90.00",
+        code: "84859000",
         description: "- Partes"
     },
     {
-        code: "84.86",
+        code: "8486",
         description:
-            "Máquinas e aparelhos do tipo utilizado exclusiva ou principalmente na fabricação de <i>boules</i> ou <i>wafers</i> de material semicondutor, dispositivos semicondutores, circuitos integrados eletrônicos ou de dispositivos de visualização de tela (ecrã*) plana; máquinas e aparelhos especificados na Nota 11 C) do presente Capítulo; partes e acessórios."
+            "Máquinas e aparelhos do tipo utilizado exclusiva ou principalmente na fabricação de <i>boules</i> ou <i>wafers</i> de material semicondutor, dispositivos semicondutores, circuitos integrados eletrônicos ou de dispositivos de visualização de tela (ecrã*) plana; máquinas e aparelhos especificados na Nota 11 C) do presente Capítulo; partes e acessórios"
     },
     {
-        code: "8486.10.00",
+        code: "84861000",
         description: "- Máquinas e aparelhos para fabricação de <i>boules</i> ou <i>wa</i><i>fers</i>"
     },
     {
-        code: "8486.20.00",
+        code: "84862000",
         description: "- Máquinas e aparelhos para fabricação de dispositivos semicondutores ou de circuitos integrados eletrônicos"
     },
     {
-        code: "8486.30.00",
+        code: "84863000",
         description: "- Máquinas e aparelhos para fabricação de dispositivos de visualização de tela (ecrã*) plana"
     },
     {
-        code: "8486.40.00",
+        code: "84864000",
         description: "- Máquinas e aparelhos especificados na Nota 11 C) do presente Capítulo"
     },
     {
-        code: "8486.90.00",
+        code: "84869000",
         description: "- Partes e acessórios"
     },
     {
-        code: "84.87",
+        code: "8487",
         description:
-            "Partes de máquinas ou de aparelhos, não especificadas nem compreendidas noutras posições do presente Capítulo, que não contenham conexões elétricas, partes isoladas eletricamente, bobinas, contatos nem quaisquer outros elementos com características elétricas."
+            "Partes de máquinas ou de aparelhos, não especificadas nem compreendidas noutras posições do presente Capítulo, que não contenham conexões elétricas, partes isoladas eletricamente, bobinas, contatos nem quaisquer outros elementos com características elétricas"
     },
     {
-        code: "8487.10.00",
+        code: "84871000",
         description: "- Hélices para embarcações e suas pás"
     },
     {
-        code: "8487.90.00",
+        code: "84879000",
         description: "- Outras"
     },
     {
         code: "85",
         description:
-            "Máquinas, aparelhos e materiais elétricos, e suas partes; aparelhos de gravação ou de reprodução de som, aparelhos de gravação ou de reprodução de imagens e de som em televisão, e suas partes e acessórios."
+            "Máquinas, aparelhos e materiais elétricos, e suas partes; aparelhos de gravação ou de reprodução de som, aparelhos de gravação ou de reprodução de imagens e de som em televisão, e suas partes e acessórios"
     },
     {
-        code: "85.01",
-        description: "Motores e geradores, elétricos, exceto os grupos eletrogêneos."
+        code: "8501",
+        description: "Motores e geradores, elétricos, exceto os grupos eletrogêneos"
     },
     {
-        code: "8501.10",
+        code: "850110",
         description: "- Motores de potência não superior a 37,5 W"
     },
     {
-        code: "8501.10.1",
+        code: "8501101",
         description: "De corrente contínua"
     },
     {
-        code: "8501.10.11",
+        code: "85011011",
         description: "De passo não superior a 1,8°"
     },
     {
-        code: "8501.10.19",
+        code: "85011019",
         description: "Outros"
     },
     {
-        code: "8501.10.2",
+        code: "8501102",
         description: "De corrente alternada"
     },
     {
-        code: "8501.10.21",
+        code: "85011021",
         description: "Síncronos"
     },
     {
-        code: "8501.10.29",
+        code: "85011029",
         description: "Outros"
     },
     {
-        code: "8501.10.30",
+        code: "85011030",
         description: "Universais"
     },
     {
-        code: "8501.20.00",
+        code: "85012000",
         description: "- Motores universais de potência superior a 37,5 W"
     },
     {
-        code: "8501.3",
+        code: "85013",
         description: "- Outros motores de corrente contínua; geradores de corrente contínua, exceto os geradores fotovoltaicos:"
     },
     {
-        code: "8501.31",
+        code: "850131",
         description: "-- De potência não superior a 750 W"
     },
     {
-        code: "8501.31.10",
+        code: "85013110",
         description: "Motores"
     },
     {
-        code: "8501.31.20",
+        code: "85013120",
         description: "Geradores"
     },
     {
-        code: "8501.32",
+        code: "850132",
         description: "-- De potência superior a 750 W, mas não superior a 75 kW"
     },
     {
-        code: "8501.32.10",
+        code: "85013210",
         description: "Motores"
     },
     {
-        code: "8501.32.20",
+        code: "85013220",
         description: "Geradores"
     },
     {
-        code: "8501.33",
+        code: "850133",
         description: "-- De potência superior a 75 kW, mas não superior a 375 kW"
     },
     {
-        code: "8501.33.10",
+        code: "85013310",
         description: "Motores"
     },
     {
-        code: "8501.33.20",
+        code: "85013320",
         description: "Geradores"
     },
     {
-        code: "8501.34",
+        code: "850134",
         description: "-- De potência superior a 375 kW"
     },
     {
-        code: "8501.34.1",
+        code: "8501341",
         description: "Motores"
     },
     {
-        code: "8501.34.11",
-        description: "De potência não superior a 3.000 kW"
+        code: "85013411",
+        description: "De potência não superior a 3000 kW"
     },
     {
-        code: "8501.34.19",
+        code: "85013419",
         description: "Outros"
     },
     {
-        code: "8501.34.20",
+        code: "85013420",
         description: "Geradores"
     },
     {
-        code: "8501.40",
+        code: "850140",
         description: "- Outros motores de corrente alternada, monofásicos"
     },
     {
-        code: "8501.40.1",
+        code: "8501401",
         description: "De potência não superior a 15 kW"
     },
     {
-        code: "8501.40.11",
+        code: "85014011",
         description: "Síncronos"
     },
     {
-        code: "8501.40.19",
+        code: "85014019",
         description: "Outros"
     },
     {
-        code: "8501.40.2",
+        code: "8501402",
         description: "De potência superior a 15 kW"
     },
     {
-        code: "8501.40.21",
+        code: "85014021",
         description: "Síncronos"
     },
     {
-        code: "8501.40.29",
+        code: "85014029",
         description: "Outros"
     },
     {
-        code: "8501.5",
+        code: "85015",
         description: "- Outros motores de corrente alternada, polifásicos:"
     },
     {
-        code: "8501.51",
+        code: "850151",
         description: "-- De potência não superior a 750 W"
     },
     {
-        code: "8501.51.10",
+        code: "85015110",
         description: "Trifásicos, com rotor de gaiola"
     },
     {
-        code: "8501.51.20",
+        code: "85015120",
         description: "Trifásicos, com rotor de anéis"
     },
     {
-        code: "8501.51.90",
+        code: "85015190",
         description: "Outros"
     },
     {
-        code: "8501.52",
+        code: "850152",
         description: "-- De potência superior a 750 W, mas não superior a 75 kW"
     },
     {
-        code: "8501.52.10",
+        code: "85015210",
         description: "Trifásicos, com rotor de gaiola"
     },
     {
-        code: "8501.52.20",
+        code: "85015220",
         description: "Trifásicos, com rotor de anéis"
     },
     {
-        code: "8501.52.90",
+        code: "85015290",
         description: "Outros"
     },
     {
-        code: "8501.53",
+        code: "850153",
         description: "-- De potência superior a 75 kW"
     },
     {
-        code: "8501.53.10",
-        description: "Trifásicos, de potência não superior a 7.500 kW"
+        code: "85015310",
+        description: "Trifásicos, de potência não superior a 7500 kW"
     },
     {
-        code: "8501.53.20",
-        description: "Trifásicos, de potência superior a 7.500 kW, mas não superior a 30.000 kW"
+        code: "85015320",
+        description: "Trifásicos, de potência superior a 7500 kW, mas não superior a 30000 kW"
     },
     {
-        code: "8501.53.30",
-        description: "Trifásicos, de potência superior a 30.000 kW, mas não superior a 50.000 kW"
+        code: "85015330",
+        description: "Trifásicos, de potência superior a 30000 kW, mas não superior a 50000 kW"
     },
     {
-        code: "8501.53.90",
+        code: "85015390",
         description: "Outros"
     },
     {
-        code: "8501.6",
+        code: "85016",
         description: "- Geradores de corrente alternada (alternadores), exceto os geradores fotovoltaicos:"
     },
     {
-        code: "8501.61.00",
+        code: "85016100",
         description: "-- De potência não superior a 75 kVA"
     },
     {
-        code: "8501.62.00",
+        code: "85016200",
         description: "-- De potência superior a 75 kVA, mas não superior a 375 kVA"
     },
     {
-        code: "8501.63.00",
+        code: "85016300",
         description: "-- De potência superior a 375 kVA, mas não superior a 750 kVA"
     },
     {
-        code: "8501.64.00",
+        code: "85016400",
         description: "-- De potência superior a 750 kVA"
     },
     {
-        code: "8501.7",
+        code: "85017",
         description: "- Geradores fotovoltaicos de corrente contínua:"
     },
     {
-        code: "8501.71.00",
+        code: "85017100",
         description: "-- De potência não superior a 50 W"
     },
     {
-        code: "8501.72",
+        code: "850172",
         description: "-- De potência superior a 50 W"
     },
     {
-        code: "8501.72.10",
+        code: "85017210",
         description: "De potência não superior a 75 kW"
     },
     {
-        code: "8501.72.90",
+        code: "85017290",
         description: "Outros"
     },
     {
-        code: "8501.80.00",
+        code: "85018000",
         description: "- Geradores fotovoltaicos de corrente alternada"
     },
     {
-        code: "85.02",
-        description: "Grupos eletrogêneos e conversores rotativos elétricos."
+        code: "8502",
+        description: "Grupos eletrogêneos e conversores rotativos elétricos"
     },
     {
-        code: "8502.1",
+        code: "85021",
         description: "- Grupos eletrogêneos de motor de pistão, de ignição por compressão (motores diesel ou semidiesel):"
     },
     {
-        code: "8502.11",
+        code: "850211",
         description: "-- De potência não superior a 75 kVA"
     },
     {
-        code: "8502.11.10",
+        code: "85021110",
         description: "De corrente alternada"
     },
     {
-        code: "8502.11.90",
+        code: "85021190",
         description: "Outros"
     },
     {
-        code: "8502.12",
+        code: "850212",
         description: "-- De potência superior a 75 kVA, mas não superior a 375 kVA"
     },
     {
-        code: "8502.12.10",
+        code: "85021210",
         description: "De corrente alternada"
     },
     {
-        code: "8502.12.90",
+        code: "85021290",
         description: "Outros"
     },
     {
-        code: "8502.13",
+        code: "850213",
         description: "-- De potência superior a 375 kVA"
     },
     {
-        code: "8502.13.1",
+        code: "8502131",
         description: "De corrente alternada"
     },
     {
-        code: "8502.13.11",
+        code: "85021311",
         description: "De potência não superior a 430 kVA"
     },
     {
-        code: "8502.13.19",
+        code: "85021319",
         description: "Outros"
     },
     {
-        code: "8502.13.90",
+        code: "85021390",
         description: "Outros"
     },
     {
-        code: "8502.20",
+        code: "850220",
         description: "- Grupos eletrogêneos de motor de pistão, de ignição por centelha (faísca) (motor de explosão)"
     },
     {
-        code: "8502.20.1",
+        code: "8502201",
         description: "De corrente alternada"
     },
     {
-        code: "8502.20.11",
+        code: "85022011",
         description: "De potência não superior a 210 kVA"
     },
     {
-        code: "8502.20.19",
+        code: "85022019",
         description: "Outros"
     },
     {
-        code: "8502.20.90",
+        code: "85022090",
         description: "Outros"
     },
     {
-        code: "8502.3",
+        code: "85023",
         description: "- Outros grupos eletrogêneos:"
     },
     {
-        code: "8502.31.00",
+        code: "85023100",
         description: "-- De energia eólica"
     },
     {
-        code: "8502.39.00",
+        code: "85023900",
         description: "-- Outros"
     },
     {
-        code: "8502.40",
+        code: "850240",
         description: "- Conversores rotativos elétricos"
     },
     {
-        code: "8502.40.10",
+        code: "85024010",
         description: "De frequência"
     },
     {
-        code: "8502.40.90",
+        code: "85024090",
         description: "Outros"
     },
     {
-        code: "8503.00",
-        description: "Partes reconhecíveis como exclusiva ou principalmente destinadas às máquinas das posições 85.01 ou 85.02."
+        code: "850300",
+        description: "Partes reconhecíveis como exclusiva ou principalmente destinadas às máquinas das posições 8501 ou 8502"
     },
     {
-        code: "8503.00.10",
-        description: "De motores ou geradores das subposições 8501.10, 8501.20, 8501.31, 8501.32 ou do item 8501.40.1"
+        code: "85030010",
+        description: "De motores ou geradores das subposições 850110, 850120, 850131, 850132 ou do item 8501401"
     },
     {
-        code: "8503.00.90",
+        code: "85030090",
         description: "Outras"
     },
     {
-        code: "85.04",
-        description: "Transformadores elétricos, conversores elétricos estáticos (retificadores, por exemplo), bobinas de reatância e de autoindução."
+        code: "8504",
+        description: "Transformadores elétricos, conversores elétricos estáticos (retificadores, por exemplo), bobinas de reatância e de autoindução"
     },
     {
-        code: "8504.10.00",
+        code: "85041000",
         description: "- Reatores (Balastros*) para lâmpadas ou tubos de descarga"
     },
     {
-        code: "8504.2",
+        code: "85042",
         description: "- Transformadores de dielétrico líquido:"
     },
     {
-        code: "8504.21.00",
+        code: "85042100",
         description: "-- De potência não superior a 650 kVA"
     },
     {
-        code: "8504.22.00",
-        description: "-- De potência superior a 650 kVA, mas não superior a 10.000 kVA"
+        code: "85042200",
+        description: "-- De potência superior a 650 kVA, mas não superior a 10000 kVA"
     },
     {
-        code: "8504.23.00",
-        description: "-- De potência superior a 10.000 kVA"
+        code: "85042300",
+        description: "-- De potência superior a 10000 kVA"
     },
     {
-        code: "8504.3",
+        code: "85043",
         description: "- Outros transformadores:"
     },
     {
-        code: "8504.31",
+        code: "850431",
         description: "-- De potência não superior a 1 kVA"
     },
     {
-        code: "8504.31.1",
+        code: "8504311",
         description: "Para frequências inferiores ou iguais a 60 Hz"
     },
     {
-        code: "8504.31.11",
+        code: "85043111",
         description: "Transformadores de corrente"
     },
     {
-        code: "8504.31.19",
+        code: "85043119",
         description: "Outros"
     },
     {
-        code: "8504.31.9",
+        code: "8504319",
         description: "Outros"
     },
     {
-        code: "8504.31.91",
+        code: "85043191",
         description:
             "Transformador de saída horizontal (<i>fly back</i>), com tensão de saída superior a 18 kV e frequência de varredura horizontal igual ou superior a 32 kHz"
     },
     {
-        code: "8504.31.92",
+        code: "85043192",
         description: "Transformadores de FI, de detecção, de relação, de linearidade ou de foco"
     },
     {
-        code: "8504.31.99",
+        code: "85043199",
         description: "Outros"
     },
     {
-        code: "8504.32",
+        code: "850432",
         description: "-- De potência superior a 1 kVA, mas não superior a 16 kVA"
     },
     {
-        code: "8504.32.1",
+        code: "8504321",
         description: "De potência não superior a 3 kVA"
     },
     {
-        code: "8504.32.11",
+        code: "85043211",
         description: "Para frequências inferiores ou iguais a 60 Hz"
     },
     {
-        code: "8504.32.19",
+        code: "85043219",
         description: "Outros"
     },
     {
-        code: "8504.32.2",
+        code: "8504322",
         description: "De potência superior a 3 kVA"
     },
     {
-        code: "8504.32.21",
+        code: "85043221",
         description: "Para frequências inferiores ou iguais a 60 Hz"
     },
     {
-        code: "8504.32.29",
+        code: "85043229",
         description: "Outros"
     },
     {
-        code: "8504.33.00",
+        code: "85043300",
         description: "-- De potência superior a 16 kVA, mas não superior a 500 kVA"
     },
     {
-        code: "8504.34.00",
+        code: "85043400",
         description: "-- De potência superior a 500 kVA"
     },
     {
-        code: "8504.40",
+        code: "850440",
         description: "- Conversores estáticos"
     },
     {
-        code: "8504.40.10",
+        code: "85044010",
         description: "Carregadores de acumuladores"
     },
     {
-        code: "8504.40.2",
+        code: "8504402",
         description: "Retificadores, exceto carregadores de acumuladores"
     },
     {
-        code: "8504.40.21",
+        code: "85044021",
         description: "De cristal (semicondutores)"
     },
     {
-        code: "8504.40.22",
+        code: "85044022",
         description: "Eletrolíticos"
     },
     {
-        code: "8504.40.29",
+        code: "85044029",
         description: "Outros"
     },
     {
-        code: "8504.40.30",
+        code: "85044030",
         description: "Conversores de corrente contínua"
     },
     {
-        code: "8504.40.40",
+        code: "85044040",
         description: "Equipamento de alimentação ininterrupta de energia (UPS ou <i>no break</i>)"
     },
     {
-        code: "8504.40.50",
+        code: "85044050",
         description: "Conversores eletrônicos de frequência, para variação de velocidade de motores elétricos"
     },
     {
-        code: "8504.40.60",
+        code: "85044060",
         description: "Aparelhos eletrônicos de alimentação de energia do tipo utilizado para iluminação de emergência"
     },
     {
-        code: "8504.40.90",
+        code: "85044090",
         description: "Outros"
     },
     {
-        code: "8504.50.00",
+        code: "85045000",
         description: "- Outras bobinas de reatância e de autoindução"
     },
     {
-        code: "8504.90",
+        code: "850490",
         description: "- Partes"
     },
     {
-        code: "8504.90.10",
+        code: "85049010",
         description: "Núcleos de pó ferromagnético"
     },
     {
-        code: "8504.90.20",
+        code: "85049020",
         description: "De reatores para lâmpadas ou tubos de descarga"
     },
     {
-        code: "8504.90.30",
-        description: "De transformadores das subposições 8504.21, 8504.22, 8504.23, 8504.33 ou 8504.34"
+        code: "85049030",
+        description: "De transformadores das subposições 850421, 850422, 850423, 850433 ou 850434"
     },
     {
-        code: "8504.90.40",
+        code: "85049040",
         description: "De conversores estáticos, exceto de carregadores de acumuladores e de retificadores"
     },
     {
-        code: "8504.90.90",
+        code: "85049090",
         description: "Outras"
     },
     {
-        code: "85.05",
+        code: "8505",
         description:
-            "Eletroímãs; ímãs permanentes e artigos destinados a tornarem-se ímãs permanentes após magnetização; placas, mandris e dispositivos semelhantes, magnéticos ou eletromagnéticos, de fixação; acoplamentos, embreagens, variadores de velocidade e freios (travões), eletromagnéticos; cabeças de elevação eletromagnéticas."
+            "Eletroímãs; ímãs permanentes e artigos destinados a tornarem-se ímãs permanentes após magnetização; placas, mandris e dispositivos semelhantes, magnéticos ou eletromagnéticos, de fixação; acoplamentos, embreagens, variadores de velocidade e freios (travões), eletromagnéticos; cabeças de elevação eletromagnéticas"
     },
     {
-        code: "8505.1",
+        code: "85051",
         description: "- Ímãs permanentes e artigos destinados a tornarem-se ímãs permanentes após magnetização:"
     },
     {
-        code: "8505.11.00",
+        code: "85051100",
         description: "-- De metal"
     },
     {
-        code: "8505.19",
+        code: "850519",
         description: "-- Outros"
     },
     {
-        code: "8505.19.10",
+        code: "85051910",
         description: "De ferrita (cerâmicos)"
     },
     {
-        code: "8505.19.90",
+        code: "85051990",
         description: "Outros"
     },
     {
-        code: "8505.20",
+        code: "850520",
         description: "- Acoplamentos, embreagens, variadores de velocidade e freios (travões), eletromagnéticos"
     },
     {
-        code: "8505.20.10",
-        description: "Freios (travões) que atuam por corrente de Foucault, do tipo utilizado nos veículos das posições 87.01 a 87.05"
+        code: "85052010",
+        description: "Freios (travões) que atuam por corrente de Foucault, do tipo utilizado nos veículos das posições 8701 a 8705"
     },
     {
-        code: "8505.20.90",
+        code: "85052090",
         description: "Outros"
     },
     {
-        code: "8505.90",
+        code: "850590",
         description: "- Outros, incluindo as partes"
     },
     {
-        code: "8505.90.10",
+        code: "85059010",
         description: "Eletroímãs"
     },
     {
-        code: "8505.90.80",
+        code: "85059080",
         description: "Outros"
     },
     {
-        code: "8505.90.90",
+        code: "85059090",
         description: "Partes"
     },
     {
-        code: "85.06",
-        description: "Pilhas e baterias de pilhas, elétricas."
+        code: "8506",
+        description: "Pilhas e baterias de pilhas, elétricas"
     },
     {
-        code: "8506.10",
+        code: "850610",
         description: "- De dióxido de manganês"
     },
     {
-        code: "8506.10.1",
+        code: "8506101",
         description: "Pilhas alcalinas"
     },
     {
-        code: "8506.10.11",
+        code: "85061011",
         description: "De tensão igual a 1,5 V, cilíndricas, do tipo LR14 (C)"
     },
     {
-        code: "8506.10.12",
+        code: "85061012",
         description: "De tensão igual a 1,5 V, cilíndricas, do tipo LR20 (D)"
     },
     {
-        code: "8506.10.19",
+        code: "85061019",
         description: "Outras"
     },
     {
-        code: "8506.10.20",
+        code: "85061020",
         description: "Outras pilhas"
     },
     {
-        code: "8506.10.3",
+        code: "8506103",
         description: "Baterias de pilhas"
     },
     {
-        code: "8506.10.31",
+        code: "85061031",
         description: "Alcalinas, de tensão igual a 9 V"
     },
     {
-        code: "8506.10.32",
+        code: "85061032",
         description: "Alcalinas, de tensão igual a 12 V"
     },
     {
-        code: "8506.10.39",
+        code: "85061039",
         description: "Outras"
     },
     {
-        code: "8506.30",
+        code: "850630",
         description: "- De óxido de mercúrio"
     },
     {
-        code: "8506.30.10",
+        code: "85063010",
         description: "Com volume exterior não superior a 300 cm<sup>3</sup>"
     },
     {
-        code: "8506.30.90",
+        code: "85063090",
         description: "Outras"
     },
     {
-        code: "8506.40",
+        code: "850640",
         description: "- De óxido de prata"
     },
     {
-        code: "8506.40.10",
+        code: "85064010",
         description: "Com volume exterior não superior a 300 cm<sup>3</sup>"
     },
     {
-        code: "8506.40.90",
+        code: "85064090",
         description: "Outras"
     },
     {
-        code: "8506.50",
+        code: "850650",
         description: "- De lítio"
     },
     {
-        code: "8506.50.10",
+        code: "85065010",
         description: "Com volume exterior não superior a 300 cm<sup>3</sup>"
     },
     {
-        code: "8506.50.90",
+        code: "85065090",
         description: "Outras"
     },
     {
-        code: "8506.60",
+        code: "850660",
         description: "- De ar-zinco"
     },
     {
-        code: "8506.60.10",
+        code: "85066010",
         description: "Com volume exterior não superior a 300 cm<sup>3</sup>"
     },
     {
-        code: "8506.60.90",
+        code: "85066090",
         description: "Outras"
     },
     {
-        code: "8506.80",
+        code: "850680",
         description: "- Outras pilhas e baterias de pilhas"
     },
     {
-        code: "8506.80.10",
+        code: "85068010",
         description: "Com volume exterior não superior a 300 cm<sup>3</sup>"
     },
     {
-        code: "8506.80.90",
+        code: "85068090",
         description: "Outras"
     },
     {
-        code: "8506.90.00",
+        code: "85069000",
         description: "- Partes"
     },
     {
-        code: "85.07",
-        description: "Acumuladores elétricos e seus separadores, mesmo de forma quadrada ou retangular."
+        code: "8507",
+        description: "Acumuladores elétricos e seus separadores, mesmo de forma quadrada ou retangular"
     },
     {
-        code: "8507.10",
+        code: "850710",
         description: "- De chumbo, do tipo utilizado para o arranque dos motores de pistão"
     },
     {
-        code: "8507.10.10",
+        code: "85071010",
         description: "De capacidade inferior ou igual a 20 Ah e tensão inferior ou igual a 12 V"
     },
     {
-        code: "8507.10.90",
+        code: "85071090",
         description: "Outros"
     },
     {
-        code: "8507.20",
+        code: "850720",
         description: "- Outros acumuladores de chumbo"
     },
     {
-        code: "8507.20.10",
-        description: "De peso inferior ou igual a 1.000 kg"
+        code: "85072010",
+        description: "De peso inferior ou igual a 1000 kg"
     },
     {
-        code: "8507.20.90",
+        code: "85072090",
         description: "Outros"
     },
     {
-        code: "8507.30",
+        code: "850730",
         description: "- De níquel-cádmio"
     },
     {
-        code: "8507.30.1",
-        description: "De peso inferior ou igual a 2.500 kg"
+        code: "8507301",
+        description: "De peso inferior ou igual a 2500 kg"
     },
     {
-        code: "8507.30.11",
+        code: "85073011",
         description: "De capacidade inferior ou igual a 15 Ah"
     },
     {
-        code: "8507.30.19",
+        code: "85073019",
         description: "Outros"
     },
     {
-        code: "8507.30.90",
+        code: "85073090",
         description: "Outros"
     },
     {
-        code: "8507.50",
+        code: "850750",
         description: "- De níquel-hidreto metálico"
     },
     {
-        code: "8507.50.10",
+        code: "85075010",
         description: "De tensão igual a 1,2 V, cilíndricos do tipo HR6 (AA)"
     },
     {
-        code: "8507.50.20",
+        code: "85075020",
         description: "De tensão igual a 1,2 V, cilíndricos do tipo HR03 (AAA)"
     },
     {
-        code: "8507.50.90",
+        code: "85075090",
         description: "Outros"
     },
     {
-        code: "8507.60.00",
+        code: "85076000",
         description: "- De íon de lítio"
     },
     {
-        code: "8507.80.00",
+        code: "85078000",
         description: "- Outros acumuladores"
     },
     {
-        code: "8507.90",
+        code: "850790",
         description: "- Partes"
     },
     {
-        code: "8507.90.10",
+        code: "85079010",
         description: "Separadores"
     },
     {
-        code: "8507.90.20",
+        code: "85079020",
         description: "Recipientes de plástico, suas tampas e tampões"
     },
     {
-        code: "8507.90.90",
+        code: "85079090",
         description: "Outras"
     },
     {
-        code: "85.08",
-        description: "Aspiradores."
+        code: "8508",
+        description: "Aspiradores"
     },
     {
-        code: "8508.1",
+        code: "85081",
         description: "- Com motor elétrico incorporado:"
     },
     {
-        code: "8508.11.00",
-        description: "-- De potência não superior a 1.500 W e cujo volume do reservatório não exceda 20 l"
+        code: "85081100",
+        description: "-- De potência não superior a 1500 W e cujo volume do reservatório não exceda 20 l"
     },
     {
-        code: "8508.19.00",
+        code: "85081900",
         description: "-- Outros"
     },
     {
-        code: "8508.60.00",
+        code: "85086000",
         description: "- Outros aspiradores"
     },
     {
-        code: "8508.70.00",
+        code: "85087000",
         description: "- Partes"
     },
     {
-        code: "85.09",
-        description: "Aparelhos eletromecânicos com motor elétrico incorporado, de uso doméstico, exceto os aspiradores da posição 85.08."
+        code: "8509",
+        description: "Aparelhos eletromecânicos com motor elétrico incorporado, de uso doméstico, exceto os aspiradores da posição 8508"
     },
     {
-        code: "8509.40",
+        code: "850940",
         description: "- Trituradores (moedores) e misturadores de alimentos; espremedores de fruta ou de produtos hortícolas"
     },
     {
-        code: "8509.40.10",
+        code: "85094010",
         description: "Liquidificadores"
     },
     {
-        code: "8509.40.20",
+        code: "85094020",
         description: "Batedeiras"
     },
     {
-        code: "8509.40.30",
+        code: "85094030",
         description: "Moedores de carne"
     },
     {
-        code: "8509.40.40",
+        code: "85094040",
         description: "Extratores centrífugos de sucos"
     },
     {
-        code: "8509.40.50",
+        code: "85094050",
         description: "Aparelhos de funções múltiplas, providos de acessórios intercambiáveis, para processar alimentos"
     },
     {
-        code: "8509.40.90",
+        code: "85094090",
         description: "Outros"
     },
     {
-        code: "8509.80",
+        code: "850980",
         description: "- Outros aparelhos"
     },
     {
-        code: "8509.80.10",
+        code: "85098010",
         description: "Enceradeiras de pisos"
     },
     {
-        code: "8509.80.90",
+        code: "85098090",
         description: "Outros"
     },
     {
-        code: "8509.90.00",
+        code: "85099000",
         description: "- Partes"
     },
     {
-        code: "85.10",
+        code: "8510",
         description:
-            "Aparelhos ou máquinas de barbear, máquinas de cortar o cabelo ou de tosquiar e aparelhos de depilar, com motor elétrico incorporado."
+            "Aparelhos ou máquinas de barbear, máquinas de cortar o cabelo ou de tosquiar e aparelhos de depilar, com motor elétrico incorporado"
     },
     {
-        code: "8510.10.00",
+        code: "85101000",
         description: "- Aparelhos ou máquinas de barbear"
     },
     {
-        code: "8510.20.00",
+        code: "85102000",
         description: "- Máquinas de cortar o cabelo ou de tosquiar"
     },
     {
-        code: "8510.30.00",
+        code: "85103000",
         description: "- Aparelhos de depilar"
     },
     {
-        code: "8510.90",
+        code: "851090",
         description: "- Partes"
     },
     {
-        code: "8510.90.1",
+        code: "8510901",
         description: "De aparelhos ou máquinas de barbear"
     },
     {
-        code: "8510.90.11",
+        code: "85109011",
         description: "Lâminas"
     },
     {
-        code: "8510.90.19",
+        code: "85109019",
         description: "Outras"
     },
     {
-        code: "8510.90.20",
+        code: "85109020",
         description: "Pentes e contrapentes para máquinas de tosquiar"
     },
     {
-        code: "8510.90.90",
+        code: "85109090",
         description: "Outras"
     },
     {
-        code: "85.11",
+        code: "8511",
         description:
-            "Aparelhos e dispositivos elétricos de ignição ou de arranque para motores de ignição por centelha (faísca) ou por compressão (por exemplo, magnetos, dínamos-magnetos, bobinas de ignição, velas de ignição ou de aquecimento, motores de arranque); geradores (por exemplo, dínamos e alternadores) e conjuntores-disjuntores utilizados com estes motores."
+            "Aparelhos e dispositivos elétricos de ignição ou de arranque para motores de ignição por centelha (faísca) ou por compressão (por exemplo, magnetos, dínamos-magnetos, bobinas de ignição, velas de ignição ou de aquecimento, motores de arranque); geradores (por exemplo, dínamos e alternadores) e conjuntores-disjuntores utilizados com estes motores"
     },
     {
-        code: "8511.10.00",
+        code: "85111000",
         description: "- Velas de ignição"
     },
     {
-        code: "8511.20",
+        code: "851120",
         description: "- Magnetos; dínamos-magnetos; volantes magnéticos"
     },
     {
-        code: "8511.20.10",
+        code: "85112010",
         description: "Magnetos"
     },
     {
-        code: "8511.20.90",
+        code: "85112090",
         description: "Outros"
     },
     {
-        code: "8511.30",
+        code: "851130",
         description: "- Distribuidores; bobinas de ignição"
     },
     {
-        code: "8511.30.10",
+        code: "85113010",
         description: "Distribuidores"
     },
     {
-        code: "8511.30.20",
+        code: "85113020",
         description: "Bobinas de ignição"
     },
     {
-        code: "8511.40.00",
+        code: "85114000",
         description: "- Motores de arranque, mesmo funcionando como geradores"
     },
     {
-        code: "8511.50",
+        code: "851150",
         description: "- Outros geradores"
     },
     {
-        code: "8511.50.10",
+        code: "85115010",
         description: "Dínamos e alternadores"
     },
     {
-        code: "8511.50.90",
+        code: "85115090",
         description: "Outros"
     },
     {
-        code: "8511.80",
+        code: "851180",
         description: "- Outros aparelhos e dispositivos"
     },
     {
-        code: "8511.80.10",
+        code: "85118010",
         description: "Velas de aquecimento"
     },
     {
-        code: "8511.80.20",
+        code: "85118020",
         description: "Reguladores de voltagem (conjuntores-disjuntores)"
     },
     {
-        code: "8511.80.30",
+        code: "85118030",
         description: "Ignição eletrônica digital"
     },
     {
-        code: "8511.80.90",
+        code: "85118090",
         description: "Outros"
     },
     {
-        code: "8511.90.00",
+        code: "85119000",
         description: "- Partes"
     },
     {
-        code: "85.12",
+        code: "8512",
         description:
-            "Aparelhos elétricos de iluminação ou de sinalização (exceto os da posição 85.39), limpadores de para-brisas, degeladores e desembaçadores elétricos, do tipo utilizado em ciclos ou automóveis."
+            "Aparelhos elétricos de iluminação ou de sinalização (exceto os da posição 8539), limpadores de para-brisas, degeladores e desembaçadores elétricos, do tipo utilizado em ciclos ou automóveis"
     },
     {
-        code: "8512.10.00",
+        code: "85121000",
         description: "- Aparelhos de iluminação ou de sinalização visual do tipo utilizado em bicicletas"
     },
     {
-        code: "8512.20",
+        code: "851220",
         description: "- Outros aparelhos de iluminação ou de sinalização visual"
     },
     {
-        code: "8512.20.1",
+        code: "8512201",
         description: "Aparelhos de iluminação"
     },
     {
-        code: "8512.20.11",
+        code: "85122011",
         description: "Faróis"
     },
     {
-        code: "8512.20.19",
+        code: "85122019",
         description: "Outros"
     },
     {
-        code: "8512.20.2",
+        code: "8512202",
         description: "Aparelhos de sinalização visual"
     },
     {
-        code: "8512.20.21",
+        code: "85122021",
         description: "Luzes fixas"
     },
     {
-        code: "8512.20.22",
+        code: "85122022",
         description: "Luzes indicadoras de manobras"
     },
     {
-        code: "8512.20.23",
+        code: "85122023",
         description: "Caixas de luzes combinadas"
     },
     {
-        code: "8512.20.29",
+        code: "85122029",
         description: "Outros"
     },
     {
-        code: "8512.30.00",
+        code: "85123000",
         description: "- Aparelhos de sinalização acústica"
     },
     {
-        code: "8512.40",
+        code: "851240",
         description: "- Limpadores de para-brisas, degeladores e desembaçadores"
     },
     {
-        code: "8512.40.10",
+        code: "85124010",
         description: "Limpadores de para-brisas"
     },
     {
-        code: "8512.40.20",
+        code: "85124020",
         description: "Degeladores e desembaçadores"
     },
     {
-        code: "8512.90.00",
+        code: "85129000",
         description: "- Partes"
     },
     {
-        code: "85.13",
+        code: "8513",
         description:
-            "Lanternas elétricas portáteis concebidas para funcionar por meio de sua própria fonte de energia (por exemplo, de pilhas, de acumuladores, de magnetos), excluindo os aparelhos de iluminação da posição 85.12."
+            "Lanternas elétricas portáteis concebidas para funcionar por meio de sua própria fonte de energia (por exemplo, de pilhas, de acumuladores, de magnetos), excluindo os aparelhos de iluminação da posição 8512"
     },
     {
-        code: "8513.10",
+        code: "851310",
         description: "- Lanternas"
     },
     {
-        code: "8513.10.10",
+        code: "85131010",
         description: "Manuais"
     },
     {
-        code: "8513.10.90",
+        code: "85131090",
         description: "Outras"
     },
     {
-        code: "8513.90.00",
+        code: "85139000",
         description: "- Partes"
     },
     {
-        code: "85.14",
+        code: "8514",
         description:
-            "Fornos elétricos industriais ou de laboratório, incluindo os que funcionam por indução ou por perdas dielétricas; outros aparelhos industriais ou de laboratório para tratamento térmico de matérias por indução ou por perdas dielétricas."
+            "Fornos elétricos industriais ou de laboratório, incluindo os que funcionam por indução ou por perdas dielétricas; outros aparelhos industriais ou de laboratório para tratamento térmico de matérias por indução ou por perdas dielétricas"
     },
     {
-        code: "8514.1",
+        code: "85141",
         description: "- Fornos de resistência (de aquecimento indireto):"
     },
     {
-        code: "8514.11.00",
+        code: "85141100",
         description: "-- Prensas isostáticas a quente"
     },
     {
-        code: "8514.19.00",
+        code: "85141900",
         description: "-- Outros"
     },
     {
-        code: "8514.20",
+        code: "851420",
         description: "- Fornos que funcionam por indução ou por perdas dielétricas"
     },
     {
-        code: "8514.20.1",
+        code: "8514201",
         description: "Por indução"
     },
     {
-        code: "8514.20.11",
+        code: "85142011",
         description: "Industriais"
     },
     {
-        code: "8514.20.19",
+        code: "85142019",
         description: "Outros"
     },
     {
-        code: "8514.20.20",
+        code: "85142020",
         description: "Por perdas dielétricas"
     },
     {
-        code: "8514.3",
+        code: "85143",
         description: "- Outros fornos:"
     },
     {
-        code: "8514.31.00",
+        code: "85143100",
         description: "-- Fornos de feixe de elétrons"
     },
     {
-        code: "8514.32.00",
+        code: "85143200",
         description: "-- Fornos de plasma e fornos de arco a vácuo"
     },
     {
-        code: "8514.39.00",
+        code: "85143900",
         description: "-- Outros"
     },
     {
-        code: "8514.40.00",
+        code: "85144000",
         description: "- Outros aparelhos para tratamento térmico de matérias por indução ou por perdas dielétricas"
     },
     {
-        code: "8514.90.00",
+        code: "85149000",
         description: "- Partes"
     },
     {
-        code: "85.15",
+        code: "8515",
         description:
-            "Máquinas e aparelhos para soldar (mesmo de corte) elétricos (incluindo os a gás aquecido eletricamente), a laser ou outros feixes de luz ou de fótons, a ultrassom, a feixes de elétrons, a impulsos magnéticos ou a jato de plasma; máquinas e aparelhos elétricos para projeção a quente de metais ou de <i>cermets</i>."
+            "Máquinas e aparelhos para soldar (mesmo de corte) elétricos (incluindo os a gás aquecido eletricamente), a laser ou outros feixes de luz ou de fótons, a ultrassom, a feixes de elétrons, a impulsos magnéticos ou a jato de plasma; máquinas e aparelhos elétricos para projeção a quente de metais ou de <i>cermets</i>"
     },
     {
-        code: "8515.1",
+        code: "85151",
         description: "- Máquinas e aparelhos para soldadura forte ou fraca:"
     },
     {
-        code: "8515.11.00",
+        code: "85151100",
         description: "-- Ferros e pistolas"
     },
     {
-        code: "8515.19.00",
+        code: "85151900",
         description: "-- Outros"
     },
     {
-        code: "8515.2",
+        code: "85152",
         description: "- Máquinas e aparelhos para soldar metais por resistência:"
     },
     {
-        code: "8515.21.00",
+        code: "85152100",
         description: "-- Inteira ou parcialmente automáticos"
     },
     {
-        code: "8515.29.00",
+        code: "85152900",
         description: "-- Outros"
     },
     {
-        code: "8515.3",
+        code: "85153",
         description: "- Máquinas e aparelhos para soldar metais por arco ou jato de plasma:"
     },
     {
-        code: "8515.31",
+        code: "851531",
         description: "-- Inteira ou parcialmente automáticos"
     },
     {
-        code: "8515.31.10",
+        code: "85153110",
         description:
             "Robôs para soldar, por arco, em atmosfera inerte (MIG - <i>Metal Inert Gas</i>) ou atmosfera ativa (MAG - <i>Metal Active Gas</i>), de comando numérico"
     },
     {
-        code: "8515.31.90",
+        code: "85153190",
         description: "Outros"
     },
     {
-        code: "8515.39.00",
+        code: "85153900",
         description: "-- Outros"
     },
     {
-        code: "8515.80",
+        code: "851580",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "8515.80.10",
+        code: "85158010",
         description: "Para soldar a laser"
     },
     {
-        code: "8515.80.90",
+        code: "85158090",
         description: "Outros"
     },
     {
-        code: "8515.90.00",
+        code: "85159000",
         description: "- Partes"
     },
     {
-        code: "85.16",
+        code: "8516",
         description:
-            "Aquecedores elétricos de água, incluindo os de imersão; aparelhos elétricos para aquecimento de ambientes, do solo ou para usos semelhantes; aparelhos eletrotérmicos para arranjos do cabelo (por exemplo, secadores de cabelo, frisadores, aquecedores de ferros de frisar) ou para secar as mãos; ferros elétricos de passar; outros aparelhos eletrotérmicos de uso doméstico; resistências de aquecimento, exceto as da posição 85.45."
+            "Aquecedores elétricos de água, incluindo os de imersão; aparelhos elétricos para aquecimento de ambientes, do solo ou para usos semelhantes; aparelhos eletrotérmicos para arranjos do cabelo (por exemplo, secadores de cabelo, frisadores, aquecedores de ferros de frisar) ou para secar as mãos; ferros elétricos de passar; outros aparelhos eletrotérmicos de uso doméstico; resistências de aquecimento, exceto as da posição 8545"
     },
     {
-        code: "8516.10.00",
+        code: "85161000",
         description: "- Aquecedores elétricos de água, incluindo os de imersão"
     },
     {
-        code: "8516.2",
+        code: "85162",
         description: "- Aparelhos elétricos para aquecimento de ambientes, do solo ou para usos semelhantes:"
     },
     {
-        code: "8516.21.00",
+        code: "85162100",
         description: "-- Radiadores de acumulação"
     },
     {
-        code: "8516.29.00",
+        code: "85162900",
         description: "-- Outros"
     },
     {
-        code: "8516.3",
+        code: "85163",
         description: "- Aparelhos eletrotérmicos para arranjos do cabelo ou para secar as mãos:"
     },
     {
-        code: "8516.31.00",
+        code: "85163100",
         description: "-- Secadores de cabelo"
     },
     {
-        code: "8516.32.00",
+        code: "85163200",
         description: "-- Outros aparelhos para arranjos do cabelo"
     },
     {
-        code: "8516.33.00",
+        code: "85163300",
         description: "-- Aparelhos para secar as mãos"
     },
     {
-        code: "8516.40.00",
+        code: "85164000",
         description: "- Ferros elétricos de passar"
     },
     {
-        code: "8516.50.00",
+        code: "85165000",
         description: "- Fornos de micro-ondas"
     },
     {
-        code: "8516.60.00",
+        code: "85166000",
         description: "- Outros fornos; fogões de cozinha, fogareiros (incluindo as chapas de cocção), grelhas e assadeiras"
     },
     {
-        code: "8516.7",
+        code: "85167",
         description: "- Outros aparelhos eletrotérmicos:"
     },
     {
-        code: "8516.71.00",
+        code: "85167100",
         description: "-- Aparelhos para preparação de café ou de chá"
     },
     {
-        code: "8516.72.00",
+        code: "85167200",
         description: "-- Torradeiras de pão"
     },
     {
-        code: "8516.79",
+        code: "851679",
         description: "-- Outros"
     },
     {
-        code: "8516.79.10",
+        code: "85167910",
         description: "Panelas"
     },
     {
-        code: "8516.79.20",
+        code: "85167920",
         description: "Fritadoras"
     },
     {
-        code: "8516.79.90",
+        code: "85167990",
         description: "Outros"
     },
     {
-        code: "8516.80",
+        code: "851680",
         description: "- Resistências de aquecimento"
     },
     {
-        code: "8516.80.10",
+        code: "85168010",
         description: "Para aparelhos da presente posição"
     },
     {
-        code: "8516.80.90",
+        code: "85168090",
         description: "Outras"
     },
     {
-        code: "8516.90.00",
+        code: "85169000",
         description: "- Partes"
     },
     {
-        code: "85.17",
+        code: "8517",
         description:
-            "Aparelhos telefônicos, incluindo os telefones inteligentes (<i>smartphones</i>) e outros telefones para redes celulares ou para outras redes sem fio; outros aparelhos para a transmissão ou recepção de voz, imagens ou outros dados, incluindo os aparelhos para comunicação em redes por fio ou redes sem fio (tal como uma rede local (LAN) ou uma rede de área estendida (longa distância) (WAN)), exceto os aparelhos das posições 84.43, 85.25, 85.27 ou 85.28."
+            "Aparelhos telefônicos, incluindo os telefones inteligentes (<i>smartphones</i>) e outros telefones para redes celulares ou para outras redes sem fio; outros aparelhos para a transmissão ou recepção de voz, imagens ou outros dados, incluindo os aparelhos para comunicação em redes por fio ou redes sem fio (tal como uma rede local (LAN) ou uma rede de área estendida (longa distância) (WAN)), exceto os aparelhos das posições 8443, 8525, 8527 ou 8528"
     },
     {
-        code: "8517.1",
+        code: "85171",
         description:
             "- Aparelhos telefônicos, incluindo os telefones inteligentes (<i>smartphones</i>) e outros telefones para redes celulares ou para outras redes sem fio:"
     },
     {
-        code: "8517.11.00",
+        code: "85171100",
         description: "-- Aparelhos telefônicos por fio com unidade auscultador-microfone sem fio"
     },
     {
-        code: "8517.13.00",
+        code: "85171300",
         description: "-- Telefones inteligentes (<i>smartphones</i>)"
     },
     {
-        code: "8517.14",
+        code: "851714",
         description: "-- Outros telefones para redes celulares ou para outras redes sem fio"
     },
     {
-        code: "8517.14.10",
+        code: "85171410",
         description: "De radiotelefonia, analógicos"
     },
     {
-        code: "8517.14.3",
+        code: "8517143",
         description: "De redes celulares, exceto por satélite"
     },
     {
-        code: "8517.14.31",
+        code: "85171431",
         description: "Portáteis"
     },
     {
-        code: "8517.14.32",
+        code: "85171432",
         description: "Fixos, sem fonte própria de energia"
     },
     {
-        code: "8517.14.39",
+        code: "85171439",
         description: "Outros"
     },
     {
-        code: "8517.14.4",
+        code: "8517144",
         description: "De telecomunicações por satélite"
     },
     {
-        code: "8517.14.41",
+        code: "85171441",
         description: "Digitais, operando em banda C, Ku, L ou S"
     },
     {
-        code: "8517.14.49",
+        code: "85171449",
         description: "Outros"
     },
     {
-        code: "8517.14.90",
+        code: "85171490",
         description: "Outros"
     },
     {
-        code: "8517.18",
+        code: "851718",
         description: "-- Outros"
     },
     {
-        code: "8517.18.30",
+        code: "85171830",
         description: "Não combinados com outros aparelhos"
     },
     {
-        code: "8517.18.90",
+        code: "85171890",
         description: "Outros"
     },
     {
-        code: "8517.6",
+        code: "85176",
         description:
             "- Outros aparelhos para a transmissão ou recepção de voz, imagens ou outros dados, incluindo os aparelhos para comunicação em redes por fio ou redes sem fio (tal como uma rede local (LAN) ou uma rede de área estendida (longa distância) (WAN)):"
     },
     {
-        code: "8517.61",
+        code: "851761",
         description: "-- Estações-base"
     },
     {
-        code: "8517.61.30",
+        code: "85176130",
         description: "De telefonia celular"
     },
     {
-        code: "8517.61.4",
+        code: "8517614",
         description: "De telecomunicação por satélite"
     },
     {
-        code: "8517.61.41",
+        code: "85176141",
         description: "Principal terrena fixa, sem conjunto antena-refletor"
     },
     {
-        code: "8517.61.42",
+        code: "85176142",
         description: "VSAT (<i>Very Small Aperture Terminal</i>), sem conjunto antena-refletor"
     },
     {
-        code: "8517.61.43",
+        code: "85176143",
         description: "Digitais, operando em banda C, Ku, L ou S"
     },
     {
-        code: "8517.61.49",
+        code: "85176149",
         description: "Outras"
     },
     {
-        code: "8517.61.9",
+        code: "8517619",
         description: "Outras"
     },
     {
-        code: "8517.61.91",
+        code: "85176191",
         description:
             "Digitais, de frequência igual ou superior a 15 GHz e inferior ou igual a 23 GHz e taxa de transmissão inferior ou igual a 8 Mbit/s"
     },
     {
-        code: "8517.61.92",
+        code: "85176192",
         description: "Digitais, de frequência superior a 23 GHz"
     },
     {
-        code: "8517.61.99",
+        code: "85176199",
         description: "Outras"
     },
     {
-        code: "8517.62",
+        code: "851762",
         description:
             "-- Aparelhos para recepção, conversão, transmissão ou regeneração de voz, imagens ou outros dados, incluindo os aparelhos de comutação e roteamento"
     },
     {
-        code: "8517.62.1",
+        code: "8517621",
         description: "Concentradores de linhas de assinantes (terminais de central ou terminal remoto) e multiplexadores"
     },
     {
-        code: "8517.62.14",
+        code: "85176214",
         description: "Concentradores de linhas de assinantes (terminais de central ou terminal remoto)"
     },
     {
-        code: "8517.62.15",
+        code: "85176215",
         description: "Multiplexadores"
     },
     {
-        code: "8517.62.2",
+        code: "8517622",
         description: "Aparelhos para comutação de linhas telefônicas"
     },
     {
-        code: "8517.62.21",
+        code: "85176221",
         description: "Centrais automáticas públicas, incluindo as de trânsito"
     },
     {
-        code: "8517.62.29",
+        code: "85176229",
         description: "Outros"
     },
     {
-        code: "8517.62.3",
+        code: "8517623",
         description: "Outros aparelhos para comutação"
     },
     {
-        code: "8517.62.34",
+        code: "85176234",
         description: "Aparelhos para comutação de pacotes de dados (<i>switches</i>)"
     },
     {
-        code: "8517.62.39",
+        code: "85176239",
         description: "Outros"
     },
     {
-        code: "8517.62.4",
+        code: "8517624",
         description: "Roteadores digitais, em redes mesmo com fio"
     },
     {
-        code: "8517.62.41",
+        code: "85176241",
         description: "Com capacidade de conexão sem fio"
     },
     {
-        code: "8517.62.49",
+        code: "85176249",
         description: "Outros"
     },
     {
-        code: "8517.62.5",
+        code: "8517625",
         description: "Outros aparelhos para recepção, transmissão ou regeneração de voz, imagens ou outros dados em rede com fio"
     },
     {
-        code: "8517.62.51",
+        code: "85176251",
         description: "Terminais ou repetidores sobre linhas metálicas"
     },
     {
-        code: "8517.62.52",
+        code: "85176252",
         description: "Terminais ou repetidores sobre linhas de fibras ópticas, com velocidade de transmissão superior a 2,5 Gbit/s"
     },
     {
-        code: "8517.62.53",
+        code: "85176253",
         description:
             "Terminais de texto que operem com código de transmissão Baudot, providos de teclado alfanumérico e visor, mesmo com telefone incorporado"
     },
     {
-        code: "8517.62.54",
+        code: "85176254",
         description: "Distribuidores de conexões para redes (<i>hubs</i>)"
     },
     {
-        code: "8517.62.55",
+        code: "85176255",
         description: "Moduladores-demoduladores (<i>modems</i>)"
     },
     {
-        code: "8517.62.56",
+        code: "85176256",
         description: "Interfones"
     },
     {
-        code: "8517.62.59",
+        code: "85176259",
         description: "Outros"
     },
     {
-        code: "8517.62.6",
+        code: "8517626",
         description: "Aparelhos emissores com receptor incorporado de tecnologia celular ou por satélite"
     },
     {
-        code: "8517.62.62",
+        code: "85176262",
         description: "De tecnologia celular"
     },
     {
-        code: "8517.62.64",
+        code: "85176264",
         description: "Por satélite, digitais, operando em banda C, Ku, L ou S"
     },
     {
-        code: "8517.62.65",
+        code: "85176265",
         description: "Outros, por satélite"
     },
     {
-        code: "8517.62.7",
+        code: "8517627",
         description: "Outros aparelhos emissores com receptor incorporado, digitais"
     },
     {
-        code: "8517.62.72",
+        code: "85176272",
         description: "De frequência inferior a 15 GHz e de taxa de transmissão inferior ou igual a 34 Mbit/s, exceto os interfones"
     },
     {
-        code: "8517.62.73",
+        code: "85176273",
         description: "Interfones"
     },
     {
-        code: "8517.62.77",
+        code: "85176277",
         description: "Outros, de frequência inferior a 15 GHz"
     },
     {
-        code: "8517.62.78",
+        code: "85176278",
         description: "De frequência igual ou superior a 15 GHz, mas inferior ou igual a 23 GHz e taxa de transmissão inferior ou igual a 8 Mbit/s"
     },
     {
-        code: "8517.62.79",
+        code: "85176279",
         description: "Outros"
     },
     {
-        code: "8517.62.9",
+        code: "8517629",
         description: "Outros"
     },
     {
-        code: "8517.62.91",
+        code: "85176291",
         description: "Aparelhos transmissores (emissores)"
     },
     {
-        code: "8517.62.94",
+        code: "85176294",
         description: "Tradutores (conversores) de protocolos para interconexão de redes (<i>gateways</i>)"
     },
     {
-        code: "8517.62.96",
+        code: "85176296",
         description: "Outros, analógicos"
     },
     {
-        code: "8517.62.99",
+        code: "85176299",
         description: "Outros"
     },
     {
-        code: "8517.69.00",
+        code: "85176900",
         description: "-- Outros"
     },
     {
-        code: "8517.7",
+        code: "85177",
         description: "- Partes:"
     },
     {
-        code: "8517.71",
+        code: "851771",
         description: "-- Antenas e refletores de antenas de qualquer tipo; partes reconhecíveis como de utilização conjunta com esses artigos"
     },
     {
-        code: "8517.71.10",
+        code: "85177110",
         description: "Antenas próprias para telefones celulares portáteis"
     },
     {
-        code: "8517.71.90",
+        code: "85177190",
         description: "Outras"
     },
     {
-        code: "8517.79.00",
+        code: "85177900",
         description: "-- Outras"
     },
     {
-        code: "85.18",
+        code: "8518",
         description:
-            "Microfones e seus suportes; alto-falantes (altifalantes), mesmo montados nas suas caixas (colunas); fones de ouvido (auscultadores e auriculares*), mesmo combinados com um microfone, e conjuntos ou sortidos constituídos por um microfone e um ou mais alto-falantes (altifalantes); amplificadores elétricos de audiofrequência; aparelhos elétricos de amplificação de som."
+            "Microfones e seus suportes; alto-falantes (altifalantes), mesmo montados nas suas caixas (colunas); fones de ouvido (auscultadores e auriculares*), mesmo combinados com um microfone, e conjuntos ou sortidos constituídos por um microfone e um ou mais alto-falantes (altifalantes); amplificadores elétricos de audiofrequência; aparelhos elétricos de amplificação de som"
     },
     {
-        code: "8518.10",
+        code: "851810",
         description: "- Microfones e seus suportes"
     },
     {
-        code: "8518.10.10",
+        code: "85181010",
         description: "Piezelétricos próprios para aparelhos telefônicos"
     },
     {
-        code: "8518.10.90",
+        code: "85181090",
         description: "Outros"
     },
     {
-        code: "8518.2",
+        code: "85182",
         description: "- Alto-falantes (altifalantes), mesmo montados nas suas caixas (colunas):"
     },
     {
-        code: "8518.21.00",
+        code: "85182100",
         description: "-- Alto-falante (altifalante) único montado na sua caixa (coluna)"
     },
     {
-        code: "8518.22.00",
+        code: "85182200",
         description: "-- Alto-falantes (altifalantes) múltiplos montados na mesma caixa (coluna)"
     },
     {
-        code: "8518.29",
+        code: "851829",
         description: "-- Outros"
     },
     {
-        code: "8518.29.10",
+        code: "85182910",
         description: "Piezelétricos próprios para aparelhos telefônicos"
     },
     {
-        code: "8518.29.90",
+        code: "85182990",
         description: "Outros"
     },
     {
-        code: "8518.30.00",
+        code: "85183000",
         description:
             "- Fones de ouvido (Auscultadores e auriculares*), mesmo combinados com um microfone, e conjuntos ou sortidos constituídos por um microfone e um ou mais alto-falantes (altifalantes)"
     },
     {
-        code: "8518.40.00",
+        code: "85184000",
         description: "- Amplificadores elétricos de audiofrequência"
     },
     {
-        code: "8518.50.00",
+        code: "85185000",
         description: "- Aparelhos elétricos de amplificação de som"
     },
     {
-        code: "8518.90",
+        code: "851890",
         description: "- Partes"
     },
     {
-        code: "8518.90.10",
+        code: "85189010",
         description: "De alto-falantes (altifalantes)"
     },
     {
-        code: "8518.90.90",
+        code: "85189090",
         description: "Outras"
     },
     {
-        code: "85.19",
-        description: "Aparelhos de gravação de som; aparelhos de reprodução de som; aparelhos de gravação e de reprodução de som."
+        code: "8519",
+        description: "Aparelhos de gravação de som; aparelhos de reprodução de som; aparelhos de gravação e de reprodução de som"
     },
     {
-        code: "8519.20.00",
+        code: "85192000",
         description:
             "- Aparelhos que funcionem por introdução de moedas, notas (papéis-moeda), cartões de banco, fichas ou por outros meios de pagamento"
     },
     {
-        code: "8519.30.00",
+        code: "85193000",
         description: "- Pratos de toca-discos (gira-discos*)"
     },
     {
-        code: "8519.8",
+        code: "85198",
         description: "- Outros aparelhos:"
     },
     {
-        code: "8519.81",
+        code: "851981",
         description: "-- Que utilizem um suporte magnético, óptico ou de semicondutor"
     },
     {
-        code: "8519.81.10",
+        code: "85198110",
         description: "Com sistema de leitura óptica por laser (leitores de discos compactos)"
     },
     {
-        code: "8519.81.20",
+        code: "85198120",
         description: "Gravadores de som de cabinas de aeronaves"
     },
     {
-        code: "8519.81.90",
+        code: "85198190",
         description: "Outros"
     },
     {
-        code: "8519.89.00",
+        code: "85198900",
         description: "-- Outros"
     },
     {
-        code: "85.21",
-        description: "Aparelhos de gravação ou de reprodução de vídeo, mesmo incorporando um receptor de televisão."
+        code: "8521",
+        description: "Aparelhos de gravação ou de reprodução de vídeo, mesmo incorporando um receptor de televisão"
     },
     {
-        code: "8521.10",
+        code: "852110",
         description: "- De fita magnética"
     },
     {
-        code: "8521.10.10",
+        code: "85211010",
         description: "Gravador-reprodutor, sem sintonizador"
     },
     {
-        code: "8521.10.8",
+        code: "8521108",
         description: "Outros, para fitas de largura inferior a 19,05 mm (3/4'')"
     },
     {
-        code: "8521.10.81",
+        code: "85211081",
         description: "Em cassete, de largura de fita igual a 12,65 mm (1/2'')"
     },
     {
-        code: "8521.10.89",
+        code: "85211089",
         description: "Outros"
     },
     {
-        code: "8521.10.90",
+        code: "85211090",
         description: "Outros, para fitas de largura igual ou superior a 19,05 mm (3/4'')"
     },
     {
-        code: "8521.90.00",
+        code: "85219000",
         description: "- Outros"
     },
     {
-        code: "85.22",
-        description: "Partes e acessórios reconhecíveis como sendo exclusiva ou principalmente destinados aos aparelhos das posições 85.19 ou 85.21."
+        code: "8522",
+        description: "Partes e acessórios reconhecíveis como sendo exclusiva ou principalmente destinados aos aparelhos das posições 8519 ou 8521"
     },
     {
-        code: "8522.10.00",
+        code: "85221000",
         description: "- Fonocaptores"
     },
     {
-        code: "8522.90.00",
+        code: "85229000",
         description: "- Outros"
     },
     {
-        code: "85.23",
+        code: "8523",
         description:
-            'Discos, fitas, dispositivos de armazenamento de dados não voláteis à base de semicondutores, "cartões inteligentes" e outros suportes para gravação de som ou para gravações semelhantes, mesmo gravados, incluindo as matrizes e moldes galvânicos para fabricação de discos, exceto os produtos do Capítulo 37.'
+            'Discos, fitas, dispositivos de armazenamento de dados não voláteis à base de semicondutores, "cartões inteligentes" e outros suportes para gravação de som ou para gravações semelhantes, mesmo gravados, incluindo as matrizes e moldes galvânicos para fabricação de discos, exceto os produtos do Capítulo 37'
     },
     {
-        code: "8523.2",
+        code: "85232",
         description: "- Suportes magnéticos:"
     },
     {
-        code: "8523.21",
+        code: "852321",
         description: "-- Cartões com tarja (banda) magnética"
     },
     {
-        code: "8523.21.10",
+        code: "85232110",
         description: "Não gravados"
     },
     {
-        code: "8523.21.20",
+        code: "85232120",
         description: "Gravados"
     },
     {
-        code: "8523.29",
+        code: "852329",
         description: "-- Outros"
     },
     {
-        code: "8523.29.1",
+        code: "8523291",
         description: "Discos magnéticos"
     },
     {
-        code: "8523.29.11",
+        code: "85232911",
         description: "Do tipo utilizado em unidades de discos rígidos"
     },
     {
-        code: "8523.29.19",
+        code: "85232919",
         description: "Outros"
     },
     {
-        code: "8523.29.90",
+        code: "85232990",
         description: "Outros"
     },
     {
-        code: "8523.4",
+        code: "85234",
         description: "- Suportes ópticos:"
     },
     {
-        code: "8523.41",
+        code: "852341",
         description: "-- Não gravados"
     },
     {
-        code: "8523.41.10",
+        code: "85234110",
         description: "Discos para sistema de leitura por raios laser com possibilidade de serem gravados uma única vez"
     },
     {
-        code: "8523.41.90",
+        code: "85234190",
         description: "Outros"
     },
     {
-        code: "8523.49",
+        code: "852349",
         description: "-- Outros"
     },
     {
-        code: "8523.49.10",
+        code: "85234910",
         description: "Para reprodução apenas do som"
     },
     {
-        code: "8523.49.20",
+        code: "85234920",
         description: "Para reprodução de fenômenos diferentes do som ou da imagem"
     },
     {
-        code: "8523.49.90",
+        code: "85234990",
         description: "Outros"
     },
     {
-        code: "8523.5",
+        code: "85235",
         description: "- Suportes de semicondutor:"
     },
     {
-        code: "8523.51",
+        code: "852351",
         description: "-- Dispositivos de armazenamento de dados não voláteis à base de semicondutores"
     },
     {
-        code: "8523.51.10",
+        code: "85235110",
         description: "Cartões de memória (<i>memory cards</i>)"
     },
     {
-        code: "8523.51.90",
+        code: "85235190",
         description: "Outros"
     },
     {
-        code: "8523.52",
+        code: "852352",
         description: '-- "Cartões inteligentes"'
     },
     {
-        code: "8523.52.10",
+        code: "85235210",
         description: "Cartões e etiquetas de acionamento por aproximação"
     },
     {
-        code: "8523.52.90",
+        code: "85235290",
         description: "Outros"
     },
     {
-        code: "8523.59.00",
+        code: "85235900",
         description: "-- Outros"
     },
     {
-        code: "8523.80.00",
+        code: "85238000",
         description: "- Outros"
     },
     {
-        code: "85.24",
-        description: "Módulos de visualização de tela (ecrã*) plana, mesmo que incorporem telas sensíveis ao toque (ecrãs tácteis*)."
+        code: "8524",
+        description: "Módulos de visualização de tela (ecrã*) plana, mesmo que incorporem telas sensíveis ao toque (ecrãs tácteis*)"
     },
     {
-        code: "8524.1",
+        code: "85241",
         description: "- Sem controladores (<i>drivers</i>) nem circuitos de controle:"
     },
     {
-        code: "8524.11.00",
+        code: "85241100",
         description: "-- De cristais líquidos"
     },
     {
-        code: "8524.12.00",
+        code: "85241200",
         description: "-- De diodos emissores de luz orgânicos (OLED)"
     },
     {
-        code: "8524.19.00",
+        code: "85241900",
         description: "-- Outros"
     },
     {
-        code: "8524.9",
+        code: "85249",
         description: "- Outros:"
     },
     {
-        code: "8524.91.00",
+        code: "85249100",
         description: "-- De cristais líquidos"
     },
     {
-        code: "8524.92.00",
+        code: "85249200",
         description: "-- De diodos emissores de luz orgânicos (OLED)"
     },
     {
-        code: "8524.99.00",
+        code: "85249900",
         description: "-- Outros"
     },
     {
-        code: "85.25",
+        code: "8525",
         description:
-            "Aparelhos transmissores (emissores) para radiodifusão ou televisão, mesmo que incorporem um aparelho receptor ou um aparelho de gravação ou de reprodução de som; câmeras de televisão, câmeras fotográficas digitais e câmeras de vídeo."
+            "Aparelhos transmissores (emissores) para radiodifusão ou televisão, mesmo que incorporem um aparelho receptor ou um aparelho de gravação ou de reprodução de som; câmeras de televisão, câmeras fotográficas digitais e câmeras de vídeo"
     },
     {
-        code: "8525.50",
+        code: "852550",
         description: "- Aparelhos transmissores (emissores)"
     },
     {
-        code: "8525.50.1",
+        code: "8525501",
         description: "De radiodifusão"
     },
     {
-        code: "8525.50.11",
+        code: "85255011",
         description: "Em AM, com modulação por código ou largura de pulso, totalmente a semicondutor e com potência de saída superior a 10 kW"
     },
     {
-        code: "8525.50.19",
+        code: "85255019",
         description: "Outros"
     },
     {
-        code: "8525.50.2",
+        code: "8525502",
         description: "De televisão"
     },
     {
-        code: "8525.50.21",
+        code: "85255021",
         description: "De frequência superior a 7 GHz"
     },
     {
-        code: "8525.50.22",
+        code: "85255022",
         description:
             "Em banda UHF, de frequência igual ou superior a 2,0 GHz, mas não superior a 2,7 GHz, com potência de saída igual ou superior a 10 W, mas não superior a 100 W"
     },
     {
-        code: "8525.50.23",
+        code: "85255023",
         description: "Em banda UHF, com potência de saída superior a 10 kW"
     },
     {
-        code: "8525.50.24",
+        code: "85255024",
         description: "Em banda VHF, com potência de saída igual ou superior a 20 kW"
     },
     {
-        code: "8525.50.29",
+        code: "85255029",
         description: "Outros"
     },
     {
-        code: "8525.60",
+        code: "852560",
         description: "- Aparelhos transmissores (emissores) que incorporem um aparelho receptor"
     },
     {
-        code: "8525.60.10",
+        code: "85256010",
         description: "De radiodifusão"
     },
     {
-        code: "8525.60.20",
+        code: "85256020",
         description: "De televisão, de frequência superior a 7 GHz"
     },
     {
-        code: "8525.60.90",
+        code: "85256090",
         description: "Outros"
     },
     {
-        code: "8525.8",
+        code: "85258",
         description: "- Câmeras de televisão, câmeras fotográficas digitais e câmeras de vídeo:"
     },
     {
-        code: "8525.81.00",
+        code: "85258100",
         description: "-- Ultrarrápidas, mencionadas na Nota de subposições 1 do presente Capítulo"
     },
     {
-        code: "8525.82.00",
+        code: "85258200",
         description: "-- Outras, resistentes à radiação, mencionadas na Nota de subposições 2 do presente Capítulo"
     },
     {
-        code: "8525.83.00",
+        code: "85258300",
         description: "-- Outras, de visão noturna, mencionadas na Nota de subposições 3 do presente Capítulo"
     },
     {
-        code: "8525.89",
+        code: "852589",
         description: "-- Outras"
     },
     {
-        code: "8525.89.1",
+        code: "8525891",
         description: "Câmeras de televisão"
     },
     {
-        code: "8525.89.11",
+        code: "85258911",
         description: "Com três ou mais captadores de imagem"
     },
     {
-        code: "8525.89.12",
+        code: "85258912",
         description:
             "Com sensor de imagem a semicondutor tipo CCD, de mais de 490 x 580 elementos de imagem (<i>pixels</i>) ativos, sensíveis a intensidades de iluminação inferiores a 0,20 lux"
     },
     {
-        code: "8525.89.13",
+        code: "85258913",
         description:
             "Com sensor de imagem a semicondutor tipo CMOS, de mais de 490 x 580 elementos de imagem (<i>pixels</i>) ativos, sensíveis a intensidades de iluminação inferiores a 0,20 lux"
     },
     {
-        code: "8525.89.14",
+        code: "85258914",
         description:
             "Outras, próprias para captar imagens exclusivamente no espectro infravermelho de comprimento de onda igual ou superior a 2 micrômetros (mícrons), mas não superior a 14 micrômetros (mícrons)"
     },
     {
-        code: "8525.89.19",
+        code: "85258919",
         description: "Outras"
     },
     {
-        code: "8525.89.2",
+        code: "8525892",
         description: "Câmeras fotográficas digitais e câmeras de vídeo"
     },
     {
-        code: "8525.89.21",
+        code: "85258921",
         description: "Com três ou mais captadores de imagem"
     },
     {
-        code: "8525.89.22",
+        code: "85258922",
         description:
             "Outras, próprias para captar imagens exclusivamente no espectro infravermelho de comprimento de onda igual ou superior a 2 micrômetros (mícrons), mas não superior a 14 micrômetros (mícrons)"
     },
     {
-        code: "8525.89.29",
+        code: "85258929",
         description: "Outras"
     },
     {
-        code: "85.26",
-        description: "Aparelhos de radiodetecção e de radiossondagem (radar), aparelhos de radionavegação e aparelhos de radiotelecomando."
+        code: "8526",
+        description: "Aparelhos de radiodetecção e de radiossondagem (radar), aparelhos de radionavegação e aparelhos de radiotelecomando"
     },
     {
-        code: "8526.10.00",
+        code: "85261000",
         description: "- Aparelhos de radiodetecção e de radiossondagem (radar)"
     },
     {
-        code: "8526.9",
+        code: "85269",
         description: "- Outros:"
     },
     {
-        code: "8526.91.00",
+        code: "85269100",
         description: "-- Aparelhos de radionavegação"
     },
     {
-        code: "8526.92.00",
+        code: "85269200",
         description: "-- Aparelhos de radiotelecomando"
     },
     {
-        code: "85.27",
+        code: "8527",
         description:
-            "Aparelhos receptores para radiodifusão, mesmo combinados num mesmo invólucro, com um aparelho de gravação ou de reprodução de som, ou com um relógio."
+            "Aparelhos receptores para radiodifusão, mesmo combinados num mesmo invólucro, com um aparelho de gravação ou de reprodução de som, ou com um relógio"
     },
     {
-        code: "8527.1",
+        code: "85271",
         description: "- Aparelhos receptores de radiodifusão suscetíveis de funcionarem sem fonte externa de energia:"
     },
     {
-        code: "8527.12.00",
+        code: "85271200",
         description: "-- Rádios toca-fitas (Rádios-leitores de cassetes*) de bolso"
     },
     {
-        code: "8527.13.00",
+        code: "85271300",
         description: "-- Outros aparelhos combinados com um aparelho de gravação ou de reprodução de som"
     },
     {
-        code: "8527.19.00",
+        code: "85271900",
         description: "-- Outros"
     },
     {
-        code: "8527.2",
+        code: "85272",
         description: "- Aparelhos receptores de radiodifusão que só funcionem com fonte externa de energia, do tipo utilizado em veículos automóveis:"
     },
     {
-        code: "8527.21.00",
+        code: "85272100",
         description: "-- Combinados com um aparelho de gravação ou de reprodução de som"
     },
     {
-        code: "8527.29.00",
+        code: "85272900",
         description: "-- Outros"
     },
     {
-        code: "8527.9",
+        code: "85279",
         description: "- Outros:"
     },
     {
-        code: "8527.91.00",
+        code: "85279100",
         description: "-- Combinados com um aparelho de gravação ou de reprodução de som"
     },
     {
-        code: "8527.92.00",
+        code: "85279200",
         description: "-- Não combinados com um aparelho de gravação ou de reprodução de som, mas combinados com um relógio"
     },
     {
-        code: "8527.99",
+        code: "852799",
         description: "-- Outros"
     },
     {
-        code: "8527.99.10",
+        code: "85279910",
         description: "Amplificador com sintonizador (<i>receiver</i>)"
     },
     {
-        code: "8527.99.90",
+        code: "85279990",
         description: "Outros"
     },
     {
-        code: "85.28",
+        code: "8528",
         description:
-            "Monitores e projetores, que não incorporem aparelho receptor de televisão; aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou de reprodução de som ou de imagens."
+            "Monitores e projetores, que não incorporem aparelho receptor de televisão; aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou de reprodução de som ou de imagens"
     },
     {
-        code: "8528.4",
+        code: "85284",
         description: "- Monitores com tubo de raios catódicos:"
     },
     {
-        code: "8528.42.00",
+        code: "85284200",
         description:
-            "-- Capazes de serem conectados diretamente a uma máquina automática para processamento de dados da posição 84.71 e concebidos para serem utilizados com esta máquina"
+            "-- Capazes de serem conectados diretamente a uma máquina automática para processamento de dados da posição 8471 e concebidos para serem utilizados com esta máquina"
     },
     {
-        code: "8528.49",
+        code: "852849",
         description: "-- Outros"
     },
     {
-        code: "8528.49.30",
+        code: "85284930",
         description:
             "Policromáticos, com dispositivos de seleção de varredura (<i>underscanning</i>) e de retardo de sincronismo horizontal e vertical (<i>H/V delay</i> ou <i>pulse cross</i>)"
     },
     {
-        code: "8528.49.90",
+        code: "85284990",
         description: "Outros"
     },
     {
-        code: "8528.5",
+        code: "85285",
         description: "- Outros monitores:"
     },
     {
-        code: "8528.52.00",
+        code: "85285200",
         description:
-            "-- Capazes de serem conectados diretamente a uma máquina automática para processamento de dados da posição 84.71 e concebidos para serem utilizados com esta máquina"
+            "-- Capazes de serem conectados diretamente a uma máquina automática para processamento de dados da posição 8471 e concebidos para serem utilizados com esta máquina"
     },
     {
-        code: "8528.59.00",
+        code: "85285900",
         description: "-- Outros"
     },
     {
-        code: "8528.6",
+        code: "85286",
         description: "- Projetores:"
     },
     {
-        code: "8528.62.00",
+        code: "85286200",
         description:
-            "-- Capazes de serem conectados diretamente a uma máquina automática para processamento de dados da posição 84.71 e concebidos para serem utilizados com esta máquina"
+            "-- Capazes de serem conectados diretamente a uma máquina automática para processamento de dados da posição 8471 e concebidos para serem utilizados com esta máquina"
     },
     {
-        code: "8528.69",
+        code: "852869",
         description: "-- Outros"
     },
     {
-        code: "8528.69.10",
+        code: "85286910",
         description: "Com tecnologia de dispositivo digital de microespelhos (DMD - <i>Digital Micromirror Device</i>)"
     },
     {
-        code: "8528.69.90",
+        code: "85286990",
         description: "Outros"
     },
     {
-        code: "8528.7",
+        code: "85287",
         description:
             "- Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou de reprodução de som ou de imagens:"
     },
     {
-        code: "8528.71",
+        code: "852871",
         description: "-- Não concebidos para incorporar um dispositivo de visualização ou uma tela (ecrã*), de vídeo"
     },
     {
-        code: "8528.71.1",
+        code: "8528711",
         description: "Receptor-decodificador integrado (IRD) de sinais digitalizados de vídeo codificados"
     },
     {
-        code: "8528.71.11",
+        code: "85287111",
         description:
             "Sem saída de radiofrequência (RF) modulada nos canais 3 ou 4, com saídas de áudio balanceadas com impedância de 600 Ohms, próprio para montagem em <i>racks</i> e com saída de vídeo com conector BNC"
     },
     {
-        code: "8528.71.19",
+        code: "85287119",
         description: "Outros"
     },
     {
-        code: "8528.71.90",
+        code: "85287190",
         description: "Outros"
     },
     {
-        code: "8528.72.00",
+        code: "85287200",
         description: "-- Outros, a cores"
     },
     {
-        code: "8528.73.00",
+        code: "85287300",
         description: "-- Outros, a preto e branco ou outros monocromos"
     },
     {
-        code: "85.29",
-        description: "Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 85.24 a 85.28."
+        code: "8529",
+        description: "Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 8524 a 8528"
     },
     {
-        code: "8529.10",
+        code: "852910",
         description: "- Antenas e refletores de antenas de qualquer tipo; partes reconhecíveis como de utilização conjunta com esses artigos"
     },
     {
-        code: "8529.10.20",
+        code: "85291020",
         description: "Antenas com refletor parabólico"
     },
     {
-        code: "8529.10.90",
+        code: "85291090",
         description: "Outros"
     },
     {
-        code: "8529.90",
+        code: "852990",
         description: "- Outras"
     },
     {
-        code: "8529.90.1",
-        description: "De aparelhos das subposições 8525.50 ou 8525.60"
+        code: "8529901",
+        description: "De aparelhos das subposições 852550 ou 852560"
     },
     {
-        code: "8529.90.11",
+        code: "85299011",
         description: "Gabinetes e bastidores"
     },
     {
-        code: "8529.90.12",
+        code: "85299012",
         description: "Circuitos impressos com componentes elétricos ou eletrônicos, montados"
     },
     {
-        code: "8529.90.19",
+        code: "85299019",
         description: "Outras"
     },
     {
-        code: "8529.90.20",
-        description: "De aparelhos das posições 85.27 ou 85.28"
+        code: "85299020",
+        description: "De aparelhos das posições 8527 ou 8528"
     },
     {
-        code: "8529.90.30",
-        description: "De aparelhos da subposição 8526.10"
+        code: "85299030",
+        description: "De aparelhos da subposição 852610"
     },
     {
-        code: "8529.90.40",
-        description: "De aparelhos da subposição 8526.91"
+        code: "85299040",
+        description: "De aparelhos da subposição 852691"
     },
     {
-        code: "8529.90.50",
-        description: "De módulos de visualização da posição 85.24"
+        code: "85299050",
+        description: "De módulos de visualização da posição 8524"
     },
     {
-        code: "8529.90.90",
+        code: "85299090",
         description: "Outras"
     },
     {
-        code: "85.30",
+        code: "8530",
         description:
-            "Aparelhos elétricos de sinalização (excluindo os de transmissão de mensagens), de segurança, de controle e de comando, para vias férreas ou semelhantes, vias terrestres ou fluviais, para áreas ou parques de estacionamento, instalações portuárias ou para aeródromos (exceto os da posição 86.08)."
+            "Aparelhos elétricos de sinalização (excluindo os de transmissão de mensagens), de segurança, de controle e de comando, para vias férreas ou semelhantes, vias terrestres ou fluviais, para áreas ou parques de estacionamento, instalações portuárias ou para aeródromos (exceto os da posição 8608)"
     },
     {
-        code: "8530.10",
+        code: "853010",
         description: "- Aparelhos para vias férreas ou semelhantes"
     },
     {
-        code: "8530.10.10",
+        code: "85301010",
         description: "Digitais, para controle de tráfego"
     },
     {
-        code: "8530.10.90",
+        code: "85301090",
         description: "Outros"
     },
     {
-        code: "8530.80",
+        code: "853080",
         description: "- Outros aparelhos"
     },
     {
-        code: "8530.80.10",
+        code: "85308010",
         description: "Digitais, para controle de tráfego de automotores"
     },
     {
-        code: "8530.80.90",
+        code: "85308090",
         description: "Outros"
     },
     {
-        code: "8530.90.00",
+        code: "85309000",
         description: "- Partes"
     },
     {
-        code: "85.31",
+        code: "8531",
         description:
-            "Aparelhos elétricos de sinalização acústica ou visual (por exemplo, campainhas, sirenes, painéis indicadores, aparelhos de alarme para proteção contra roubo ou incêndio), exceto os das posições 85.12 ou 85.30."
+            "Aparelhos elétricos de sinalização acústica ou visual (por exemplo, campainhas, sirenes, painéis indicadores, aparelhos de alarme para proteção contra roubo ou incêndio), exceto os das posições 8512 ou 8530"
     },
     {
-        code: "8531.10",
+        code: "853110",
         description: "- Aparelhos elétricos de alarme para proteção contra roubo ou incêndio e aparelhos semelhantes"
     },
     {
-        code: "8531.10.10",
+        code: "85311010",
         description: "Alarmes contra incêndio ou sobreaquecimento"
     },
     {
-        code: "8531.10.90",
+        code: "85311090",
         description: "Outros"
     },
     {
-        code: "8531.20.00",
+        code: "85312000",
         description: "- Painéis indicadores com dispositivos de cristais líquidos (LCD) ou de diodos emissores de luz (LED)"
     },
     {
-        code: "8531.80.00",
+        code: "85318000",
         description: "- Outros aparelhos"
     },
     {
-        code: "8531.90.00",
+        code: "85319000",
         description: "- Partes"
     },
     {
-        code: "85.32",
-        description: "Condensadores elétricos, fixos, variáveis ou ajustáveis."
+        code: "8532",
+        description: "Condensadores elétricos, fixos, variáveis ou ajustáveis"
     },
     {
-        code: "8532.10.00",
+        code: "85321000",
         description:
             "- Condensadores fixos concebidos para linhas elétricas de 50/60 Hz e capazes de absorver uma potência reativa igual ou superior a 0,5 kvar (condensadores de potência)"
     },
     {
-        code: "8532.2",
+        code: "85322",
         description: "- Outros condensadores fixos:"
     },
     {
-        code: "8532.21",
+        code: "853221",
         description: "-- De tântalo"
     },
     {
-        code: "8532.21.1",
+        code: "8532211",
         description: "Próprios para montagem em superfície (SMD - <i>Surface Mounted Device</i>)"
     },
     {
-        code: "8532.21.11",
+        code: "85322111",
         description: "Com tensão de isolação inferior ou igual a 125 V"
     },
     {
-        code: "8532.21.19",
+        code: "85322119",
         description: "Outros"
     },
     {
-        code: "8532.21.20",
+        code: "85322120",
         description: "Próprios para montagem por inserção (PTH - <i>Pin Through Hole</i>)"
     },
     {
-        code: "8532.21.90",
+        code: "85322190",
         description: "Outros"
     },
     {
-        code: "8532.22.00",
+        code: "85322200",
         description: "-- Eletrolíticos de alumínio"
     },
     {
-        code: "8532.23",
+        code: "853223",
         description: "-- Com dielétrico de cerâmica, de uma só camada"
     },
     {
-        code: "8532.23.10",
+        code: "85322310",
         description: "Próprios para montagem em superfície (SMD - <i>Surface Mounted Device</i>)"
     },
     {
-        code: "8532.23.90",
+        code: "85322390",
         description: "Outros"
     },
     {
-        code: "8532.24",
+        code: "853224",
         description: "-- Com dielétrico de cerâmica, de camadas múltiplas"
     },
     {
-        code: "8532.24.10",
+        code: "85322410",
         description: "Próprios para montagem em superfície (SMD - <i>Surface Mounted Device</i>)"
     },
     {
-        code: "8532.24.20",
+        code: "85322420",
         description: "Próprios para montagem por inserção (PTH - <i>Pin Through Hole</i>)"
     },
     {
-        code: "8532.24.90",
+        code: "85322490",
         description: "Outros"
     },
     {
-        code: "8532.25",
+        code: "853225",
         description: "-- Com dielétrico de papel ou de plástico"
     },
     {
-        code: "8532.25.10",
+        code: "85322510",
         description: "Próprios para montagem em superfície (SMD - <i>Surface Mounted Device</i>)"
     },
     {
-        code: "8532.25.90",
+        code: "85322590",
         description: "Outros"
     },
     {
-        code: "8532.29",
+        code: "853229",
         description: "-- Outros"
     },
     {
-        code: "8532.29.10",
+        code: "85322910",
         description: "Próprios para montagem em superfície (SMD - <i>Surface Mounted Device</i>)"
     },
     {
-        code: "8532.29.90",
+        code: "85322990",
         description: "Outros"
     },
     {
-        code: "8532.30",
+        code: "853230",
         description: "- Condensadores variáveis ou ajustáveis"
     },
     {
-        code: "8532.30.10",
+        code: "85323010",
         description: "Próprios para montagem em superfície (SMD - <i>Surface Mounted Device</i>)"
     },
     {
-        code: "8532.30.90",
+        code: "85323090",
         description: "Outros"
     },
     {
-        code: "8532.90.00",
+        code: "85329000",
         description: "- Partes"
     },
     {
-        code: "85.33",
-        description: "Resistências elétricas (incluindo os reostatos e os potenciômetros), exceto de aquecimento."
+        code: "8533",
+        description: "Resistências elétricas (incluindo os reostatos e os potenciômetros), exceto de aquecimento"
     },
     {
-        code: "8533.10.00",
+        code: "85331000",
         description: "- Resistências fixas de carbono, aglomeradas ou de camada"
     },
     {
-        code: "8533.2",
+        code: "85332",
         description: "- Outras resistências fixas:"
     },
     {
-        code: "8533.21",
+        code: "853321",
         description: "-- Para potência não superior a 20 W"
     },
     {
-        code: "8533.21.10",
+        code: "85332110",
         description: "De fio"
     },
     {
-        code: "8533.21.20",
+        code: "85332120",
         description: "Próprias para montagem em superfície (SMD - <i>Surface Mounted Device</i>)"
     },
     {
-        code: "8533.21.90",
+        code: "85332190",
         description: "Outras"
     },
     {
-        code: "8533.29.00",
+        code: "85332900",
         description: "-- Outras"
     },
     {
-        code: "8533.3",
+        code: "85333",
         description: "- Resistências variáveis bobinadas (incluindo os reostatos e os potenciômetros):"
     },
     {
-        code: "8533.31",
+        code: "853331",
         description: "-- Para potência não superior a 20 W"
     },
     {
-        code: "8533.31.10",
+        code: "85333110",
         description: "Potenciômetros"
     },
     {
-        code: "8533.31.90",
+        code: "85333190",
         description: "Outras"
     },
     {
-        code: "8533.39",
+        code: "853339",
         description: "-- Outras"
     },
     {
-        code: "8533.39.10",
+        code: "85333910",
         description: "Potenciômetros"
     },
     {
-        code: "8533.39.90",
+        code: "85333990",
         description: "Outras"
     },
     {
-        code: "8533.40",
+        code: "853340",
         description: "- Outras resistências variáveis (incluindo os reostatos e os potenciômetros)"
     },
     {
-        code: "8533.40.1",
+        code: "8533401",
         description: "Resistências não lineares semicondutoras"
     },
     {
-        code: "8533.40.11",
+        code: "85334011",
         description: "Termistores"
     },
     {
-        code: "8533.40.12",
-        description: "Varistores para uma tensão inferior ou igual a 1.000 V"
+        code: "85334012",
+        description: "Varistores para uma tensão inferior ou igual a 1000 V"
     },
     {
-        code: "8533.40.13",
+        code: "85334013",
         description: "Outros varistores"
     },
     {
-        code: "8533.40.19",
+        code: "85334019",
         description: "Outras"
     },
     {
-        code: "8533.40.9",
+        code: "8533409",
         description: "Outras"
     },
     {
-        code: "8533.40.91",
+        code: "85334091",
         description:
             "Potenciômetro de carvão, do tipo utilizado para determinar o ângulo de abertura da borboleta, em sistemas de injeção de combustível controlados eletronicamente"
     },
     {
-        code: "8533.40.92",
+        code: "85334092",
         description: "Outros potenciômetros de carvão"
     },
     {
-        code: "8533.40.99",
+        code: "85334099",
         description: "Outras"
     },
     {
-        code: "8533.90.00",
+        code: "85339000",
         description: "- Partes"
     },
     {
-        code: "8534.00",
-        description: "Circuitos impressos."
+        code: "853400",
+        description: "Circuitos impressos"
     },
     {
-        code: "8534.00.1",
+        code: "8534001",
         description: "Simples face, rígidos"
     },
     {
-        code: "8534.00.11",
+        code: "85340011",
         description: "Com isolante de resina fenólica e papel celulósico"
     },
     {
-        code: "8534.00.12",
+        code: "85340012",
         description: "Com isolante de resina epóxida e papel celulósico"
     },
     {
-        code: "8534.00.13",
+        code: "85340013",
         description: "Com isolante de resina epóxida e tecido de fibra de vidro"
     },
     {
-        code: "8534.00.19",
+        code: "85340019",
         description: "Outros"
     },
     {
-        code: "8534.00.20",
+        code: "85340020",
         description: "Simples face, flexíveis"
     },
     {
-        code: "8534.00.3",
+        code: "8534003",
         description: "Dupla face, rígidos"
     },
     {
-        code: "8534.00.31",
+        code: "85340031",
         description: "Com isolante de resina fenólica e papel celulósico"
     },
     {
-        code: "8534.00.32",
+        code: "85340032",
         description: "Com isolante de resina epóxida e papel celulósico"
     },
     {
-        code: "8534.00.33",
+        code: "85340033",
         description: "Com isolante de resina epóxida e tecido de fibra de vidro"
     },
     {
-        code: "8534.00.39",
+        code: "85340039",
         description: "Outros"
     },
     {
-        code: "8534.00.40",
+        code: "85340040",
         description: "Dupla face, flexíveis"
     },
     {
-        code: "8534.00.5",
+        code: "8534005",
         description: "Multicamadas"
     },
     {
-        code: "8534.00.51",
+        code: "85340051",
         description: "Com isolante de resina epóxida e tecido de fibra de vidro"
     },
     {
-        code: "8534.00.59",
+        code: "85340059",
         description: "Outros"
     },
     {
-        code: "85.35",
+        code: "8535",
         description:
-            "Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, corta-circuitos, para-raios, limitadores de tensão, supressores de picos de tensão (eliminadores de onda), tomadas de corrente e outros conectores, caixas de junção), para uma tensão superior a 1.000 V."
+            "Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, corta-circuitos, para-raios, limitadores de tensão, supressores de picos de tensão (eliminadores de onda), tomadas de corrente e outros conectores, caixas de junção), para uma tensão superior a 1000 V"
     },
     {
-        code: "8535.10.00",
+        code: "85351000",
         description: "- Fusíveis e corta-circuitos de fusíveis"
     },
     {
-        code: "8535.2",
+        code: "85352",
         description: "- Disjuntores:"
     },
     {
-        code: "8535.21.00",
+        code: "85352100",
         description: "-- Para uma tensão inferior a 72,5 kV"
     },
     {
-        code: "8535.29.00",
+        code: "85352900",
         description: "-- Outros"
     },
     {
-        code: "8535.30",
+        code: "853530",
         description: "- Seccionadores e interruptores"
     },
     {
-        code: "8535.30.1",
-        description: "Para corrente nominal inferior ou igual a 1.600 A"
+        code: "8535301",
+        description: "Para corrente nominal inferior ou igual a 1600 A"
     },
     {
-        code: "8535.30.13",
+        code: "85353013",
         description: "Interruptores a vácuo, sem dispositivo de acionamento (ampolas a vácuo)"
     },
     {
-        code: "8535.30.17",
+        code: "85353017",
         description: "Outros, com dispositivo de acionamento não automático"
     },
     {
-        code: "8535.30.18",
+        code: "85353018",
         description: "Outros, com dispositivo de acionamento automático, exceto os de contatos imersos em meio líquido"
     },
     {
-        code: "8535.30.19",
+        code: "85353019",
         description: "Outros"
     },
     {
-        code: "8535.30.2",
-        description: "Para corrente nominal superior a 1.600 A"
+        code: "8535302",
+        description: "Para corrente nominal superior a 1600 A"
     },
     {
-        code: "8535.30.23",
+        code: "85353023",
         description: "Interruptores a vácuo, sem dispositivo de acionamento (ampolas a vácuo)"
     },
     {
-        code: "8535.30.27",
+        code: "85353027",
         description: "Outros, com dispositivo de acionamento não automático"
     },
     {
-        code: "8535.30.28",
+        code: "85353028",
         description: "Outros, com dispositivo de acionamento automático, exceto os de contatos imersos em meio líquido"
     },
     {
-        code: "8535.30.29",
+        code: "85353029",
         description: "Outros"
     },
     {
-        code: "8535.40",
+        code: "853540",
         description: "- Para-raios, limitadores de tensão e supressores de picos de tensão (eliminadores de onda)"
     },
     {
-        code: "8535.40.10",
+        code: "85354010",
         description: "Para-raios para proteção de linhas de transmissão de eletricidade"
     },
     {
-        code: "8535.40.90",
+        code: "85354090",
         description: "Outros"
     },
     {
-        code: "8535.90",
+        code: "853590",
         description: "- Outros"
     },
     {
-        code: "8535.90.10",
+        code: "85359010",
         description:
             "Comutadores com ampolas a vácuo, sem interrupção de circulação de corrente durante a comutação, para uma corrente nominal igual ou superior a 100 A"
     },
     {
-        code: "8535.90.90",
+        code: "85359090",
         description: "Outros"
     },
     {
-        code: "85.36",
+        code: "8536",
         description:
-            "Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, relés, corta-circuitos, supressores de picos de tensão (eliminadores de onda), plugues (fichas*) e tomadas de corrente, suportes para lâmpadas e outros conectores, caixas de junção), para uma tensão não superior a 1.000 V; conectores para fibras ópticas, feixes ou cabos de fibras ópticas."
+            "Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, relés, corta-circuitos, supressores de picos de tensão (eliminadores de onda), plugues (fichas*) e tomadas de corrente, suportes para lâmpadas e outros conectores, caixas de junção), para uma tensão não superior a 1000 V; conectores para fibras ópticas, feixes ou cabos de fibras ópticas"
     },
     {
-        code: "8536.10.00",
+        code: "85361000",
         description: "- Fusíveis e corta-circuitos de fusíveis"
     },
     {
-        code: "8536.20.00",
+        code: "85362000",
         description: "- Disjuntores"
     },
     {
-        code: "8536.30",
+        code: "853630",
         description: "- Outros aparelhos para proteção de circuitos elétricos"
     },
     {
-        code: "8536.30.10",
+        code: "85363010",
         description: "Centelhador a gás"
     },
     {
-        code: "8536.30.90",
+        code: "85363090",
         description: "Outros"
     },
     {
-        code: "8536.4",
+        code: "85364",
         description: "- Relés:"
     },
     {
-        code: "8536.41.00",
+        code: "85364100",
         description: "-- Para uma tensão não superior a 60 V"
     },
     {
-        code: "8536.49.00",
+        code: "85364900",
         description: "-- Outros"
     },
     {
-        code: "8536.50",
+        code: "853650",
         description: "- Outros interruptores, seccionadores e comutadores"
     },
     {
-        code: "8536.50.10",
+        code: "85365010",
         description: "Unidade chaveadora de conversor de subida e descida para sistema de telecomunicações via satélite"
     },
     {
-        code: "8536.50.20",
+        code: "85365020",
         description: "Unidade chaveadora de amplificador de alta potência (HPA) para sistema de telecomunicações via satélite"
     },
     {
-        code: "8536.50.30",
+        code: "85365030",
         description: "Comutadores codificadores digitais, próprios para montagem em circuitos impressos"
     },
     {
-        code: "8536.50.90",
+        code: "85365090",
         description: "Outros"
     },
     {
-        code: "8536.6",
+        code: "85366",
         description: "- Suportes para lâmpadas, plugues (fichas*) e tomadas de corrente:"
     },
     {
-        code: "8536.61.00",
+        code: "85366100",
         description: "-- Suportes para lâmpadas"
     },
     {
-        code: "8536.69",
+        code: "853669",
         description: "-- Outros"
     },
     {
-        code: "8536.69.10",
+        code: "85366910",
         description: "Tomada polarizada e tomada blindada"
     },
     {
-        code: "8536.69.90",
+        code: "85366990",
         description: "Outros"
     },
     {
-        code: "8536.70.00",
+        code: "85367000",
         description: "- Conectores para fibras ópticas, feixes ou cabos de fibras ópticas"
     },
     {
-        code: "8536.90",
+        code: "853690",
         description: "- Outros aparelhos"
     },
     {
-        code: "8536.90.10",
+        code: "85369010",
         description: "Conectores para cabos planos constituídos por condutores paralelos isolados individualmente"
     },
     {
-        code: "8536.90.20",
+        code: "85369020",
         description: "Tomadas de contato deslizante em condutores aéreos"
     },
     {
-        code: "8536.90.30",
+        code: "85369030",
         description: "Soquetes para microestruturas eletrônicas"
     },
     {
-        code: "8536.90.40",
+        code: "85369040",
         description: "Conectores para circuito impresso"
     },
     {
-        code: "8536.90.50",
+        code: "85369050",
         description: "Terminais de conexão para condensadores, mesmo montados em suporte isolante"
     },
     {
-        code: "8536.90.60",
+        code: "85369060",
         description:
             "Conector de corrente elétrica para acoplamento através da carcaça, do tipo utilizado em motocompressores herméticos de refrigeração"
     },
     {
-        code: "8536.90.90",
+        code: "85369090",
         description: "Outros"
     },
     {
-        code: "85.37",
+        code: "8537",
         description:
-            "Quadros, painéis, consoles, cabinas, armários e outros suportes com dois ou mais aparelhos das posições 85.35 ou 85.36, para comando elétrico ou distribuição de energia elétrica, incluindo os que incorporem instrumentos ou aparelhos do Capítulo 90, bem como os aparelhos de comando numérico, exceto os aparelhos de comutação da posição 85.17."
+            "Quadros, painéis, consoles, cabinas, armários e outros suportes com dois ou mais aparelhos das posições 8535 ou 8536, para comando elétrico ou distribuição de energia elétrica, incluindo os que incorporem instrumentos ou aparelhos do Capítulo 90, bem como os aparelhos de comando numérico, exceto os aparelhos de comutação da posição 8517"
     },
     {
-        code: "8537.10",
-        description: "- Para uma tensão não superior a 1.000 V"
+        code: "853710",
+        description: "- Para uma tensão não superior a 1000 V"
     },
     {
-        code: "8537.10.1",
+        code: "8537101",
         description: "Comando numérico computadorizado (CNC)"
     },
     {
-        code: "8537.10.11",
+        code: "85371011",
         description:
             "Com processador e barramento de 32 bits ou superior, incorporando recursos gráficos e execução de macros, resolução inferior ou igual a 1 micrômetro (mícron) e capacidade de conexão digital para servo-acionamento, com monitor policromático"
     },
     {
-        code: "8537.10.19",
+        code: "85371019",
         description: "Outros"
     },
     {
-        code: "8537.10.20",
+        code: "85371020",
         description: "Controladores programáveis"
     },
     {
-        code: "8537.10.30",
+        code: "85371030",
         description: "Controladores de demanda de energia elétrica"
     },
     {
-        code: "8537.10.90",
+        code: "85371090",
         description: "Outros"
     },
     {
-        code: "8537.20",
-        description: "- Para uma tensão superior a 1.000 V"
+        code: "853720",
+        description: "- Para uma tensão superior a 1000 V"
     },
     {
-        code: "8537.20.10",
+        code: "85372010",
         description:
             "Subestações isoladas a gás (GIS - <i>Gas-Insulated Switchgear</i> ou HIS - <i>Highly Integrated Switchgear</i>), para uma tensão superior a 52 kV"
     },
     {
-        code: "8537.20.90",
+        code: "85372090",
         description: "Outros"
     },
     {
-        code: "85.38",
-        description: "Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 85.35, 85.36 ou 85.37."
+        code: "8538",
+        description: "Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 8535, 8536 ou 8537"
     },
     {
-        code: "8538.10.00",
-        description: "- Quadros, painéis, consoles, cabinas, armários e outros suportes, da posição 85.37, desprovidos dos seus aparelhos"
+        code: "85381000",
+        description: "- Quadros, painéis, consoles, cabinas, armários e outros suportes, da posição 8537, desprovidos dos seus aparelhos"
     },
     {
-        code: "8538.90",
+        code: "853890",
         description: "- Outras"
     },
     {
-        code: "8538.90.10",
+        code: "85389010",
         description: "Circuitos impressos com componentes elétricos ou eletrônicos, montados"
     },
     {
-        code: "8538.90.20",
+        code: "85389020",
         description: "De disjuntores, para uma tensão igual ou superior a 72,5 kV"
     },
     {
-        code: "8538.90.90",
+        code: "85389090",
         description: "Outras"
     },
     {
-        code: "85.39",
+        code: "8539",
         description:
-            'Lâmpadas e tubos elétricos de incandescência ou de descarga, incluindo os artigos denominados "faróis e projetores, em unidades seladas" e as lâmpadas e tubos de raios ultravioleta ou infravermelhos; lâmpadas de arco; fontes de luz de diodos emissores de luz (LED).'
+            'Lâmpadas e tubos elétricos de incandescência ou de descarga, incluindo os artigos denominados "faróis e projetores, em unidades seladas" e as lâmpadas e tubos de raios ultravioleta ou infravermelhos; lâmpadas de arco; fontes de luz de diodos emissores de luz (LED)'
     },
     {
-        code: "8539.10",
+        code: "853910",
         description: '- Artigos denominados "faróis e projetores, em unidades seladas"'
     },
     {
-        code: "8539.10.10",
+        code: "85391010",
         description: "Para uma tensão inferior ou igual a 15 V"
     },
     {
-        code: "8539.10.90",
+        code: "85391090",
         description: "Outros"
     },
     {
-        code: "8539.2",
+        code: "85392",
         description: "- Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos:"
     },
     {
-        code: "8539.21",
+        code: "853921",
         description: "-- Halógenos, de tungstênio (volfrâmio)"
     },
     {
-        code: "8539.21.10",
+        code: "85392110",
         description: "Para uma tensão inferior ou igual a 15 V"
     },
     {
-        code: "8539.21.90",
+        code: "85392190",
         description: "Outros"
     },
     {
-        code: "8539.22.00",
+        code: "85392200",
         description: "-- Outros, de potência não superior a 200 W e uma tensão superior a 100 V"
     },
     {
-        code: "8539.29",
+        code: "853929",
         description: "-- Outros"
     },
     {
-        code: "8539.29.10",
+        code: "85392910",
         description: "Para uma tensão inferior ou igual a 15 V"
     },
     {
-        code: "8539.29.90",
+        code: "85392990",
         description: "Outros"
     },
     {
-        code: "8539.3",
+        code: "85393",
         description: "- Lâmpadas e tubos de descarga, exceto de raios ultravioleta:"
     },
     {
-        code: "8539.31",
+        code: "853931",
         description: "-- Fluorescentes, de cátodo quente"
     },
     {
-        code: "8539.31.1",
+        code: "8539311",
         description: "Lâmpadas, com reator eletrônico incorporado e base rosca E 14, E 27 ou E 40"
     },
     {
-        code: "8539.31.11",
+        code: "85393111",
         description: "Que contenham mais de 5 mg de mercúrio por cada invólucro (tubo)"
     },
     {
-        code: "8539.31.19",
+        code: "85393119",
         description: "Outras"
     },
     {
-        code: "8539.31.20",
+        code: "85393120",
         description: "Outras lâmpadas"
     },
     {
-        code: "8539.31.3",
+        code: "8539313",
         description: "Tubos"
     },
     {
-        code: "8539.31.31",
+        code: "85393131",
         description: "Com fósforo tribanda e que contenham mais de 5 mg de mercúrio"
     },
     {
-        code: "8539.31.32",
+        code: "85393132",
         description: "Com fósforo em halofosfato e que contenham mais de 10 mg de mercúrio"
     },
     {
-        code: "8539.31.39",
+        code: "85393139",
         description: "Outros"
     },
     {
-        code: "8539.32",
+        code: "853932",
         description: "-- Lâmpadas de vapor de mercúrio ou de sódio; lâmpadas de halogeneto metálico"
     },
     {
-        code: "8539.32.10",
+        code: "85393210",
         description: "De vapor de mercúrio"
     },
     {
-        code: "8539.32.20",
+        code: "85393220",
         description: "De vapor de sódio"
     },
     {
-        code: "8539.32.30",
+        code: "85393230",
         description: "De halogeneto metálico"
     },
     {
-        code: "8539.39",
+        code: "853939",
         description: "-- Outros"
     },
     {
-        code: "8539.39.1",
+        code: "8539391",
         description: "Tubos fluorescentes de cátodo frio ou de eletrodo externo, para telas eletrônicas"
     },
     {
-        code: "8539.39.11",
+        code: "85393911",
         description: "De comprimento não superior a 500 mm e que contenham mais de 3,5 mg de mercúrio"
     },
     {
-        code: "8539.39.12",
-        description: "De comprimento superior a 500 mm, mas não superior a 1.500 mm e que contenham mais de 5 mg de mercúrio"
+        code: "85393912",
+        description: "De comprimento superior a 500 mm, mas não superior a 1500 mm e que contenham mais de 5 mg de mercúrio"
     },
     {
-        code: "8539.39.13",
-        description: "De comprimento superior a 1.500 mm e que contenham mais de 13 mg de mercúrio"
+        code: "85393913",
+        description: "De comprimento superior a 1500 mm e que contenham mais de 13 mg de mercúrio"
     },
     {
-        code: "8539.39.19",
+        code: "85393919",
         description: "Outros"
     },
     {
-        code: "8539.39.90",
+        code: "85393990",
         description: "Outros"
     },
     {
-        code: "8539.4",
+        code: "85394",
         description: "- Lâmpadas e tubos de raios ultravioleta ou infravermelhos; lâmpadas de arco:"
     },
     {
-        code: "8539.41",
+        code: "853941",
         description: "-- Lâmpadas de arco"
     },
     {
-        code: "8539.41.10",
-        description: "De potência igual ou superior a 1.000 W"
+        code: "85394110",
+        description: "De potência igual ou superior a 1000 W"
     },
     {
-        code: "8539.41.90",
+        code: "85394190",
         description: "Outras"
     },
     {
-        code: "8539.49.00",
+        code: "85394900",
         description: "-- Outros"
     },
     {
-        code: "8539.5",
+        code: "85395",
         description: "- Fontes de luz de diodos emissores de luz (LED):"
     },
     {
-        code: "8539.51.00",
+        code: "85395100",
         description: "-- Módulos de diodos emissores de luz (LED)"
     },
     {
-        code: "8539.52.00",
+        code: "85395200",
         description: "-- Lâmpadas e tubos de diodos emissores de luz (LED)"
     },
     {
-        code: "8539.90",
+        code: "853990",
         description: "- Partes"
     },
     {
-        code: "8539.90.10",
+        code: "85399010",
         description: "Eletrodos"
     },
     {
-        code: "8539.90.20",
+        code: "85399020",
         description: "Bases"
     },
     {
-        code: "8539.90.90",
+        code: "85399090",
         description: "Outras"
     },
     {
-        code: "85.40",
+        code: "8540",
         description:
-            "Lâmpadas, tubos e válvulas, eletrônicos, de cátodo quente, cátodo frio ou fotocátodo (por exemplo, lâmpadas, tubos e válvulas, de vácuo, de vapor ou de gás, ampolas retificadoras de vapor de mercúrio, tubos catódicos, tubos e válvulas para câmeras de televisão), exceto os da posição 85.39."
+            "Lâmpadas, tubos e válvulas, eletrônicos, de cátodo quente, cátodo frio ou fotocátodo (por exemplo, lâmpadas, tubos e válvulas, de vácuo, de vapor ou de gás, ampolas retificadoras de vapor de mercúrio, tubos catódicos, tubos e válvulas para câmeras de televisão), exceto os da posição 8539"
     },
     {
-        code: "8540.1",
+        code: "85401",
         description: "- Tubos catódicos para receptores de televisão, incluindo os tubos para monitores de vídeo:"
     },
     {
-        code: "8540.11.00",
+        code: "85401100",
         description: "-- A cores"
     },
     {
-        code: "8540.12.00",
+        code: "85401200",
         description: "-- A preto e branco ou outros monocromos"
     },
     {
-        code: "8540.20",
+        code: "854020",
         description: "- Tubos para câmeras de televisão; tubos conversores ou intensificadores de imagens; outros tubos de fotocátodo"
     },
     {
-        code: "8540.20.1",
+        code: "8540201",
         description: "Tubos para câmeras de televisão"
     },
     {
-        code: "8540.20.11",
+        code: "85402011",
         description: "A preto e branco ou outros monocromos"
     },
     {
-        code: "8540.20.19",
+        code: "85402019",
         description: "Outros"
     },
     {
-        code: "8540.20.20",
+        code: "85402020",
         description: "Tubos conversores ou intensificadores de imagens, de raios X"
     },
     {
-        code: "8540.20.90",
+        code: "85402090",
         description: "Outros"
     },
     {
-        code: "8540.40.00",
+        code: "85404000",
         description:
             "- Tubos de visualização de dados gráficos, em monocromos; tubos de visualização de dados gráficos, a cores, com uma tela (ecrã*) fosfórica de espaçamento entre os pontos inferior a 0,4 mm"
     },
     {
-        code: "8540.60",
+        code: "854060",
         description: "- Outros tubos catódicos"
     },
     {
-        code: "8540.60.10",
+        code: "85406010",
         description: "Tubos de visualização de dados gráficos, em cores, com uma tela de espaçamento entre os pontos igual ou superior a 0,4 mm"
     },
     {
-        code: "8540.60.90",
+        code: "85406090",
         description: "Outros"
     },
     {
-        code: "8540.7",
+        code: "85407",
         description:
             "- Tubos para micro-ondas (por exemplo, magnétrons, clístrons, guias (tubos) de ondas progressivas, carcinotrons), excluindo os tubos comandados por grade (grelha):"
     },
     {
-        code: "8540.71.00",
+        code: "85407100",
         description: "-- Magnétrons"
     },
     {
-        code: "8540.79.00",
+        code: "85407900",
         description: "-- Outros"
     },
     {
-        code: "8540.8",
+        code: "85408",
         description: "- Outras lâmpadas, tubos e válvulas:"
     },
     {
-        code: "8540.81.00",
+        code: "85408100",
         description: "-- Tubos de recepção ou de amplificação"
     },
     {
-        code: "8540.89",
+        code: "854089",
         description: "-- Outros"
     },
     {
-        code: "8540.89.10",
+        code: "85408910",
         description: "Válvulas de potência para transmissores"
     },
     {
-        code: "8540.89.90",
+        code: "85408990",
         description: "Outros"
     },
     {
-        code: "8540.9",
+        code: "85409",
         description: "- Partes:"
     },
     {
-        code: "8540.91",
+        code: "854091",
         description: "-- De tubos catódicos"
     },
     {
-        code: "8540.91.10",
+        code: "85409110",
         description: "Bobinas de deflexão (<i>yokes</i>)"
     },
     {
-        code: "8540.91.20",
+        code: "85409120",
         description: "Núcleos de pó ferromagnético para bobinas de deflexão (<i>yokes</i>)"
     },
     {
-        code: "8540.91.30",
+        code: "85409130",
         description: "Canhões eletrônicos"
     },
     {
-        code: "8540.91.40",
+        code: "85409140",
         description: "Painel de vidro, máscara de sombra e blindagem interna, reunidos, para tubos tricromáticos"
     },
     {
-        code: "8540.91.90",
+        code: "85409190",
         description: "Outras"
     },
     {
-        code: "8540.99.00",
+        code: "85409900",
         description: "-- Outras"
     },
     {
-        code: "85.41",
+        code: "8541",
         description:
-            "Dispositivos semicondutores (por exemplo, diodos, transistores, transdutores à base de semicondutores); dispositivos fotossensíveis semicondutores, incluindo as células fotovoltaicas, mesmo montadas em módulos ou em painéis; diodos emissores de luz (LED), mesmo montados com outros diodos emissores de luz (LED); cristais piezelétricos montados."
+            "Dispositivos semicondutores (por exemplo, diodos, transistores, transdutores à base de semicondutores); dispositivos fotossensíveis semicondutores, incluindo as células fotovoltaicas, mesmo montadas em módulos ou em painéis; diodos emissores de luz (LED), mesmo montados com outros diodos emissores de luz (LED); cristais piezelétricos montados"
     },
     {
-        code: "8541.10",
+        code: "854110",
         description: "- Diodos, exceto fotodiodos e diodos emissores de luz (LED)"
     },
     {
-        code: "8541.10.1",
+        code: "8541101",
         description: "Não montados"
     },
     {
-        code: "8541.10.11",
+        code: "85411011",
         description: "Zener"
     },
     {
-        code: "8541.10.12",
+        code: "85411012",
         description: "Outros, de intensidade de corrente inferior ou igual a 3 A"
     },
     {
-        code: "8541.10.19",
+        code: "85411019",
         description: "Outros"
     },
     {
-        code: "8541.10.2",
+        code: "8541102",
         description: "Montados, próprios para montagem em superfície (SMD - <i>Surface Mounted Device</i>)"
     },
     {
-        code: "8541.10.21",
+        code: "85411021",
         description: "Zener"
     },
     {
-        code: "8541.10.22",
+        code: "85411022",
         description: "Outros, de intensidade de corrente inferior ou igual a 3 A"
     },
     {
-        code: "8541.10.29",
+        code: "85411029",
         description: "Outros"
     },
     {
-        code: "8541.10.3",
+        code: "8541103",
         description: "Montados, próprios para montagem por inserção (PTH - <i>Pin Through Hole</i>)"
     },
     {
-        code: "8541.10.31",
+        code: "85411031",
         description: "Zener"
     },
     {
-        code: "8541.10.32",
+        code: "85411032",
         description: "Outros, de intensidade de corrente inferior ou igual a 3 A"
     },
     {
-        code: "8541.10.39",
+        code: "85411039",
         description: "Outros"
     },
     {
-        code: "8541.10.9",
+        code: "8541109",
         description: "Outros"
     },
     {
-        code: "8541.10.91",
+        code: "85411091",
         description: "Zener"
     },
     {
-        code: "8541.10.92",
+        code: "85411092",
         description: "Outros, de intensidade de corrente inferior ou igual a 3 A"
     },
     {
-        code: "8541.10.99",
+        code: "85411099",
         description: "Outros"
     },
     {
-        code: "8541.2",
+        code: "85412",
         description: "- Transistores, exceto os fototransistores:"
     },
     {
-        code: "8541.21",
+        code: "854121",
         description: "-- Com capacidade de dissipação inferior a 1 W"
     },
     {
-        code: "8541.21.10",
+        code: "85412110",
         description: "Não montados"
     },
     {
-        code: "8541.21.20",
+        code: "85412120",
         description: "Montados, próprios para montagem em superfície (SMD - <i>Surface Mounted Device</i>)"
     },
     {
-        code: "8541.21.9",
+        code: "8541219",
         description: "Outros"
     },
     {
-        code: "8541.21.91",
+        code: "85412191",
         description: "De efeito de campo, com junção heterogênea (HJFET ou HEMT)"
     },
     {
-        code: "8541.21.99",
+        code: "85412199",
         description: "Outros"
     },
     {
-        code: "8541.29",
+        code: "854129",
         description: "-- Outros"
     },
     {
-        code: "8541.29.10",
+        code: "85412910",
         description: "Não montados"
     },
     {
-        code: "8541.29.20",
+        code: "85412920",
         description: "Montados"
     },
     {
-        code: "8541.30",
+        code: "854130",
         description: "- Tiristores, <i>diacs</i> e <i>triacs</i>, exceto os dispositivos fotossensíveis"
     },
     {
-        code: "8541.30.1",
+        code: "8541301",
         description: "Não montados"
     },
     {
-        code: "8541.30.11",
+        code: "85413011",
         description: "De intensidade de corrente inferior ou igual a 3 A"
     },
     {
-        code: "8541.30.19",
+        code: "85413019",
         description: "Outros"
     },
     {
-        code: "8541.30.2",
+        code: "8541302",
         description: "Montados"
     },
     {
-        code: "8541.30.21",
+        code: "85413021",
         description: "De intensidade de corrente inferior ou igual a 3 A"
     },
     {
-        code: "8541.30.29",
+        code: "85413029",
         description: "Outros"
     },
     {
-        code: "8541.4",
+        code: "85414",
         description:
             "- Dispositivos fotossensíveis semicondutores, incluindo as células fotovoltaicas, mesmo montadas em módulos ou em painéis; diodos emissores de luz (LED):"
     },
     {
-        code: "8541.41",
+        code: "854141",
         description: "-- Diodos emissores de luz (LED)"
     },
     {
-        code: "8541.41.1",
+        code: "8541411",
         description: "Não montados"
     },
     {
-        code: "8541.41.11",
+        code: "85414111",
         description: "Diodos emissores de luz (LED), exceto diodos laser"
     },
     {
-        code: "8541.41.12",
+        code: "85414112",
         description: "Diodos laser"
     },
     {
-        code: "8541.41.2",
+        code: "8541412",
         description: "Montados"
     },
     {
-        code: "8541.41.21",
+        code: "85414121",
         description: "Diodos emissores de luz (LED), exceto diodos laser, próprios para montagem em superfície (SMD - <i>Surface Mounted Device</i>)"
     },
     {
-        code: "8541.41.22",
+        code: "85414122",
         description: "Outros diodos emissores de luz (LED), exceto diodos laser"
     },
     {
-        code: "8541.41.23",
-        description: "Diodos laser com comprimento de onda de 1.300 nm ou 1.500 nm"
+        code: "85414123",
+        description: "Diodos laser com comprimento de onda de 1300 nm ou 1500 nm"
     },
     {
-        code: "8541.41.24",
+        code: "85414124",
         description: "Outros diodos laser"
     },
     {
-        code: "8541.42",
+        code: "854142",
         description: "-- Células fotovoltaicas não montadas em módulos nem em painéis"
     },
     {
-        code: "8541.42.10",
+        code: "85414210",
         description: "Células solares orgânicas"
     },
     {
-        code: "8541.42.20",
+        code: "85414220",
         description: "Outras células solares"
     },
     {
-        code: "8541.42.90",
+        code: "85414290",
         description: "Outras"
     },
     {
-        code: "8541.43.00",
+        code: "85414300",
         description: "-- Células fotovoltaicas montadas em módulos ou em painéis"
     },
     {
-        code: "8541.49.00",
+        code: "85414900",
         description: "-- Outros"
     },
     {
-        code: "8541.5",
+        code: "85415",
         description: "- Outros dispositivos semicondutores:"
     },
     {
-        code: "8541.51.00",
+        code: "85415100",
         description: "-- Transdutores à base de semicondutores"
     },
     {
-        code: "8541.59.00",
+        code: "85415900",
         description: "-- Outros"
     },
     {
-        code: "8541.60",
+        code: "854160",
         description: "- Cristais piezelétricos montados"
     },
     {
-        code: "8541.60.10",
+        code: "85416010",
         description: "De quartzo, de frequência igual ou superior a 1 MHz, mas não superior a 100 MHz"
     },
     {
-        code: "8541.60.90",
+        code: "85416090",
         description: "Outros"
     },
     {
-        code: "8541.90",
+        code: "854190",
         description: "- Partes"
     },
     {
-        code: "8541.90.10",
+        code: "85419010",
         description: "Suportes-conectores apresentados em tiras (<i>lead frames</i>)"
     },
     {
-        code: "8541.90.20",
+        code: "85419020",
         description: "Coberturas para encapsulamento (cápsulas)"
     },
     {
-        code: "8541.90.90",
+        code: "85419090",
         description: "Outras"
     },
     {
-        code: "85.42",
-        description: "Circuitos integrados eletrônicos."
+        code: "8542",
+        description: "Circuitos integrados eletrônicos"
     },
     {
-        code: "8542.3",
+        code: "85423",
         description: "- Circuitos integrados eletrônicos:"
     },
     {
-        code: "8542.31",
+        code: "854231",
         description:
             "-- Processadores e controladores, mesmo combinados com memórias, conversores, circuitos lógicos, amplificadores, circuitos temporizadores e de sincronização, ou outros circuitos"
     },
     {
-        code: "8542.31.10",
+        code: "85423110",
         description: "Não montados"
     },
     {
-        code: "8542.31.20",
+        code: "85423120",
         description: "Montados, próprios para montagem em superfície (SMD - <i>Surface Mounted Device</i>)"
     },
     {
-        code: "8542.31.90",
+        code: "85423190",
         description: "Outros"
     },
     {
-        code: "8542.32",
+        code: "854232",
         description: "-- Memórias"
     },
     {
-        code: "8542.32.10",
+        code: "85423210",
         description: "Não montadas"
     },
     {
-        code: "8542.32.2",
+        code: "8542322",
         description: "Montadas, próprias para montagem em superfície (SMD - <i>Surface Mounted Device</i>)"
     },
     {
-        code: "8542.32.21",
+        code: "85423221",
         description: "Dos tipos RAM estáticas (SRAM) com tempo de acesso inferior ou igual a 25 ns, EPROM, EEPROM, PROM, ROM e FLASH"
     },
     {
-        code: "8542.32.29",
+        code: "85423229",
         description: "Outras"
     },
     {
-        code: "8542.32.9",
+        code: "8542329",
         description: "Outras"
     },
     {
-        code: "8542.32.91",
+        code: "85423291",
         description: "Dos tipos RAM estáticas (SRAM) com tempo de acesso inferior ou igual a 25 ns, EPROM, EEPROM, PROM, ROM e FLASH"
     },
     {
-        code: "8542.32.99",
+        code: "85423299",
         description: "Outras"
     },
     {
-        code: "8542.33",
+        code: "854233",
         description: "-- Amplificadores"
     },
     {
-        code: "8542.33.1",
+        code: "8542331",
         description: "Híbridos"
     },
     {
-        code: "8542.33.11",
+        code: "85423311",
         description: "De espessura de camada inferior ou igual a 1 micrômetro (mícron) com frequência de operação igual ou superior a 800 MHz"
     },
     {
-        code: "8542.33.19",
+        code: "85423319",
         description: "Outros"
     },
     {
-        code: "8542.33.20",
+        code: "85423320",
         description: "Outros, não montados"
     },
     {
-        code: "8542.33.90",
+        code: "85423390",
         description: "Outros"
     },
     {
-        code: "8542.39",
+        code: "854239",
         description: "-- Outros"
     },
     {
-        code: "8542.39.1",
+        code: "8542391",
         description: "Híbridos"
     },
     {
-        code: "8542.39.11",
+        code: "85423911",
         description: "De espessura de camada inferior ou igual a 1 micrômetro (mícron) com frequência de operação igual ou superior a 800 MHz"
     },
     {
-        code: "8542.39.19",
+        code: "85423919",
         description: "Outros"
     },
     {
-        code: "8542.39.20",
+        code: "85423920",
         description: "Outros, não montados"
     },
     {
-        code: "8542.39.3",
+        code: "8542393",
         description: "Outros, montados, próprios para montagem em superfície (SMD - <i>Surface Mounted Device</i>)"
     },
     {
-        code: "8542.39.31",
+        code: "85423931",
         description: "Circuitos do tipo <i>chipset</i>"
     },
     {
-        code: "8542.39.39",
+        code: "85423939",
         description: "Outros"
     },
     {
-        code: "8542.39.9",
+        code: "8542399",
         description: "Outros"
     },
     {
-        code: "8542.39.91",
+        code: "85423991",
         description: "Circuitos do tipo <i>chipset</i>"
     },
     {
-        code: "8542.39.99",
+        code: "85423999",
         description: "Outros"
     },
     {
-        code: "8542.90.00",
+        code: "85429000",
         description: "- Partes"
     },
     {
-        code: "85.43",
-        description: "Máquinas e aparelhos elétricos com função própria, não especificados nem compreendidos noutras posições do presente Capítulo."
+        code: "8543",
+        description: "Máquinas e aparelhos elétricos com função própria, não especificados nem compreendidos noutras posições do presente Capítulo"
     },
     {
-        code: "8543.10.00",
+        code: "85431000",
         description: "- Aceleradores de partículas"
     },
     {
-        code: "8543.20.00",
+        code: "85432000",
         description: "- Geradores de sinais"
     },
     {
-        code: "8543.30",
+        code: "854330",
         description: "- Máquinas e aparelhos de galvanoplastia, eletrólise ou eletroforese"
     },
     {
-        code: "8543.30.10",
+        code: "85433010",
         description: "De eletrólise, com células de membrana"
     },
     {
-        code: "8543.30.90",
+        code: "85433090",
         description: "Outros"
     },
     {
-        code: "8543.40.00",
+        code: "85434000",
         description: "- Cigarros eletrônicos e dispositivos de vaporização elétricos de uso pessoal semelhantes"
     },
     {
-        code: "8543.70",
+        code: "854370",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "8543.70.1",
+        code: "8543701",
         description: "Amplificadores de radiofrequência"
     },
     {
-        code: "8543.70.11",
+        code: "85437011",
         description:
             "Para transmissão de sinais de micro-ondas de alta potência (HPA), a válvula TWT do tipo <i>Phase Combiner</i>, com potência de saída superior a 2,7 kW"
     },
     {
-        code: "8543.70.12",
+        code: "85437012",
         description:
-            "Para recepção de sinais de micro-ondas de baixo ruído (LNA) na banda de 3.600 a 4.200 MHz, com temperatura menor ou igual a 55 Kelvin, para telecomunicações via satélite"
+            "Para recepção de sinais de micro-ondas de baixo ruído (LNA) na banda de 3600 a 4200 MHz, com temperatura menor ou igual a 55 Kelvin, para telecomunicações via satélite"
     },
     {
-        code: "8543.70.13",
+        code: "85437013",
         description: "Para distribuição de sinais de televisão"
     },
     {
-        code: "8543.70.14",
+        code: "85437014",
         description: "Outros para recepção de sinais de micro-ondas"
     },
     {
-        code: "8543.70.15",
+        code: "85437015",
         description: "Outros para transmissão de sinais de micro-ondas"
     },
     {
-        code: "8543.70.19",
+        code: "85437019",
         description: "Outros"
     },
     {
-        code: "8543.70.20",
+        code: "85437020",
         description: "Aparelhos para eletrocutar insetos"
     },
     {
-        code: "8543.70.3",
+        code: "8543703",
         description: "Máquinas e aparelhos auxiliares para vídeo"
     },
     {
-        code: "8543.70.31",
+        code: "85437031",
         description:
             "Geradores de efeitos especiais com manipulação em 2 ou 3 dimensões, mesmo combinados com dispositivo de comutação, de mais de 10 entradas de áudio ou de vídeo"
     },
     {
-        code: "8543.70.32",
+        code: "85437032",
         description: "Geradores de caracteres, digitais"
     },
     {
-        code: "8543.70.33",
+        code: "85437033",
         description: "Sincronizadores de quadro armazenadores ou corretores de base de tempo"
     },
     {
-        code: "8543.70.34",
+        code: "85437034",
         description: "Controladores de edição"
     },
     {
-        code: "8543.70.35",
+        code: "85437035",
         description: "Misturador digital, em tempo real, com oito ou mais entradas"
     },
     {
-        code: "8543.70.36",
+        code: "85437036",
         description: "Roteador-comutador (<i>routing switcher</i>) de mais de 20 entradas e mais de 16 saídas, de áudio ou de vídeo"
     },
     {
-        code: "8543.70.39",
+        code: "85437039",
         description: "Outros"
     },
     {
-        code: "8543.70.40",
+        code: "85437040",
         description: "Transcodificadores ou conversores de padrões de televisão"
     },
     {
-        code: "8543.70.50",
+        code: "85437050",
         description: "Simulador de antenas para transmissores com potência igual ou superior a 25 kW (carga fantasma)"
     },
     {
-        code: "8543.70.9",
+        code: "8543709",
         description: "Outros"
     },
     {
-        code: "8543.70.91",
+        code: "85437091",
         description:
             "Terminais de texto que operem com código de transmissão Baudot, providos de teclado alfanumérico e visor, para acoplamento exclusivamente acústico a telefone"
     },
     {
-        code: "8543.70.92",
+        code: "85437092",
         description: "Eletrificadores de cercas"
     },
     {
-        code: "8543.70.99",
+        code: "85437099",
         description: "Outros"
     },
     {
-        code: "8543.90",
+        code: "854390",
         description: "- Partes"
     },
     {
-        code: "8543.90.10",
-        description: "Das máquinas ou aparelhos da subposição 8543.70"
+        code: "85439010",
+        description: "Das máquinas ou aparelhos da subposição 854370"
     },
     {
-        code: "8543.90.90",
+        code: "85439090",
         description: "Outras"
     },
     {
-        code: "85.44",
+        code: "8544",
         description:
-            "Fios, cabos (incluindo os cabos coaxiais) e outros condutores, isolados para usos elétricos (incluindo os envernizados ou oxidados anodicamente), mesmo com peças de conexão; cabos de fibras ópticas, constituídos por fibras embainhadas individualmente, mesmo com condutores elétricos ou munidos de peças de conexão."
+            "Fios, cabos (incluindo os cabos coaxiais) e outros condutores, isolados para usos elétricos (incluindo os envernizados ou oxidados anodicamente), mesmo com peças de conexão; cabos de fibras ópticas, constituídos por fibras embainhadas individualmente, mesmo com condutores elétricos ou munidos de peças de conexão"
     },
     {
-        code: "8544.1",
+        code: "85441",
         description: "- Fios para bobinar:"
     },
     {
-        code: "8544.11.00",
+        code: "85441100",
         description: "-- De cobre"
     },
     {
-        code: "8544.19",
+        code: "854419",
         description: "-- Outros"
     },
     {
-        code: "8544.19.10",
+        code: "85441910",
         description: "De alumínio"
     },
     {
-        code: "8544.19.90",
+        code: "85441990",
         description: "Outros"
     },
     {
-        code: "8544.20.00",
+        code: "85442000",
         description: "- Cabos coaxiais e outros condutores elétricos coaxiais"
     },
     {
-        code: "8544.30.00",
+        code: "85443000",
         description: "- Jogos de fios para velas de ignição e outros jogos de fios do tipo utilizado em quaisquer veículos"
     },
     {
-        code: "8544.4",
-        description: "- Outros condutores elétricos, para uma tensão não superior a 1.000 V:"
+        code: "85444",
+        description: "- Outros condutores elétricos, para uma tensão não superior a 1000 V:"
     },
     {
-        code: "8544.42.00",
+        code: "85444200",
         description: "-- Munidos de peças de conexão"
     },
     {
-        code: "8544.49.00",
+        code: "85444900",
         description: "-- Outros"
     },
     {
-        code: "8544.60.00",
-        description: "- Outros condutores elétricos, para uma tensão superior a 1.000 V"
+        code: "85446000",
+        description: "- Outros condutores elétricos, para uma tensão superior a 1000 V"
     },
     {
-        code: "8544.70",
+        code: "854470",
         description: "- Cabos de fibras ópticas"
     },
     {
-        code: "8544.70.10",
+        code: "85447010",
         description: "Com revestimento externo de material dielétrico"
     },
     {
-        code: "8544.70.20",
+        code: "85447020",
         description: "Com revestimento externo de aço, próprios para instalação submarina (cabo submarino)"
     },
     {
-        code: "8544.70.30",
+        code: "85447030",
         description: "Com revestimento externo de alumínio"
     },
     {
-        code: "8544.70.90",
+        code: "85447090",
         description: "Outros"
     },
     {
-        code: "85.45",
+        code: "8545",
         description:
-            "Eletrodos de carvão, escovas de carvão, carvões para lâmpadas ou para pilhas e outros artigos de grafita ou de outro carvão, mesmo com metal, para usos elétricos."
+            "Eletrodos de carvão, escovas de carvão, carvões para lâmpadas ou para pilhas e outros artigos de grafita ou de outro carvão, mesmo com metal, para usos elétricos"
     },
     {
-        code: "8545.1",
+        code: "85451",
         description: "- Eletrodos:"
     },
     {
-        code: "8545.11.00",
+        code: "85451100",
         description: "-- Do tipo utilizado em fornos"
     },
     {
-        code: "8545.19",
+        code: "854519",
         description: "-- Outros"
     },
     {
-        code: "8545.19.10",
+        code: "85451910",
         description: "De grafita, com um teor de carbono igual ou superior a 99,9 %, em peso"
     },
     {
-        code: "8545.19.20",
+        code: "85451920",
         description: "Blocos de grafite, do tipo utilizado como cátodos em cubas eletrolíticas"
     },
     {
-        code: "8545.19.90",
+        code: "85451990",
         description: "Outros"
     },
     {
-        code: "8545.20.00",
+        code: "85452000",
         description: "- Escovas"
     },
     {
-        code: "8545.90",
+        code: "854590",
         description: "- Outros"
     },
     {
-        code: "8545.90.10",
+        code: "85459010",
         description: "Carvões para pilhas elétricas"
     },
     {
-        code: "8545.90.20",
+        code: "85459020",
         description: "Resistências aquecedoras desprovidas de revestimento e de terminais"
     },
     {
-        code: "8545.90.30",
+        code: "85459030",
         description: "Suportes de conexão (<i>nipples</i>), para eletrodos"
     },
     {
-        code: "8545.90.90",
+        code: "85459090",
         description: "Outros"
     },
     {
-        code: "85.46",
-        description: "Isoladores elétricos de qualquer matéria."
+        code: "8546",
+        description: "Isoladores elétricos de qualquer matéria"
     },
     {
-        code: "8546.10.00",
+        code: "85461000",
         description: "- De vidro"
     },
     {
-        code: "8546.20.00",
+        code: "85462000",
         description: "- De cerâmica"
     },
     {
-        code: "8546.90.00",
+        code: "85469000",
         description: "- Outros"
     },
     {
-        code: "85.47",
+        code: "8547",
         description:
-            "Peças isolantes inteiramente de matérias isolantes, ou com simples peças metálicas de montagem (suportes roscados, por exemplo) incorporadas na massa, para máquinas, aparelhos e instalações elétricas, exceto os isoladores da posição 85.46; tubos isoladores e suas peças de ligação, de metais comuns, isolados interiormente."
+            "Peças isolantes inteiramente de matérias isolantes, ou com simples peças metálicas de montagem (suportes roscados, por exemplo) incorporadas na massa, para máquinas, aparelhos e instalações elétricas, exceto os isoladores da posição 8546; tubos isoladores e suas peças de ligação, de metais comuns, isolados interiormente"
     },
     {
-        code: "8547.10.00",
+        code: "85471000",
         description: "- Peças isolantes de cerâmica"
     },
     {
-        code: "8547.20",
+        code: "854720",
         description: "- Peças isolantes de plástico"
     },
     {
-        code: "8547.20.10",
+        code: "85472010",
         description: "Tampões vedadores para condensadores, com perfurações para terminais"
     },
     {
-        code: "8547.20.90",
+        code: "85472090",
         description: "Outras"
     },
     {
-        code: "8547.90.00",
+        code: "85479000",
         description: "- Outros"
     },
     {
-        code: "8548.00",
-        description: "Partes elétricas de máquinas ou aparelhos, não especificadas nem compreendidas noutras posições do presente Capítulo."
+        code: "854800",
+        description: "Partes elétricas de máquinas ou aparelhos, não especificadas nem compreendidas noutras posições do presente Capítulo"
     },
     {
-        code: "8548.00.10",
+        code: "85480010",
         description: "Termopares do tipo utilizado em dispositivos termoelétricos de segurança de aparelhos alimentados a gás"
     },
     {
-        code: "8548.00.90",
+        code: "85480090",
         description: "Outras"
     },
     {
-        code: "85.49",
-        description: "Desperdícios e resíduos, e sucata, elétricos e eletrônicos."
+        code: "8549",
+        description: "Desperdícios e resíduos, e sucata, elétricos e eletrônicos"
     },
     {
-        code: "8549.1",
+        code: "85491",
         description:
             "- Desperdícios e resíduos, e sucata, de pilhas, de baterias de pilhas e de acumuladores, elétricos; pilhas, baterias de pilhas e acumuladores, elétricos, inservíveis:"
     },
     {
-        code: "8549.11.00",
+        code: "85491100",
         description: "-- Desperdícios e resíduos, e sucata, de acumuladores de chumbo-ácido; acumuladores de chumbo-ácido inservíveis"
     },
     {
-        code: "8549.12.00",
+        code: "85491200",
         description: "-- Outros, que contenham chumbo, cádmio ou mercúrio"
     },
     {
-        code: "8549.13.00",
+        code: "85491300",
         description: "-- Selecionados por tipo de componente químico e que não contenham chumbo, cádmio ou mercúrio"
     },
     {
-        code: "8549.14.00",
+        code: "85491400",
         description: "-- Não selecionados e que não contenham chumbo, cádmio ou mercúrio"
     },
     {
-        code: "8549.19.00",
+        code: "85491900",
         description: "-- Outros"
     },
     {
-        code: "8549.2",
+        code: "85492",
         description: "- Do tipo utilizado principalmente para a recuperação de metais preciosos:"
     },
     {
-        code: "8549.21.00",
+        code: "85492100",
         description:
             "-- Que contenham pilhas, baterias de pilhas ou acumuladores, elétricos, interruptores de mercúrio, vidro de tubos catódicos ou outros vidros ativados, ou componentes elétricos ou eletrônicos que contenham cádmio, mercúrio, chumbo ou policlorobifenilas (PCB)"
     },
     {
-        code: "8549.29.00",
+        code: "85492900",
         description: "-- Outros"
     },
     {
-        code: "8549.3",
+        code: "85493",
         description: "- Outras montagens elétricas e eletrônicas e placas de circuitos impressos:"
     },
     {
-        code: "8549.31.00",
+        code: "85493100",
         description:
             "-- Que contenham pilhas, baterias de pilhas ou acumuladores, elétricos, interruptores de mercúrio, vidro de tubos catódicos ou outros vidros ativados, ou componentes elétricos ou eletrônicos que contenham cádmio, mercúrio, chumbo ou policlorobifenilas (PCB)"
     },
     {
-        code: "8549.39.00",
+        code: "85493900",
         description: "-- Outras"
     },
     {
-        code: "8549.9",
+        code: "85499",
         description: "- Outros:"
     },
     {
-        code: "8549.91.00",
+        code: "85499100",
         description:
             "-- Que contenham pilhas, baterias de pilhas ou acumuladores, elétricos, interruptores de mercúrio, vidro de tubos catódicos ou outros vidros ativados, ou componentes elétricos ou eletrônicos que contenham cádmio, mercúrio, chumbo ou policlorobifenilas (PCB)"
     },
     {
-        code: "8549.99.00",
+        code: "85499900",
         description: "-- Outros"
     },
     {
         code: "86",
         description:
-            "Veículos e material para vias férreas ou semelhantes, e suas partes; aparelhos mecânicos (incluindo os eletromecânicos) de sinalização para vias de comunicação."
+            "Veículos e material para vias férreas ou semelhantes, e suas partes; aparelhos mecânicos (incluindo os eletromecânicos) de sinalização para vias de comunicação"
     },
     {
-        code: "86.01",
-        description: "Locomotivas e locotratores, de fonte externa de eletricidade ou de acumuladores elétricos."
+        code: "8601",
+        description: "Locomotivas e locotratores, de fonte externa de eletricidade ou de acumuladores elétricos"
     },
     {
-        code: "8601.10.00",
+        code: "86011000",
         description: "- De fonte externa de eletricidade"
     },
     {
-        code: "8601.20.00",
+        code: "86012000",
         description: "- De acumuladores elétricos"
     },
     {
-        code: "86.02",
-        description: "Outras locomotivas e locotratores; tênderes."
+        code: "8602",
+        description: "Outras locomotivas e locotratores; tênderes"
     },
     {
-        code: "8602.10.00",
+        code: "86021000",
         description: "- Locomotivas diesel-elétricas"
     },
     {
-        code: "8602.90.00",
+        code: "86029000",
         description: "- Outros"
     },
     {
-        code: "86.03",
-        description: "Litorinas (automotoras), mesmo para circulação urbana, exceto as da posição 86.04."
+        code: "8603",
+        description: "Litorinas (automotoras), mesmo para circulação urbana, exceto as da posição 8604"
     },
     {
-        code: "8603.10.00",
+        code: "86031000",
         description: "- De fonte externa de eletricidade"
     },
     {
-        code: "8603.90.00",
+        code: "86039000",
         description: "- Outras"
     },
     {
-        code: "8604.00",
+        code: "860400",
         description:
-            "Veículos para inspeção e manutenção de vias férreas ou semelhantes, mesmo autopropulsados (por exemplo, vagões-oficinas, vagões-guindastes, vagões equipados com batedores de balastro, alinhadores de vias, viaturas para testes e dresinas)."
+            "Veículos para inspeção e manutenção de vias férreas ou semelhantes, mesmo autopropulsados (por exemplo, vagões-oficinas, vagões-guindastes, vagões equipados com batedores de balastro, alinhadores de vias, viaturas para testes e dresinas)"
     },
     {
-        code: "8604.00.10",
+        code: "86040010",
         description: "Autopropulsados, equipados com batedores de balastro e alinhadores de vias férreas"
     },
     {
-        code: "8604.00.90",
+        code: "86040090",
         description: "Outros"
     },
     {
-        code: "8605.00",
+        code: "860500",
         description:
-            "Vagões de passageiros (carruagens*), furgões para bagagem, vagões-postais e outros vagões especiais, para vias férreas ou semelhantes (excluindo as viaturas da posição 86.04)."
+            "Vagões de passageiros (carruagens*), furgões para bagagem, vagões-postais e outros vagões especiais, para vias férreas ou semelhantes (excluindo as viaturas da posição 8604)"
     },
     {
-        code: "8605.00.10",
+        code: "86050010",
         description: "Vagões de passageiros"
     },
     {
-        code: "8605.00.90",
+        code: "86050090",
         description: "Outros"
     },
     {
-        code: "86.06",
-        description: "Vagões para transporte de mercadorias sobre vias férreas."
+        code: "8606",
+        description: "Vagões para transporte de mercadorias sobre vias férreas"
     },
     {
-        code: "8606.10.00",
+        code: "86061000",
         description: "- Vagões-tanque (vagões-cisterna) e semelhantes"
     },
     {
-        code: "8606.30.00",
-        description: "- Vagões de descarga automática, exceto os da subposição 8606.10"
+        code: "86063000",
+        description: "- Vagões de descarga automática, exceto os da subposição 860610"
     },
     {
-        code: "8606.9",
+        code: "86069",
         description: "- Outros:"
     },
     {
-        code: "8606.91.00",
+        code: "86069100",
         description: "-- Cobertos e fechados"
     },
     {
-        code: "8606.92.00",
+        code: "86069200",
         description: "-- Abertos, com paredes fixas de altura superior a 60 cm"
     },
     {
-        code: "8606.99.00",
+        code: "86069900",
         description: "-- Outros"
     },
     {
-        code: "86.07",
-        description: "Partes de veículos para vias férreas ou semelhantes."
+        code: "8607",
+        description: "Partes de veículos para vias férreas ou semelhantes"
     },
     {
-        code: "8607.1",
+        code: "86071",
         description: "- <i>Bogies</i>, <i>bissels</i>, eixos e rodas, e suas partes:"
     },
     {
-        code: "8607.11",
+        code: "860711",
         description: "-- <i>Bogies</i> e <i>bissels</i>, de tração"
     },
     {
-        code: "8607.11.10",
+        code: "86071110",
         description: "<i>Bogies</i>"
     },
     {
-        code: "8607.11.20",
+        code: "86071120",
         description: "<i>Bissels</i>"
     },
     {
-        code: "8607.12.00",
+        code: "86071200",
         description: "-- Outros <i>bogies</i> e <i>bissels</i>"
     },
     {
-        code: "8607.19",
+        code: "860719",
         description: "-- Outros, incluindo as partes"
     },
     {
-        code: "8607.19.1",
+        code: "8607191",
         description: "Mancais"
     },
     {
-        code: "8607.19.11",
+        code: "86071911",
         description: "Com rolamentos incorporados, de diâmetro exterior superior a 190 mm, do tipo utilizado em eixos de rodas de vagões ferroviários"
     },
     {
-        code: "8607.19.19",
+        code: "86071919",
         description: "Outros"
     },
     {
-        code: "8607.19.90",
+        code: "86071990",
         description: "Outros"
     },
     {
-        code: "8607.2",
+        code: "86072",
         description: "- Freios (travões) e suas partes:"
     },
     {
-        code: "8607.21.00",
+        code: "86072100",
         description: "-- Freios (travões) a ar comprimido e suas partes"
     },
     {
-        code: "8607.29.00",
+        code: "86072900",
         description: "-- Outros"
     },
     {
-        code: "8607.30.00",
+        code: "86073000",
         description: "- Ganchos e outros sistemas de engate, para-choques, e suas partes"
     },
     {
-        code: "8607.9",
+        code: "86079",
         description: "- Outras:"
     },
     {
-        code: "8607.91.00",
+        code: "86079100",
         description: "-- De locomotivas ou de locotratores"
     },
     {
-        code: "8607.99.00",
+        code: "86079900",
         description: "-- Outras"
     },
     {
-        code: "8608.00",
+        code: "860800",
         description:
-            "Material fixo de vias férreas ou semelhantes; aparelhos mecânicos (incluindo os eletromecânicos) de sinalização, de segurança, de controle ou de comando para vias férreas ou semelhantes, rodoviárias ou fluviais, para áreas ou parques de estacionamento, instalações portuárias ou para aeródromos; suas partes."
+            "Material fixo de vias férreas ou semelhantes; aparelhos mecânicos (incluindo os eletromecânicos) de sinalização, de segurança, de controle ou de comando para vias férreas ou semelhantes, rodoviárias ou fluviais, para áreas ou parques de estacionamento, instalações portuárias ou para aeródromos; suas partes"
     },
     {
-        code: "8608.00.1",
+        code: "8608001",
         description:
             "Aparelhos mecânicos (incluindo os eletromecânicos) de sinalização, de segurança, de controle ou de comando para vias férreas ou semelhantes, rodoviárias ou fluviais, para áreas ou parques de estacionamento, instalações portuárias ou para aeródromos"
     },
     {
-        code: "8608.00.11",
+        code: "86080011",
         description: "Mecânicos"
     },
     {
-        code: "8608.00.12",
+        code: "86080012",
         description: "Eletromecânicos"
     },
     {
-        code: "8608.00.90",
+        code: "86080090",
         description: "Outros"
     },
     {
-        code: "8609.00.00",
+        code: "86090000",
         description:
-            "Contêineres (Contentores*), incluindo os de transporte de fluidos, especialmente concebidos e equipados para um ou mais meios de transporte."
+            "Contêineres (Contentores*), incluindo os de transporte de fluidos, especialmente concebidos e equipados para um ou mais meios de transporte"
     },
     {
         code: "87",
-        description: "Veículos automóveis, tratores, ciclos e outros veículos terrestres, suas partes e acessórios."
+        description: "Veículos automóveis, tratores, ciclos e outros veículos terrestres, suas partes e acessórios"
     },
     {
-        code: "87.01",
-        description: "Tratores (exceto os carros-tratores da posição 87.09)."
+        code: "8701",
+        description: "Tratores (exceto os carros-tratores da posição 8709)"
     },
     {
-        code: "8701.10.00",
+        code: "87011000",
         description: "- Tratores de eixo único"
     },
     {
-        code: "8701.2",
+        code: "87012",
         description: "- Tratores rodoviários para semirreboques:"
     },
     {
-        code: "8701.21.00",
+        code: "87012100",
         description: "-- Unicamente com motor de pistão de ignição por compressão (diesel ou semidiesel)"
     },
     {
-        code: "8701.22.00",
+        code: "87012200",
         description:
             "-- Equipados para propulsão, simultaneamente, com motor de pistão de ignição por compressão (diesel ou semidiesel) e motor elétrico"
     },
     {
-        code: "8701.23.00",
+        code: "87012300",
         description: "-- Equipados para propulsão, simultaneamente, com motor de pistão de ignição por centelha (faísca) e motor elétrico"
     },
     {
-        code: "8701.24.00",
+        code: "87012400",
         description: "-- Unicamente com motor elétrico para propulsão"
     },
     {
-        code: "8701.29.00",
+        code: "87012900",
         description: "-- Outros"
     },
     {
-        code: "8701.30.00",
+        code: "87013000",
         description: "- Tratores de lagartas (esteiras)"
     },
     {
-        code: "8701.9",
+        code: "87019",
         description: "- Outros, com uma potência de motor:"
     },
     {
-        code: "8701.91.00",
+        code: "87019100",
         description: "-- Não superior a 18 kW"
     },
     {
-        code: "8701.92.00",
+        code: "87019200",
         description: "-- Superior a 18 kW, mas não superior a 37 kW"
     },
     {
-        code: "8701.93.00",
+        code: "87019300",
         description: "-- Superior a 37 kW, mas não superior a 75 kW"
     },
     {
-        code: "8701.94",
+        code: "870194",
         description: "-- Superior a 75 kW, mas não superior a 130 kW"
     },
     {
-        code: "8701.94.10",
+        code: "87019410",
         description: "Tratores especialmente concebidos para arrastar troncos (<i>log skidders</i>)"
     },
     {
-        code: "8701.94.90",
+        code: "87019490",
         description: "Outros"
     },
     {
-        code: "8701.95",
+        code: "870195",
         description: "-- Superior a 130 kW"
     },
     {
-        code: "8701.95.10",
+        code: "87019510",
         description: "Tratores especialmente concebidos para arrastar troncos (<i>log skidders</i>)"
     },
     {
-        code: "8701.95.90",
+        code: "87019590",
         description: "Outros"
     },
     {
-        code: "87.02",
-        description: "Veículos automóveis para transporte de dez pessoas ou mais, incluindo o motorista."
+        code: "8702",
+        description: "Veículos automóveis para transporte de dez pessoas ou mais, incluindo o motorista"
     },
     {
-        code: "8702.10.00",
+        code: "87021000",
         description: "- Unicamente com motor de pistão de ignição por compressão (diesel ou semidiesel)"
     },
     {
-        code: "8702.20.00",
+        code: "87022000",
         description:
             "- Equipados para propulsão, simultaneamente, com motor de pistão de ignição por compressão (diesel ou semidiesel) e motor elétrico"
     },
     {
-        code: "8702.30.00",
+        code: "87023000",
         description: "- Equipados para propulsão, simultaneamente, com motor de pistão de ignição por centelha (faísca) e motor elétrico"
     },
     {
-        code: "8702.40",
+        code: "870240",
         description: "- Unicamente com motor elétrico para propulsão"
     },
     {
-        code: "8702.40.10",
+        code: "87024010",
         description: "Trólebus"
     },
     {
-        code: "8702.40.90",
+        code: "87024090",
         description: "Outros"
     },
     {
-        code: "8702.90.00",
+        code: "87029000",
         description: "- Outros"
     },
     {
-        code: "87.03",
+        code: "8703",
         description:
-            "Automóveis de passageiros e outros veículos automóveis principalmente concebidos para transporte de pessoas (exceto os da posição 87.02), incluindo os veículos de uso misto (<i>station wagons</i>) e os automóveis de corrida."
+            "Automóveis de passageiros e outros veículos automóveis principalmente concebidos para transporte de pessoas (exceto os da posição 8702), incluindo os veículos de uso misto (<i>station wagons</i>) e os automóveis de corrida"
     },
     {
-        code: "8703.10.00",
+        code: "87031000",
         description:
             "- Veículos especialmente concebidos para se deslocar sobre a neve; veículos especiais para transporte de pessoas nos campos de golfe e veículos semelhantes"
     },
     {
-        code: "8703.2",
+        code: "87032",
         description: "- Outros veículos, unicamente com motor de pistão de ignição por centelha (faísca):"
     },
     {
-        code: "8703.21.00",
-        description: "-- De cilindrada não superior a 1.000 cm<sup>3</sup>"
+        code: "87032100",
+        description: "-- De cilindrada não superior a 1000 cm<sup>3</sup>"
     },
     {
-        code: "8703.22",
-        description: "-- De cilindrada superior a 1.000 cm<sup>3</sup>, mas não superior a 1.500 cm<sup>3</sup>"
+        code: "870322",
+        description: "-- De cilindrada superior a 1000 cm<sup>3</sup>, mas não superior a 1500 cm<sup>3</sup>"
     },
     {
-        code: "8703.22.10",
+        code: "87032210",
         description: "Com capacidade de transporte de pessoas sentadas inferior ou igual a seis, incluindo o motorista"
     },
     {
-        code: "8703.22.90",
+        code: "87032290",
         description: "Outros"
     },
     {
-        code: "8703.23",
-        description: "-- De cilindrada superior a 1.500 cm<sup>3</sup>, mas não superior a 3.000 cm<sup>3</sup>"
+        code: "870323",
+        description: "-- De cilindrada superior a 1500 cm<sup>3</sup>, mas não superior a 3000 cm<sup>3</sup>"
     },
     {
-        code: "8703.23.10",
+        code: "87032310",
         description: "Com capacidade de transporte de pessoas sentadas inferior ou igual a seis, incluindo o motorista"
     },
     {
-        code: "8703.23.90",
+        code: "87032390",
         description: "Outros"
     },
     {
-        code: "8703.24",
-        description: "-- De cilindrada superior a 3.000 cm<sup>3</sup>"
+        code: "870324",
+        description: "-- De cilindrada superior a 3000 cm<sup>3</sup>"
     },
     {
-        code: "8703.24.10",
+        code: "87032410",
         description: "Com capacidade de transporte de pessoas sentadas inferior ou igual a seis, incluindo o motorista"
     },
     {
-        code: "8703.24.90",
+        code: "87032490",
         description: "Outros"
     },
     {
-        code: "8703.3",
+        code: "87033",
         description: "- Outros veículos, unicamente com motor de pistão de ignição por compressão (diesel ou semidiesel):"
     },
     {
-        code: "8703.31",
-        description: "-- De cilindrada não superior a 1.500 cm<sup>3</sup>"
+        code: "870331",
+        description: "-- De cilindrada não superior a 1500 cm<sup>3</sup>"
     },
     {
-        code: "8703.31.10",
+        code: "87033110",
         description: "Com capacidade de transporte de pessoas sentadas inferior ou igual a seis, incluindo o motorista"
     },
     {
-        code: "8703.31.90",
+        code: "87033190",
         description: "Outros"
     },
     {
-        code: "8703.32",
-        description: "-- De cilindrada superior a 1.500 cm<sup>3</sup>, mas não superior a 2.500 cm<sup>3</sup>"
+        code: "870332",
+        description: "-- De cilindrada superior a 1500 cm<sup>3</sup>, mas não superior a 2500 cm<sup>3</sup>"
     },
     {
-        code: "8703.32.10",
+        code: "87033210",
         description: "Com capacidade de transporte de pessoas sentadas inferior ou igual a seis, incluindo o motorista"
     },
     {
-        code: "8703.32.90",
+        code: "87033290",
         description: "Outros"
     },
     {
-        code: "8703.33",
-        description: "-- De cilindrada superior a 2.500 cm<sup>3</sup>"
+        code: "870333",
+        description: "-- De cilindrada superior a 2500 cm<sup>3</sup>"
     },
     {
-        code: "8703.33.10",
+        code: "87033310",
         description: "Com capacidade de transporte de pessoas sentadas inferior ou igual a seis, incluindo o motorista"
     },
     {
-        code: "8703.33.90",
+        code: "87033390",
         description: "Outros"
     },
     {
-        code: "8703.40.00",
+        code: "87034000",
         description:
             "- Outros veículos, equipados para propulsão, simultaneamente, com motor de pistão de ignição por centelha (faísca) e motor elétrico, exceto os suscetíveis de serem carregados por conexão a uma fonte externa de energia elétrica"
     },
     {
-        code: "8703.50.00",
+        code: "87035000",
         description:
             "- Outros veículos, equipados para propulsão, simultaneamente, com motor de pistão de ignição por compressão (diesel ou semidiesel) e motor elétrico, exceto os suscetíveis de serem carregados por conexão a uma fonte externa de energia elétrica"
     },
     {
-        code: "8703.60.00",
+        code: "87036000",
         description:
             "- Outros veículos, equipados para propulsão, simultaneamente, com motor de pistão de ignição por centelha (faísca) e motor elétrico, suscetíveis de serem carregados por conexão a uma fonte externa de energia elétrica"
     },
     {
-        code: "8703.70.00",
+        code: "87037000",
         description:
             "- Outros veículos, equipados para propulsão, simultaneamente, com motor de pistão de ignição por compressão (diesel ou semidiesel) e motor elétrico, suscetíveis de serem carregados por conexão a uma fonte externa de energia elétrica"
     },
     {
-        code: "8703.80.00",
+        code: "87038000",
         description: "- Outros veículos, equipados unicamente com motor elétrico para propulsão"
     },
     {
-        code: "8703.90.00",
+        code: "87039000",
         description: "- Outros"
     },
     {
-        code: "87.04",
-        description: "Veículos automóveis para transporte de mercadorias."
+        code: "8704",
+        description: "Veículos automóveis para transporte de mercadorias"
     },
     {
-        code: "8704.10",
+        code: "870410",
         description: "- <i>Dumpers</i> concebidos para serem utilizados fora de rodovias"
     },
     {
-        code: "8704.10.10",
+        code: "87041010",
         description: "Com capacidade de carga igual ou superior a 85 toneladas"
     },
     {
-        code: "8704.10.90",
+        code: "87041090",
         description: "Outros"
     },
     {
-        code: "8704.2",
+        code: "87042",
         description: "- Outros, unicamente com motor de pistão, de ignição por compressão (diesel ou semidiesel):"
     },
     {
-        code: "8704.21",
+        code: "870421",
         description: "-- De peso em carga máxima (bruto) não superior a 5 toneladas"
     },
     {
-        code: "8704.21.10",
+        code: "87042110",
         description: "Chassis com motor e cabina"
     },
     {
-        code: "8704.21.20",
+        code: "87042120",
         description: "Com caixa basculante"
     },
     {
-        code: "8704.21.30",
+        code: "87042130",
         description: "Frigoríficos ou isotérmicos"
     },
     {
-        code: "8704.21.90",
+        code: "87042190",
         description: "Outros"
     },
     {
-        code: "8704.22",
+        code: "870422",
         description: "-- De peso em carga máxima (bruto) superior a 5 toneladas, mas não superior a 20 toneladas"
     },
     {
-        code: "8704.22.10",
+        code: "87042210",
         description: "Chassis com motor e cabina"
     },
     {
-        code: "8704.22.20",
+        code: "87042220",
         description: "Com caixa basculante"
     },
     {
-        code: "8704.22.30",
+        code: "87042230",
         description: "Frigoríficos ou isotérmicos"
     },
     {
-        code: "8704.22.90",
+        code: "87042290",
         description: "Outros"
     },
     {
-        code: "8704.23",
+        code: "870423",
         description: "-- De peso em carga máxima (bruto) superior a 20 toneladas"
     },
     {
-        code: "8704.23.10",
+        code: "87042310",
         description: "Chassis com motor e cabina"
     },
     {
-        code: "8704.23.20",
+        code: "87042320",
         description: "Com caixa basculante"
     },
     {
-        code: "8704.23.30",
+        code: "87042330",
         description: "Frigoríficos ou isotérmicos"
     },
     {
-        code: "8704.23.40",
+        code: "87042340",
         description:
             "De chassis articulado, para o transporte de troncos (<i>forwarder</i>), com grua incorporada, de potência máxima igual ou superior a 126 kW (170 HP)"
     },
     {
-        code: "8704.23.90",
+        code: "87042390",
         description: "Outros"
     },
     {
-        code: "8704.3",
+        code: "87043",
         description: "- Outros, unicamente com motor de pistão, de ignição por centelha (faísca):"
     },
     {
-        code: "8704.31",
+        code: "870431",
         description: "-- De peso em carga máxima (bruto) não superior a 5 toneladas"
     },
     {
-        code: "8704.31.10",
+        code: "87043110",
         description: "Chassis com motor e cabina"
     },
     {
-        code: "8704.31.20",
+        code: "87043120",
         description: "Com caixa basculante"
     },
     {
-        code: "8704.31.30",
+        code: "87043130",
         description: "Frigoríficos ou isotérmicos"
     },
     {
-        code: "8704.31.90",
+        code: "87043190",
         description: "Outros"
     },
     {
-        code: "8704.32",
+        code: "870432",
         description: "-- De peso em carga máxima (bruto) superior a 5 toneladas"
     },
     {
-        code: "8704.32.10",
+        code: "87043210",
         description: "Chassis com motor e cabina"
     },
     {
-        code: "8704.32.20",
+        code: "87043220",
         description: "Com caixa basculante"
     },
     {
-        code: "8704.32.30",
+        code: "87043230",
         description: "Frigoríficos ou isotérmicos"
     },
     {
-        code: "8704.32.90",
+        code: "87043290",
         description: "Outros"
     },
     {
-        code: "8704.4",
+        code: "87044",
         description:
             "- Outros, equipados para propulsão, simultaneamente, com motor de pistão de ignição por compressão (diesel ou semidiesel) e motor elétrico:"
     },
     {
-        code: "8704.41.00",
+        code: "87044100",
         description: "-- De peso em carga máxima (bruto) não superior a 5 toneladas"
     },
     {
-        code: "8704.42.00",
+        code: "87044200",
         description: "-- De peso em carga máxima (bruto) superior a 5 toneladas, mas não superior a 20 toneladas"
     },
     {
-        code: "8704.43.00",
+        code: "87044300",
         description: "-- De peso em carga máxima (bruto) superior a 20 toneladas"
     },
     {
-        code: "8704.5",
+        code: "87045",
         description: "- Outros, equipados para propulsão, simultaneamente, com motor de pistão de ignição por centelha (faísca) e motor elétrico:"
     },
     {
-        code: "8704.51.00",
+        code: "87045100",
         description: "-- De peso em carga máxima (bruto) não superior a 5 toneladas"
     },
     {
-        code: "8704.52.00",
+        code: "87045200",
         description: "-- De peso em carga máxima (bruto) superior a 5 toneladas"
     },
     {
-        code: "8704.60.00",
+        code: "87046000",
         description: "- Outros, unicamente com motor elétrico para propulsão"
     },
     {
-        code: "8704.90.00",
+        code: "87049000",
         description: "- Outros"
     },
     {
-        code: "87.05",
+        code: "8705",
         description:
-            "Veículos automóveis para usos especiais (por exemplo, autossocorros, caminhões-guindastes, veículos de combate a incêndio, caminhões-betoneiras, veículos para varrer, veículos para espalhar, veículos-oficinas, veículos radiológicos), exceto os concebidos principalmente para transporte de pessoas ou de mercadorias."
+            "Veículos automóveis para usos especiais (por exemplo, autossocorros, caminhões-guindastes, veículos de combate a incêndio, caminhões-betoneiras, veículos para varrer, veículos para espalhar, veículos-oficinas, veículos radiológicos), exceto os concebidos principalmente para transporte de pessoas ou de mercadorias"
     },
     {
-        code: "8705.10",
+        code: "870510",
         description: "- Caminhões-guindastes"
     },
     {
-        code: "8705.10.10",
+        code: "87051010",
         description:
             "Com haste telescópica de altura máxima igual ou superior a 42 m, capacidade máxima de elevação igual ou superior a 60 toneladas, segundo a Norma DIN 15019, Parte 2, e com 2 ou mais eixos de rodas direcionáveis"
     },
     {
-        code: "8705.10.90",
+        code: "87051090",
         description: "Outros"
     },
     {
-        code: "8705.20.00",
+        code: "87052000",
         description: "- Torres (<i>derricks</i>) automóveis, para sondagem ou perfuração"
     },
     {
-        code: "8705.30.00",
+        code: "87053000",
         description: "- Veículos de combate a incêndio"
     },
     {
-        code: "8705.40.00",
+        code: "87054000",
         description: "- Caminhões-betoneiras"
     },
     {
-        code: "8705.90",
+        code: "870590",
         description: "- Outros"
     },
     {
-        code: "8705.90.10",
+        code: "87059010",
         description: "Caminhões para a determinação de parâmetros físicos característicos (perfilagem) de poços petrolíferos"
     },
     {
-        code: "8705.90.90",
+        code: "87059090",
         description: "Outros"
     },
     {
-        code: "8706.00",
-        description: "Chassis com motor para os veículos automóveis das posições 87.01 a 87.05."
+        code: "870600",
+        description: "Chassis com motor para os veículos automóveis das posições 8701 a 8705"
     },
     {
-        code: "8706.00.10",
-        description: "Dos veículos da posição 87.02"
+        code: "87060010",
+        description: "Dos veículos da posição 8702"
     },
     {
-        code: "8706.00.20",
-        description: "Dos veículos das subposições 8701.10, 8701.30, 8701.91 a 8701.95 ou 8704.10"
+        code: "87060020",
+        description: "Dos veículos das subposições 870110, 870130, 870191 a 870195 ou 870410"
     },
     {
-        code: "8706.00.90",
+        code: "87060090",
         description: "Outros"
     },
     {
-        code: "87.07",
-        description: "Carroçarias para os veículos automóveis das posições 87.01 a 87.05, incluindo as cabinas."
+        code: "8707",
+        description: "Carroçarias para os veículos automóveis das posições 8701 a 8705, incluindo as cabinas"
     },
     {
-        code: "8707.10.00",
-        description: "- Para os veículos da posição 87.03"
+        code: "87071000",
+        description: "- Para os veículos da posição 8703"
     },
     {
-        code: "8707.90",
+        code: "870790",
         description: "- Outras"
     },
     {
-        code: "8707.90.10",
-        description: "Dos veículos das subposições 8701.10, 8701.30, 8701.91 a 8701.95 ou 8704.10"
+        code: "87079010",
+        description: "Dos veículos das subposições 870110, 870130, 870191 a 870195 ou 870410"
     },
     {
-        code: "8707.90.90",
+        code: "87079090",
         description: "Outras"
     },
     {
-        code: "87.08",
-        description: "Partes e acessórios dos veículos automóveis das posições 87.01 a 87.05."
+        code: "8708",
+        description: "Partes e acessórios dos veículos automóveis das posições 8701 a 8705"
     },
     {
-        code: "8708.10.00",
+        code: "87081000",
         description: "- Para-choques e suas partes"
     },
     {
-        code: "8708.2",
+        code: "87082",
         description: "- Outras partes e acessórios de carroçarias (incluindo as de cabinas):"
     },
     {
-        code: "8708.21.00",
+        code: "87082100",
         description: "-- Cintos de segurança"
     },
     {
-        code: "8708.22.00",
+        code: "87082200",
         description: "-- Para-brisas, vidros traseiros e outros vidros especificados na Nota de subposição 1 do presente Capítulo"
     },
     {
-        code: "8708.29",
+        code: "870829",
         description: "-- Outros"
     },
     {
-        code: "8708.29.1",
-        description: "Dos veículos das subposições 8701.10, 8701.30, 8701.91 a 8701.95 ou 8704.10"
+        code: "8708291",
+        description: "Dos veículos das subposições 870110, 870130, 870191 a 870195 ou 870410"
     },
     {
-        code: "8708.29.11",
+        code: "87082911",
         description: "Para-lamas"
     },
     {
-        code: "8708.29.12",
+        code: "87082912",
         description: "Grades de radiadores"
     },
     {
-        code: "8708.29.13",
+        code: "87082913",
         description: "Portas"
     },
     {
-        code: "8708.29.14",
+        code: "87082914",
         description: "Painéis de instrumentos"
     },
     {
-        code: "8708.29.19",
+        code: "87082919",
         description: "Outros"
     },
     {
-        code: "8708.29.9",
+        code: "8708299",
         description: "Outros"
     },
     {
-        code: "8708.29.91",
+        code: "87082991",
         description: "Para-lamas"
     },
     {
-        code: "8708.29.92",
+        code: "87082992",
         description: "Grades de radiadores"
     },
     {
-        code: "8708.29.93",
+        code: "87082993",
         description: "Portas"
     },
     {
-        code: "8708.29.94",
+        code: "87082994",
         description: "Painéis de instrumentos"
     },
     {
-        code: "8708.29.95",
+        code: "87082995",
         description: "Geradores de gás para acionar retratores de cintos de segurança"
     },
     {
-        code: "8708.29.99",
+        code: "87082999",
         description: "Outros"
     },
     {
-        code: "8708.30",
+        code: "870830",
         description: "- Freios (travões) e servofreios; suas partes"
     },
     {
-        code: "8708.30.1",
+        code: "8708301",
         description: "Guarnições de freios (travões) montadas"
     },
     {
-        code: "8708.30.11",
-        description: "Dos veículos das subposições 8701.10, 8701.30, 8701.91 a 8701.95 ou 8704.10"
+        code: "87083011",
+        description: "Dos veículos das subposições 870110, 870130, 870191 a 870195 ou 870410"
     },
     {
-        code: "8708.30.19",
+        code: "87083019",
         description: "Outras"
     },
     {
-        code: "8708.30.90",
+        code: "87083090",
         description: "Outros"
     },
     {
-        code: "8708.40",
+        code: "870840",
         description: "- Caixas de marchas (velocidades*) e suas partes"
     },
     {
-        code: "8708.40.1",
-        description: "Caixas de marchas dos veículos das subposições 8701.10, 8701.30, 8701.91 a 8701.95 ou 8704.10"
+        code: "8708401",
+        description: "Caixas de marchas dos veículos das subposições 870110, 870130, 870191 a 870195 ou 870410"
     },
     {
-        code: "8708.40.11",
+        code: "87084011",
         description: "Servo-assistidas, próprias para torques de entrada superiores ou iguais a 750 Nm"
     },
     {
-        code: "8708.40.19",
+        code: "87084019",
         description: "Outras"
     },
     {
-        code: "8708.40.80",
+        code: "87084080",
         description: "Outras caixas de marchas"
     },
     {
-        code: "8708.40.90",
+        code: "87084090",
         description: "Partes"
     },
     {
-        code: "8708.50",
+        code: "870850",
         description: "- Eixos motores com diferencial, mesmo providos de outros componentes de transmissão, e eixos não motores; suas partes"
     },
     {
-        code: "8708.50.1",
-        description: "Dos veículos das subposições 8701.10, 8701.30, 8701.91 a 8701.95 ou 8704.10"
+        code: "8708501",
+        description: "Dos veículos das subposições 870110, 870130, 870191 a 870195 ou 870410"
     },
     {
-        code: "8708.50.11",
+        code: "87085011",
         description:
-            "Eixos com diferencial com capacidade de suportar cargas superiores ou iguais a 14.000 kg, redutores planetários nos extremos e dispositivo de freio (travão) incorporado, do tipo utilizado em veículos da subposição 8704.10"
+            "Eixos com diferencial com capacidade de suportar cargas superiores ou iguais a 14000 kg, redutores planetários nos extremos e dispositivo de freio (travão) incorporado, do tipo utilizado em veículos da subposição 870410"
     },
     {
-        code: "8708.50.12",
+        code: "87085012",
         description: "Eixos não motores"
     },
     {
-        code: "8708.50.19",
+        code: "87085019",
         description: "Outros"
     },
     {
-        code: "8708.50.80",
+        code: "87085080",
         description: "Outros"
     },
     {
-        code: "8708.50.9",
+        code: "8708509",
         description: "Partes"
     },
     {
-        code: "8708.50.91",
-        description: "De eixos não motores, dos veículos das subposições 8701.10, 8701.30, 8701.91 a 8701.95 ou 8704.10"
+        code: "87085091",
+        description: "De eixos não motores, dos veículos das subposições 870110, 870130, 870191 a 870195 ou 870410"
     },
     {
-        code: "8708.50.99",
+        code: "87085099",
         description: "Outras"
     },
     {
-        code: "8708.70",
+        code: "870870",
         description: "- Rodas, suas partes e acessórios"
     },
     {
-        code: "8708.70.10",
-        description: "De eixos propulsores dos veículos das subposições 8701.10, 8701.30, 8701.91 a 8701.95 ou 8704.10"
+        code: "87087010",
+        description: "De eixos propulsores dos veículos das subposições 870110, 870130, 870191 a 870195 ou 870410"
     },
     {
-        code: "8708.70.90",
+        code: "87087090",
         description: "Outros"
     },
     {
-        code: "8708.80.00",
+        code: "87088000",
         description: "- Sistemas de suspensão e suas partes (incluindo os amortecedores de suspensão)"
     },
     {
-        code: "8708.9",
+        code: "87089",
         description: "- Outras partes e acessórios:"
     },
     {
-        code: "8708.91.00",
+        code: "87089100",
         description: "-- Radiadores e suas partes"
     },
     {
-        code: "8708.92.00",
+        code: "87089200",
         description: "-- Silenciosos e tubos de escape; suas partes"
     },
     {
-        code: "8708.93.00",
+        code: "87089300",
         description: "-- Embreagens e suas partes"
     },
     {
-        code: "8708.94",
+        code: "870894",
         description: "-- Volantes, colunas e caixas, de direção; suas partes"
     },
     {
-        code: "8708.94.1",
-        description: "Volantes, colunas e caixas, de direção dos veículos das subposições 8701.10, 8701.30, 8701.91 a 8701.95 ou 8704.10"
+        code: "8708941",
+        description: "Volantes, colunas e caixas, de direção dos veículos das subposições 870110, 870130, 870191 a 870195 ou 870410"
     },
     {
-        code: "8708.94.11",
+        code: "87089411",
         description: "Volantes"
     },
     {
-        code: "8708.94.12",
+        code: "87089412",
         description: "Colunas"
     },
     {
-        code: "8708.94.13",
+        code: "87089413",
         description: "Caixas"
     },
     {
-        code: "8708.94.8",
+        code: "8708948",
         description: "Outros"
     },
     {
-        code: "8708.94.81",
+        code: "87089481",
         description: "Volantes"
     },
     {
-        code: "8708.94.82",
+        code: "87089482",
         description: "Colunas"
     },
     {
-        code: "8708.94.83",
+        code: "87089483",
         description: "Caixas"
     },
     {
-        code: "8708.94.90",
+        code: "87089490",
         description: "Partes"
     },
     {
-        code: "8708.95",
+        code: "870895",
         description: "-- Bolsas infláveis de segurança com sistema de insuflação (<i>airbags</i>); suas partes"
     },
     {
-        code: "8708.95.10",
+        code: "87089510",
         description: "Bolsas infláveis de segurança com sistema de insuflação (<i>airbags</i>)"
     },
     {
-        code: "8708.95.2",
+        code: "8708952",
         description: "Partes"
     },
     {
-        code: "8708.95.21",
+        code: "87089521",
         description: "Bolsas infláveis para <i>airbags</i>"
     },
     {
-        code: "8708.95.22",
+        code: "87089522",
         description: "Sistema de insuflação"
     },
     {
-        code: "8708.95.29",
+        code: "87089529",
         description: "Outras"
     },
     {
-        code: "8708.99",
+        code: "870899",
         description: "-- Outros"
     },
     {
-        code: "8708.99.10",
+        code: "87089910",
         description:
             "Dispositivos para comando de acelerador, freio (travão), embreagem, direção ou caixa de marchas mesmo os de adaptação dos preexistentes, do tipo utilizado por pessoas incapacitadas"
     },
     {
-        code: "8708.99.90",
+        code: "87089990",
         description: "Outros"
     },
     {
-        code: "87.09",
+        code: "8709",
         description:
-            "Veículos automóveis sem dispositivo de elevação, do tipo utilizado em fábricas, armazéns, portos ou aeroportos, para transporte de mercadorias a curtas distâncias; carros-tratores do tipo utilizado nas estações ferroviárias; suas partes."
+            "Veículos automóveis sem dispositivo de elevação, do tipo utilizado em fábricas, armazéns, portos ou aeroportos, para transporte de mercadorias a curtas distâncias; carros-tratores do tipo utilizado nas estações ferroviárias; suas partes"
     },
     {
-        code: "8709.1",
+        code: "87091",
         description: "- Veículos:"
     },
     {
-        code: "8709.11.00",
+        code: "87091100",
         description: "-- Elétricos"
     },
     {
-        code: "8709.19.00",
+        code: "87091900",
         description: "-- Outros"
     },
     {
-        code: "8709.90.00",
+        code: "87099000",
         description: "- Partes"
     },
     {
-        code: "8710.00.00",
-        description: "Tanques e outros veículos blindados de combate, armados ou não, e suas partes."
+        code: "87100000",
+        description: "Tanques e outros veículos blindados de combate, armados ou não, e suas partes"
     },
     {
-        code: "87.11",
-        description:
-            "Motocicletas (incluindo os ciclomotores) e outros ciclos equipados com motor auxiliar, mesmo com carro lateral; carros laterais."
+        code: "8711",
+        description: "Motocicletas (incluindo os ciclomotores) e outros ciclos equipados com motor auxiliar, mesmo com carro lateral; carros laterais"
     },
     {
-        code: "8711.10.00",
+        code: "87111000",
         description: "- Com motor de pistão de cilindrada não superior a 50 cm<sup>3</sup>"
     },
     {
-        code: "8711.20",
+        code: "871120",
         description: "- Com motor de pistão de cilindrada superior a 50 cm<sup>3</sup>, mas não superior a 250 cm<sup>3</sup>"
     },
     {
-        code: "8711.20.10",
+        code: "87112010",
         description: "Motocicletas de cilindrada inferior ou igual a 125 cm<sup>3</sup>"
     },
     {
-        code: "8711.20.20",
+        code: "87112020",
         description: "Motocicletas de cilindrada superior a 125 cm<sup>3</sup>"
     },
     {
-        code: "8711.20.90",
+        code: "87112090",
         description: "Outros"
     },
     {
-        code: "8711.30.00",
+        code: "87113000",
         description: "- Com motor de pistão de cilindrada superior a 250 cm<sup>3</sup>, mas não superior a 500 cm<sup>3</sup>"
     },
     {
-        code: "8711.40.00",
+        code: "87114000",
         description: "- Com motor de pistão de cilindrada superior a 500 cm<sup>3</sup>, mas não superior a 800 cm<sup>3</sup>"
     },
     {
-        code: "8711.50.00",
+        code: "87115000",
         description: "- Com motor de pistão de cilindrada superior a 800 cm<sup>3</sup>"
     },
     {
-        code: "8711.60.00",
+        code: "87116000",
         description: "- Com motor elétrico para propulsão"
     },
     {
-        code: "8711.90.00",
+        code: "87119000",
         description: "- Outros"
     },
     {
-        code: "8712.00",
-        description: "Bicicletas e outros ciclos (incluindo os triciclos), sem motor."
+        code: "871200",
+        description: "Bicicletas e outros ciclos (incluindo os triciclos), sem motor"
     },
     {
-        code: "8712.00.10",
+        code: "87120010",
         description: "Bicicletas"
     },
     {
-        code: "8712.00.90",
+        code: "87120090",
         description: "Outros"
     },
     {
-        code: "87.13",
-        description: "Cadeiras de rodas e outros veículos para pessoas com incapacidade, mesmo com motor ou outro mecanismo de propulsão."
+        code: "8713",
+        description: "Cadeiras de rodas e outros veículos para pessoas com incapacidade, mesmo com motor ou outro mecanismo de propulsão"
     },
     {
-        code: "8713.10.00",
+        code: "87131000",
         description: "- Sem mecanismo de propulsão"
     },
     {
-        code: "8713.90.00",
+        code: "87139000",
         description: "- Outros"
     },
     {
-        code: "87.14",
-        description: "Partes e acessórios dos veículos das posições 87.11 a 87.13."
+        code: "8714",
+        description: "Partes e acessórios dos veículos das posições 8711 a 8713"
     },
     {
-        code: "8714.10.00",
+        code: "87141000",
         description: "- De motocicletas (incluindo os ciclomotores)"
     },
     {
-        code: "8714.20.00",
+        code: "87142000",
         description: "- De cadeiras de rodas ou de outros veículos para pessoas com incapacidade"
     },
     {
-        code: "8714.9",
+        code: "87149",
         description: "- Outros:"
     },
     {
-        code: "8714.91.00",
+        code: "87149100",
         description: "-- Quadros e garfos, e suas partes"
     },
     {
-        code: "8714.92.00",
+        code: "87149200",
         description: "-- Aros e raios"
     },
     {
-        code: "8714.93",
+        code: "871493",
         description: "-- Cubos, exceto de freios (travões), e pinhões de rodas livres"
     },
     {
-        code: "8714.93.10",
+        code: "87149310",
         description: "Cubos, exceto de freios (travões)"
     },
     {
-        code: "8714.93.20",
+        code: "87149320",
         description: "Pinhões de rodas livres"
     },
     {
-        code: "8714.94",
+        code: "871494",
         description: "-- Freios (travões), incluindo os cubos de freios (travões), e suas partes"
     },
     {
-        code: "8714.94.10",
+        code: "87149410",
         description: "Cubos de freios (travões)"
     },
     {
-        code: "8714.94.90",
+        code: "87149490",
         description: "Outros"
     },
     {
-        code: "8714.95.00",
+        code: "87149500",
         description: "-- Selins"
     },
     {
-        code: "8714.96.00",
+        code: "87149600",
         description: "-- Pedais e pedaleiros, e suas partes"
     },
     {
-        code: "8714.99",
+        code: "871499",
         description: "-- Outros"
     },
     {
-        code: "8714.99.10",
+        code: "87149910",
         description: "Câmbio de velocidades"
     },
     {
-        code: "8714.99.90",
+        code: "87149990",
         description: "Outros"
     },
     {
-        code: "8715.00.00",
-        description: "Carrinhos e veículos semelhantes para transporte de crianças, e suas partes."
+        code: "87150000",
+        description: "Carrinhos e veículos semelhantes para transporte de crianças, e suas partes"
     },
     {
-        code: "87.16",
-        description: "Reboques e semirreboques, para quaisquer veículos; outros veículos não autopropulsados; suas partes."
+        code: "8716",
+        description: "Reboques e semirreboques, para quaisquer veículos; outros veículos não autopropulsados; suas partes"
     },
     {
-        code: "8716.10.00",
+        code: "87161000",
         description: "- Reboques e semirreboques, para habitação ou para acampar, do tipo <i>trailer</i> (caravana*)"
     },
     {
-        code: "8716.20.00",
+        code: "87162000",
         description: "- Reboques e semirreboques, autocarregáveis ou autodescarregáveis, para usos agrícolas"
     },
     {
-        code: "8716.3",
+        code: "87163",
         description: "- Outros reboques e semirreboques, para transporte de mercadorias:"
     },
     {
-        code: "8716.31.00",
+        code: "87163100",
         description: "-- Tanques (cisternas)"
     },
     {
-        code: "8716.39.00",
+        code: "87163900",
         description: "-- Outros"
     },
     {
-        code: "8716.40.00",
+        code: "87164000",
         description: "- Outros reboques e semirreboques"
     },
     {
-        code: "8716.80.00",
+        code: "87168000",
         description: "- Outros veículos"
     },
     {
-        code: "8716.90",
+        code: "871690",
         description: "- Partes"
     },
     {
-        code: "8716.90.10",
+        code: "87169010",
         description: "Chassis de reboques e semirreboques"
     },
     {
-        code: "8716.90.90",
+        code: "87169090",
         description: "Outras"
     },
     {
         code: "88",
-        description: "Aeronaves e aparelhos espaciais, e suas partes."
+        description: "Aeronaves e aparelhos espaciais, e suas partes"
     },
     {
-        code: "8801.00.00",
-        description: "Balões e dirigíveis; planadores, asas voadoras e outros veículos aéreos, não concebidos para propulsão a motor."
+        code: "88010000",
+        description: "Balões e dirigíveis; planadores, asas voadoras e outros veículos aéreos, não concebidos para propulsão a motor"
     },
     {
-        code: "88.02",
+        code: "8802",
         description:
-            "Outros veículos aéreos (por exemplo, helicópteros, aviões), exceto veículos aéreos (aeronaves) não tripulados da posição 88.06; veículos espaciais (incluindo os satélites) e seus veículos de lançamento, e veículos suborbitais."
+            "Outros veículos aéreos (por exemplo, helicópteros, aviões), exceto veículos aéreos (aeronaves) não tripulados da posição 8806; veículos espaciais (incluindo os satélites) e seus veículos de lançamento, e veículos suborbitais"
     },
     {
-        code: "8802.1",
+        code: "88021",
         description: "- Helicópteros:"
     },
     {
-        code: "8802.11.00",
-        description: "-- De peso não superior a 2.000 kg, vazios (sem carga)"
+        code: "88021100",
+        description: "-- De peso não superior a 2000 kg, vazios (sem carga)"
     },
     {
-        code: "8802.12",
-        description: "-- De peso superior a 2.000 kg, vazios (sem carga)"
+        code: "880212",
+        description: "-- De peso superior a 2000 kg, vazios (sem carga)"
     },
     {
-        code: "8802.12.10",
-        description: "De peso não superior a 3.500 kg"
+        code: "88021210",
+        description: "De peso não superior a 3500 kg"
     },
     {
-        code: "8802.12.90",
+        code: "88021290",
         description: "Outros"
     },
     {
-        code: "8802.20",
-        description: "- Aviões e outros veículos aéreos, de peso não superior a 2.000 kg, vazios (sem carga)"
+        code: "880220",
+        description: "- Aviões e outros veículos aéreos, de peso não superior a 2000 kg, vazios (sem carga)"
     },
     {
-        code: "8802.20.10",
+        code: "88022010",
         description: "A hélice"
     },
     {
-        code: "8802.20.2",
+        code: "8802202",
         description: "A turboélice"
     },
     {
-        code: "8802.20.21",
+        code: "88022021",
         description: "Monomotores"
     },
     {
-        code: "8802.20.22",
+        code: "88022022",
         description: "Multimotores"
     },
     {
-        code: "8802.20.90",
+        code: "88022090",
         description: "Outros"
     },
     {
-        code: "8802.30",
-        description: "- Aviões e outros veículos aéreos, de peso superior a 2.000 kg, mas não superior a 15.000 kg, vazios (sem carga)"
+        code: "880230",
+        description: "- Aviões e outros veículos aéreos, de peso superior a 2000 kg, mas não superior a 15000 kg, vazios (sem carga)"
     },
     {
-        code: "8802.30.10",
+        code: "88023010",
         description: "A hélice"
     },
     {
-        code: "8802.30.2",
+        code: "8802302",
         description: "A turboélice"
     },
     {
-        code: "8802.30.21",
-        description: "Multimotores, de peso não superior a 7.000 kg, vazios (sem carga)"
+        code: "88023021",
+        description: "Multimotores, de peso não superior a 7000 kg, vazios (sem carga)"
     },
     {
-        code: "8802.30.29",
+        code: "88023029",
         description: "Outros"
     },
     {
-        code: "8802.30.3",
+        code: "8802303",
         description: "A turbojato"
     },
     {
-        code: "8802.30.31",
-        description: "De peso não superior a 7.000 kg, vazios (sem carga)"
+        code: "88023031",
+        description: "De peso não superior a 7000 kg, vazios (sem carga)"
     },
     {
-        code: "8802.30.39",
+        code: "88023039",
         description: "Outros"
     },
     {
-        code: "8802.30.90",
+        code: "88023090",
         description: "Outros"
     },
     {
-        code: "8802.40",
-        description: "- Aviões e outros veículos aéreos, de peso superior a 15.000 kg, vazios (sem carga)"
+        code: "880240",
+        description: "- Aviões e outros veículos aéreos, de peso superior a 15000 kg, vazios (sem carga)"
     },
     {
-        code: "8802.40.10",
+        code: "88024010",
         description: "A turboélice"
     },
     {
-        code: "8802.40.90",
+        code: "88024090",
         description: "Outros"
     },
     {
-        code: "8802.60.00",
+        code: "88026000",
         description: "- Veículos espaciais (incluindo os satélites) e seus veículos de lançamento, e veículos suborbitais"
     },
     {
-        code: "8804.00.00",
-        description: "Paraquedas (incluindo os paraquedas dirigíveis e os parapentes) e os paraquedas giratórios; suas partes e acessórios."
+        code: "88040000",
+        description: "Paraquedas (incluindo os paraquedas dirigíveis e os parapentes) e os paraquedas giratórios; suas partes e acessórios"
     },
     {
-        code: "88.05",
+        code: "8805",
         description:
-            "Aparelhos e dispositivos para lançamento de veículos aéreos; aparelhos e dispositivos para aterrissagem (aterragem) de veículos aéreos em porta-aviões e aparelhos e dispositivos semelhantes; aparelhos de treinamento de voo em terra; suas partes."
+            "Aparelhos e dispositivos para lançamento de veículos aéreos; aparelhos e dispositivos para aterrissagem (aterragem) de veículos aéreos em porta-aviões e aparelhos e dispositivos semelhantes; aparelhos de treinamento de voo em terra; suas partes"
     },
     {
-        code: "8805.10.00",
+        code: "88051000",
         description:
             "- Aparelhos e dispositivos para lançamento de veículos aéreos, e suas partes; aparelhos e dispositivos para aterrissagem (aterragem) de veículos aéreos em porta-aviões e aparelhos e dispositivos semelhantes, e suas partes"
     },
     {
-        code: "8805.2",
+        code: "88052",
         description: "- Aparelhos de treinamento de voo em terra e suas partes:"
     },
     {
-        code: "8805.21.00",
+        code: "88052100",
         description: "-- Simuladores de combate aéreo e suas partes"
     },
     {
-        code: "8805.29.00",
+        code: "88052900",
         description: "-- Outros"
     },
     {
-        code: "88.06",
-        description: "Veículos aéreos (aeronaves) não tripulados."
+        code: "8806",
+        description: "Veículos aéreos (aeronaves) não tripulados"
     },
     {
-        code: "8806.10.00",
+        code: "88061000",
         description: "- Concebidos para o transporte de passageiros"
     },
     {
-        code: "8806.2",
+        code: "88062",
         description: "- Outros, concebidos unicamente para serem pilotados remotamente:"
     },
     {
-        code: "8806.21.00",
+        code: "88062100",
         description: "-- De peso máximo de decolagem não superior a 250 g"
     },
     {
-        code: "8806.22.00",
+        code: "88062200",
         description: "-- De peso máximo de decolagem superior a 250 g, mas não superior a 7 kg"
     },
     {
-        code: "8806.23.00",
+        code: "88062300",
         description: "-- De peso máximo de decolagem superior a 7 kg, mas não superior a 25 kg"
     },
     {
-        code: "8806.24.00",
+        code: "88062400",
         description: "-- De peso máximo de decolagem superior a 25 kg, mas não superior a 150 kg"
     },
     {
-        code: "8806.29.00",
+        code: "88062900",
         description: "-- Outros"
     },
     {
-        code: "8806.9",
+        code: "88069",
         description: "- Outros:"
     },
     {
-        code: "8806.91.00",
+        code: "88069100",
         description: "-- De peso máximo de decolagem não superior a 250 g"
     },
     {
-        code: "8806.92.00",
+        code: "88069200",
         description: "-- De peso máximo de decolagem superior a 250 g, mas não superior a 7 kg"
     },
     {
-        code: "8806.93.00",
+        code: "88069300",
         description: "-- De peso máximo de decolagem superior a 7 kg, mas não superior a 25 kg"
     },
     {
-        code: "8806.94.00",
+        code: "88069400",
         description: "-- De peso máximo de decolagem superior a 25 kg, mas não superior a 150 kg"
     },
     {
-        code: "8806.99.00",
+        code: "88069900",
         description: "-- Outros"
     },
     {
-        code: "88.07",
-        description: "Partes dos aparelhos das posições 88.01, 88.02 ou 88.06."
+        code: "8807",
+        description: "Partes dos aparelhos das posições 8801, 8802 ou 8806"
     },
     {
-        code: "8807.10.00",
+        code: "88071000",
         description: "- Hélices e rotores, e suas partes"
     },
     {
-        code: "8807.20.00",
+        code: "88072000",
         description: "- Trens de aterrissagem (aterragem) e suas partes"
     },
     {
-        code: "8807.30.00",
+        code: "88073000",
         description: "- Outras partes de aviões, de helicópteros ou de veículos aéreos (aeronaves) não tripulados"
     },
     {
-        code: "8807.90.00",
+        code: "88079000",
         description: "- Outras"
     },
     {
         code: "89",
-        description: "Embarcações e estruturas flutuantes."
+        description: "Embarcações e estruturas flutuantes"
     },
     {
-        code: "89.01",
+        code: "8901",
         description:
-            "Transatlânticos, barcos de excursão, <i>ferryboats</i>, cargueiros, chatas e embarcações semelhantes, para o transporte de pessoas ou de mercadorias."
+            "Transatlânticos, barcos de excursão, <i>ferryboats</i>, cargueiros, chatas e embarcações semelhantes, para o transporte de pessoas ou de mercadorias"
     },
     {
-        code: "8901.10.00",
+        code: "89011000",
         description:
             "- Transatlânticos, barcos de excursão e embarcações semelhantes principalmente concebidas para o transporte de pessoas; <i>ferryboats</i>"
     },
     {
-        code: "8901.20.00",
+        code: "89012000",
         description: "- Navios-tanque"
     },
     {
-        code: "8901.30.00",
-        description: "- Barcos frigoríficos, exceto os da subposição 8901.20"
+        code: "89013000",
+        description: "- Barcos frigoríficos, exceto os da subposição 890120"
     },
     {
-        code: "8901.90.00",
+        code: "89019000",
         description: "- Outras embarcações para o transporte de mercadorias ou para o transporte de pessoas e de mercadorias"
     },
     {
-        code: "8902.00",
-        description: "Barcos de pesca; navios-fábricas e outras embarcações para o tratamento ou conservação de produtos da pesca."
+        code: "890200",
+        description: "Barcos de pesca; navios-fábricas e outras embarcações para o tratamento ou conservação de produtos da pesca"
     },
     {
-        code: "8902.00.10",
+        code: "89020010",
         description: "De comprimento, de proa a popa, igual ou superior a 35 m"
     },
     {
-        code: "8902.00.90",
+        code: "89020090",
         description: "Outros"
     },
     {
-        code: "89.03",
-        description: "Iates e outros barcos e embarcações de recreio ou de esporte; barcos a remos e canoas."
+        code: "8903",
+        description: "Iates e outros barcos e embarcações de recreio ou de esporte; barcos a remos e canoas"
     },
     {
-        code: "8903.1",
+        code: "89031",
         description: "- Barcos infláveis, mesmo com casco rígido:"
     },
     {
-        code: "8903.11.00",
+        code: "89031100",
         description: "-- Equipados com um motor ou concebidos para comportá-lo, de peso vazio (sem carga) sem motor não superior a 100 kg"
     },
     {
-        code: "8903.12.00",
+        code: "89031200",
         description: "-- Não concebidos para serem utilizados com um motor e de peso vazio (sem carga) não superior a 100 kg"
     },
     {
-        code: "8903.19.00",
+        code: "89031900",
         description: "-- Outros"
     },
     {
-        code: "8903.2",
+        code: "89032",
         description: "- Barcos à vela, exceto os infláveis, mesmo com motor auxiliar:"
     },
     {
-        code: "8903.21.00",
+        code: "89032100",
         description: "-- De comprimento não superior a 7,5 m"
     },
     {
-        code: "8903.22.00",
+        code: "89032200",
         description: "-- De comprimento superior a 7,5 m, mas não superior a 24 m"
     },
     {
-        code: "8903.23.00",
+        code: "89032300",
         description: "-- De comprimento superior a 24 m"
     },
     {
-        code: "8903.3",
+        code: "89033",
         description: "- Barcos a motor, exceto os infláveis, não equipados com motor fora de borda:"
     },
     {
-        code: "8903.31.00",
+        code: "89033100",
         description: "-- De comprimento não superior a 7,5 m"
     },
     {
-        code: "8903.32.00",
+        code: "89033200",
         description: "-- De comprimento superior a 7,5 m, mas não superior a 24 m"
     },
     {
-        code: "8903.33.00",
+        code: "89033300",
         description: "-- De comprimento superior a 24 m"
     },
     {
-        code: "8903.9",
+        code: "89039",
         description: "- Outros:"
     },
     {
-        code: "8903.93.00",
+        code: "89039300",
         description: "-- De comprimento não superior a 7,5 m"
     },
     {
-        code: "8903.99.00",
+        code: "89039900",
         description: "-- Outros"
     },
     {
-        code: "8904.00.00",
-        description: "Rebocadores e barcos concebidos para empurrar outras embarcações."
+        code: "89040000",
+        description: "Rebocadores e barcos concebidos para empurrar outras embarcações"
     },
     {
-        code: "89.05",
+        code: "8905",
         description:
-            "Barcos-faróis, barcos-bombas, dragas, guindastes flutuantes e outras embarcações em que a navegação é acessória da função principal; docas flutuantes; plataformas de perfuração ou de exploração, flutuantes ou submersíveis."
+            "Barcos-faróis, barcos-bombas, dragas, guindastes flutuantes e outras embarcações em que a navegação é acessória da função principal; docas flutuantes; plataformas de perfuração ou de exploração, flutuantes ou submersíveis"
     },
     {
-        code: "8905.10.00",
+        code: "89051000",
         description: "- Dragas"
     },
     {
-        code: "8905.20.00",
+        code: "89052000",
         description: "- Plataformas de perfuração ou de exploração, flutuantes ou submersíveis"
     },
     {
-        code: "8905.90.00",
+        code: "89059000",
         description: "- Outros"
     },
     {
-        code: "89.06",
-        description: "Outras embarcações, incluindo os navios de guerra e os barcos salva-vidas, exceto os barcos a remos."
+        code: "8906",
+        description: "Outras embarcações, incluindo os navios de guerra e os barcos salva-vidas, exceto os barcos a remos"
     },
     {
-        code: "8906.10.00",
+        code: "89061000",
         description: "- Navios de guerra"
     },
     {
-        code: "8906.90.00",
+        code: "89069000",
         description: "- Outras"
     },
     {
-        code: "89.07",
+        code: "8907",
         description:
-            "Outras estruturas flutuantes (por exemplo, balsas, reservatórios, caixões, boias de amarração, boias de sinalização e semelhantes)."
+            "Outras estruturas flutuantes (por exemplo, balsas, reservatórios, caixões, boias de amarração, boias de sinalização e semelhantes)"
     },
     {
-        code: "8907.10.00",
+        code: "89071000",
         description: "- Balsas infláveis"
     },
     {
-        code: "8907.90.00",
+        code: "89079000",
         description: "- Outras"
     },
     {
-        code: "8908.00.00",
-        description: "Embarcações e outras estruturas flutuantes, para desmantelar."
+        code: "89080000",
+        description: "Embarcações e outras estruturas flutuantes, para desmantelar"
     },
     {
         code: "90",
         description:
-            "Instrumentos e aparelhos de óptica, de fotografia, de cinematografia, de medida, de controle ou de precisão; instrumentos e aparelhos médico-cirúrgicos; suas partes e acessórios."
+            "Instrumentos e aparelhos de óptica, de fotografia, de cinematografia, de medida, de controle ou de precisão; instrumentos e aparelhos médico-cirúrgicos; suas partes e acessórios"
     },
     {
-        code: "90.01",
+        code: "9001",
         description:
-            "Fibras ópticas e feixes de fibras ópticas; cabos de fibras ópticas, exceto os da posição 85.44; matérias polarizantes em folhas ou em placas; lentes (incluindo as de contato), prismas, espelhos e outros elementos de óptica, de qualquer matéria, não montados, exceto os de vidro não trabalhado opticamente."
+            "Fibras ópticas e feixes de fibras ópticas; cabos de fibras ópticas, exceto os da posição 8544; matérias polarizantes em folhas ou em placas; lentes (incluindo as de contato), prismas, espelhos e outros elementos de óptica, de qualquer matéria, não montados, exceto os de vidro não trabalhado opticamente"
     },
     {
-        code: "9001.10",
+        code: "900110",
         description: "- Fibras ópticas, feixes e cabos de fibras ópticas"
     },
     {
-        code: "9001.10.1",
+        code: "9001101",
         description: "Fibras ópticas"
     },
     {
-        code: "9001.10.11",
+        code: "90011011",
         description: "De diâmetro de núcleo inferior a 11 micrômetros (mícrons)"
     },
     {
-        code: "9001.10.19",
+        code: "90011019",
         description: "Outras"
     },
     {
-        code: "9001.10.20",
+        code: "90011020",
         description: "Feixes e cabos de fibras ópticas"
     },
     {
-        code: "9001.20.00",
+        code: "90012000",
         description: "- Matérias polarizantes em folhas ou em placas"
     },
     {
-        code: "9001.30.00",
+        code: "90013000",
         description: "- Lentes de contato"
     },
     {
-        code: "9001.40.00",
+        code: "90014000",
         description: "- Lentes de vidro, para óculos"
     },
     {
-        code: "9001.50.00",
+        code: "90015000",
         description: "- Lentes de outras matérias, para óculos"
     },
     {
-        code: "9001.90",
+        code: "900190",
         description: "- Outros"
     },
     {
-        code: "9001.90.10",
+        code: "90019010",
         description: "Lentes"
     },
     {
-        code: "9001.90.90",
+        code: "90019090",
         description: "Outros"
     },
     {
-        code: "90.02",
+        code: "9002",
         description:
-            "Lentes, prismas, espelhos e outros elementos de óptica, de qualquer matéria, montados, para instrumentos ou aparelhos, exceto os de vidro não trabalhado opticamente."
+            "Lentes, prismas, espelhos e outros elementos de óptica, de qualquer matéria, montados, para instrumentos ou aparelhos, exceto os de vidro não trabalhado opticamente"
     },
     {
-        code: "9002.1",
+        code: "90021",
         description: "- Objetivas:"
     },
     {
-        code: "9002.11",
+        code: "900211",
         description: "-- Para câmeras, para projetores ou para aparelhos fotográficos ou cinematográficos, de ampliação ou de redução"
     },
     {
-        code: "9002.11.1",
+        code: "9002111",
         description: "Para câmeras fotográficas ou cinematográficas ou para projetores"
     },
     {
-        code: "9002.11.11",
+        code: "90021111",
         description: "Para câmeras fotográficas"
     },
     {
-        code: "9002.11.19",
+        code: "90021119",
         description: "Outras"
     },
     {
-        code: "9002.11.20",
+        code: "90021120",
         description: "De aproximação (<i>zoom</i>) para câmeras de televisão, de 20 ou mais aumentos"
     },
     {
-        code: "9002.11.90",
+        code: "90021190",
         description: "Outras"
     },
     {
-        code: "9002.19.00",
+        code: "90021900",
         description: "-- Outras"
     },
     {
-        code: "9002.20",
+        code: "900220",
         description: "- Filtros"
     },
     {
-        code: "9002.20.10",
+        code: "90022010",
         description: "Polarizantes"
     },
     {
-        code: "9002.20.90",
+        code: "90022090",
         description: "Outros"
     },
     {
-        code: "9002.90.00",
+        code: "90029000",
         description: "- Outros"
     },
     {
-        code: "90.03",
-        description: "Armações para óculos e artigos semelhantes, e suas partes."
+        code: "9003",
+        description: "Armações para óculos e artigos semelhantes, e suas partes"
     },
     {
-        code: "9003.1",
+        code: "90031",
         description: "- Armações:"
     },
     {
-        code: "9003.11.00",
+        code: "90031100",
         description: "-- De plástico"
     },
     {
-        code: "9003.19",
+        code: "900319",
         description: "-- De outras matérias"
     },
     {
-        code: "9003.19.10",
+        code: "90031910",
         description: "De metais comuns, mesmo folheados ou chapeados de metais preciosos (plaquê)"
     },
     {
-        code: "9003.19.90",
+        code: "90031990",
         description: "Outras"
     },
     {
-        code: "9003.90",
+        code: "900390",
         description: "- Partes"
     },
     {
-        code: "9003.90.10",
+        code: "90039010",
         description: "Charneiras"
     },
     {
-        code: "9003.90.90",
+        code: "90039090",
         description: "Outras"
     },
     {
-        code: "90.04",
-        description: "Óculos para correção, proteção ou outros fins, e artigos semelhantes."
+        code: "9004",
+        description: "Óculos para correção, proteção ou outros fins, e artigos semelhantes"
     },
     {
-        code: "9004.10.00",
+        code: "90041000",
         description: "- Óculos de sol"
     },
     {
-        code: "9004.90",
+        code: "900490",
         description: "- Outros"
     },
     {
-        code: "9004.90.10",
+        code: "90049010",
         description: "Óculos para correção"
     },
     {
-        code: "9004.90.20",
+        code: "90049020",
         description: "Óculos de segurança"
     },
     {
-        code: "9004.90.90",
+        code: "90049090",
         description: "Outros"
     },
     {
-        code: "90.05",
+        code: "9005",
         description:
-            "Binóculos, lunetas, incluindo as astronômicas, telescópios ópticos, e suas armações; outros instrumentos de astronomia e suas armações, exceto os aparelhos de radioastronomia."
+            "Binóculos, lunetas, incluindo as astronômicas, telescópios ópticos, e suas armações; outros instrumentos de astronomia e suas armações, exceto os aparelhos de radioastronomia"
     },
     {
-        code: "9005.10.00",
+        code: "90051000",
         description: "- Binóculos"
     },
     {
-        code: "9005.80.00",
+        code: "90058000",
         description: "- Outros instrumentos"
     },
     {
-        code: "9005.90",
+        code: "900590",
         description: "- Partes e acessórios (incluindo as armações)"
     },
     {
-        code: "9005.90.10",
+        code: "90059010",
         description: "De binóculos"
     },
     {
-        code: "9005.90.90",
+        code: "90059090",
         description: "Outros"
     },
     {
-        code: "90.06",
+        code: "9006",
         description:
-            "Câmeras fotográficas; aparelhos e dispositivos, incluindo as lâmpadas e tubos, de luz relâmpago (<i>flash</i>), para fotografia, exceto as lâmpadas e tubos de descarga da posição 85.39."
+            "Câmeras fotográficas; aparelhos e dispositivos, incluindo as lâmpadas e tubos, de luz relâmpago (<i>flash</i>), para fotografia, exceto as lâmpadas e tubos de descarga da posição 8539"
     },
     {
-        code: "9006.30.00",
+        code: "90063000",
         description:
             "- Câmeras fotográficas especialmente concebidas para fotografia submarina ou aérea, para exame médico de órgãos internos ou para laboratórios de medicina legal ou de investigação judicial"
     },
     {
-        code: "9006.40.00",
+        code: "90064000",
         description: "- Câmeras fotográficas para filmes de revelação e cópia instantâneas"
     },
     {
-        code: "9006.5",
+        code: "90065",
         description: "- Outras câmeras fotográficas:"
     },
     {
-        code: "9006.53",
+        code: "900653",
         description: "-- Para filmes em rolos de 35 mm de largura"
     },
     {
-        code: "9006.53.10",
+        code: "90065310",
         description: "De foco fixo"
     },
     {
-        code: "9006.53.20",
+        code: "90065320",
         description: "De foco ajustável"
     },
     {
-        code: "9006.59",
+        code: "900659",
         description: "-- Outras"
     },
     {
-        code: "9006.59.30",
+        code: "90065930",
         description: "Fotocompositoras a laser para preparação de clichês"
     },
     {
-        code: "9006.59.40",
+        code: "90065940",
         description: "Outras, de foco fixo"
     },
     {
-        code: "9006.59.5",
+        code: "9006595",
         description: "Outras, de foco ajustável"
     },
     {
-        code: "9006.59.51",
+        code: "90065951",
         description: "Para obtenção de negativos de 45 mm x 60 mm ou de dimensões superiores"
     },
     {
-        code: "9006.59.59",
+        code: "90065959",
         description: "Outras"
     },
     {
-        code: "9006.6",
+        code: "90066",
         description: "- Aparelhos e dispositivos, incluindo as lâmpadas e tubos, de luz relâmpago (<i>flash</i>), para fotografia:"
     },
     {
-        code: "9006.61.00",
+        code: "90066100",
         description: '-- Aparelhos de tubo de descarga para produção de luz relâmpago (<i>flash</i>) (denominados "<i>flashes</i> eletrônicos")'
     },
     {
-        code: "9006.69.00",
+        code: "90066900",
         description: "-- Outros"
     },
     {
-        code: "9006.9",
+        code: "90069",
         description: "- Partes e acessórios:"
     },
     {
-        code: "9006.91",
+        code: "900691",
         description: "-- De câmeras fotográficas"
     },
     {
-        code: "9006.91.10",
+        code: "90069110",
         description: "Corpos"
     },
     {
-        code: "9006.91.90",
+        code: "90069190",
         description: "Outros"
     },
     {
-        code: "9006.99.00",
+        code: "90069900",
         description: "-- Outros"
     },
     {
-        code: "90.07",
-        description: "Câmeras e projetores, cinematográficos, mesmo com aparelhos de gravação ou de reprodução de som incorporados."
+        code: "9007",
+        description: "Câmeras e projetores, cinematográficos, mesmo com aparelhos de gravação ou de reprodução de som incorporados"
     },
     {
-        code: "9007.10.00",
+        code: "90071000",
         description: "- Câmeras"
     },
     {
-        code: "9007.20",
+        code: "900720",
         description: "- Projetores"
     },
     {
-        code: "9007.20.20",
+        code: "90072020",
         description: "Para filmes de largura igual ou superior a 35 mm, mas não superior a 70 mm"
     },
     {
-        code: "9007.20.90",
+        code: "90072090",
         description: "Outros"
     },
     {
-        code: "9007.9",
+        code: "90079",
         description: "- Partes e acessórios:"
     },
     {
-        code: "9007.91.00",
+        code: "90079100",
         description: "-- De câmeras"
     },
     {
-        code: "9007.92.00",
+        code: "90079200",
         description: "-- De projetores"
     },
     {
-        code: "90.08",
-        description: "Aparelhos de projeção fixa; aparelhos fotográficos de ampliação ou de redução."
+        code: "9008",
+        description: "Aparelhos de projeção fixa; aparelhos fotográficos de ampliação ou de redução"
     },
     {
-        code: "9008.50.00",
+        code: "90085000",
         description: "- Projetores e aparelhos de ampliação ou de redução"
     },
     {
-        code: "9008.90.00",
+        code: "90089000",
         description: "- Partes e acessórios"
     },
     {
-        code: "90.10",
+        code: "9010",
         description:
-            "Aparelhos e equipamentos para laboratórios fotográficos ou cinematográficos, não especificados nem compreendidos noutras posições do presente Capítulo; negatoscópios; telas para projeção."
+            "Aparelhos e equipamentos para laboratórios fotográficos ou cinematográficos, não especificados nem compreendidos noutras posições do presente Capítulo; negatoscópios; telas para projeção"
     },
     {
-        code: "9010.10",
+        code: "901010",
         description:
             "- Aparelhos e equipamentos para revelação automática de filmes fotográficos, de filmes cinematográficos ou de papel fotográfico, em rolos, ou para cópia automática de filmes revelados em rolos de papel fotográfico"
     },
     {
-        code: "9010.10.10",
+        code: "90101010",
         description: "Cubas e cubetas, de operação automática e programáveis"
     },
     {
-        code: "9010.10.20",
-        description: "Ampliadoras-copiadoras automáticas para papel fotográfico, com capacidade superior a 1.000 cópias por hora"
+        code: "90101020",
+        description: "Ampliadoras-copiadoras automáticas para papel fotográfico, com capacidade superior a 1000 cópias por hora"
     },
     {
-        code: "9010.10.90",
+        code: "90101090",
         description: "Outros"
     },
     {
-        code: "9010.50",
+        code: "901050",
         description: "- Outros aparelhos e equipamentos para laboratórios fotográficos ou cinematográficos; negatoscópios"
     },
     {
-        code: "9010.50.10",
+        code: "90105010",
         description: "Processadores fotográficos para o tratamento eletrônico de imagens, mesmo com saída digital"
     },
     {
-        code: "9010.50.20",
+        code: "90105020",
         description: "Aparelhos para revelação automática de chapas de fotopolímeros com suporte metálico"
     },
     {
-        code: "9010.50.90",
+        code: "90105090",
         description: "Outros"
     },
     {
-        code: "9010.60.00",
+        code: "90106000",
         description: "- Telas para projeção"
     },
     {
-        code: "9010.90",
+        code: "901090",
         description: "- Partes e acessórios"
     },
     {
-        code: "9010.90.10",
-        description: "De aparelhos ou material da subposição 9010.10 ou do item 9010.50.10"
+        code: "90109010",
+        description: "De aparelhos ou material da subposição 901010 ou do item 90105010"
     },
     {
-        code: "9010.90.90",
+        code: "90109090",
         description: "Outros"
     },
     {
-        code: "90.11",
-        description: "Microscópios ópticos, incluindo os microscópios para fotomicrografia, cinefotomicrografia ou microprojeção."
+        code: "9011",
+        description: "Microscópios ópticos, incluindo os microscópios para fotomicrografia, cinefotomicrografia ou microprojeção"
     },
     {
-        code: "9011.10.00",
+        code: "90111000",
         description: "- Microscópios estereoscópicos"
     },
     {
-        code: "9011.20",
+        code: "901120",
         description: "- Outros microscópios, para fotomicrografia, cinefotomicrografia ou microprojeção"
     },
     {
-        code: "9011.20.10",
+        code: "90112010",
         description: "Para fotomicrografia"
     },
     {
-        code: "9011.20.20",
+        code: "90112020",
         description: "Para cinefotomicrografia"
     },
     {
-        code: "9011.20.30",
+        code: "90112030",
         description: "Para microprojeção"
     },
     {
-        code: "9011.80",
+        code: "901180",
         description: "- Outros microscópios"
     },
     {
-        code: "9011.80.10",
+        code: "90118010",
         description: "Binoculares de platina móvel"
     },
     {
-        code: "9011.80.90",
+        code: "90118090",
         description: "Outros"
     },
     {
-        code: "9011.90",
+        code: "901190",
         description: "- Partes e acessórios"
     },
     {
-        code: "9011.90.10",
-        description: "Dos artigos da subposição 9011.20"
+        code: "90119010",
+        description: "Dos artigos da subposição 901120"
     },
     {
-        code: "9011.90.90",
+        code: "90119090",
         description: "Outros"
     },
     {
-        code: "90.12",
-        description: "Microscópios, exceto ópticos; difratógrafos."
+        code: "9012",
+        description: "Microscópios, exceto ópticos; difratógrafos"
     },
     {
-        code: "9012.10",
+        code: "901210",
         description: "- Microscópios, exceto ópticos; difratógrafos"
     },
     {
-        code: "9012.10.10",
+        code: "90121010",
         description: "Microscópios eletrônicos"
     },
     {
-        code: "9012.10.90",
+        code: "90121090",
         description: "Outros"
     },
     {
-        code: "9012.90",
+        code: "901290",
         description: "- Partes e acessórios"
     },
     {
-        code: "9012.90.10",
+        code: "90129010",
         description: "De microscópios eletrônicos"
     },
     {
-        code: "9012.90.90",
+        code: "90129090",
         description: "Outros"
     },
     {
-        code: "90.13",
+        code: "9013",
         description:
-            "Lasers, exceto diodos laser; outros aparelhos e instrumentos de óptica, não especificados nem compreendidos noutras posições do presente Capítulo."
+            "Lasers, exceto diodos laser; outros aparelhos e instrumentos de óptica, não especificados nem compreendidos noutras posições do presente Capítulo"
     },
     {
-        code: "9013.10",
+        code: "901310",
         description:
             "- Miras telescópicas para armas; periscópios; lunetas para máquinas, aparelhos ou instrumentos do presente Capítulo ou da Seção XVI"
     },
     {
-        code: "9013.10.10",
+        code: "90131010",
         description: "Miras telescópicas para armas"
     },
     {
-        code: "9013.10.90",
+        code: "90131090",
         description: "Outros"
     },
     {
-        code: "9013.20.00",
+        code: "90132000",
         description: "- Lasers, exceto diodos laser"
     },
     {
-        code: "9013.80.00",
+        code: "90138000",
         description: "- Outros dispositivos, aparelhos e instrumentos"
     },
     {
-        code: "9013.90.00",
+        code: "90139000",
         description: "- Partes e acessórios"
     },
     {
-        code: "90.14",
-        description: "Bússolas, incluindo as agulhas de marear; outros instrumentos e aparelhos de navegação."
+        code: "9014",
+        description: "Bússolas, incluindo as agulhas de marear; outros instrumentos e aparelhos de navegação"
     },
     {
-        code: "9014.10.00",
+        code: "90141000",
         description: "- Bússolas, incluindo as agulhas de marear"
     },
     {
-        code: "9014.20",
+        code: "901420",
         description: "- Instrumentos e aparelhos para navegação aérea ou espacial (exceto bússolas)"
     },
     {
-        code: "9014.20.10",
+        code: "90142010",
         description: "Altímetros"
     },
     {
-        code: "9014.20.20",
+        code: "90142020",
         description: "Pilotos automáticos"
     },
     {
-        code: "9014.20.30",
+        code: "90142030",
         description: "Inclinômetros"
     },
     {
-        code: "9014.20.90",
+        code: "90142090",
         description: "Outros"
     },
     {
-        code: "9014.80",
+        code: "901480",
         description: "- Outros aparelhos e instrumentos"
     },
     {
-        code: "9014.80.10",
+        code: "90148010",
         description: "Sondas acústicas (ecobatímetros) ou de ultrassom (sonar e semelhantes)"
     },
     {
-        code: "9014.80.90",
+        code: "90148090",
         description: "Outros"
     },
     {
-        code: "9014.90.00",
+        code: "90149000",
         description: "- Partes e acessórios"
     },
     {
-        code: "90.15",
+        code: "9015",
         description:
-            "Instrumentos e aparelhos de geodésia, topografia, agrimensura, nivelamento, fotogrametria, hidrografia, oceanografia, hidrologia, meteorologia ou de geofísica, exceto bússolas; telêmetros."
+            "Instrumentos e aparelhos de geodésia, topografia, agrimensura, nivelamento, fotogrametria, hidrografia, oceanografia, hidrologia, meteorologia ou de geofísica, exceto bússolas; telêmetros"
     },
     {
-        code: "9015.10.00",
+        code: "90151000",
         description: "- Telêmetros"
     },
     {
-        code: "9015.20",
+        code: "901520",
         description: "- Teodolitos e taqueômetros"
     },
     {
-        code: "9015.20.10",
+        code: "90152010",
         description: "Com sistema de leitura por meio de prisma ou micrômetro óptico e precisão de leitura de 1 segundo"
     },
     {
-        code: "9015.20.90",
+        code: "90152090",
         description: "Outros"
     },
     {
-        code: "9015.30.00",
+        code: "90153000",
         description: "- Níveis"
     },
     {
-        code: "9015.40.00",
+        code: "90154000",
         description: "- Instrumentos e aparelhos de fotogrametria"
     },
     {
-        code: "9015.80",
+        code: "901580",
         description: "- Outros instrumentos e aparelhos"
     },
     {
-        code: "9015.80.10",
+        code: "90158010",
         description: "Molinetes hidrométricos"
     },
     {
-        code: "9015.80.90",
+        code: "90158090",
         description: "Outros"
     },
     {
-        code: "9015.90",
+        code: "901590",
         description: "- Partes e acessórios"
     },
     {
-        code: "9015.90.10",
-        description: "De instrumentos ou aparelhos da subposição 9015.40"
+        code: "90159010",
+        description: "De instrumentos ou aparelhos da subposição 901540"
     },
     {
-        code: "9015.90.90",
+        code: "90159090",
         description: "Outros"
     },
     {
-        code: "9016.00",
-        description: "Balanças sensíveis a pesos inferiores ou iguais a 5 cg, mesmo com pesos."
+        code: "901600",
+        description: "Balanças sensíveis a pesos inferiores ou iguais a 5 cg, mesmo com pesos"
     },
     {
-        code: "9016.00.10",
+        code: "90160010",
         description: "Sensíveis a pesos não superiores a 0,2 mg"
     },
     {
-        code: "9016.00.90",
+        code: "90160090",
         description: "Outras"
     },
     {
-        code: "90.17",
+        code: "9017",
         description:
-            "Instrumentos de desenho, de traçado ou de cálculo (por exemplo, máquinas de desenhar, pantógrafos, transferidores, estojos de desenho, réguas de cálculo e discos de cálculo); instrumentos de medida de distâncias de uso manual (por exemplo, metros, micrômetros, paquímetros e calibres), não especificados nem compreendidos noutras posições do presente Capítulo."
+            "Instrumentos de desenho, de traçado ou de cálculo (por exemplo, máquinas de desenhar, pantógrafos, transferidores, estojos de desenho, réguas de cálculo e discos de cálculo); instrumentos de medida de distâncias de uso manual (por exemplo, metros, micrômetros, paquímetros e calibres), não especificados nem compreendidos noutras posições do presente Capítulo"
     },
     {
-        code: "9017.10",
+        code: "901710",
         description: "- Mesas e máquinas de desenhar, mesmo automáticas"
     },
     {
-        code: "9017.10.10",
+        code: "90171010",
         description: "Automáticas"
     },
     {
-        code: "9017.10.90",
+        code: "90171090",
         description: "Outras"
     },
     {
-        code: "9017.20.00",
+        code: "90172000",
         description: "- Outros instrumentos de desenho, de traçado ou de cálculo"
     },
     {
-        code: "9017.30",
+        code: "901730",
         description: "- Micrômetros, paquímetros, calibres e semelhantes"
     },
     {
-        code: "9017.30.10",
+        code: "90173010",
         description: "Micrômetros"
     },
     {
-        code: "9017.30.20",
+        code: "90173020",
         description: "Paquímetros"
     },
     {
-        code: "9017.30.90",
+        code: "90173090",
         description: "Outros"
     },
     {
-        code: "9017.80",
+        code: "901780",
         description: "- Outros instrumentos"
     },
     {
-        code: "9017.80.10",
+        code: "90178010",
         description: "Metros"
     },
     {
-        code: "9017.80.90",
+        code: "90178090",
         description: "Outros"
     },
     {
-        code: "9017.90",
+        code: "901790",
         description: "- Partes e acessórios"
     },
     {
-        code: "9017.90.10",
+        code: "90179010",
         description: "De mesas ou máquinas de desenhar, automáticas"
     },
     {
-        code: "9017.90.90",
+        code: "90179090",
         description: "Outros"
     },
     {
-        code: "90.18",
+        code: "9018",
         description:
-            "Instrumentos e aparelhos para medicina, cirurgia, odontologia e veterinária, incluindo os aparelhos para cintilografia e outros aparelhos eletromédicos, bem como os aparelhos para testes visuais."
+            "Instrumentos e aparelhos para medicina, cirurgia, odontologia e veterinária, incluindo os aparelhos para cintilografia e outros aparelhos eletromédicos, bem como os aparelhos para testes visuais"
     },
     {
-        code: "9018.1",
+        code: "90181",
         description:
             "- Aparelhos de eletrodiagnóstico (incluindo os aparelhos de exploração funcional e os de verificação de parâmetros fisiológicos):"
     },
     {
-        code: "9018.11.00",
+        code: "90181100",
         description: "-- Eletrocardiógrafos"
     },
     {
-        code: "9018.12",
+        code: "901812",
         description: "-- Aparelhos de diagnóstico por varredura ultrassônica (<i>scanners</i>)"
     },
     {
-        code: "9018.12.10",
+        code: "90181210",
         description: "Ecógrafos com análise espectral Doppler"
     },
     {
-        code: "9018.12.90",
+        code: "90181290",
         description: "Outros"
     },
     {
-        code: "9018.13.00",
+        code: "90181300",
         description: "-- Aparelhos de diagnóstico de imagem por ressonância magnética"
     },
     {
-        code: "9018.14",
+        code: "901814",
         description: "-- Aparelhos de cintilografia"
     },
     {
-        code: "9018.14.10",
+        code: "90181410",
         description: "<i>Scanner</i> de tomografia por emissão de posítrons (PET - <i>Positron Emission Tomography</i>)"
     },
     {
-        code: "9018.14.20",
+        code: "90181420",
         description: "Câmaras gama"
     },
     {
-        code: "9018.14.90",
+        code: "90181490",
         description: "Outros"
     },
     {
-        code: "9018.19",
+        code: "901819",
         description: "-- Outros"
     },
     {
-        code: "9018.19.10",
+        code: "90181910",
         description: "Endoscópios"
     },
     {
-        code: "9018.19.20",
+        code: "90181920",
         description: "Audiômetros"
     },
     {
-        code: "9018.19.80",
+        code: "90181980",
         description: "Outros"
     },
     {
-        code: "9018.19.90",
+        code: "90181990",
         description: "Partes"
     },
     {
-        code: "9018.20",
+        code: "901820",
         description: "- Aparelhos de raios ultravioleta ou infravermelhos"
     },
     {
-        code: "9018.20.10",
+        code: "90182010",
         description: "Para cirurgia, que operem por laser"
     },
     {
-        code: "9018.20.20",
+        code: "90182020",
         description: "Outros, para tratamento bucal, que operem por laser"
     },
     {
-        code: "9018.20.90",
+        code: "90182090",
         description: "Outros"
     },
     {
-        code: "9018.3",
+        code: "90183",
         description: "- Seringas, agulhas, cateteres, cânulas e instrumentos semelhantes:"
     },
     {
-        code: "9018.31",
+        code: "901831",
         description: "-- Seringas, mesmo com agulhas"
     },
     {
-        code: "9018.31.1",
+        code: "9018311",
         description: "De plástico"
     },
     {
-        code: "9018.31.11",
+        code: "90183111",
         description: "De capacidade inferior ou igual a 2 cm<sup>3</sup>"
     },
     {
-        code: "9018.31.19",
+        code: "90183119",
         description: "Outras"
     },
     {
-        code: "9018.31.90",
+        code: "90183190",
         description: "Outras"
     },
     {
-        code: "9018.32",
+        code: "901832",
         description: "-- Agulhas tubulares de metal e agulhas para suturas"
     },
     {
-        code: "9018.32.1",
+        code: "9018321",
         description: "Tubulares de metal"
     },
     {
-        code: "9018.32.11",
+        code: "90183211",
         description: "Gengivais"
     },
     {
-        code: "9018.32.12",
+        code: "90183212",
         description: "De aço cromo-níquel, bisel trifacetado e diâmetro exterior igual ou superior a 1,6 mm, do tipo utilizado com bolsas de sangue"
     },
     {
-        code: "9018.32.13",
+        code: "90183213",
         description: "Agulhas ponta de lápis, do tipo utilizado em anestesia epidural ou raquidiana"
     },
     {
-        code: "9018.32.19",
+        code: "90183219",
         description: "Outras"
     },
     {
-        code: "9018.32.20",
+        code: "90183220",
         description: "Para suturas"
     },
     {
-        code: "9018.39",
+        code: "901839",
         description: "-- Outros"
     },
     {
-        code: "9018.39.10",
+        code: "90183910",
         description: "Agulhas"
     },
     {
-        code: "9018.39.2",
+        code: "9018392",
         description: "Sondas, cateteres e cânulas"
     },
     {
-        code: "9018.39.21",
+        code: "90183921",
         description: "De borracha"
     },
     {
-        code: "9018.39.22",
+        code: "90183922",
         description: "Cateteres de poli(cloreto de vinila), para embolectomia arterial"
     },
     {
-        code: "9018.39.23",
+        code: "90183923",
         description: "Cateteres de poli(cloreto de vinila), para termodiluição"
     },
     {
-        code: "9018.39.24",
+        code: "90183924",
         description: "Cateteres intravenosos periféricos, de poliuretano ou de copolímero de etileno-tetrafluoretileno (ETFE)"
     },
     {
-        code: "9018.39.29",
+        code: "90183929",
         description: "Outros"
     },
     {
-        code: "9018.39.30",
+        code: "90183930",
         description: "Lancetas para vacinação e cautérios"
     },
     {
-        code: "9018.39.9",
+        code: "9018399",
         description: "Outros"
     },
     {
-        code: "9018.39.91",
+        code: "90183991",
         description: "Artigo para fístula arteriovenosa, composto de agulha, base de fixação tipo borboleta, tubo plástico com conector e obturador"
     },
     {
-        code: "9018.39.99",
+        code: "90183999",
         description: "Outros"
     },
     {
-        code: "9018.4",
+        code: "90184",
         description: "- Outros instrumentos e aparelhos para odontologia:"
     },
     {
-        code: "9018.41.00",
+        code: "90184100",
         description: "-- Aparelhos dentários de brocar, mesmo combinados numa base comum com outros equipamentos dentários"
     },
     {
-        code: "9018.49",
+        code: "901849",
         description: "-- Outros"
     },
     {
-        code: "9018.49.1",
+        code: "9018491",
         description: "Brocas"
     },
     {
-        code: "9018.49.11",
+        code: "90184911",
         description: "De carboneto de tungstênio (volfrâmio)"
     },
     {
-        code: "9018.49.12",
+        code: "90184912",
         description: "De aço-vanádio"
     },
     {
-        code: "9018.49.19",
+        code: "90184919",
         description: "Outras"
     },
     {
-        code: "9018.49.20",
+        code: "90184920",
         description: "Limas"
     },
     {
-        code: "9018.49.40",
+        code: "90184940",
         description: "Para tratamento bucal, que operem por projeção cinética de partículas"
     },
     {
-        code: "9018.49.9",
+        code: "9018499",
         description: "Outros"
     },
     {
-        code: "9018.49.91",
+        code: "90184991",
         description: "Para desenho e construção de peças cerâmicas para restaurações dentárias, computadorizados"
     },
     {
-        code: "9018.49.99",
+        code: "90184999",
         description: "Outros"
     },
     {
-        code: "9018.50",
+        code: "901850",
         description: "- Outros instrumentos e aparelhos para oftalmologia"
     },
     {
-        code: "9018.50.10",
+        code: "90185010",
         description: "Microscópios binoculares, do tipo utilizado em cirurgia oftalmológica"
     },
     {
-        code: "9018.50.90",
+        code: "90185090",
         description: "Outros"
     },
     {
-        code: "9018.90",
+        code: "901890",
         description: "- Outros instrumentos e aparelhos"
     },
     {
-        code: "9018.90.10",
+        code: "90189010",
         description: "Para transfusão de sangue ou infusão intravenosa"
     },
     {
-        code: "9018.90.2",
+        code: "9018902",
         description: "Bisturis"
     },
     {
-        code: "9018.90.21",
+        code: "90189021",
         description: "Elétricos"
     },
     {
-        code: "9018.90.29",
+        code: "90189029",
         description: "Outros"
     },
     {
-        code: "9018.90.3",
+        code: "9018903",
         description: "Litótomos e litotritores"
     },
     {
-        code: "9018.90.31",
+        code: "90189031",
         description: "Litotritores por onda de choque"
     },
     {
-        code: "9018.90.39",
+        code: "90189039",
         description: "Outros"
     },
     {
-        code: "9018.90.40",
+        code: "90189040",
         description: "Rins artificiais"
     },
     {
-        code: "9018.90.50",
+        code: "90189050",
         description: "Aparelhos de diatermia"
     },
     {
-        code: "9018.90.6",
+        code: "9018906",
         description: "Aparelhos para medida da pressão arterial"
     },
     {
-        code: "9018.90.61",
+        code: "90189061",
         description: "Que contenham mercúrio"
     },
     {
-        code: "9018.90.69",
+        code: "90189069",
         description: "Outros"
     },
     {
-        code: "9018.90.9",
+        code: "9018909",
         description: "Outros"
     },
     {
-        code: "9018.90.91",
+        code: "90189091",
         description: "Incubadoras para bebês"
     },
     {
-        code: "9018.90.93",
+        code: "90189093",
         description:
             "Aparelhos para terapia intra-uretral por micro-ondas (TUMT), próprios para o tratamento de afecções prostáticas, computadorizados"
     },
     {
-        code: "9018.90.94",
+        code: "90189094",
         description: "Endoscópios"
     },
     {
-        code: "9018.90.95",
+        code: "90189095",
         description: "Grampos e clipes, seus aplicadores e extratores"
     },
     {
-        code: "9018.90.96",
+        code: "90189096",
         description: "Desfibriladores externos que operem unicamente em modo automático (AED - <i>Automatic External Defibrillator</i>)"
     },
     {
-        code: "9018.90.99",
+        code: "90189099",
         description: "Outros"
     },
     {
-        code: "90.19",
+        code: "9019",
         description:
-            "Aparelhos de mecanoterapia; aparelhos de massagem; aparelhos de psicotécnica; aparelhos de ozonoterapia, de oxigenoterapia, de aerossolterapia, aparelhos respiratórios de reanimação e outros aparelhos de terapia respiratória."
+            "Aparelhos de mecanoterapia; aparelhos de massagem; aparelhos de psicotécnica; aparelhos de ozonoterapia, de oxigenoterapia, de aerossolterapia, aparelhos respiratórios de reanimação e outros aparelhos de terapia respiratória"
     },
     {
-        code: "9019.10.00",
+        code: "90191000",
         description: "- Aparelhos de mecanoterapia; aparelhos de massagem; aparelhos de psicotécnica"
     },
     {
-        code: "9019.20",
+        code: "901920",
         description:
             "- Aparelhos de ozonoterapia, de oxigenoterapia, de aerossolterapia, aparelhos respiratórios de reanimação e outros aparelhos de terapia respiratória"
     },
     {
-        code: "9019.20.10",
+        code: "90192010",
         description: "De oxigenoterapia"
     },
     {
-        code: "9019.20.20",
+        code: "90192020",
         description: "De aerossolterapia"
     },
     {
-        code: "9019.20.30",
+        code: "90192030",
         description: "Respiratórios de reanimação"
     },
     {
-        code: "9019.20.40",
+        code: "90192040",
         description: "Respiradores automáticos (pulmões de aço)"
     },
     {
-        code: "9019.20.90",
+        code: "90192090",
         description: "Outros"
     },
     {
-        code: "9020.00",
+        code: "902000",
         description:
-            "Outros aparelhos respiratórios e máscaras contra gases, exceto as máscaras de proteção desprovidas de mecanismo e de elemento filtrante amovível."
+            "Outros aparelhos respiratórios e máscaras contra gases, exceto as máscaras de proteção desprovidas de mecanismo e de elemento filtrante amovível"
     },
     {
-        code: "9020.00.10",
+        code: "90200010",
         description: "Máscaras contra gases"
     },
     {
-        code: "9020.00.90",
+        code: "90200090",
         description: "Outros"
     },
     {
-        code: "90.21",
+        code: "9021",
         description:
-            "Artigos e aparelhos ortopédicos, incluindo as cintas e fundas médico-cirúrgicas e as muletas; talas, goteiras e outros artigos e aparelhos para fraturas; artigos e aparelhos de prótese; aparelhos para facilitar a audição dos surdos e outros aparelhos para compensar uma deficiência ou uma incapacidade, destinados a serem transportados à mão ou sobre as pessoas ou a serem implantados no organismo."
+            "Artigos e aparelhos ortopédicos, incluindo as cintas e fundas médico-cirúrgicas e as muletas; talas, goteiras e outros artigos e aparelhos para fraturas; artigos e aparelhos de prótese; aparelhos para facilitar a audição dos surdos e outros aparelhos para compensar uma deficiência ou uma incapacidade, destinados a serem transportados à mão ou sobre as pessoas ou a serem implantados no organismo"
     },
     {
-        code: "9021.10",
+        code: "902110",
         description: "- Artigos e aparelhos ortopédicos ou para fraturas"
     },
     {
-        code: "9021.10.10",
+        code: "90211010",
         description: "Artigos e aparelhos ortopédicos"
     },
     {
-        code: "9021.10.20",
+        code: "90211020",
         description: "Artigos e aparelhos para fraturas"
     },
     {
-        code: "9021.10.9",
+        code: "9021109",
         description: "Partes e acessórios"
     },
     {
-        code: "9021.10.91",
+        code: "90211091",
         description: "De artigos e aparelhos de ortopedia, articulados"
     },
     {
-        code: "9021.10.99",
+        code: "90211099",
         description: "Outros"
     },
     {
-        code: "9021.2",
+        code: "90212",
         description: "- Artigos e aparelhos de prótese dentária:"
     },
     {
-        code: "9021.21",
+        code: "902121",
         description: "-- Dentes artificiais"
     },
     {
-        code: "9021.21.10",
+        code: "90212110",
         description: "De acrílico"
     },
     {
-        code: "9021.21.90",
+        code: "90212190",
         description: "Outros"
     },
     {
-        code: "9021.29.00",
+        code: "90212900",
         description: "-- Outros"
     },
     {
-        code: "9021.3",
+        code: "90213",
         description: "- Outros artigos e aparelhos de prótese:"
     },
     {
-        code: "9021.31",
+        code: "902131",
         description: "-- Próteses articulares"
     },
     {
-        code: "9021.31.10",
+        code: "90213110",
         description: "Femurais"
     },
     {
-        code: "9021.31.20",
+        code: "90213120",
         description: "Mioelétricas"
     },
     {
-        code: "9021.31.90",
+        code: "90213190",
         description: "Outras"
     },
     {
-        code: "9021.39",
+        code: "902139",
         description: "-- Outros"
     },
     {
-        code: "9021.39.1",
+        code: "9021391",
         description: "Válvulas cardíacas"
     },
     {
-        code: "9021.39.11",
+        code: "90213911",
         description: "Mecânicas"
     },
     {
-        code: "9021.39.19",
+        code: "90213919",
         description: "Outras"
     },
     {
-        code: "9021.39.20",
+        code: "90213920",
         description: "Lentes intraoculares"
     },
     {
-        code: "9021.39.30",
+        code: "90213930",
         description: "Próteses de artérias vasculares revestidas"
     },
     {
-        code: "9021.39.40",
+        code: "90213940",
         description: "Próteses mamárias não implantáveis"
     },
     {
-        code: "9021.39.80",
+        code: "90213980",
         description: "Outros"
     },
     {
-        code: "9021.39.9",
+        code: "9021399",
         description: "Partes e acessórios"
     },
     {
-        code: "9021.39.91",
+        code: "90213991",
         description: "Partes de próteses modulares que substituem membros superiores ou inferiores"
     },
     {
-        code: "9021.39.99",
+        code: "90213999",
         description: "Outros"
     },
     {
-        code: "9021.40.00",
+        code: "90214000",
         description: "- Aparelhos para facilitar a audição dos surdos, exceto as partes e acessórios"
     },
     {
-        code: "9021.50.00",
+        code: "90215000",
         description: "- Marca-passos cardíacos (Estimuladores cardíacos*), exceto as partes e acessórios"
     },
     {
-        code: "9021.90",
+        code: "902190",
         description: "- Outros"
     },
     {
-        code: "9021.90.1",
+        code: "9021901",
         description: "Aparelhos que se implantam no organismo para compensar uma deficiência ou uma incapacidade"
     },
     {
-        code: "9021.90.11",
+        code: "90219011",
         description: "Cardiodesfibriladores automáticos"
     },
     {
-        code: "9021.90.12",
+        code: "90219012",
         description: "Implantes expansíveis (<i>stents</i>), mesmo montados sobre cateter do tipo balão"
     },
     {
-        code: "9021.90.13",
+        code: "90219013",
         description:
             "Oclusores interauriculares constituídos por uma malha de fios de níquel e titânio preenchida com tecido de poliéster, mesmo apresentados com seu respectivo cateter"
     },
     {
-        code: "9021.90.19",
+        code: "90219019",
         description: "Outros"
     },
     {
-        code: "9021.90.80",
+        code: "90219080",
         description: "Outros"
     },
     {
-        code: "9021.90.9",
+        code: "9021909",
         description: "Partes e acessórios"
     },
     {
-        code: "9021.90.91",
+        code: "90219091",
         description: "De marca-passos cardíacos"
     },
     {
-        code: "9021.90.92",
+        code: "90219092",
         description: "De aparelhos para facilitar a audição dos surdos"
     },
     {
-        code: "9021.90.99",
+        code: "90219099",
         description: "Outros"
     },
     {
-        code: "90.22",
+        code: "9022",
         description:
-            "Aparelhos de raios X e aparelhos que utilizem radiações alfa, beta, gama ou outras radiações ionizantes, mesmo para usos médicos, cirúrgicos, odontológicos ou veterinários, incluindo os aparelhos de radiofotografia ou de radioterapia, os tubos de raios X e outros dispositivos geradores de raios X, os geradores de tensão, as mesas de comando, as telas de visualização, as mesas, cadeiras e suportes semelhantes para exame ou tratamento."
+            "Aparelhos de raios X e aparelhos que utilizem radiações alfa, beta, gama ou outras radiações ionizantes, mesmo para usos médicos, cirúrgicos, odontológicos ou veterinários, incluindo os aparelhos de radiofotografia ou de radioterapia, os tubos de raios X e outros dispositivos geradores de raios X, os geradores de tensão, as mesas de comando, as telas de visualização, as mesas, cadeiras e suportes semelhantes para exame ou tratamento"
     },
     {
-        code: "9022.1",
+        code: "90221",
         description:
             "- Aparelhos de raios X, mesmo para usos médicos, cirúrgicos, odontológicos ou veterinários, incluindo os aparelhos de radiofotografia ou de radioterapia:"
     },
     {
-        code: "9022.12.00",
+        code: "90221200",
         description: "-- Aparelhos de tomografia computadorizada"
     },
     {
-        code: "9022.13",
+        code: "902213",
         description: "-- Outros, para odontologia"
     },
     {
-        code: "9022.13.1",
+        code: "9022131",
         description: "De diagnóstico"
     },
     {
-        code: "9022.13.11",
+        code: "90221311",
         description: "De tomadas maxilares panorâmicas"
     },
     {
-        code: "9022.13.19",
+        code: "90221319",
         description: "Outros"
     },
     {
-        code: "9022.13.90",
+        code: "90221390",
         description: "Outros"
     },
     {
-        code: "9022.14",
+        code: "902214",
         description: "-- Outros, para usos médicos, cirúrgicos ou veterinários"
     },
     {
-        code: "9022.14.1",
+        code: "9022141",
         description: "De diagnóstico"
     },
     {
-        code: "9022.14.11",
+        code: "90221411",
         description: "Para mamografia"
     },
     {
-        code: "9022.14.12",
+        code: "90221412",
         description: "Para angiografia"
     },
     {
-        code: "9022.14.13",
+        code: "90221413",
         description: "Para densitometria óssea, computadorizados"
     },
     {
-        code: "9022.14.19",
+        code: "90221419",
         description: "Outros"
     },
     {
-        code: "9022.14.90",
+        code: "90221490",
         description: "Outros"
     },
     {
-        code: "9022.19",
+        code: "902219",
         description: "-- Para outros usos"
     },
     {
-        code: "9022.19.10",
+        code: "90221910",
         description: "Espectrômetros ou espectrógrafos de raios X"
     },
     {
-        code: "9022.19.9",
+        code: "9022199",
         description: "Outros"
     },
     {
-        code: "9022.19.91",
+        code: "90221991",
         description:
             "Do tipo utilizado para inspeção de bagagens, com túnel de altura inferior ou igual a 0,4 m, largura inferior ou igual a 0,6 m e comprimento inferior ou igual a 1,2 m"
     },
     {
-        code: "9022.19.99",
+        code: "90221999",
         description: "Outros"
     },
     {
-        code: "9022.2",
+        code: "90222",
         description:
             "- Aparelhos que utilizem radiações alfa, beta, gama ou outras radiações ionizantes, mesmo para usos médicos, cirúrgicos, odontológicos ou veterinários, incluindo os aparelhos de radiofotografia ou de radioterapia:"
     },
     {
-        code: "9022.21",
+        code: "902221",
         description: "-- Para usos médicos, cirúrgicos, odontológicos ou veterinários"
     },
     {
-        code: "9022.21.10",
+        code: "90222110",
         description: "Aparelhos de radiocobalto (bombas de cobalto)"
     },
     {
-        code: "9022.21.20",
+        code: "90222120",
         description: "Outros, para gamaterapia"
     },
     {
-        code: "9022.21.90",
+        code: "90222190",
         description: "Outros"
     },
     {
-        code: "9022.29",
+        code: "902229",
         description: "-- Para outros usos"
     },
     {
-        code: "9022.29.10",
+        code: "90222910",
         description: "Para detecção do nível de enchimento ou tampas faltantes, em latas de bebidas, por meio de raios gama"
     },
     {
-        code: "9022.29.90",
+        code: "90222990",
         description: "Outros"
     },
     {
-        code: "9022.30.00",
+        code: "90223000",
         description: "- Tubos de raios X"
     },
     {
-        code: "9022.90",
+        code: "902290",
         description: "- Outros, incluindo as partes e acessórios"
     },
     {
-        code: "9022.90.10",
+        code: "90229010",
         description: "Geradores de tensão"
     },
     {
-        code: "9022.90.20",
+        code: "90229020",
         description: "Telas radiológicas"
     },
     {
-        code: "9022.90.80",
+        code: "90229080",
         description: "Outros, excluindo as partes e acessórios"
     },
     {
-        code: "9022.90.9",
+        code: "9022909",
         description: "Partes e acessórios"
     },
     {
-        code: "9022.90.91",
+        code: "90229091",
         description: "De aparelhos de raios X"
     },
     {
-        code: "9022.90.99",
+        code: "90229099",
         description: "Outros"
     },
     {
-        code: "9023.00.00",
+        code: "90230000",
         description:
-            "Instrumentos, aparelhos e modelos, concebidos para demonstração (por exemplo, no ensino e nas exposições), não suscetíveis de outros usos."
+            "Instrumentos, aparelhos e modelos, concebidos para demonstração (por exemplo, no ensino e nas exposições), não suscetíveis de outros usos"
     },
     {
-        code: "90.24",
+        code: "9024",
         description:
-            "Máquinas e aparelhos para ensaios de dureza, tração, compressão, elasticidade ou de outras propriedades mecânicas de materiais (por exemplo, metais, madeira, têxteis, papel, plástico)."
+            "Máquinas e aparelhos para ensaios de dureza, tração, compressão, elasticidade ou de outras propriedades mecânicas de materiais (por exemplo, metais, madeira, têxteis, papel, plástico)"
     },
     {
-        code: "9024.10",
+        code: "902410",
         description: "- Máquinas e aparelhos para ensaios de metais"
     },
     {
-        code: "9024.10.10",
+        code: "90241010",
         description: "Para ensaios de tração ou compressão"
     },
     {
-        code: "9024.10.20",
+        code: "90241020",
         description: "Para ensaios de dureza"
     },
     {
-        code: "9024.10.90",
+        code: "90241090",
         description: "Outros"
     },
     {
-        code: "9024.80",
+        code: "902480",
         description: "- Outras máquinas e aparelhos"
     },
     {
-        code: "9024.80.1",
+        code: "9024801",
         description: "Máquinas e aparelhos para ensaios de têxteis"
     },
     {
-        code: "9024.80.11",
+        code: "90248011",
         description: "Automáticos, para fios"
     },
     {
-        code: "9024.80.19",
+        code: "90248019",
         description: "Outros"
     },
     {
-        code: "9024.80.2",
+        code: "9024802",
         description: "Máquinas e aparelhos para ensaios de papel, cartão, linóleo e plástico ou borracha flexíveis"
     },
     {
-        code: "9024.80.21",
+        code: "90248021",
         description: "Máquinas para ensaios de pneumáticos"
     },
     {
-        code: "9024.80.29",
+        code: "90248029",
         description: "Outros"
     },
     {
-        code: "9024.80.90",
+        code: "90248090",
         description: "Outros"
     },
     {
-        code: "9024.90.00",
+        code: "90249000",
         description: "- Partes e acessórios"
     },
     {
-        code: "90.25",
+        code: "9025",
         description:
-            "Densímetros, areômetros, pesa-líquidos e instrumentos flutuantes semelhantes, termômetros, pirômetros, barômetros, higrômetros e psicrômetros, registradores ou não, mesmo combinados entre si."
+            "Densímetros, areômetros, pesa-líquidos e instrumentos flutuantes semelhantes, termômetros, pirômetros, barômetros, higrômetros e psicrômetros, registradores ou não, mesmo combinados entre si"
     },
     {
-        code: "9025.1",
+        code: "90251",
         description: "- Termômetros e pirômetros, não combinados com outros instrumentos:"
     },
     {
-        code: "9025.11",
+        code: "902511",
         description: "-- De líquido, de leitura direta"
     },
     {
-        code: "9025.11.1",
+        code: "9025111",
         description: "Termômetros clínicos"
     },
     {
-        code: "9025.11.11",
+        code: "90251111",
         description: "Que contenham mercúrio"
     },
     {
-        code: "9025.11.19",
+        code: "90251119",
         description: "Outros"
     },
     {
-        code: "9025.11.9",
+        code: "9025119",
         description: "Outros"
     },
     {
-        code: "9025.11.91",
+        code: "90251191",
         description: "Que contenham mercúrio"
     },
     {
-        code: "9025.11.99",
+        code: "90251199",
         description: "Outros"
     },
     {
-        code: "9025.19",
+        code: "902519",
         description: "-- Outros"
     },
     {
-        code: "9025.19.10",
+        code: "90251910",
         description: "Pirômetros ópticos"
     },
     {
-        code: "9025.19.90",
+        code: "90251990",
         description: "Outros"
     },
     {
-        code: "9025.80.00",
+        code: "90258000",
         description: "- Outros instrumentos"
     },
     {
-        code: "9025.90",
+        code: "902590",
         description: "- Partes e acessórios"
     },
     {
-        code: "9025.90.10",
+        code: "90259010",
         description: "De termômetros"
     },
     {
-        code: "9025.90.90",
+        code: "90259090",
         description: "Outros"
     },
     {
-        code: "90.26",
+        code: "9026",
         description:
-            "Instrumentos e aparelhos para medida ou controle da vazão (caudal), do nível, da pressão ou de outras características variáveis dos líquidos ou gases (por exemplo, medidores de vazão (caudal), indicadores de nível, manômetros, contadores de calor), exceto os instrumentos e aparelhos das posições 90.14, 90.15, 90.28 ou 90.32."
+            "Instrumentos e aparelhos para medida ou controle da vazão (caudal), do nível, da pressão ou de outras características variáveis dos líquidos ou gases (por exemplo, medidores de vazão (caudal), indicadores de nível, manômetros, contadores de calor), exceto os instrumentos e aparelhos das posições 9014, 9015, 9028 ou 9032"
     },
     {
-        code: "9026.10",
+        code: "902610",
         description: "- Para medida ou controle da vazão (caudal) ou do nível dos líquidos"
     },
     {
-        code: "9026.10.1",
+        code: "9026101",
         description: "Para medida ou controle da vazão (caudal)"
     },
     {
-        code: "9026.10.11",
+        code: "90261011",
         description: "Medidores-transmissores eletrônicos, que funcionem pelo princípio de indução eletromagnética"
     },
     {
-        code: "9026.10.19",
+        code: "90261019",
         description: "Outros"
     },
     {
-        code: "9026.10.2",
+        code: "9026102",
         description: "Para medida ou controle do nível"
     },
     {
-        code: "9026.10.21",
+        code: "90261021",
         description: "De metais, mediante correntes parasitas"
     },
     {
-        code: "9026.10.29",
+        code: "90261029",
         description: "Outros"
     },
     {
-        code: "9026.20",
+        code: "902620",
         description: "- Para medida ou controle da pressão"
     },
     {
-        code: "9026.20.10",
+        code: "90262010",
         description: "Manômetros"
     },
     {
-        code: "9026.20.90",
+        code: "90262090",
         description: "Outros"
     },
     {
-        code: "9026.80.00",
+        code: "90268000",
         description: "- Outros instrumentos e aparelhos"
     },
     {
-        code: "9026.90",
+        code: "902690",
         description: "- Partes e acessórios"
     },
     {
-        code: "9026.90.10",
+        code: "90269010",
         description: "De instrumentos e aparelhos para medida ou controle do nível"
     },
     {
-        code: "9026.90.20",
+        code: "90269020",
         description: "De manômetros"
     },
     {
-        code: "9026.90.90",
+        code: "90269090",
         description: "Outros"
     },
     {
-        code: "90.27",
+        code: "9027",
         description:
-            "Instrumentos e aparelhos para análises físicas ou químicas (por exemplo, polarímetros, refratômetros, espectrômetros, analisadores de gás ou de fumaça (fumos)); instrumentos e aparelhos para ensaios de viscosidade, porosidade, dilatação, tensão superficial ou semelhantes ou para medidas calorimétricas, acústicas ou fotométricas (incluindo os indicadores de tempo de exposição); micrótomos."
+            "Instrumentos e aparelhos para análises físicas ou químicas (por exemplo, polarímetros, refratômetros, espectrômetros, analisadores de gás ou de fumaça (fumos)); instrumentos e aparelhos para ensaios de viscosidade, porosidade, dilatação, tensão superficial ou semelhantes ou para medidas calorimétricas, acústicas ou fotométricas (incluindo os indicadores de tempo de exposição); micrótomos"
     },
     {
-        code: "9027.10.00",
+        code: "90271000",
         description: "- Analisadores de gás ou de fumaça (fumos)"
     },
     {
-        code: "9027.20",
+        code: "902720",
         description: "- Cromatógrafos e aparelhos de eletroforese"
     },
     {
-        code: "9027.20.1",
+        code: "9027201",
         description: "Cromatógrafos"
     },
     {
-        code: "9027.20.11",
+        code: "90272011",
         description: "De fase gasosa"
     },
     {
-        code: "9027.20.12",
+        code: "90272012",
         description: "De fase líquida"
     },
     {
-        code: "9027.20.19",
+        code: "90272019",
         description: "Outros"
     },
     {
-        code: "9027.20.2",
+        code: "9027202",
         description: "Aparelhos de eletroforese"
     },
     {
-        code: "9027.20.21",
+        code: "90272021",
         description: "Sequenciadores automáticos de ADN mediante eletroforese capilar"
     },
     {
-        code: "9027.20.29",
+        code: "90272029",
         description: "Outros"
     },
     {
-        code: "9027.30",
+        code: "902730",
         description: "- Espectrômetros, espectrofotômetros e espectrógrafos que utilizem radiações ópticas (UV, visíveis, IV)"
     },
     {
-        code: "9027.30.1",
+        code: "9027301",
         description: "Espectrômetros e espectrógrafos"
     },
     {
-        code: "9027.30.11",
+        code: "90273011",
         description: "De emissão atômica"
     },
     {
-        code: "9027.30.19",
+        code: "90273019",
         description: "Outros"
     },
     {
-        code: "9027.30.20",
+        code: "90273020",
         description: "Espectrofotômetros"
     },
     {
-        code: "9027.50",
+        code: "902750",
         description: "- Outros aparelhos e instrumentos que utilizem radiações ópticas (UV, visíveis, IV)"
     },
     {
-        code: "9027.50.10",
+        code: "90275010",
         description: "Colorímetros"
     },
     {
-        code: "9027.50.20",
+        code: "90275020",
         description: "Fotômetros"
     },
     {
-        code: "9027.50.30",
+        code: "90275030",
         description: "Refratômetros"
     },
     {
-        code: "9027.50.40",
+        code: "90275040",
         description: "Sacarímetros"
     },
     {
-        code: "9027.50.50",
+        code: "90275050",
         description: "Citômetro de fluxo"
     },
     {
-        code: "9027.50.90",
+        code: "90275090",
         description: "Outros"
     },
     {
-        code: "9027.8",
+        code: "90278",
         description: "- Outros instrumentos e aparelhos:"
     },
     {
-        code: "9027.81.00",
+        code: "90278100",
         description: "-- Espectrômetros de massa"
     },
     {
-        code: "9027.89",
+        code: "902789",
         description: "-- Outros"
     },
     {
-        code: "9027.89.1",
+        code: "9027891",
         description: "Calorímetros, viscosímetros, densitômetros e aparelhos medidores de pH"
     },
     {
-        code: "9027.89.11",
+        code: "90278911",
         description: "Calorímetros"
     },
     {
-        code: "9027.89.12",
+        code: "90278912",
         description: "Viscosímetros"
     },
     {
-        code: "9027.89.13",
+        code: "90278913",
         description: "Densitômetros"
     },
     {
-        code: "9027.89.14",
+        code: "90278914",
         description: "Aparelhos medidores de pH"
     },
     {
-        code: "9027.89.20",
+        code: "90278920",
         description: "Polarógrafos"
     },
     {
-        code: "9027.89.9",
+        code: "9027899",
         description: "Outros"
     },
     {
-        code: "9027.89.91",
+        code: "90278991",
         description: "Exposímetros"
     },
     {
-        code: "9027.89.99",
+        code: "90278999",
         description: "Outros"
     },
     {
-        code: "9027.90",
+        code: "902790",
         description: "- Micrótomos; partes e acessórios"
     },
     {
-        code: "9027.90.10",
+        code: "90279010",
         description: "Micrótomos"
     },
     {
-        code: "9027.90.9",
+        code: "9027909",
         description: "Partes e acessórios"
     },
     {
-        code: "9027.90.91",
+        code: "90279091",
         description: "De espectrômetros e espectrógrafos, de emissão atômica"
     },
     {
-        code: "9027.90.93",
+        code: "90279093",
         description: "De polarógrafos"
     },
     {
-        code: "9027.90.99",
+        code: "90279099",
         description: "Outros"
     },
     {
-        code: "90.28",
-        description: "Contadores de gases, de líquidos ou de eletricidade, incluindo os aparelhos para a sua aferição."
+        code: "9028",
+        description: "Contadores de gases, de líquidos ou de eletricidade, incluindo os aparelhos para a sua aferição"
     },
     {
-        code: "9028.10",
+        code: "902810",
         description: "- Contadores de gases"
     },
     {
-        code: "9028.10.1",
+        code: "9028101",
         description: "De gás natural comprimido, eletrônicos"
     },
     {
-        code: "9028.10.11",
+        code: "90281011",
         description: "Do tipo utilizado em postos (estações) de serviço ou garagens"
     },
     {
-        code: "9028.10.19",
+        code: "90281019",
         description: "Outros"
     },
     {
-        code: "9028.10.90",
+        code: "90281090",
         description: "Outros"
     },
     {
-        code: "9028.20",
+        code: "902820",
         description: "- Contadores de líquidos"
     },
     {
-        code: "9028.20.10",
+        code: "90282010",
         description: "De peso inferior ou igual a 50 kg"
     },
     {
-        code: "9028.20.20",
+        code: "90282020",
         description: "De peso superior a 50 kg"
     },
     {
-        code: "9028.30",
+        code: "902830",
         description: "- Contadores de eletricidade"
     },
     {
-        code: "9028.30.1",
+        code: "9028301",
         description: "Monofásicos, para corrente alternada"
     },
     {
-        code: "9028.30.11",
+        code: "90283011",
         description: "Digitais"
     },
     {
-        code: "9028.30.19",
+        code: "90283019",
         description: "Outros"
     },
     {
-        code: "9028.30.2",
+        code: "9028302",
         description: "Bifásicos"
     },
     {
-        code: "9028.30.21",
+        code: "90283021",
         description: "Digitais"
     },
     {
-        code: "9028.30.29",
+        code: "90283029",
         description: "Outros"
     },
     {
-        code: "9028.30.3",
+        code: "9028303",
         description: "Trifásicos"
     },
     {
-        code: "9028.30.31",
+        code: "90283031",
         description: "Digitais"
     },
     {
-        code: "9028.30.39",
+        code: "90283039",
         description: "Outros"
     },
     {
-        code: "9028.30.90",
+        code: "90283090",
         description: "Outros"
     },
     {
-        code: "9028.90",
+        code: "902890",
         description: "- Partes e acessórios"
     },
     {
-        code: "9028.90.10",
+        code: "90289010",
         description: "De contadores de eletricidade"
     },
     {
-        code: "9028.90.90",
+        code: "90289090",
         description: "Outros"
     },
     {
-        code: "90.29",
+        code: "9029",
         description:
-            "Outros contadores (por exemplo, contadores de voltas, contadores de produção, taxímetros, totalizadores de caminho percorrido, podômetros); indicadores de velocidade e tacômetros, exceto os das posições 90.14 ou 90.15; estroboscópios."
+            "Outros contadores (por exemplo, contadores de voltas, contadores de produção, taxímetros, totalizadores de caminho percorrido, podômetros); indicadores de velocidade e tacômetros, exceto os das posições 9014 ou 9015; estroboscópios"
     },
     {
-        code: "9029.10",
+        code: "902910",
         description:
             "- Contadores de voltas, contadores de produção, taxímetros, totalizadores de caminho percorrido, podômetros e contadores semelhantes"
     },
     {
-        code: "9029.10.10",
+        code: "90291010",
         description: "Contadores de voltas, contadores de produção ou de horas de trabalho"
     },
     {
-        code: "9029.10.90",
+        code: "90291090",
         description: "Outros"
     },
     {
-        code: "9029.20",
+        code: "902920",
         description: "- Indicadores de velocidade e tacômetros; estroboscópios"
     },
     {
-        code: "9029.20.10",
+        code: "90292010",
         description: "Indicadores de velocidade e tacômetros"
     },
     {
-        code: "9029.20.20",
+        code: "90292020",
         description: "Estroboscópios"
     },
     {
-        code: "9029.90",
+        code: "902990",
         description: "- Partes e acessórios"
     },
     {
-        code: "9029.90.10",
+        code: "90299010",
         description: "De indicadores de velocidade e tacômetros"
     },
     {
-        code: "9029.90.90",
+        code: "90299090",
         description: "Outros"
     },
     {
-        code: "90.30",
+        code: "9030",
         description:
-            "Osciloscópios, analisadores de espectro e outros instrumentos e aparelhos para medida ou controle de grandezas elétricas; instrumentos e aparelhos para medida ou detecção de radiações alfa, beta, gama, X, cósmicas ou outras radiações ionizantes."
+            "Osciloscópios, analisadores de espectro e outros instrumentos e aparelhos para medida ou controle de grandezas elétricas; instrumentos e aparelhos para medida ou detecção de radiações alfa, beta, gama, X, cósmicas ou outras radiações ionizantes"
     },
     {
-        code: "9030.10",
+        code: "903010",
         description: "- Instrumentos e aparelhos para medida ou detecção de radiações ionizantes"
     },
     {
-        code: "9030.10.10",
+        code: "90301010",
         description: "Medidores de radioatividade"
     },
     {
-        code: "9030.10.90",
+        code: "90301090",
         description: "Outros"
     },
     {
-        code: "9030.20",
+        code: "903020",
         description: "- Osciloscópios e oscilógrafos"
     },
     {
-        code: "9030.20.10",
+        code: "90302010",
         description: "Osciloscópios digitais"
     },
     {
-        code: "9030.20.2",
+        code: "9030202",
         description: "Osciloscópios analógicos"
     },
     {
-        code: "9030.20.21",
+        code: "90302021",
         description: "De frequência igual ou superior a 60 MHz"
     },
     {
-        code: "9030.20.22",
+        code: "90302022",
         description: "Vetorscópios"
     },
     {
-        code: "9030.20.29",
+        code: "90302029",
         description: "Outros"
     },
     {
-        code: "9030.20.30",
+        code: "90302030",
         description: "Oscilógrafos"
     },
     {
-        code: "9030.3",
+        code: "90303",
         description:
             "- Outros aparelhos e instrumentos para medida ou controle da tensão, intensidade, resistência ou da potência (exceto para medida ou controle de <i>wafers</i> ou de dispositivos, semicondutores):"
     },
     {
-        code: "9030.31.00",
+        code: "90303100",
         description: "-- Multímetros, sem dispositivo registrador"
     },
     {
-        code: "9030.32.00",
+        code: "90303200",
         description: "-- Multímetros, com dispositivo registrador"
     },
     {
-        code: "9030.33",
+        code: "903033",
         description: "-- Outros, sem dispositivo registrador"
     },
     {
-        code: "9030.33.1",
+        code: "9030331",
         description: "Voltímetros"
     },
     {
-        code: "9030.33.11",
+        code: "90303311",
         description: "Digitais"
     },
     {
-        code: "9030.33.19",
+        code: "90303319",
         description: "Outros"
     },
     {
-        code: "9030.33.2",
+        code: "9030332",
         description: "Amperímetros"
     },
     {
-        code: "9030.33.21",
+        code: "90303321",
         description: "Do tipo utilizado em veículos automóveis"
     },
     {
-        code: "9030.33.29",
+        code: "90303329",
         description: "Outros"
     },
     {
-        code: "9030.33.90",
+        code: "90303390",
         description: "Outros"
     },
     {
-        code: "9030.39",
+        code: "903039",
         description: "-- Outros, com dispositivo registrador"
     },
     {
-        code: "9030.39.10",
+        code: "90303910",
         description: "De teste de continuidade em circuitos impressos"
     },
     {
-        code: "9030.39.90",
+        code: "90303990",
         description: "Outros"
     },
     {
-        code: "9030.40",
+        code: "903040",
         description:
             "- Outros instrumentos e aparelhos, especialmente concebidos para telecomunicações (por exemplo, diafonômetros, medidores de ganho, distorciômetros, psofômetros)"
     },
     {
-        code: "9030.40.10",
+        code: "90304010",
         description: "Analisadores de protocolo"
     },
     {
-        code: "9030.40.20",
+        code: "90304020",
         description: "Analisadores de nível seletivo"
     },
     {
-        code: "9030.40.30",
+        code: "90304030",
         description: "Analisadores digitais de transmissão"
     },
     {
-        code: "9030.40.90",
+        code: "90304090",
         description: "Outros"
     },
     {
-        code: "9030.8",
+        code: "90308",
         description: "- Outros instrumentos e aparelhos:"
     },
     {
-        code: "9030.82",
+        code: "903082",
         description: "-- Para medida ou controle de <i>wafers</i> ou de dispositivos, semicondutores (incluindo os circuitos integrados)"
     },
     {
-        code: "9030.82.10",
+        code: "90308210",
         description: "De testes de circuitos integrados"
     },
     {
-        code: "9030.82.90",
+        code: "90308290",
         description: "Outros"
     },
     {
-        code: "9030.84",
+        code: "903084",
         description: "-- Outros, com dispositivo registrador"
     },
     {
-        code: "9030.84.10",
+        code: "90308410",
         description: "De teste automático de circuito impresso montado (ATE)"
     },
     {
-        code: "9030.84.20",
+        code: "90308420",
         description: "De medidas de parâmetros característicos de sinais de televisão ou de vídeo"
     },
     {
-        code: "9030.84.90",
+        code: "90308490",
         description: "Outros"
     },
     {
-        code: "9030.89",
+        code: "903089",
         description: "-- Outros"
     },
     {
-        code: "9030.89.10",
+        code: "90308910",
         description: "Analisadores lógicos de circuitos digitais"
     },
     {
-        code: "9030.89.20",
+        code: "90308920",
         description: "Analisadores de espectro de frequência"
     },
     {
-        code: "9030.89.30",
+        code: "90308930",
         description: "Frequencímetros"
     },
     {
-        code: "9030.89.40",
+        code: "90308940",
         description: "Fasímetros"
     },
     {
-        code: "9030.89.90",
+        code: "90308990",
         description: "Outros"
     },
     {
-        code: "9030.90",
+        code: "903090",
         description: "- Partes e acessórios"
     },
     {
-        code: "9030.90.10",
-        description: "De instrumentos e aparelhos da subposição 9030.10"
+        code: "90309010",
+        description: "De instrumentos e aparelhos da subposição 903010"
     },
     {
-        code: "9030.90.90",
+        code: "90309090",
         description: "Outros"
     },
     {
-        code: "90.31",
+        code: "9031",
         description:
-            "Instrumentos, aparelhos e máquinas de medida ou controle, não especificados nem compreendidos noutras posições do presente Capítulo; projetores de perfis."
+            "Instrumentos, aparelhos e máquinas de medida ou controle, não especificados nem compreendidos noutras posições do presente Capítulo; projetores de perfis"
     },
     {
-        code: "9031.10.00",
+        code: "90311000",
         description: "- Máquinas de balancear (equilibrar) peças mecânicas"
     },
     {
-        code: "9031.20",
+        code: "903120",
         description: "- Bancos de ensaio"
     },
     {
-        code: "9031.20.10",
+        code: "90312010",
         description: "Para motores"
     },
     {
-        code: "9031.20.90",
+        code: "90312090",
         description: "Outros"
     },
     {
-        code: "9031.4",
+        code: "90314",
         description: "- Outros instrumentos e aparelhos ópticos:"
     },
     {
-        code: "9031.41.00",
+        code: "90314100",
         description:
             "-- Para controle de <i>wafers</i> ou de dispositivos, semicondutores (incluindo os circuitos integrados), ou para controle de fotomáscaras ou retículos utilizados na fabricação de dispositivos semicondutores (incluindo os circuitos integrados)"
     },
     {
-        code: "9031.49",
+        code: "903149",
         description: "-- Outros"
     },
     {
-        code: "9031.49.10",
+        code: "90314910",
         description: "Para medida de parâmetros dimensionais de fibras de celulose, por meio de raios laser"
     },
     {
-        code: "9031.49.20",
+        code: "90314920",
         description: "Para medida da espessura de pneumáticos de veículos automóveis, por meio de raios laser"
     },
     {
-        code: "9031.49.90",
+        code: "90314990",
         description: "Outros"
     },
     {
-        code: "9031.80",
+        code: "903180",
         description: "- Outros instrumentos, aparelhos e máquinas"
     },
     {
-        code: "9031.80.1",
+        code: "9031801",
         description: "Dinamômetros e rugosímetros"
     },
     {
-        code: "9031.80.11",
+        code: "90318011",
         description: "Dinamômetros"
     },
     {
-        code: "9031.80.12",
+        code: "90318012",
         description: "Rugosímetros"
     },
     {
-        code: "9031.80.20",
+        code: "90318020",
         description: "Máquinas para medição tridimensional"
     },
     {
-        code: "9031.80.30",
+        code: "90318030",
         description: "Metros padrões"
     },
     {
-        code: "9031.80.40",
+        code: "90318040",
         description:
             "Aparelhos digitais, de uso em veículos automóveis, para medida e indicação de múltiplas grandezas tais como: velocidade média, consumos instantâneo e médio e autonomia (computador de bordo)"
     },
     {
-        code: "9031.80.50",
+        code: "90318050",
         description: "Aparelhos para análise de têxteis, computadorizados"
     },
     {
-        code: "9031.80.60",
+        code: "90318060",
         description: "Células de carga"
     },
     {
-        code: "9031.80.9",
+        code: "9031809",
         description: "Outros"
     },
     {
-        code: "9031.80.91",
+        code: "90318091",
         description: "Para controle dimensional de pneumáticos, em condições de carga"
     },
     {
-        code: "9031.80.99",
+        code: "90318099",
         description: "Outros"
     },
     {
-        code: "9031.90",
+        code: "903190",
         description: "- Partes e acessórios"
     },
     {
-        code: "9031.90.10",
+        code: "90319010",
         description: "De bancos de ensaio"
     },
     {
-        code: "9031.90.90",
+        code: "90319090",
         description: "Outros"
     },
     {
-        code: "90.32",
-        description: "Instrumentos e aparelhos para regulação ou controle, automáticos."
+        code: "9032",
+        description: "Instrumentos e aparelhos para regulação ou controle, automáticos"
     },
     {
-        code: "9032.10",
+        code: "903210",
         description: "- Termostatos"
     },
     {
-        code: "9032.10.10",
+        code: "90321010",
         description: "De expansão de fluidos"
     },
     {
-        code: "9032.10.90",
+        code: "90321090",
         description: "Outros"
     },
     {
-        code: "9032.20.00",
+        code: "90322000",
         description: "- Manostatos (pressostatos)"
     },
     {
-        code: "9032.8",
+        code: "90328",
         description: "- Outros instrumentos e aparelhos:"
     },
     {
-        code: "9032.81.00",
+        code: "90328100",
         description: "-- Hidráulicos ou pneumáticos"
     },
     {
-        code: "9032.89",
+        code: "903289",
         description: "-- Outros"
     },
     {
-        code: "9032.89.1",
+        code: "9032891",
         description: "Reguladores de voltagem"
     },
     {
-        code: "9032.89.11",
+        code: "90328911",
         description: "Eletrônicos"
     },
     {
-        code: "9032.89.19",
+        code: "90328919",
         description: "Outros"
     },
     {
-        code: "9032.89.2",
+        code: "9032892",
         description: "Controladores eletrônicos do tipo utilizado em veículos automóveis"
     },
     {
-        code: "9032.89.21",
+        code: "90328921",
         description: "De sistemas antibloqueantes de freio (travão) (ABS)"
     },
     {
-        code: "9032.89.22",
+        code: "90328922",
         description: "De sistemas de suspensão"
     },
     {
-        code: "9032.89.23",
+        code: "90328923",
         description: "De sistemas de transmissão"
     },
     {
-        code: "9032.89.24",
+        code: "90328924",
         description: "De sistemas de ignição"
     },
     {
-        code: "9032.89.25",
+        code: "90328925",
         description: "De sistemas de injeção"
     },
     {
-        code: "9032.89.29",
+        code: "90328929",
         description: "Outros"
     },
     {
-        code: "9032.89.30",
+        code: "90328930",
         description: "Equipamentos digitais para controle de veículos ferroviários"
     },
     {
-        code: "9032.89.8",
+        code: "9032898",
         description: "Outros, para regulação ou controle de grandezas não elétricas"
     },
     {
-        code: "9032.89.81",
+        code: "90328981",
         description: "De pressão"
     },
     {
-        code: "9032.89.82",
+        code: "90328982",
         description: "De temperatura"
     },
     {
-        code: "9032.89.83",
+        code: "90328983",
         description: "De umidade"
     },
     {
-        code: "9032.89.84",
+        code: "90328984",
         description: "De velocidade de motores elétricos por variação de frequência"
     },
     {
-        code: "9032.89.89",
+        code: "90328989",
         description: "Outros"
     },
     {
-        code: "9032.89.90",
+        code: "90328990",
         description: "Outros"
     },
     {
-        code: "9032.90",
+        code: "903290",
         description: "- Partes e acessórios"
     },
     {
-        code: "9032.90.10",
+        code: "90329010",
         description: "Circuitos impressos com componentes elétricos ou eletrônicos, montados"
     },
     {
-        code: "9032.90.9",
+        code: "9032909",
         description: "Outros"
     },
     {
-        code: "9032.90.91",
+        code: "90329091",
         description: "De termostatos"
     },
     {
-        code: "9032.90.99",
+        code: "90329099",
         description: "Outros"
     },
     {
-        code: "9033.00.00",
+        code: "90330000",
         description:
-            "Partes e acessórios não especificados nem compreendidos noutras posições do presente Capítulo, para máquinas, aparelhos, instrumentos ou artigos do Capítulo 90."
+            "Partes e acessórios não especificados nem compreendidos noutras posições do presente Capítulo, para máquinas, aparelhos, instrumentos ou artigos do Capítulo 90"
     },
     {
         code: "91",
-        description: "Artigos de relojoaria."
+        description: "Artigos de relojoaria"
     },
     {
-        code: "91.01",
+        code: "9101",
         description:
-            "Relógios de pulso, relógios de bolso e relógios semelhantes (incluindo os contadores de tempo dos mesmos tipos), com caixa de metais preciosos ou de metais folheados ou chapeados de metais preciosos (plaquê)."
+            "Relógios de pulso, relógios de bolso e relógios semelhantes (incluindo os contadores de tempo dos mesmos tipos), com caixa de metais preciosos ou de metais folheados ou chapeados de metais preciosos (plaquê)"
     },
     {
-        code: "9101.1",
+        code: "91011",
         description: "- Relógios de pulso, funcionando eletricamente, mesmo com contador de tempo incorporado:"
     },
     {
-        code: "9101.11.00",
+        code: "91011100",
         description: "-- De mostrador exclusivamente mecânico"
     },
     {
-        code: "9101.19.00",
+        code: "91011900",
         description: "-- Outros"
     },
     {
-        code: "9101.2",
+        code: "91012",
         description: "- Outros relógios de pulso, mesmo com contador de tempo incorporado:"
     },
     {
-        code: "9101.21.00",
+        code: "91012100",
         description: "-- De corda automática"
     },
     {
-        code: "9101.29.00",
+        code: "91012900",
         description: "-- Outros"
     },
     {
-        code: "9101.9",
+        code: "91019",
         description: "- Outros:"
     },
     {
-        code: "9101.91.00",
+        code: "91019100",
         description: "-- Funcionando eletricamente"
     },
     {
-        code: "9101.99.00",
+        code: "91019900",
         description: "-- Outros"
     },
     {
-        code: "91.02",
+        code: "9102",
         description:
-            "Relógios de pulso, relógios de bolso e relógios semelhantes (incluindo os contadores de tempo dos mesmos tipos), exceto os da posição 91.01."
+            "Relógios de pulso, relógios de bolso e relógios semelhantes (incluindo os contadores de tempo dos mesmos tipos), exceto os da posição 9101"
     },
     {
-        code: "9102.1",
+        code: "91021",
         description: "- Relógios de pulso, funcionando eletricamente, mesmo com contador de tempo incorporado:"
     },
     {
-        code: "9102.11",
+        code: "910211",
         description: "-- De mostrador exclusivamente mecânico"
     },
     {
-        code: "9102.11.10",
+        code: "91021110",
         description: "Com caixa de metal comum"
     },
     {
-        code: "9102.11.90",
+        code: "91021190",
         description: "Outros"
     },
     {
-        code: "9102.12",
+        code: "910212",
         description: "-- De mostrador exclusivamente optoeletrônico"
     },
     {
-        code: "9102.12.10",
+        code: "91021210",
         description: "Com caixa de metal comum"
     },
     {
-        code: "9102.12.20",
+        code: "91021220",
         description: "Com caixa de plástico, exceto as reforçadas com fibra de vidro"
     },
     {
-        code: "9102.12.90",
+        code: "91021290",
         description: "Outros"
     },
     {
-        code: "9102.19.00",
+        code: "91021900",
         description: "-- Outros"
     },
     {
-        code: "9102.2",
+        code: "91022",
         description: "- Outros relógios de pulso, mesmo com contador de tempo incorporado:"
     },
     {
-        code: "9102.21.00",
+        code: "91022100",
         description: "-- De corda automática"
     },
     {
-        code: "9102.29.00",
+        code: "91022900",
         description: "-- Outros"
     },
     {
-        code: "9102.9",
+        code: "91029",
         description: "- Outros:"
     },
     {
-        code: "9102.91.00",
+        code: "91029100",
         description: "-- Funcionando eletricamente"
     },
     {
-        code: "9102.99.00",
+        code: "91029900",
         description: "-- Outros"
     },
     {
-        code: "91.03",
-        description: "Despertadores e outros relógios, com mecanismo de pequeno volume."
+        code: "9103",
+        description: "Despertadores e outros relógios, com mecanismo de pequeno volume"
     },
     {
-        code: "9103.10.00",
+        code: "91031000",
         description: "- Funcionando eletricamente"
     },
     {
-        code: "9103.90.00",
+        code: "91039000",
         description: "- Outros"
     },
     {
-        code: "9104.00.00",
+        code: "91040000",
         description:
-            "Relógios para painéis de instrumentos e relógios semelhantes, para automóveis, veículos aéreos, embarcações ou para outros veículos."
+            "Relógios para painéis de instrumentos e relógios semelhantes, para automóveis, veículos aéreos, embarcações ou para outros veículos"
     },
     {
-        code: "91.05",
+        code: "9105",
         description:
-            "Despertadores, relógios de pêndulo (pêndulas), outros relógios e artigos de relojoaria semelhantes, exceto os com mecanismo de pequeno volume."
+            "Despertadores, relógios de pêndulo (pêndulas), outros relógios e artigos de relojoaria semelhantes, exceto os com mecanismo de pequeno volume"
     },
     {
-        code: "9105.1",
+        code: "91051",
         description: "- Despertadores:"
     },
     {
-        code: "9105.11.00",
+        code: "91051100",
         description: "-- Funcionando eletricamente"
     },
     {
-        code: "9105.19.00",
+        code: "91051900",
         description: "-- Outros"
     },
     {
-        code: "9105.2",
+        code: "91052",
         description: "- Relógios de parede:"
     },
     {
-        code: "9105.21.00",
+        code: "91052100",
         description: "-- Funcionando eletricamente"
     },
     {
-        code: "9105.29.00",
+        code: "91052900",
         description: "-- Outros"
     },
     {
-        code: "9105.9",
+        code: "91059",
         description: "- Outros:"
     },
     {
-        code: "9105.91.00",
+        code: "91059100",
         description: "-- Funcionando eletricamente"
     },
     {
-        code: "9105.99.00",
+        code: "91059900",
         description: "-- Outros"
     },
     {
-        code: "91.06",
+        code: "9106",
         description:
-            "Aparelhos de controle do tempo e contadores de tempo, com mecanismo de relojoaria ou com motor síncrono (por exemplo, relógios de ponto, relógios datadores, contadores de horas)."
+            "Aparelhos de controle do tempo e contadores de tempo, com mecanismo de relojoaria ou com motor síncrono (por exemplo, relógios de ponto, relógios datadores, contadores de horas)"
     },
     {
-        code: "9106.10.00",
+        code: "91061000",
         description: "- Relógios de ponto; relógios datadores e contadores de horas"
     },
     {
-        code: "9106.90.00",
+        code: "91069000",
         description: "- Outros"
     },
     {
-        code: "9107.00",
+        code: "910700",
         description:
-            "Interruptores horários e outros aparelhos que permitam acionar um mecanismo em tempo determinado, munidos de mecanismo de relojoaria ou com motor síncrono."
+            "Interruptores horários e outros aparelhos que permitam acionar um mecanismo em tempo determinado, munidos de mecanismo de relojoaria ou com motor síncrono"
     },
     {
-        code: "9107.00.10",
+        code: "91070010",
         description: "Interruptores horários"
     },
     {
-        code: "9107.00.90",
+        code: "91070090",
         description: "Outros"
     },
     {
-        code: "91.08",
-        description: "Mecanismos de pequeno volume para relógios, completos e montados."
+        code: "9108",
+        description: "Mecanismos de pequeno volume para relógios, completos e montados"
     },
     {
-        code: "9108.1",
+        code: "91081",
         description: "- Funcionando eletricamente:"
     },
     {
-        code: "9108.11",
+        code: "910811",
         description: "-- De mostrador exclusivamente mecânico ou com um dispositivo que permita incorporar um mostrador mecânico"
     },
     {
-        code: "9108.11.10",
-        description: "Para relógios das posições 91.01 ou 91.02"
+        code: "91081110",
+        description: "Para relógios das posições 9101 ou 9102"
     },
     {
-        code: "9108.11.90",
+        code: "91081190",
         description: "Outros"
     },
     {
-        code: "9108.12.00",
+        code: "91081200",
         description: "-- De mostrador exclusivamente optoeletrônico"
     },
     {
-        code: "9108.19.00",
+        code: "91081900",
         description: "-- Outros"
     },
     {
-        code: "9108.20.00",
+        code: "91082000",
         description: "- De corda automática"
     },
     {
-        code: "9108.90.00",
+        code: "91089000",
         description: "- Outros"
     },
     {
-        code: "91.09",
-        description: "Mecanismos de relojoaria, completos e montados, exceto de pequeno volume."
+        code: "9109",
+        description: "Mecanismos de relojoaria, completos e montados, exceto de pequeno volume"
     },
     {
-        code: "9109.10.00",
+        code: "91091000",
         description: "- Funcionando eletricamente"
     },
     {
-        code: "9109.90.00",
+        code: "91099000",
         description: "- Outros"
     },
     {
-        code: "91.10",
+        code: "9110",
         description:
-            "Mecanismos de relojoaria completos, não montados ou parcialmente montados (<i>chablons</i>); mecanismos de relojoaria incompletos, montados; esboços de mecanismos de relojoaria."
+            "Mecanismos de relojoaria completos, não montados ou parcialmente montados (<i>chablons</i>); mecanismos de relojoaria incompletos, montados; esboços de mecanismos de relojoaria"
     },
     {
-        code: "9110.1",
+        code: "91101",
         description: "- De pequeno volume:"
     },
     {
-        code: "9110.11",
+        code: "911011",
         description: "-- Mecanismos completos, não montados ou parcialmente montados (<i>chablons</i>)"
     },
     {
-        code: "9110.11.10",
-        description: "Para relógios das posições 91.01 ou 91.02"
+        code: "91101110",
+        description: "Para relógios das posições 9101 ou 9102"
     },
     {
-        code: "9110.11.90",
+        code: "91101190",
         description: "Outros"
     },
     {
-        code: "9110.12.00",
+        code: "91101200",
         description: "-- Mecanismos incompletos, montados"
     },
     {
-        code: "9110.19.00",
+        code: "91101900",
         description: "-- Esboços"
     },
     {
-        code: "9110.90.00",
+        code: "91109000",
         description: "- Outros"
     },
     {
-        code: "91.11",
-        description: "Caixas de relógios das posições 91.01 ou 91.02, e suas partes."
+        code: "9111",
+        description: "Caixas de relógios das posições 9101 ou 9102, e suas partes"
     },
     {
-        code: "9111.10.00",
+        code: "91111000",
         description: "- Caixas de metais preciosos ou de metais folheados ou chapeados de metais preciosos (plaquê)"
     },
     {
-        code: "9111.20",
+        code: "911120",
         description: "- Caixas de metais comuns, mesmo dourados ou prateados"
     },
     {
-        code: "9111.20.10",
+        code: "91112010",
         description: "De latão, em esboço"
     },
     {
-        code: "9111.20.90",
+        code: "91112090",
         description: "Outras"
     },
     {
-        code: "9111.80.00",
+        code: "91118000",
         description: "- Outras caixas"
     },
     {
-        code: "9111.90",
+        code: "911190",
         description: "- Partes"
     },
     {
-        code: "9111.90.10",
+        code: "91119010",
         description: "Fundos de metais comuns"
     },
     {
-        code: "9111.90.90",
+        code: "91119090",
         description: "Outras"
     },
     {
-        code: "91.12",
-        description: "Caixas e semelhantes de artigos de relojoaria, e suas partes."
+        code: "9112",
+        description: "Caixas e semelhantes de artigos de relojoaria, e suas partes"
     },
     {
-        code: "9112.20.00",
+        code: "91122000",
         description: "- Caixas e semelhantes"
     },
     {
-        code: "9112.90.00",
+        code: "91129000",
         description: "- Partes"
     },
     {
-        code: "91.13",
-        description: "Pulseiras de relógios, e suas partes."
+        code: "9113",
+        description: "Pulseiras de relógios, e suas partes"
     },
     {
-        code: "9113.10.00",
+        code: "91131000",
         description: "- De metais preciosos ou de metais folheados ou chapeados de metais preciosos (plaquê)"
     },
     {
-        code: "9113.20.00",
+        code: "91132000",
         description: "- De metais comuns, mesmo dourados ou prateados"
     },
     {
-        code: "9113.90.00",
+        code: "91139000",
         description: "- Outras"
     },
     {
-        code: "91.14",
-        description: "Outras partes de artigos de relojoaria."
+        code: "9114",
+        description: "Outras partes de artigos de relojoaria"
     },
     {
-        code: "9114.30.00",
+        code: "91143000",
         description: "- Quadrantes"
     },
     {
-        code: "9114.40.00",
+        code: "91144000",
         description: "- Platinas e pontes"
     },
     {
-        code: "9114.90.00",
+        code: "91149000",
         description: "- Outras"
     },
     {
         code: "92",
-        description: "Instrumentos musicais; suas partes e acessórios."
+        description: "Instrumentos musicais; suas partes e acessórios"
     },
     {
-        code: "92.01",
-        description: "Pianos, mesmo automáticos; cravos e outros instrumentos de cordas, com teclado."
+        code: "9201",
+        description: "Pianos, mesmo automáticos; cravos e outros instrumentos de cordas, com teclado"
     },
     {
-        code: "9201.10.00",
+        code: "92011000",
         description: "- Pianos verticais"
     },
     {
-        code: "9201.20.00",
+        code: "92012000",
         description: "- Pianos de cauda"
     },
     {
-        code: "9201.90.00",
+        code: "92019000",
         description: "- Outros"
     },
     {
-        code: "92.02",
-        description: "Outros instrumentos musicais de cordas (por exemplo, violões (guitarras*), violinos, harpas)."
+        code: "9202",
+        description: "Outros instrumentos musicais de cordas (por exemplo, violões (guitarras*), violinos, harpas)"
     },
     {
-        code: "9202.10.00",
+        code: "92021000",
         description: "- De cordas, tocados com o auxílio de um arco"
     },
     {
-        code: "9202.90.00",
+        code: "92029000",
         description: "- Outros"
     },
     {
-        code: "92.05",
+        code: "9205",
         description:
-            "Instrumentos musicais de sopro (por exemplo, órgãos de tubos e teclado, acordeões, clarinetes, trompetes, gaitas de foles), exceto os órgãos mecânicos de feira e os realejos."
+            "Instrumentos musicais de sopro (por exemplo, órgãos de tubos e teclado, acordeões, clarinetes, trompetes, gaitas de foles), exceto os órgãos mecânicos de feira e os realejos"
     },
     {
-        code: "9205.10.00",
+        code: "92051000",
         description: '- Instrumentos denominados "metais"'
     },
     {
-        code: "9205.90.00",
+        code: "92059000",
         description: "- Outros"
     },
     {
-        code: "9206.00.00",
-        description: "Instrumentos musicais de percussão (por exemplo, tambores, caixas, xilofones, pratos, castanholas, maracás)."
+        code: "92060000",
+        description: "Instrumentos musicais de percussão (por exemplo, tambores, caixas, xilofones, pratos, castanholas, maracás)"
     },
     {
-        code: "92.07",
-        description: "Instrumentos musicais cujo som é produzido ou amplificado por meios elétricos (por exemplo, órgãos, guitarras, acordeões)."
+        code: "9207",
+        description: "Instrumentos musicais cujo som é produzido ou amplificado por meios elétricos (por exemplo, órgãos, guitarras, acordeões)"
     },
     {
-        code: "9207.10",
+        code: "920710",
         description: "- Instrumentos de teclado, exceto acordeões"
     },
     {
-        code: "9207.10.10",
+        code: "92071010",
         description: "Sintetizadores"
     },
     {
-        code: "9207.10.90",
+        code: "92071090",
         description: "Outros"
     },
     {
-        code: "9207.90",
+        code: "920790",
         description: "- Outros"
     },
     {
-        code: "9207.90.10",
+        code: "92079010",
         description: "Guitarras e contrabaixos"
     },
     {
-        code: "9207.90.90",
+        code: "92079090",
         description: "Outros"
     },
     {
-        code: "92.08",
+        code: "9208",
         description:
-            "Caixas de música, órgãos mecânicos de feira, realejos, pássaros cantores mecânicos, serrotes musicais e outros instrumentos musicais não especificados noutra posição do presente Capítulo; chamarizes de qualquer tipo; apitos, berrantes (cornetas*) e outros instrumentos, de boca, para chamada ou sinalização."
+            "Caixas de música, órgãos mecânicos de feira, realejos, pássaros cantores mecânicos, serrotes musicais e outros instrumentos musicais não especificados noutra posição do presente Capítulo; chamarizes de qualquer tipo; apitos, berrantes (cornetas*) e outros instrumentos, de boca, para chamada ou sinalização"
     },
     {
-        code: "9208.10.00",
+        code: "92081000",
         description: "- Caixas de música"
     },
     {
-        code: "9208.90.00",
+        code: "92089000",
         description: "- Outros"
     },
     {
-        code: "92.09",
+        code: "9209",
         description:
-            "Partes (mecanismos de caixas de música, por exemplo) e acessórios (por exemplo, cartões, discos e rolos para instrumentos mecânicos) de instrumentos musicais; metrônomos e diapasões de qualquer tipo."
+            "Partes (mecanismos de caixas de música, por exemplo) e acessórios (por exemplo, cartões, discos e rolos para instrumentos mecânicos) de instrumentos musicais; metrônomos e diapasões de qualquer tipo"
     },
     {
-        code: "9209.30.00",
+        code: "92093000",
         description: "- Cordas para instrumentos musicais"
     },
     {
-        code: "9209.9",
+        code: "92099",
         description: "- Outros:"
     },
     {
-        code: "9209.91.00",
+        code: "92099100",
         description: "-- Partes e acessórios de pianos"
     },
     {
-        code: "9209.92.00",
-        description: "-- Partes e acessórios de instrumentos musicais da posição 92.02"
+        code: "92099200",
+        description: "-- Partes e acessórios de instrumentos musicais da posição 9202"
     },
     {
-        code: "9209.94.00",
-        description: "-- Partes e acessórios de instrumentos musicais da posição 92.07"
+        code: "92099400",
+        description: "-- Partes e acessórios de instrumentos musicais da posição 9207"
     },
     {
-        code: "9209.99.00",
+        code: "92099900",
         description: "-- Outros"
     },
     {
         code: "93",
-        description: "Armas e munições; suas partes e acessórios."
+        description: "Armas e munições; suas partes e acessórios"
     },
     {
-        code: "93.01",
-        description: "Armas de guerra, exceto revólveres, pistolas e armas brancas."
+        code: "9301",
+        description: "Armas de guerra, exceto revólveres, pistolas e armas brancas"
     },
     {
-        code: "9301.10.00",
+        code: "93011000",
         description: "- Peças de artilharia (por exemplo, canhões, obuses e morteiros)"
     },
     {
-        code: "9301.20.00",
+        code: "93012000",
         description: "- Lança-mísseis; lança-chamas; lança-granadas; lança-torpedos e lançadores semelhantes"
     },
     {
-        code: "9301.90.00",
+        code: "93019000",
         description: "- Outras"
     },
     {
-        code: "9302.00.00",
-        description: "Revólveres e pistolas, exceto os das posições 93.03 ou 93.04."
+        code: "93020000",
+        description: "Revólveres e pistolas, exceto os das posições 9303 ou 9304"
     },
     {
-        code: "93.03",
+        code: "9303",
         description:
-            "Outras armas de fogo e aparelhos semelhantes que utilizem a deflagração da pólvora (por exemplo, espingardas e carabinas, de caça, armas de fogo carregáveis exclusivamente pela boca, pistolas lança-foguetes e outros aparelhos concebidos apenas para lançar foguetes de sinalização, pistolas e revólveres para tiro de festim (sem bala), pistolas de êmbolo cativo para abater animais, canhões lança-amarras)."
+            "Outras armas de fogo e aparelhos semelhantes que utilizem a deflagração da pólvora (por exemplo, espingardas e carabinas, de caça, armas de fogo carregáveis exclusivamente pela boca, pistolas lança-foguetes e outros aparelhos concebidos apenas para lançar foguetes de sinalização, pistolas e revólveres para tiro de festim (sem bala), pistolas de êmbolo cativo para abater animais, canhões lança-amarras)"
     },
     {
-        code: "9303.10.00",
+        code: "93031000",
         description: "- Armas de fogo carregáveis exclusivamente pela boca"
     },
     {
-        code: "9303.20.00",
+        code: "93032000",
         description: "- Outras espingardas e carabinas de caça ou de tiro ao alvo, com pelo menos um cano liso"
     },
     {
-        code: "9303.30.00",
+        code: "93033000",
         description: "- Outras espingardas e carabinas de caça ou de tiro ao alvo"
     },
     {
-        code: "9303.90",
+        code: "930390",
         description: "- Outros"
     },
     {
-        code: "9303.90.10",
-        description: "Lançadores do tipo utilizado com cartuchos dos itens 9306.21.10, 9306.21.20 ou 9306.21.30"
+        code: "93039010",
+        description: "Lançadores do tipo utilizado com cartuchos dos itens 93062110, 93062120 ou 93062130"
     },
     {
-        code: "9303.90.90",
+        code: "93039090",
         description: "Outros"
     },
     {
-        code: "9304.00",
+        code: "930400",
         description:
-            "Outras armas (por exemplo, espingardas, carabinas e pistolas, de mola, de ar comprimido ou de gás, cassetetes), exceto as da posição 93.07."
+            "Outras armas (por exemplo, espingardas, carabinas e pistolas, de mola, de ar comprimido ou de gás, cassetetes), exceto as da posição 9307"
     },
     {
-        code: "9304.00.10",
+        code: "93040010",
         description: "Recipientes do tipo aerossol que contenham produtos químicos ou oleorresina de <i>Capsicum</i>, com fins irritantes"
     },
     {
-        code: "9304.00.90",
+        code: "93040090",
         description: "Outras"
     },
     {
-        code: "93.05",
-        description: "Partes e acessórios dos artigos das posições 93.01 a 93.04."
+        code: "9305",
+        description: "Partes e acessórios dos artigos das posições 9301 a 9304"
     },
     {
-        code: "9305.10.00",
+        code: "93051000",
         description: "- De revólveres ou pistolas"
     },
     {
-        code: "9305.20.00",
-        description: "- De espingardas ou carabinas da posição 93.03"
+        code: "93052000",
+        description: "- De espingardas ou carabinas da posição 9303"
     },
     {
-        code: "9305.9",
+        code: "93059",
         description: "- Outros:"
     },
     {
-        code: "9305.91.00",
-        description: "-- De armas de guerra da posição 93.01"
+        code: "93059100",
+        description: "-- De armas de guerra da posição 9301"
     },
     {
-        code: "9305.99.00",
+        code: "93059900",
         description: "-- Outros"
     },
     {
-        code: "93.06",
+        code: "9306",
         description:
-            "Bombas, granadas, torpedos, minas, mísseis, cartuchos e outras munições e projéteis, e suas partes, incluindo os zagalotes, chumbos de caça e buchas para cartuchos."
+            "Bombas, granadas, torpedos, minas, mísseis, cartuchos e outras munições e projéteis, e suas partes, incluindo os zagalotes, chumbos de caça e buchas para cartuchos"
     },
     {
-        code: "9306.2",
+        code: "93062",
         description: "- Cartuchos e suas partes, para espingardas ou carabinas de cano liso; chumbos para carabinas de ar comprimido:"
     },
     {
-        code: "9306.21",
+        code: "930621",
         description: "-- Cartuchos"
     },
     {
-        code: "9306.21.10",
+        code: "93062110",
         description: "Que contenham produtos químicos ou oleorresina de <i>Capsicum</i>, com fins irritantes"
     },
     {
-        code: "9306.21.20",
+        code: "93062120",
         description: "Outros, que produzem efeitos fumígenos, de iluminação, de som ou de identificação mediante tintas ou corantes"
     },
     {
-        code: "9306.21.30",
+        code: "93062130",
         description: "Outros, com um ou mais projéteis de elastômeros"
     },
     {
-        code: "9306.21.90",
+        code: "93062190",
         description: "Outros"
     },
     {
-        code: "9306.29.00",
+        code: "93062900",
         description: "-- Outros"
     },
     {
-        code: "9306.30.00",
+        code: "93063000",
         description: "- Outros cartuchos e suas partes"
     },
     {
-        code: "9306.90",
+        code: "930690",
         description: "- Outros"
     },
     {
-        code: "9306.90.10",
+        code: "93069010",
         description: "Granadas que contenham produtos químicos ou oleorresina de <i>Capsicum</i>, com fins irritantes"
     },
     {
-        code: "9306.90.20",
+        code: "93069020",
         description: "Outras granadas, que produzem efeitos fumígenos, de iluminação, de som ou de identificação mediante tintas ou corantes"
     },
     {
-        code: "9306.90.90",
+        code: "93069090",
         description: "Outros"
     },
     {
-        code: "9307.00.00",
-        description: "Sabres, espadas, baionetas, lanças e outras armas brancas, suas partes e bainhas."
+        code: "93070000",
+        description: "Sabres, espadas, baionetas, lanças e outras armas brancas, suas partes e bainhas"
     },
     {
         code: "94",
         description:
-            "Móveis; mobiliário médico-cirúrgico; colchões, almofadas e semelhantes; luminárias e aparelhos de iluminação não especificados nem compreendidos noutros Capítulos; anúncios, cartazes ou tabuletas e placas indicadoras, luminosos e artigos semelhantes; construções pré-fabricadas."
+            "Móveis; mobiliário médico-cirúrgico; colchões, almofadas e semelhantes; luminárias e aparelhos de iluminação não especificados nem compreendidos noutros Capítulos; anúncios, cartazes ou tabuletas e placas indicadoras, luminosos e artigos semelhantes; construções pré-fabricadas"
     },
     {
-        code: "94.01",
-        description: "Assentos (exceto os da posição 94.02), mesmo transformáveis em camas, e suas partes."
+        code: "9401",
+        description: "Assentos (exceto os da posição 9402), mesmo transformáveis em camas, e suas partes"
     },
     {
-        code: "9401.10",
+        code: "940110",
         description: "- Assentos do tipo utilizado em veículos aéreos"
     },
     {
-        code: "9401.10.10",
+        code: "94011010",
         description: "Ejetáveis"
     },
     {
-        code: "9401.10.90",
+        code: "94011090",
         description: "Outros"
     },
     {
-        code: "9401.20.00",
+        code: "94012000",
         description: "- Assentos do tipo utilizado em veículos automóveis"
     },
     {
-        code: "9401.3",
+        code: "94013",
         description: "- Assentos giratórios de altura ajustável:"
     },
     {
-        code: "9401.31.00",
+        code: "94013100",
         description: "-- De madeira"
     },
     {
-        code: "9401.39.00",
+        code: "94013900",
         description: "-- Outros"
     },
     {
-        code: "9401.4",
+        code: "94014",
         description: "- Assentos (exceto de jardim ou de acampamento) transformáveis em camas:"
     },
     {
-        code: "9401.41.00",
+        code: "94014100",
         description: "-- De madeira"
     },
     {
-        code: "9401.49.00",
+        code: "94014900",
         description: "-- Outros"
     },
     {
-        code: "9401.5",
+        code: "94015",
         description: "- Assentos de rotim, vime, bambu ou matérias semelhantes:"
     },
     {
-        code: "9401.52.00",
+        code: "94015200",
         description: "-- De bambu"
     },
     {
-        code: "9401.53.00",
+        code: "94015300",
         description: "-- De rotim"
     },
     {
-        code: "9401.59.00",
+        code: "94015900",
         description: "-- Outros"
     },
     {
-        code: "9401.6",
+        code: "94016",
         description: "- Outros assentos, com armação de madeira:"
     },
     {
-        code: "9401.61.00",
+        code: "94016100",
         description: "-- Estofados"
     },
     {
-        code: "9401.69.00",
+        code: "94016900",
         description: "-- Outros"
     },
     {
-        code: "9401.7",
+        code: "94017",
         description: "- Outros assentos, com armação de metal:"
     },
     {
-        code: "9401.71.00",
+        code: "94017100",
         description: "-- Estofados"
     },
     {
-        code: "9401.79.00",
+        code: "94017900",
         description: "-- Outros"
     },
     {
-        code: "9401.80.00",
+        code: "94018000",
         description: "- Outros assentos"
     },
     {
-        code: "9401.9",
+        code: "94019",
         description: "- Partes:"
     },
     {
-        code: "9401.91.00",
+        code: "94019100",
         description: "-- De madeira"
     },
     {
-        code: "9401.99.00",
+        code: "94019900",
         description: "-- Outras"
     },
     {
-        code: "94.02",
+        code: "9402",
         description:
-            "Mobiliário para medicina, cirurgia, odontologia ou veterinária (por exemplo, mesas de operação, mesas de exames, camas dotadas de mecanismos para usos clínicos, cadeiras odontológicas); cadeiras para salões de cabeleireiro e cadeiras semelhantes, com dispositivos de orientação e de elevação; suas partes."
+            "Mobiliário para medicina, cirurgia, odontologia ou veterinária (por exemplo, mesas de operação, mesas de exames, camas dotadas de mecanismos para usos clínicos, cadeiras odontológicas); cadeiras para salões de cabeleireiro e cadeiras semelhantes, com dispositivos de orientação e de elevação; suas partes"
     },
     {
-        code: "9402.10.00",
+        code: "94021000",
         description: "- Cadeiras odontológicas, cadeiras para salões de cabeleireiro e cadeiras semelhantes, e suas partes"
     },
     {
-        code: "9402.90",
+        code: "940290",
         description: "- Outros"
     },
     {
-        code: "9402.90.10",
+        code: "94029010",
         description: "Mesas de operação"
     },
     {
-        code: "9402.90.20",
+        code: "94029020",
         description: "Camas dotadas de mecanismos para usos clínicos"
     },
     {
-        code: "9402.90.90",
+        code: "94029090",
         description: "Outros"
     },
     {
-        code: "94.03",
-        description: "Outros móveis e suas partes."
+        code: "9403",
+        description: "Outros móveis e suas partes"
     },
     {
-        code: "9403.10.00",
+        code: "94031000",
         description: "- Móveis de metal, do tipo utilizado em escritórios"
     },
     {
-        code: "9403.20.00",
+        code: "94032000",
         description: "- Outros móveis de metal"
     },
     {
-        code: "9403.30.00",
+        code: "94033000",
         description: "- Móveis de madeira, do tipo utilizado em escritórios"
     },
     {
-        code: "9403.40.00",
+        code: "94034000",
         description: "- Móveis de madeira, do tipo utilizado em cozinhas"
     },
     {
-        code: "9403.50.00",
+        code: "94035000",
         description: "- Móveis de madeira, do tipo utilizado em quartos de dormir"
     },
     {
-        code: "9403.60.00",
+        code: "94036000",
         description: "- Outros móveis de madeira"
     },
     {
-        code: "9403.70.00",
+        code: "94037000",
         description: "- Móveis de plástico"
     },
     {
-        code: "9403.8",
+        code: "94038",
         description: "- Móveis de outras matérias, incluindo o rotim, vime, bambu ou matérias semelhantes:"
     },
     {
-        code: "9403.82.00",
+        code: "94038200",
         description: "-- De bambu"
     },
     {
-        code: "9403.83.00",
+        code: "94038300",
         description: "-- De rotim"
     },
     {
-        code: "9403.89.00",
+        code: "94038900",
         description: "-- Outros"
     },
     {
-        code: "9403.9",
+        code: "94039",
         description: "- Partes:"
     },
     {
-        code: "9403.91.00",
+        code: "94039100",
         description: "-- De madeira"
     },
     {
-        code: "9403.99.00",
+        code: "94039900",
         description: "-- Outras"
     },
     {
-        code: "94.04",
+        code: "9404",
         description:
-            "Suportes para camas (somiês); colchões, edredões, almofadas, pufes, travesseiros e artigos semelhantes, equipados com molas ou guarnecidos interiormente de quaisquer matérias, compreendendo esses artigos de borracha alveolar ou de plástico alveolar, mesmo recobertos."
+            "Suportes para camas (somiês); colchões, edredões, almofadas, pufes, travesseiros e artigos semelhantes, equipados com molas ou guarnecidos interiormente de quaisquer matérias, compreendendo esses artigos de borracha alveolar ou de plástico alveolar, mesmo recobertos"
     },
     {
-        code: "9404.10.00",
+        code: "94041000",
         description: "- Suportes para camas (somiês)"
     },
     {
-        code: "9404.2",
+        code: "94042",
         description: "- Colchões:"
     },
     {
-        code: "9404.21.00",
+        code: "94042100",
         description: "-- De borracha alveolar ou de plástico alveolar, mesmo recobertos"
     },
     {
-        code: "9404.29.00",
+        code: "94042900",
         description: "-- De outras matérias"
     },
     {
-        code: "9404.30.00",
+        code: "94043000",
         description: "- Sacos de dormir"
     },
     {
-        code: "9404.40.00",
+        code: "94044000",
         description: "- Colchas, edredões e artigos semelhantes"
     },
     {
-        code: "9404.90.00",
+        code: "94049000",
         description: "- Outros"
     },
     {
-        code: "94.05",
+        code: "9405",
         description:
-            "Luminárias e aparelhos de iluminação (incluindo os projetores), e suas partes, não especificados nem compreendidos noutras posições; anúncios, cartazes ou tabuletas e placas indicadoras, luminosos, e artigos semelhantes, que contenham uma fonte luminosa fixa permanente, e suas partes não especificadas nem compreendidas noutras posições."
+            "Luminárias e aparelhos de iluminação (incluindo os projetores), e suas partes, não especificados nem compreendidos noutras posições; anúncios, cartazes ou tabuletas e placas indicadoras, luminosos, e artigos semelhantes, que contenham uma fonte luminosa fixa permanente, e suas partes não especificadas nem compreendidas noutras posições"
     },
     {
-        code: "9405.1",
+        code: "94051",
         description:
             "- Lustres e outras luminárias, elétricos, próprios para serem suspensos ou fixados no teto ou na parede, exceto os do tipo utilizado na iluminação pública:"
     },
     {
-        code: "9405.11",
+        code: "940511",
         description: "-- Concebidos para serem utilizados unicamente com fontes de luz de diodos emissores de luz (LED)"
     },
     {
-        code: "9405.11.10",
+        code: "94051110",
         description: "Focos cirúrgicos (luzes sem sombra, do tipo utilizado em medicina, cirurgia ou odontologia)"
     },
     {
-        code: "9405.11.90",
+        code: "94051190",
         description: "Outros"
     },
     {
-        code: "9405.19",
+        code: "940519",
         description: "-- Outros"
     },
     {
-        code: "9405.19.10",
+        code: "94051910",
         description: "Focos cirúrgicos (luzes sem sombra, do tipo utilizado em medicina, cirurgia ou odontologia)"
     },
     {
-        code: "9405.19.90",
+        code: "94051990",
         description: "Outros"
     },
     {
-        code: "9405.2",
+        code: "94052",
         description: "- Abajures (candeeiros) de mesa, de escritório, de cabeceira e luminárias (candeeiros) de pé, elétricos:"
     },
     {
-        code: "9405.21.00",
+        code: "94052100",
         description: "-- Concebidos para serem utilizados unicamente com fontes de luz de diodos emissores de luz (LED)"
     },
     {
-        code: "9405.29.00",
+        code: "94052900",
         description: "-- Outros"
     },
     {
-        code: "9405.3",
+        code: "94053",
         description: "- Guirlandas elétricas do tipo utilizado em árvores de Natal:"
     },
     {
-        code: "9405.31.00",
+        code: "94053100",
         description: "-- Concebidas para serem utilizadas unicamente com fontes de luz de diodos emissores de luz (LED)"
     },
     {
-        code: "9405.39.00",
+        code: "94053900",
         description: "-- Outras"
     },
     {
-        code: "9405.4",
+        code: "94054",
         description: "- Outras luminárias e aparelhos de iluminação, elétricos:"
     },
     {
-        code: "9405.41.00",
+        code: "94054100",
         description: "-- Fotovoltaicos, concebidos para serem utilizados unicamente com fontes de luz de diodos emissores de luz (LED)"
     },
     {
-        code: "9405.42.00",
+        code: "94054200",
         description: "-- Outros, concebidos para serem utilizados unicamente com fontes de luz de diodos emissores de luz (LED)"
     },
     {
-        code: "9405.49.00",
+        code: "94054900",
         description: "-- Outros"
     },
     {
-        code: "9405.50.00",
+        code: "94055000",
         description: "- Luminárias e aparelhos de iluminação, não elétricos"
     },
     {
-        code: "9405.6",
+        code: "94056",
         description: "- Anúncios, cartazes ou tabuletas e placas indicadoras, luminosos, e artigos semelhantes:"
     },
     {
-        code: "9405.61.00",
+        code: "94056100",
         description: "-- Concebidos para serem utilizados unicamente com fontes de luz de diodos emissores de luz (LED)"
     },
     {
-        code: "9405.69.00",
+        code: "94056900",
         description: "-- Outros"
     },
     {
-        code: "9405.9",
+        code: "94059",
         description: "- Partes:"
     },
     {
-        code: "9405.91.00",
+        code: "94059100",
         description: "-- De vidro"
     },
     {
-        code: "9405.92.00",
+        code: "94059200",
         description: "-- De plástico"
     },
     {
-        code: "9405.99.00",
+        code: "94059900",
         description: "-- Outras"
     },
     {
-        code: "94.06",
-        description: "Construções pré-fabricadas."
+        code: "9406",
+        description: "Construções pré-fabricadas"
     },
     {
-        code: "9406.10",
+        code: "940610",
         description: "- De madeira"
     },
     {
-        code: "9406.10.10",
+        code: "94061010",
         description: "Estufas"
     },
     {
-        code: "9406.10.90",
+        code: "94061090",
         description: "Outras"
     },
     {
-        code: "9406.20.00",
+        code: "94062000",
         description: "- Unidades de construção modulares, de aço"
     },
     {
-        code: "9406.90",
+        code: "940690",
         description: "- Outras"
     },
     {
-        code: "9406.90.10",
+        code: "94069010",
         description: "Estufas"
     },
     {
-        code: "9406.90.20",
+        code: "94069020",
         description: "Com estrutura de ferro ou aço e paredes exteriores constituídas principalmente dessas matérias"
     },
     {
-        code: "9406.90.90",
+        code: "94069090",
         description: "Outras"
     },
     {
         code: "95",
-        description: "Brinquedos, jogos, artigos para divertimento ou para esporte; suas partes e acessórios."
+        description: "Brinquedos, jogos, artigos para divertimento ou para esporte; suas partes e acessórios"
     },
     {
-        code: "9503.00",
+        code: "950300",
         description:
-            "Triciclos, patinetes (trotinetas*), carros de pedais e outros brinquedos semelhantes de rodas; carrinhos para bonecos; bonecos; outros brinquedos; modelos reduzidos e modelos semelhantes para divertimento, mesmo animados; quebra-cabeças (<i>puzzles</i>) de qualquer espécie."
+            "Triciclos, patinetes (trotinetas*), carros de pedais e outros brinquedos semelhantes de rodas; carrinhos para bonecos; bonecos; outros brinquedos; modelos reduzidos e modelos semelhantes para divertimento, mesmo animados; quebra-cabeças (<i>puzzles</i>) de qualquer espécie"
     },
     {
-        code: "9503.00.10",
+        code: "95030010",
         description: "Triciclos, patinetes, carros de pedais e outros brinquedos semelhantes com rodas; carrinhos para bonecos"
     },
     {
-        code: "9503.00.2",
+        code: "9503002",
         description: "Bonecos que representem somente seres humanos"
     },
     {
-        code: "9503.00.21",
+        code: "95030021",
         description: "Bonecos, mesmo vestidos, com mecanismo a corda ou elétrico"
     },
     {
-        code: "9503.00.22",
+        code: "95030022",
         description: "Outros bonecos, mesmo vestidos"
     },
     {
-        code: "9503.00.29",
+        code: "95030029",
         description: "Partes e acessórios"
     },
     {
-        code: "9503.00.3",
+        code: "9503003",
         description: "Brinquedos que representem animais ou seres não humanos"
     },
     {
-        code: "9503.00.31",
+        code: "95030031",
         description: "Com enchimento"
     },
     {
-        code: "9503.00.39",
+        code: "95030039",
         description: "Outros"
     },
     {
-        code: "9503.00.40",
+        code: "95030040",
         description: "Trens elétricos, incluindo os trilhos, sinais e outros acessórios"
     },
     {
-        code: "9503.00.50",
-        description: "Modelos reduzidos, mesmo animados, em conjuntos para montagem, exceto os do item 9503.00.40"
+        code: "95030050",
+        description: "Modelos reduzidos, mesmo animados, em conjuntos para montagem, exceto os do item 95030040"
     },
     {
-        code: "9503.00.60",
+        code: "95030060",
         description: "Outros conjuntos e brinquedos, para construção"
     },
     {
-        code: "9503.00.70",
+        code: "95030070",
         description: "Quebra-cabeças (<i>puzzles</i>)"
     },
     {
-        code: "9503.00.80",
+        code: "95030080",
         description: "Outros brinquedos, apresentados em sortidos ou em panóplias"
     },
     {
-        code: "9503.00.9",
+        code: "9503009",
         description: "Outros"
     },
     {
-        code: "9503.00.91",
+        code: "95030091",
         description: "Instrumentos e aparelhos musicais, de brinquedo"
     },
     {
-        code: "9503.00.97",
+        code: "95030097",
         description: "Outros brinquedos, com motor elétrico"
     },
     {
-        code: "9503.00.98",
+        code: "95030098",
         description: "Outros brinquedos, com motor não elétrico"
     },
     {
-        code: "9503.00.99",
+        code: "95030099",
         description: "Outros"
     },
     {
-        code: "95.04",
+        code: "9504",
         description:
-            "Consoles e máquinas de jogos de vídeo, jogos de salão, incluindo os jogos com motor ou outro mecanismo, os bilhares, as mesas especiais para jogos de cassino e os jogos de balizas (pinos) automáticos (boliche), os jogos que funcionem por introdução de moedas, notas (papéis-moeda), cartões de banco, fichas ou por outros meios de pagamento."
+            "Consoles e máquinas de jogos de vídeo, jogos de salão, incluindo os jogos com motor ou outro mecanismo, os bilhares, as mesas especiais para jogos de cassino e os jogos de balizas (pinos) automáticos (boliche), os jogos que funcionem por introdução de moedas, notas (papéis-moeda), cartões de banco, fichas ou por outros meios de pagamento"
     },
     {
-        code: "9504.20.00",
+        code: "95042000",
         description: "- Bilhares de qualquer espécie e seus acessórios"
     },
     {
-        code: "9504.30.00",
+        code: "95043000",
         description:
             "- Outros jogos que funcionem por introdução de moedas, notas (papéis-moeda), cartões de banco, fichas ou por outros meios de pagamento, exceto os jogos de balizas (pinos) automáticos (boliche)"
     },
     {
-        code: "9504.40.00",
+        code: "95044000",
         description: "- Cartas de jogar"
     },
     {
-        code: "9504.50.00",
-        description: "- Consoles e máquinas de jogos de vídeo, exceto os classificados na subposição 9504.30"
+        code: "95045000",
+        description: "- Consoles e máquinas de jogos de vídeo, exceto os classificados na subposição 950430"
     },
     {
-        code: "9504.90",
+        code: "950490",
         description: "- Outros"
     },
     {
-        code: "9504.90.10",
+        code: "95049010",
         description: "Jogos de balizas (pinos) automáticos (boliche)"
     },
     {
-        code: "9504.90.90",
+        code: "95049090",
         description: "Outros"
     },
     {
-        code: "95.05",
-        description: "Artigos para festas, carnaval ou outros divertimentos, incluindo os artigos de magia e artigos-surpresa."
+        code: "9505",
+        description: "Artigos para festas, carnaval ou outros divertimentos, incluindo os artigos de magia e artigos-surpresa"
     },
     {
-        code: "9505.10.00",
+        code: "95051000",
         description: "- Artigos para festas de Natal"
     },
     {
-        code: "9505.90.00",
+        code: "95059000",
         description: "- Outros"
     },
     {
-        code: "95.06",
+        code: "9506",
         description:
-            "Artigos e equipamentos para cultura física, ginástica, atletismo, outros esportes (incluindo o tênis de mesa), ou jogos ao ar livre, não especificados nem compreendidos noutras posições deste Capítulo; piscinas, incluindo as infantis."
+            "Artigos e equipamentos para cultura física, ginástica, atletismo, outros esportes (incluindo o tênis de mesa), ou jogos ao ar livre, não especificados nem compreendidos noutras posições deste Capítulo; piscinas, incluindo as infantis"
     },
     {
-        code: "9506.1",
+        code: "95061",
         description: "- Esquis e outros equipamentos para esquiar na neve:"
     },
     {
-        code: "9506.11.00",
+        code: "95061100",
         description: "-- Esquis"
     },
     {
-        code: "9506.12.00",
+        code: "95061200",
         description: "-- Fixadores para esquis"
     },
     {
-        code: "9506.19.00",
+        code: "95061900",
         description: "-- Outros"
     },
     {
-        code: "9506.2",
+        code: "95062",
         description: "- Esquis aquáticos, pranchas de surfe, pranchas à vela e outros equipamentos para a prática de esportes aquáticos:"
     },
     {
-        code: "9506.21.00",
+        code: "95062100",
         description: "-- Pranchas à vela"
     },
     {
-        code: "9506.29.00",
+        code: "95062900",
         description: "-- Outros"
     },
     {
-        code: "9506.3",
+        code: "95063",
         description: "- Tacos e outros equipamentos para golfe:"
     },
     {
-        code: "9506.31.00",
+        code: "95063100",
         description: "-- Tacos completos"
     },
     {
-        code: "9506.32.00",
+        code: "95063200",
         description: "-- Bolas"
     },
     {
-        code: "9506.39.00",
+        code: "95063900",
         description: "-- Outros"
     },
     {
-        code: "9506.40.00",
+        code: "95064000",
         description: "- Artigos e equipamentos para tênis de mesa"
     },
     {
-        code: "9506.5",
+        code: "95065",
         description: "- Raquetes de tênis, de <i>badminton</i> e raquetes semelhantes, mesmo não encordoadas:"
     },
     {
-        code: "9506.51.00",
+        code: "95065100",
         description: "-- Raquetes de tênis, mesmo não encordoadas"
     },
     {
-        code: "9506.59.00",
+        code: "95065900",
         description: "-- Outras"
     },
     {
-        code: "9506.6",
+        code: "95066",
         description: "- Bolas, exceto de golfe ou de tênis de mesa:"
     },
     {
-        code: "9506.61.00",
+        code: "95066100",
         description: "-- Bolas de tênis"
     },
     {
-        code: "9506.62.00",
+        code: "95066200",
         description: "-- Infláveis"
     },
     {
-        code: "9506.69.00",
+        code: "95066900",
         description: "-- Outras"
     },
     {
-        code: "9506.70.00",
+        code: "95067000",
         description: "- Patins para gelo e patins de rodas, incluindo os fixados em calçado"
     },
     {
-        code: "9506.9",
+        code: "95069",
         description: "- Outros:"
     },
     {
-        code: "9506.91.00",
+        code: "95069100",
         description: "-- Artigos e equipamentos para cultura física, ginástica ou atletismo"
     },
     {
-        code: "9506.99.00",
+        code: "95069900",
         description: "-- Outros"
     },
     {
-        code: "95.07",
+        code: "9507",
         description:
-            "Varas (Canas*) de pesca, anzóis e outros artigos para a pesca à linha; puçás (camaroeiros), redes de borboletas e redes semelhantes; iscas e chamarizes (exceto os das posições 92.08 ou 97.05) e artigos semelhantes de caça."
+            "Varas (Canas*) de pesca, anzóis e outros artigos para a pesca à linha; puçás (camaroeiros), redes de borboletas e redes semelhantes; iscas e chamarizes (exceto os das posições 9208 ou 9705) e artigos semelhantes de caça"
     },
     {
-        code: "9507.10.00",
+        code: "95071000",
         description: "- Varas (Canas*) de pesca"
     },
     {
-        code: "9507.20.00",
+        code: "95072000",
         description: "- Anzóis, mesmo montados em sedelas"
     },
     {
-        code: "9507.30.00",
+        code: "95073000",
         description: "- Carretilhas e molinetes (Carretes*), de pesca"
     },
     {
-        code: "9507.90.00",
+        code: "95079000",
         description: "- Outros"
     },
     {
-        code: "95.08",
+        code: "9508",
         description:
-            "Circos ambulantes e coleções de animais ambulantes; equipamentos para parques de diversões e equipamentos para parques aquáticos; atrações de parques e feiras, incluindo as instalações de tiro ao alvo; teatros ambulantes."
+            "Circos ambulantes e coleções de animais ambulantes; equipamentos para parques de diversões e equipamentos para parques aquáticos; atrações de parques e feiras, incluindo as instalações de tiro ao alvo; teatros ambulantes"
     },
     {
-        code: "9508.10.00",
+        code: "95081000",
         description: "- Circos ambulantes e coleções de animais ambulantes"
     },
     {
-        code: "9508.2",
+        code: "95082",
         description: "- Equipamentos para parques de diversões e equipamentos para parques aquáticos:"
     },
     {
-        code: "9508.21",
+        code: "950821",
         description: "-- Montanhas-russas"
     },
     {
-        code: "9508.21.10",
+        code: "95082110",
         description: "Com percurso igual ou superior a 300 m"
     },
     {
-        code: "9508.21.20",
+        code: "95082120",
         description: "Vagonetes com capacidade igual ou superior a 6 pessoas"
     },
     {
-        code: "9508.21.90",
+        code: "95082190",
         description: "Outras"
     },
     {
-        code: "9508.22",
+        code: "950822",
         description: "-- Carrosséis, balanços (baloiços) e equipamentos giratórios semelhantes"
     },
     {
-        code: "9508.22.10",
+        code: "95082210",
         description: "Carrosséis, mesmo dotados de dispositivo de elevação, de diâmetro inferior a 16 m"
     },
     {
-        code: "9508.22.90",
+        code: "95082290",
         description: "Outros"
     },
     {
-        code: "9508.23.00",
+        code: "95082300",
         description: "-- Carrinhos de choque"
     },
     {
-        code: "9508.24.00",
+        code: "95082400",
         description: "-- Simuladores de movimentos e cinemas dinâmicos"
     },
     {
-        code: "9508.25.00",
+        code: "95082500",
         description: "-- Percursos aquáticos"
     },
     {
-        code: "9508.26.00",
+        code: "95082600",
         description: "-- Equipamentos para parques aquáticos"
     },
     {
-        code: "9508.29.00",
+        code: "95082900",
         description: "-- Outros"
     },
     {
-        code: "9508.30.00",
+        code: "95083000",
         description: "- Atrações de parques e feiras"
     },
     {
-        code: "9508.40.00",
+        code: "95084000",
         description: "- Teatros ambulantes"
     },
     {
         code: "96",
-        description: "Obras diversas."
+        description: "Obras diversas"
     },
     {
-        code: "96.01",
+        code: "9601",
         description:
-            "Marfim, osso, carapaça de tartaruga, chifre, pontas, coral, madrepérola e outras matérias animais para entalhar, trabalhados, e suas obras (incluindo as obras obtidas por moldagem)."
+            "Marfim, osso, carapaça de tartaruga, chifre, pontas, coral, madrepérola e outras matérias animais para entalhar, trabalhados, e suas obras (incluindo as obras obtidas por moldagem)"
     },
     {
-        code: "9601.10.00",
+        code: "96011000",
         description: "- Marfim trabalhado e obras de marfim"
     },
     {
-        code: "9601.90.00",
+        code: "96019000",
         description: "- Outros"
     },
     {
-        code: "9602.00",
+        code: "960200",
         description:
-            "Matérias vegetais ou minerais de entalhar, trabalhadas, e suas obras; obras moldadas ou entalhadas de cera, parafina, estearina, gomas ou resinas naturais, de massas ou pastas para modelar, e outras obras moldadas ou entalhadas não especificadas nem compreendidas noutras posições; gelatina não endurecida, trabalhada, exceto a da posição 35.03, e obras de gelatina não endurecida."
+            "Matérias vegetais ou minerais de entalhar, trabalhadas, e suas obras; obras moldadas ou entalhadas de cera, parafina, estearina, gomas ou resinas naturais, de massas ou pastas para modelar, e outras obras moldadas ou entalhadas não especificadas nem compreendidas noutras posições; gelatina não endurecida, trabalhada, exceto a da posição 3503, e obras de gelatina não endurecida"
     },
     {
-        code: "9602.00.10",
+        code: "96020010",
         description: "Cápsulas de gelatinas digeríveis"
     },
     {
-        code: "9602.00.20",
+        code: "96020020",
         description: "Colmeias artificiais"
     },
     {
-        code: "9602.00.90",
+        code: "96020090",
         description: "Outras"
     },
     {
-        code: "96.03",
+        code: "9603",
         description:
-            "Vassouras e escovas, mesmo que constituam partes de máquinas, de aparelhos ou de veículos, vassouras mecânicas de uso manual não motorizadas, pincéis e espanadores; cabeças preparadas para escovas, pincéis e artigos semelhantes; <i>pads</i> (talochas) e rolos para pintura; rodos de borracha ou de matérias flexíveis semelhantes."
+            "Vassouras e escovas, mesmo que constituam partes de máquinas, de aparelhos ou de veículos, vassouras mecânicas de uso manual não motorizadas, pincéis e espanadores; cabeças preparadas para escovas, pincéis e artigos semelhantes; <i>pads</i> (talochas) e rolos para pintura; rodos de borracha ou de matérias flexíveis semelhantes"
     },
     {
-        code: "9603.10.00",
+        code: "96031000",
         description: "- Vassouras e escovas constituídas por pequenos ramos ou outras matérias vegetais reunidas em feixes, mesmo com cabo"
     },
     {
-        code: "9603.2",
+        code: "96032",
         description:
             "- Escovas de dentes, escovas e pincéis de barba, escovas para cabelo, para cílios ou para unhas e outras escovas de toucador de pessoas, incluindo as que sejam partes de aparelhos:"
     },
     {
-        code: "9603.21.00",
+        code: "96032100",
         description: "-- Escovas de dentes, incluindo as escovas para dentaduras"
     },
     {
-        code: "9603.29.00",
+        code: "96032900",
         description: "-- Outros"
     },
     {
-        code: "9603.30.00",
+        code: "96033000",
         description: "- Pincéis e escovas, para artistas, pincéis de escrever e pincéis semelhantes para aplicação de produtos cosméticos"
     },
     {
-        code: "9603.40",
+        code: "960340",
         description:
-            "- Escovas e pincéis, para pintar, caiar, envernizar ou semelhantes (exceto os pincéis da subposição 9603.30); <i>pads</i> (talochas) e rolos para pintura"
+            "- Escovas e pincéis, para pintar, caiar, envernizar ou semelhantes (exceto os pincéis da subposição 960330); <i>pads</i> (talochas) e rolos para pintura"
     },
     {
-        code: "9603.40.10",
+        code: "96034010",
         description: "Rolos"
     },
     {
-        code: "9603.40.90",
+        code: "96034090",
         description: "Outros"
     },
     {
-        code: "9603.50.00",
+        code: "96035000",
         description: "- Outras escovas que constituam partes de máquinas, de aparelhos ou de veículos"
     },
     {
-        code: "9603.90.00",
+        code: "96039000",
         description: "- Outros"
     },
     {
-        code: "9604.00.00",
-        description: "Peneiras e crivos, manuais."
+        code: "96040000",
+        description: "Peneiras e crivos, manuais"
     },
     {
-        code: "9605.00.00",
-        description: "Conjuntos de viagem para toucador de pessoas, para costura ou para limpeza de calçado ou de roupa."
+        code: "96050000",
+        description: "Conjuntos de viagem para toucador de pessoas, para costura ou para limpeza de calçado ou de roupa"
     },
     {
-        code: "96.06",
-        description: "Botões, incluindo os de pressão; formas e outras partes, de botões ou de botões de pressão; esboços de botões."
+        code: "9606",
+        description: "Botões, incluindo os de pressão; formas e outras partes, de botões ou de botões de pressão; esboços de botões"
     },
     {
-        code: "9606.10.00",
+        code: "96061000",
         description: "- Botões de pressão e suas partes"
     },
     {
-        code: "9606.2",
+        code: "96062",
         description: "- Botões:"
     },
     {
-        code: "9606.21.00",
+        code: "96062100",
         description: "-- De plástico, não recobertos de matérias têxteis"
     },
     {
-        code: "9606.22.00",
+        code: "96062200",
         description: "-- De metais comuns, não recobertos de matérias têxteis"
     },
     {
-        code: "9606.29.00",
+        code: "96062900",
         description: "-- Outros"
     },
     {
-        code: "9606.30.00",
+        code: "96063000",
         description: "- Formas e outras partes, de botões; esboços de botões"
     },
     {
-        code: "96.07",
-        description: "Fechos ecler (de correr) e suas partes."
+        code: "9607",
+        description: "Fechos ecler (de correr) e suas partes"
     },
     {
-        code: "9607.1",
+        code: "96071",
         description: "- Fechos ecler (de correr):"
     },
     {
-        code: "9607.11.00",
+        code: "96071100",
         description: "-- Com grampos de metal comum"
     },
     {
-        code: "9607.19.00",
+        code: "96071900",
         description: "-- Outros"
     },
     {
-        code: "9607.20.00",
+        code: "96072000",
         description: "- Partes"
     },
     {
-        code: "96.08",
+        code: "9608",
         description:
-            "Canetas esferográficas; canetas e marcadores, com ponta de feltro ou com outras pontas porosas; canetas-tinteiro (canetas de tinta permanente*) e outras canetas; estiletes para duplicadores; lapiseiras; canetas porta-penas, porta-lápis e artigos semelhantes; suas partes (incluindo as tampas e prendedores), exceto os artigos da posição 96.09."
+            "Canetas esferográficas; canetas e marcadores, com ponta de feltro ou com outras pontas porosas; canetas-tinteiro (canetas de tinta permanente*) e outras canetas; estiletes para duplicadores; lapiseiras; canetas porta-penas, porta-lápis e artigos semelhantes; suas partes (incluindo as tampas e prendedores), exceto os artigos da posição 9609"
     },
     {
-        code: "9608.10.00",
+        code: "96081000",
         description: "- Canetas esferográficas"
     },
     {
-        code: "9608.20.00",
+        code: "96082000",
         description: "- Canetas e marcadores, com ponta de feltro ou com outras pontas porosas"
     },
     {
-        code: "9608.30.00",
+        code: "96083000",
         description: "- Canetas-tinteiro (Canetas de tinta permanente*) e outras canetas"
     },
     {
-        code: "9608.40.00",
+        code: "96084000",
         description: "- Lapiseiras"
     },
     {
-        code: "9608.50.00",
+        code: "96085000",
         description: "- Sortidos de artigos de, pelo menos, duas das subposições precedentes"
     },
     {
-        code: "9608.60.00",
+        code: "96086000",
         description: "- Cargas com ponta, para canetas esferográficas"
     },
     {
-        code: "9608.9",
+        code: "96089",
         description: "- Outros:"
     },
     {
-        code: "9608.91.00",
+        code: "96089100",
         description: "-- Penas (aparos) e suas pontas"
     },
     {
-        code: "9608.99",
+        code: "960899",
         description: "-- Outros"
     },
     {
-        code: "9608.99.8",
+        code: "9608998",
         description: "Partes"
     },
     {
-        code: "9608.99.81",
-        description: "Pontas porosas para os artigos da subposição 9608.20"
+        code: "96089981",
+        description: "Pontas porosas para os artigos da subposição 960820"
     },
     {
-        code: "9608.99.89",
+        code: "96089989",
         description: "Outras"
     },
     {
-        code: "9608.99.90",
+        code: "96089990",
         description: "Outros"
     },
     {
-        code: "96.09",
-        description: "Lápis, minas, pastéis, carvões, gizes para escrever ou desenhar e gizes de alfaiate."
+        code: "9609",
+        description: "Lápis, minas, pastéis, carvões, gizes para escrever ou desenhar e gizes de alfaiate"
     },
     {
-        code: "9609.10.00",
+        code: "96091000",
         description: "- Lápis"
     },
     {
-        code: "9609.20.00",
+        code: "96092000",
         description: "- Minas para lápis ou para lapiseiras"
     },
     {
-        code: "9609.90.00",
+        code: "96099000",
         description: "- Outros"
     },
     {
-        code: "9610.00.00",
-        description: "Lousas e quadros para escrever ou desenhar, mesmo emoldurados."
+        code: "96100000",
+        description: "Lousas e quadros para escrever ou desenhar, mesmo emoldurados"
     },
     {
-        code: "9611.00.00",
+        code: "96110000",
         description:
-            "Carimbos, incluindo os datadores e numeradores, sinetes e artigos semelhantes (incluindo os aparelhos para impressão de etiquetas), manuais; dispositivos manuais de composição tipográfica e jogos de impressão manuais que contenham tais dispositivos."
+            "Carimbos, incluindo os datadores e numeradores, sinetes e artigos semelhantes (incluindo os aparelhos para impressão de etiquetas), manuais; dispositivos manuais de composição tipográfica e jogos de impressão manuais que contenham tais dispositivos"
     },
     {
-        code: "96.12",
+        code: "9612",
         description:
-            "Fitas impressoras para máquinas de escrever e fitas impressoras semelhantes, tintadas ou preparadas de outra forma para imprimir, montadas ou não em carretéis ou cartuchos; almofadas de carimbo, impregnadas ou não, mesmo com caixa."
+            "Fitas impressoras para máquinas de escrever e fitas impressoras semelhantes, tintadas ou preparadas de outra forma para imprimir, montadas ou não em carretéis ou cartuchos; almofadas de carimbo, impregnadas ou não, mesmo com caixa"
     },
     {
-        code: "9612.10.00",
+        code: "96121000",
         description: "- Fitas impressoras"
     },
     {
-        code: "9612.20.00",
+        code: "96122000",
         description: "- Almofadas de carimbo"
     },
     {
-        code: "96.13",
-        description: "Isqueiros e outros acendedores, mesmo mecânicos ou elétricos, e suas partes, exceto pedras e pavios."
+        code: "9613",
+        description: "Isqueiros e outros acendedores, mesmo mecânicos ou elétricos, e suas partes, exceto pedras e pavios"
     },
     {
-        code: "9613.10.00",
+        code: "96131000",
         description: "- Isqueiros de bolso, a gás, não recarregáveis"
     },
     {
-        code: "9613.20.00",
+        code: "96132000",
         description: "- Isqueiros de bolso, a gás, recarregáveis"
     },
     {
-        code: "9613.80.00",
+        code: "96138000",
         description: "- Outros isqueiros e acendedores"
     },
     {
-        code: "9613.90.00",
+        code: "96139000",
         description: "- Partes"
     },
     {
-        code: "9614.00.00",
-        description: "Cachimbos (incluindo os seus fornilhos), piteiras (boquilhas) para charutos ou cigarros, e suas partes."
+        code: "96140000",
+        description: "Cachimbos (incluindo os seus fornilhos), piteiras (boquilhas) para charutos ou cigarros, e suas partes"
     },
     {
-        code: "96.15",
+        code: "9615",
         description:
-            "Pentes, travessas para cabelo e artigos semelhantes; grampos (ganchos) e alfinetes para cabelo; pinças, onduladores, bobes (bigudis*) e artigos semelhantes para penteados, exceto os da posição 85.16, e suas partes."
+            "Pentes, travessas para cabelo e artigos semelhantes; grampos (ganchos) e alfinetes para cabelo; pinças, onduladores, bobes (bigudis*) e artigos semelhantes para penteados, exceto os da posição 8516, e suas partes"
     },
     {
-        code: "9615.1",
+        code: "96151",
         description: "- Pentes, travessas para cabelo e artigos semelhantes:"
     },
     {
-        code: "9615.11.00",
+        code: "96151100",
         description: "-- De borracha endurecida ou de plástico"
     },
     {
-        code: "9615.19.00",
+        code: "96151900",
         description: "-- Outros"
     },
     {
-        code: "9615.90.00",
+        code: "96159000",
         description: "- Outros"
     },
     {
-        code: "96.16",
+        code: "9616",
         description:
-            "Vaporizadores de toucador, suas armações e cabeças de armações; borlas ou esponjas para pós ou para aplicação de outros cosméticos ou de produtos de toucador."
+            "Vaporizadores de toucador, suas armações e cabeças de armações; borlas ou esponjas para pós ou para aplicação de outros cosméticos ou de produtos de toucador"
     },
     {
-        code: "9616.10.00",
+        code: "96161000",
         description: "- Vaporizadores de toucador, suas armações e cabeças de armações"
     },
     {
-        code: "9616.20.00",
+        code: "96162000",
         description: "- Borlas ou esponjas para pós ou para aplicação de outros cosméticos ou de produtos de toucador"
     },
     {
-        code: "9617.00",
+        code: "961700",
         description:
-            "Garrafas térmicas e outros recipientes isotérmicos, montados, com isolamento produzido pelo vácuo, e suas partes (exceto ampolas de vidro)."
+            "Garrafas térmicas e outros recipientes isotérmicos, montados, com isolamento produzido pelo vácuo, e suas partes (exceto ampolas de vidro)"
     },
     {
-        code: "9617.00.10",
+        code: "96170010",
         description: "Garrafas térmicas e outros recipientes isotérmicos"
     },
     {
-        code: "9617.00.20",
+        code: "96170020",
         description: "Partes"
     },
     {
-        code: "9618.00.00",
-        description: "Manequins e artigos semelhantes; autômatos e cenas animadas, para vitrines e mostruários."
+        code: "96180000",
+        description: "Manequins e artigos semelhantes; autômatos e cenas animadas, para vitrines e mostruários"
     },
     {
-        code: "9619.00.00",
-        description: "Absorventes (Pensos*) e tampões higiênicos, cueiros, fraldas e artigos higiênicos semelhantes, de qualquer matéria."
+        code: "96190000",
+        description: "Absorventes (Pensos*) e tampões higiênicos, cueiros, fraldas e artigos higiênicos semelhantes, de qualquer matéria"
     },
     {
-        code: "9620.00.00",
-        description: "Monopés, bipés, tripés e artigos semelhantes."
+        code: "96200000",
+        description: "Monopés, bipés, tripés e artigos semelhantes"
     },
     {
         code: "97",
-        description: "Objetos de arte, de coleção e antiguidades."
+        description: "Objetos de arte, de coleção e antiguidades"
     },
     {
-        code: "97.01",
+        code: "9701",
         description:
-            "Quadros, pinturas e desenhos, feitos inteiramente à mão, exceto os desenhos da posição 49.06 e os artigos manufaturados decorados à mão; colagens, mosaicos e quadros decorativos semelhantes."
+            "Quadros, pinturas e desenhos, feitos inteiramente à mão, exceto os desenhos da posição 4906 e os artigos manufaturados decorados à mão; colagens, mosaicos e quadros decorativos semelhantes"
     },
     {
-        code: "9701.2",
+        code: "97012",
         description: "- Com mais de 100 anos:"
     },
     {
-        code: "9701.21.00",
+        code: "97012100",
         description: "-- Quadros, pinturas e desenhos"
     },
     {
-        code: "9701.22.00",
+        code: "97012200",
         description: "-- Mosaicos"
     },
     {
-        code: "9701.29.00",
+        code: "97012900",
         description: "-- Outros"
     },
     {
-        code: "9701.9",
+        code: "97019",
         description: "- Outros:"
     },
     {
-        code: "9701.91.00",
+        code: "97019100",
         description: "-- Quadros, pinturas e desenhos"
     },
     {
-        code: "9701.92.00",
+        code: "97019200",
         description: "-- Mosaicos"
     },
     {
-        code: "9701.99.00",
+        code: "97019900",
         description: "-- Outros"
     },
     {
-        code: "97.02",
-        description: "Gravuras, estampas e litografias, originais."
+        code: "9702",
+        description: "Gravuras, estampas e litografias, originais"
     },
     {
-        code: "9702.10.00",
+        code: "97021000",
         description: "- Com mais de 100 anos"
     },
     {
-        code: "9702.90.00",
+        code: "97029000",
         description: "- Outras"
     },
     {
-        code: "97.03",
-        description: "Produções originais de arte estatuária ou de escultura, de quaisquer matérias."
+        code: "9703",
+        description: "Produções originais de arte estatuária ou de escultura, de quaisquer matérias"
     },
     {
-        code: "9703.10.00",
+        code: "97031000",
         description: "- Com mais de 100 anos"
     },
     {
-        code: "9703.90.00",
+        code: "97039000",
         description: "- Outras"
     },
     {
-        code: "9704.00.00",
+        code: "97040000",
         description:
-            "Selos postais, selos fiscais, marcas postais, envelopes de primeiro dia (<i>first-day covers</i>), inteiros postais e semelhantes, obliterados, ou não obliterados, exceto os artigos da posição 49.07."
+            "Selos postais, selos fiscais, marcas postais, envelopes de primeiro dia (<i>first-day covers</i>), inteiros postais e semelhantes, obliterados, ou não obliterados, exceto os artigos da posição 4907"
     },
     {
-        code: "97.05",
+        code: "9705",
         description:
-            "Coleções e peças de coleção que apresentem um interesse arqueológico, etnográfico, histórico, zoológico, botânico, mineralógico, anatômico, paleontológico ou numismático."
+            "Coleções e peças de coleção que apresentem um interesse arqueológico, etnográfico, histórico, zoológico, botânico, mineralógico, anatômico, paleontológico ou numismático"
     },
     {
-        code: "9705.10.00",
+        code: "97051000",
         description: "- Coleções e peças de coleção que apresentem um interesse arqueológico, etnográfico ou histórico"
     },
     {
-        code: "9705.2",
+        code: "97052",
         description: "- Coleções e peças de coleção que apresentem um interesse zoológico, botânico, mineralógico, anatômico ou paleontológico:"
     },
     {
-        code: "9705.21.00",
+        code: "97052100",
         description: "-- Espécimes humanos e suas partes"
     },
     {
-        code: "9705.22.00",
+        code: "97052200",
         description: "-- Espécies extintas ou ameaçadas de extinção, e suas partes"
     },
     {
-        code: "9705.29.00",
+        code: "97052900",
         description: "-- Outras"
     },
     {
-        code: "9705.3",
+        code: "97053",
         description: "- Coleções e peças de coleção que apresentem um interesse numismático:"
     },
     {
-        code: "9705.31.00",
+        code: "97053100",
         description: "-- Com mais de 100 anos"
     },
     {
-        code: "9705.39.00",
+        code: "97053900",
         description: "-- Outras"
     },
     {
-        code: "97.06",
-        description: "Antiguidades com mais de 100 anos."
+        code: "9706",
+        description: "Antiguidades com mais de 100 anos"
     },
     {
-        code: "9706.10.00",
+        code: "97061000",
         description: "- Com mais de 250 anos"
     },
     {
-        code: "9706.90.00",
+        code: "97069000",
         description: "- Outras"
     }
 ];
