@@ -55,12 +55,14 @@ export class UserRepository extends BaseRepository {
      *
      * @returns Usuário alterado
      */
-    public async changePassword(userId: string, value: string): Promise<User | undefined> {
+    public async changePassword(userId: number, value: string): Promise<User | undefined> {
         const repository: Repository<User> = this.getConnection().getRepository(User);
         const user: User | undefined = await repository.findOne(userId);
 
         if (user) {
-            return repository.save({ ...user, password: value });
+            user.password = value;
+
+            return this.update(user);
         }
 
         return undefined;
