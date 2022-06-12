@@ -108,8 +108,7 @@ export class UserValidator extends BaseValidator {
                         ...acc,
                         [key]: {
                             ...value,
-                            optional: true,
-                            ...(key === "password" && { isLength: undefined })
+                            optional: true
                         }
                     };
                 }, {})

@@ -52,10 +52,7 @@ export class User extends BaseEntity {
     @Column({ select: false })
     public password: string;
 
-    @Column({
-        select: false,
-        update: false
-    })
+    @Column({ select: false })
     public salt: string;
 
     @Column()
