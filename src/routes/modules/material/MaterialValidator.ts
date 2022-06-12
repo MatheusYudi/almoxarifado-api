@@ -97,7 +97,11 @@ export class MaterialValidator extends BaseValidator {
         unitPrice: {
             errorMessage: "Preço unitário inválido",
             in: "body",
-            isFloat: true,
+            isFloat: {
+                options: {
+                    min: 0
+                }
+            },
             toFloat: true
         },
         stockQuantity: {

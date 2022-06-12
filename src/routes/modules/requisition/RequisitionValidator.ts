@@ -30,8 +30,12 @@ export class RequisitionValidator extends BaseValidator {
         "items.*.quantity": {
             errorMessage: "Quantidade inválida",
             in: "body",
-            isFloat: true,
             toFloat: true,
+            isFloat: {
+                options: {
+                    gt: 0
+                }
+            },
             custom: {
                 errorMessage: "Quantidade requisitada é maior que a disponível em estoque",
                 options: async (value: number, { path, req }: Meta) => {

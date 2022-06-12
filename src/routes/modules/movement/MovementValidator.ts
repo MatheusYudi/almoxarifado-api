@@ -43,8 +43,12 @@ export class MovementValidator extends BaseValidator {
             quantity: {
                 errorMessage: "Quantidade inválida",
                 in: "body",
-                isFloat: true,
                 toFloat: true,
+                isFloat: {
+                    options: {
+                        gt: 0
+                    }
+                },
                 custom: {
                     errorMessage: "Quantidade movimentada é maior que a disponível em estoque",
                     options: async (value: number, { req }: Meta) => {
@@ -99,7 +103,11 @@ export class MovementValidator extends BaseValidator {
             "items.*.quantity": {
                 errorMessage: "Quantidade inválida",
                 in: "body",
-                isFloat: true,
+                isFloat: {
+                    options: {
+                        gt: 0
+                    }
+                },
                 toFloat: true
             }
         });

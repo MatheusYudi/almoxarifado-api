@@ -75,7 +75,11 @@ export class InvoiceValidator extends BaseValidator {
         "items.*.quantity": {
             errorMessage: "Quantidade inválida",
             in: "body",
-            isFloat: true,
+            isFloat: {
+                options: {
+                    gt: 0
+                }
+            },
             toFloat: true
         }
     };
