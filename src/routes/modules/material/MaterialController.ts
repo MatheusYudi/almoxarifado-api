@@ -156,7 +156,7 @@ export class MaterialController extends BaseController {
      *               name:
      *                 type: string
      *               ncmId:
-     *                 type: number
+     *                 type: string
      *               barcode:
      *                 type: string
      *               unitPrice:
@@ -225,7 +225,7 @@ export class MaterialController extends BaseController {
      *               name:
      *                 type: string
      *               ncmId:
-     *                 type: number
+     *                 type: string
      *               barcode:
      *                 type: string
      *               unitPrice:
