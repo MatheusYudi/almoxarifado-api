@@ -87,4 +87,17 @@ export class BaseRepository {
     public find<Entity>(options?: FindConditions<Entity> | undefined): Promise<Entity[]> {
         return this.getConnection().getRepository<Entity>(this.entity).find(options);
     }
+
+    /**
+     * count
+     *
+     * Retorna a quantidade de registros que atendem as opções
+     *
+     * @param options - Opções de busca
+     *
+     * @returns Quantidade total
+     */
+    public count<Entity>(options?: FindManyOptions<Entity> | undefined): Promise<number> {
+        return this.getConnection().getRepository<Entity>(this.entity).count(options);
+    }
 }

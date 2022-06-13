@@ -225,6 +225,38 @@ export class InventoryController extends BaseController {
     /**
      * @swagger
      *
+     * /inventory/balance:
+     *   get:
+     *     summary: Retorna a quantidade de inventários finalizados/pendentes
+     *     tags: [Inventory]
+     *     consumes:
+     *       - application/json
+     *     produces:
+     *       - application/json
+     *     security:
+     *       - BearerAuth: []
+     *     responses:
+     *       200:
+     *         $ref: '#/components/responses/200'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       401:
+     *         $ref: '#/components/responses/401'
+     *       500:
+     *         $ref: '#/components/responses/500'
+     */
+    @Get("/balance")
+    public async count(_req: Request, res: Response): Promise<void> {
+        const repository: InventoryRepository = new InventoryRepository();
+        const closedCount: number = await repository.count<Inventory>({ where: { closed: true } });
+        const pendingCount: number = await repository.count<Inventory>({ where: { closed: false } });
+
+        RouteResponse.success({ closed: closedCount, pending: pendingCount }, res);
+    }
+
+    /**
+     * @swagger
+     *
      * /inventory/{id}:
      *   get:
      *     summary: Retorna informações de um inventário

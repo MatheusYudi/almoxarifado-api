@@ -223,6 +223,38 @@ export class RequisitionController extends BaseController {
     /**
      * @swagger
      *
+     * /requisition/balance:
+     *   get:
+     *     summary: Retorna a quantidade de requisições aprovadas/pendentes
+     *     tags: [Requisition]
+     *     consumes:
+     *       - application/json
+     *     produces:
+     *       - application/json
+     *     security:
+     *       - BearerAuth: []
+     *     responses:
+     *       200:
+     *         $ref: '#/components/responses/200'
+     *       400:
+     *         $ref: '#/components/responses/400'
+     *       401:
+     *         $ref: '#/components/responses/401'
+     *       500:
+     *         $ref: '#/components/responses/500'
+     */
+    @Get("/balance")
+    public async count(req: Request, res: Response): Promise<void> {
+        const repository: RequisitionRepository = new RequisitionRepository();
+        const approvedCount: number = await repository.count<Requisition>({ where: { approved: true } });
+        const pendingCount: number = await repository.count<Requisition>({ where: { approved: false } });
+
+        RouteResponse.success({ approved: approvedCount, pending: pendingCount }, res);
+    }
+
+    /**
+     * @swagger
+     *
      * /requisition/{id}:
      *   get:
      *     summary: Retorna informações de uma requisição
