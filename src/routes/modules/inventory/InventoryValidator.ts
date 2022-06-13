@@ -25,7 +25,11 @@ export class InventoryValidator extends BaseValidator {
         items: {
             errorMessage: "Materiais do inventário inválidos",
             in: "body",
-            isArray: true
+            isArray: {
+                options: {
+                    min: 1
+                }
+            }
         },
         "items.*.physicQuantity": {
             errorMessage: "Quantidade física inválida",

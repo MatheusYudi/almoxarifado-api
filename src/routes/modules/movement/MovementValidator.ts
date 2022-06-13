@@ -78,7 +78,11 @@ export class MovementValidator extends BaseValidator {
             items: {
                 errorMessage: "Materiais da movimentação inválidos",
                 in: "body",
-                isArray: true
+                isArray: {
+                    options: {
+                        min: 1
+                    }
+                }
             },
             "items.*.materialId": {
                 errorMessage: "Material não encontrado",

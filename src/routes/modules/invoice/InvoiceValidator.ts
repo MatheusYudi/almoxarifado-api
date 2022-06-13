@@ -50,7 +50,11 @@ export class InvoiceValidator extends BaseValidator {
         items: {
             errorMessage: "Materiais da nota fiscal inválidos",
             in: "body",
-            isArray: true
+            isArray: {
+                options: {
+                    min: 1
+                }
+            }
         },
         "items.*.materialId": {
             errorMessage: "Material não encontrado",

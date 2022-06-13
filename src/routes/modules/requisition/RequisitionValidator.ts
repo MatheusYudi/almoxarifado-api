@@ -25,7 +25,11 @@ export class RequisitionValidator extends BaseValidator {
         items: {
             errorMessage: "Materiais da requisição inválidos",
             in: "body",
-            isArray: true
+            isArray: {
+                options: {
+                    min: 1
+                }
+            }
         },
         "items.*.quantity": {
             errorMessage: "Quantidade inválida",
