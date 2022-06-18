@@ -245,10 +245,16 @@ export class RequisitionController extends BaseController {
      */
     @Get("/balance")
     public async count(req: Request, res: Response): Promise<void> {
-        const userId: User["id"] = req.body.userRef.id;
+        const user: User = req.body.userRef;
+        const shouldLimitView: boolean = user.accessGroup?.name.toLowerCase() === "requisitante";
+
         const repository: RequisitionRepository = new RequisitionRepository();
-        const approvedCount: number = await repository.count<Requisition>({ where: { approved: true, user: { id: userId } } });
-        const pendingCount: number = await repository.count<Requisition>({ where: { approved: false, user: { id: userId } } });
+        const approvedCount: number = await repository.count<Requisition>({
+            where: { approved: true, ...(shouldLimitView && { user: { id: user.id } }) }
+        });
+        const pendingCount: number = await repository.count<Requisition>({
+            where: { approved: false, ...(shouldLimitView && { user: { id: user.id } }) }
+        });
 
         RouteResponse.success({ approved: approvedCount, pending: pendingCount }, res);
     }
