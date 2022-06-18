@@ -75,10 +75,10 @@ export class AuthController extends BaseController {
         const hashedPassword: string = CryptoUtils.sha512(password || "", userRef?.salt || "");
 
         if (userRef && hashedPassword === userRef.password) {
-            const { id, name, email: userEmail } = userRef;
+            const { id, name, email: userEmail, accessGroup } = userRef;
             const accessToken: string = TokenUtils.create({ id });
 
-            RouteResponse.success({ id, name, email: userEmail, accessToken }, res);
+            RouteResponse.success({ id, name, email: userEmail, accessGroup, accessToken }, res);
         } else {
             RouteResponse.unauthorizedError(res, "Usuário ou senha inválida");
         }

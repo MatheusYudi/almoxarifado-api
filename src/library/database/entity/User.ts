@@ -49,10 +49,10 @@ export class User extends BaseEntity {
     @Column({ unique: true })
     public email: string;
 
-    @Column({ select: false })
+    @Column()
     public password: string;
 
-    @Column({ select: false })
+    @Column()
     public salt: string;
 
     @Column()

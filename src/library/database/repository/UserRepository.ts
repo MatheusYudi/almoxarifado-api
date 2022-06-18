@@ -1,5 +1,5 @@
 // Libs
-import { Repository, SelectQueryBuilder, UpdateResult } from "typeorm";
+import { Repository, UpdateResult } from "typeorm";
 
 // Entities
 import { AccessGroup, User } from "@library/database/entity";
@@ -101,25 +101,24 @@ export class UserRepository extends BaseRepository {
      *
      * @param value - Email ou documento do usuário
      * @param withCredentials - Recuperar somente as credenciais
+     * @param withDeleted - Recuperar registros inativos
      *
      * @returns Usuário buscado
      */
-    public findByEmailOrDocument(value: string, withCredentials = false, withDeleted = false): Promise<User | undefined> {
-        const select: SelectQueryBuilder<User> = this.getConnection().getRepository(User).createQueryBuilder("user").select();
-        const selectCredentials: SelectQueryBuilder<User> = select.addSelect("user.password").addSelect("user.salt");
+    public async findByEmailOrDocument(value: string, withCredentials = false, withDeleted = false): Promise<User | undefined> {
+        const user: User | undefined = await this.getConnection()
+            .getRepository(User)
+            .findOne({
+                where: [{ email: value }, { document: value }],
+                withDeleted
+            });
 
-        if (withDeleted) {
-            return (withCredentials ? selectCredentials : select)
-                .where("user.email = :email", { email: value })
-                .orWhere("user.document = :document", { document: value })
-                .withDeleted()
-                .getOne();
+        if (user && !withCredentials) {
+            delete (user as Partial<User>).password;
+            delete (user as Partial<User>).salt;
         }
 
-        return (withCredentials ? selectCredentials : select)
-            .where("user.email = :email", { email: value })
-            .orWhere("user.document = :document", { document: value })
-            .getOne();
+        return user;
     }
 
     /**
