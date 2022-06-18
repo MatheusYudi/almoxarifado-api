@@ -2,7 +2,7 @@
 import { Request, Response } from "express";
 
 // Library
-import { Requisition, RequisitionMaterial, Movement } from "@library/database/entity";
+import { Requisition, RequisitionMaterial, Movement, User } from "@library/database/entity";
 import { RequisitionRepository, MovementRepository } from "@library/database/repository";
 
 // Decorators
@@ -245,9 +245,10 @@ export class RequisitionController extends BaseController {
      */
     @Get("/balance")
     public async count(req: Request, res: Response): Promise<void> {
+        const userId: User["id"] = req.body.userRef.id;
         const repository: RequisitionRepository = new RequisitionRepository();
-        const approvedCount: number = await repository.count<Requisition>({ where: { approved: true } });
-        const pendingCount: number = await repository.count<Requisition>({ where: { approved: false } });
+        const approvedCount: number = await repository.count<Requisition>({ where: { approved: true, user: { id: userId } } });
+        const pendingCount: number = await repository.count<Requisition>({ where: { approved: false, user: { id: userId } } });
 
         RouteResponse.success({ approved: approvedCount, pending: pendingCount }, res);
     }
