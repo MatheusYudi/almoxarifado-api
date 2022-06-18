@@ -4,9 +4,6 @@ import { Request, Response } from "express";
 // Decorators
 import { Controller, Middlewares, Post, PublicRoute, Put } from "@decorators/index";
 
-// Common
-import { AppDef } from "@common/AppDef";
-
 // Library
 import { Mailer } from "@library/Mailer";
 import { User } from "@library/database/entity";
@@ -125,18 +122,24 @@ export class AuthController extends BaseController {
     @Post("/recover")
     @Middlewares(AuthValidator.recoverPassword())
     public async recoverPassword(req: Request, res: Response): Promise<void> {
+        const errorMessage = "Erro ao solicitar a redefinição de senha";
         const { email, resetUrl } = req.body;
+
         const user: User | undefined = await new UserRepository().findByEmailOrDocument(email);
 
         if (user) {
-            const resetToken: string = TokenUtils.create({ id: user.id });
+            try {
+                const resetToken: string = TokenUtils.create({ id: user.id });
 
-            new Mailer().sendRecoveryEmail({ email, name: user.name }, `${resetUrl}/${resetToken}`).catch((error: Error) => {
-                new AppDef().logger.warning("recover_email", error.message);
-            });
+                await new Mailer().sendRecoveryEmail({ email, name: user.name }, `${resetUrl}/${resetToken}`);
+
+                RouteResponse.success("Redefinição de senha solicitada com sucesso. Confira as instruções no seu email.", res);
+            } catch (error) {
+                RouteResponse.error(errorMessage, res);
+            }
+        } else {
+            RouteResponse.error(errorMessage, res);
         }
-
-        RouteResponse.success("Redefinição de senha solicitada com sucesso. Confira as instruções no seu email.", res);
     }
 
     /**

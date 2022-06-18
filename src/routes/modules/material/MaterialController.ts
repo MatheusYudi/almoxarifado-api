@@ -9,9 +9,6 @@ import { MaterialRepository, NCMRepository } from "@library/database/repository"
 // Decorators
 import { Controller, Delete, Get, Middlewares, Post, Put } from "@decorators/index";
 
-// Common
-import { AppDef } from "@common/AppDef";
-
 // Enums
 import { EnumEndpoints } from "@common/enums";
 
@@ -364,11 +361,13 @@ export class MaterialController extends BaseController {
             })
         );
 
-        new Mailer().sendPurchaseRequestEmail({ email: userRef.email, name: userRef.name }, { email }, tableRows).catch((error: Error) => {
-            new AppDef().logger.warning("purchase_request_email", error.message);
-        });
+        try {
+            await new Mailer().sendPurchaseRequestEmail({ email: userRef.email, name: userRef.name }, { email }, tableRows);
 
-        RouteResponse.success("Solicitação de compra enviada com sucesso.", res);
+            RouteResponse.success("Solicitação de compra enviada com sucesso.", res);
+        } catch (error) {
+            RouteResponse.error("Erro ao enviar a solicitação de compra", res);
+        }
     }
 
     /**
