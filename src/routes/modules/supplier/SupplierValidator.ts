@@ -158,17 +158,17 @@ export class SupplierValidator extends BaseValidator {
             ...SupplierValidator.onlyId(),
             ...BaseValidator.validationList({
                 invoiceLinked: {
-                    errorMessage: "Nota fiscal vinculada a usuário(s)",
+                    errorMessage: "Nota fiscal vinculada a fornecedor(es)",
                     custom: {
                         options: async (_, { req }: Meta) => {
                             const supplier: Supplier = req.body?.supplierRef;
                             let check = false;
 
                             if (supplier) {
-                                const userRepository: InvoiceRepository = new InvoiceRepository();
-                                const user: Invoice | undefined = await userRepository.findBySupplier(supplier);
+                                const invoiceRepository: InvoiceRepository = new InvoiceRepository();
+                                const invoice: Invoice | undefined = await invoiceRepository.findBySupplier(supplier);
 
-                                check = user ? supplier.id === user.supplier.id : false;
+                                check = invoice ? supplier.id === invoice.supplier.id : false;
                             }
 
                             return check ? Promise.reject() : Promise.resolve();
