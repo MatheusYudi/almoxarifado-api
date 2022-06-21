@@ -329,16 +329,25 @@ export class RequisitionController extends BaseController {
         const { id } = req.params;
         const { userRef, requisitionRef } = req.body;
 
-        // finaliza a requisição
-        const requisition: Requisition = await new RequisitionRepository().update({
-            ...requisitionRef,
-            approved: true
-        });
+        // verifica se os materiais requisitados possuem estoque disponível
+        const materialsWithNoStock: RequisitionMaterial[] = (requisitionRef as Requisition).requisitionMaterials.filter(
+            ({ quantity, material }: RequisitionMaterial) => {
+                return quantity > material.stockQuantity;
+            }
+        );
 
-        try {
+        if (materialsWithNoStock.length) {
+            RouteResponse.error(
+                {
+                    message: "Os materiais solicitados não possuem estoque disponível",
+                    value: materialsWithNoStock.map(({ material }) => material.name)
+                },
+                res
+            );
+        } else {
             // para cada RequisitionMaterial gera uma movimentação
             await Promise.all(
-                requisition.requisitionMaterials.map(async ({ material, quantity }: RequisitionMaterial) => {
+                requisitionRef.requisitionMaterials.map(async ({ material, quantity }: RequisitionMaterial) => {
                     const newMovement: Partial<Movement> = {
                         user: userRef,
                         material,
@@ -347,17 +356,17 @@ export class RequisitionController extends BaseController {
                         reason: "Saída por requisição"
                     };
 
-                    if (quantity <= material.stockQuantity) {
-                        return new MovementRepository().insert(newMovement);
-                    }
-
-                    return Promise.reject();
+                    await new MovementRepository().insert(newMovement);
                 })
             );
 
+            // finaliza a requisição
+            await new RequisitionRepository().update({
+                ...requisitionRef,
+                approved: true
+            });
+
             RouteResponse.success({ id }, res);
-        } catch (error) {
-            RouteResponse.error("Quantidade requisitada é maior que a disponível em estoque", res);
         }
     }
 

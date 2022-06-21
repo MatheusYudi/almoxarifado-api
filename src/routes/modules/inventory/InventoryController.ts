@@ -324,15 +324,9 @@ export class InventoryController extends BaseController {
         const { id } = req.params;
         const { userRef, inventoryRef } = req.body;
 
-        // finaliza o inventário
-        const inventory: Inventory = await new InventoryRepository().update({
-            ...inventoryRef,
-            closed: true
-        });
-
         // para cada InventoryMaterial gera uma movimentação
         await Promise.all(
-            inventory.inventoryMaterials.map(async ({ material, physicQuantity, systemQuantity }: InventoryMaterial) => {
+            inventoryRef.inventoryMaterials.map(async ({ material, physicQuantity, systemQuantity }: InventoryMaterial) => {
                 if (systemQuantity !== physicQuantity) {
                     const isMissing: boolean = physicQuantity > systemQuantity;
 
@@ -350,6 +344,12 @@ export class InventoryController extends BaseController {
                 }
             })
         );
+
+        // finaliza o inventário
+        await new InventoryRepository().update({
+            ...inventoryRef,
+            closed: true
+        });
 
         RouteResponse.success({ id }, res);
     }
