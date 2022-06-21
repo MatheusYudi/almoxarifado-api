@@ -335,22 +335,30 @@ export class RequisitionController extends BaseController {
             approved: true
         });
 
-        // para cada RequisitionMaterial gera uma movimentação
-        await Promise.all(
-            requisition.requisitionMaterials.map(async ({ material, quantity }: RequisitionMaterial) => {
-                const newMovement: Partial<Movement> = {
-                    user: userRef,
-                    material,
-                    quantity,
-                    type: EnumMovementTypes.OUT,
-                    reason: "Saída por requisição"
-                };
+        try {
+            // para cada RequisitionMaterial gera uma movimentação
+            await Promise.all(
+                requisition.requisitionMaterials.map(async ({ material, quantity }: RequisitionMaterial) => {
+                    const newMovement: Partial<Movement> = {
+                        user: userRef,
+                        material,
+                        quantity,
+                        type: EnumMovementTypes.OUT,
+                        reason: "Saída por requisição"
+                    };
 
-                await new MovementRepository().insert(newMovement);
-            })
-        );
+                    if (quantity <= material.stockQuantity) {
+                        return new MovementRepository().insert(newMovement);
+                    }
 
-        RouteResponse.success({ id }, res);
+                    return Promise.reject();
+                })
+            );
+
+            RouteResponse.success({ id }, res);
+        } catch (error) {
+            RouteResponse.error("Quantidade requisitada é maior que a disponível em estoque", res);
+        }
     }
 
     /**
