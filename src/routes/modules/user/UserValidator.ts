@@ -59,11 +59,6 @@ export class UserValidator extends BaseValidator {
             errorMessage: "CPF inválido",
             in: "body",
             isString: true,
-            customSanitizer: {
-                options: (value: string) => {
-                    return value?.replace(/[^\d]+/g, "");
-                }
-            },
             custom: {
                 options: CPFUtils.isValid
             }
