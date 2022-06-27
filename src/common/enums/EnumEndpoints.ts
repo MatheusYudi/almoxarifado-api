@@ -1,3 +1,22 @@
 export enum EnumEndpoints {
-    USER_V1 = "/v1/user"
+    // autenticação
+    AUTH = "/auth",
+    // grupos de acesso
+    ACCESS_GROUP = "/access-group",
+    // inventário
+    INVENTORY = "/inventory",
+    // nota fiscal
+    INVOICE = "/invoice",
+    // material
+    MATERIAL = "/material",
+    // grupo de material
+    MATERIAL_GROUP = "/material-group",
+    // movimentação
+    MOVEMENT = "/movement",
+    // requisição
+    REQUISITION = "/requisition",
+    // fornecedor
+    SUPPLIER = "/supplier",
+    // usuário
+    USER = "/user"
 }

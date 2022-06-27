@@ -1,28 +1,99 @@
 // Libs
-import { Entity, Column, BeforeInsert, BeforeUpdate, BaseEntity, PrimaryGeneratedColumn } from "typeorm";
+import {
+    BaseEntity,
+    BeforeInsert,
+    BeforeSoftRemove,
+    BeforeUpdate,
+    Column,
+    CreateDateColumn,
+    DeleteDateColumn,
+    Entity,
+    ManyToOne,
+    OneToMany,
+    PrimaryGeneratedColumn,
+    UpdateDateColumn
+} from "typeorm";
+
+// Enums
+import { EnumStatuses } from "@common/enums";
+
+// Utils
+import { CryptoUtils } from "@common/utils";
+
+// Entities
+import { AccessGroup } from "./AccessGroup";
+import { Inventory } from "./Inventory";
+import { Movement } from "./Movement";
+import { Requisition } from "./Requisition";
 
 @Entity()
 export class User extends BaseEntity {
     @PrimaryGeneratedColumn()
     public id: number;
 
+    @CreateDateColumn()
+    public createdAt: Date;
+
+    @UpdateDateColumn()
+    public updatedAt: Date;
+
+    @DeleteDateColumn()
+    public deletedAt: Date;
+
     @Column({ unique: true })
     public name: string;
 
-    @Column()
-    public createdAt: Date;
+    @Column({ unique: true })
+    public document: string; // CPF
+
+    @Column({ unique: true })
+    public email: string;
 
     @Column()
-    public updatedAt: Date;
+    public password: string;
 
-    @BeforeInsert()
-    public setCreateDate(): void {
-        this.createdAt = new Date();
-    }
+    @Column()
+    public salt: string;
+
+    @Column()
+    public status: EnumStatuses = EnumStatuses.ACTIVE;
+
+    // Relations
+
+    @ManyToOne(() => AccessGroup, ({ users }: AccessGroup) => users, {
+        eager: true
+    })
+    public accessGroup: AccessGroup; // FK
+
+    @OneToMany(() => Inventory, ({ user }: Inventory) => user)
+    public inventories: Inventory[];
+
+    @OneToMany(() => Movement, ({ user }: Movement) => user)
+    public movements: Movement[];
+
+    @OneToMany(() => Requisition, ({ user }: Requisition) => user)
+    public requisitions: Requisition[];
+
+    // Triggers
 
     @BeforeInsert()
     @BeforeUpdate()
-    public setUpdateDate(): void {
-        this.updatedAt = new Date();
+    public encryptPassword(): void {
+        if (this.password) {
+            this.salt = CryptoUtils.getRandomString(16);
+            this.password = CryptoUtils.sha512(this.password, this.salt);
+        }
+    }
+
+    @BeforeUpdate()
+    public updateStatus(): void {
+        if (this.deletedAt) {
+            this.status = EnumStatuses.INACTIVE;
+        }
+    }
+
+    @BeforeSoftRemove()
+    public setRemoveStatus(): void {
+        this.status = EnumStatuses.INACTIVE;
     }
 }

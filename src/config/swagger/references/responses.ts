@@ -38,7 +38,7 @@
  *                 type: object
  *                 description: 'Objeto ou string com informações sobre o erro'
  *     '401':
- *       description: 'Autenticação não autorizada'
+ *       description: 'Não autorizado'
  *       content:
  *         application/json:
  *           schema:

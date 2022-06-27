@@ -1,4 +1,4 @@
-export enum EnumMethod {
+export enum EnumMethods {
     OPTIONS = "options",
     GET = "get",
     POST = "post",

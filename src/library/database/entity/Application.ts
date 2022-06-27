@@ -11,4 +11,8 @@ export class Application extends BaseEntity {
 
     @Column({ unique: true })
     public label: string;
+
+    // Relations
+
+    // Triggers
 }

@@ -1,7 +1,10 @@
+import { EnumStatuses } from "@common/enums";
+
 export interface IGetListParams {
-    size: number;
     page: number;
+    size: number;
     order: string | undefined;
     orderBy: "ASC" | "DESC" | undefined;
+    status?: EnumStatuses | undefined;
     filters?: string[];
 }

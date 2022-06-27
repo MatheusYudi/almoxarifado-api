@@ -22,7 +22,7 @@ export class BaseRepository {
      *
      * Retorna singleton de conexão com o banco
      *
-     * @return Instância de conexão
+     * @returns Instância de conexão
      */
     protected getConnection(): Connection {
         if (!this.connection) {
@@ -42,14 +42,21 @@ export class BaseRepository {
      * @returns Lista contendo os itens e a quantidade total de itens
      */
     public list<Entity>(params: IGetListParams): Promise<[Entity[], number]> {
-        const skip: number = (params.page - 1) * params.size;
+        const { order, orderBy, page, size, status } = params;
+
+        const skip: number = (page - 1) * size;
         const options: FindManyOptions<Entity> = {
-            take: params.size,
-            skip
+            take: size,
+            skip,
+            withDeleted: true
         };
 
-        if (params.order) {
-            (options.order as Record<string, IGetListParams["orderBy"]>) = { [params.order]: params.orderBy };
+        if (order) {
+            (options.order as Record<string, IGetListParams["orderBy"]>) = { [order]: orderBy };
+        }
+
+        if (status) {
+            options.where = { status };
         }
 
         return this.getConnection().getRepository<Entity>(this.entity).findAndCount(options);
@@ -58,7 +65,7 @@ export class BaseRepository {
     /**
      * findOne
      *
-     * Busca um item pelo iD
+     * Busca um item pelo ID
      *
      * @param id - ID do item
      *
@@ -79,5 +86,18 @@ export class BaseRepository {
      */
     public find<Entity>(options?: FindConditions<Entity> | undefined): Promise<Entity[]> {
         return this.getConnection().getRepository<Entity>(this.entity).find(options);
+    }
+
+    /**
+     * count
+     *
+     * Retorna a quantidade de registros que atendem as opções
+     *
+     * @param options - Opções de busca
+     *
+     * @returns Quantidade total
+     */
+    public count<Entity>(options?: FindManyOptions<Entity> | undefined): Promise<number> {
+        return this.getConnection().getRepository<Entity>(this.entity).count(options);
     }
 }

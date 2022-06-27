@@ -1,8 +1,8 @@
 // Enums
-import { EnumMethod } from "@common/enums";
+import { EnumMethods } from "@common/enums";
 
 export interface IRouteDef {
     path: string;
-    requestMethod: EnumMethod;
+    requestMethod: EnumMethods;
     methodName: string | symbol;
 }

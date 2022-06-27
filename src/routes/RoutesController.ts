@@ -8,7 +8,16 @@ import { EnumDecorators } from "@common/enums";
 import { IRouteDef } from "@common/interfaces";
 
 // Types
-import { TClass } from "@common/types";
+import { TClass, TObject } from "@common/types";
+
+// Utils
+import { TokenUtils } from "@common/utils";
+
+// Repositories
+import { UserRepository } from "@library/database/repository";
+
+// Routes
+import { RouteResponse } from "./RouteResponse";
 
 /**
  * RoutesController
@@ -16,6 +25,30 @@ import { TClass } from "@common/types";
  * Classe responsável por gerenciar os controllers
  */
 export class RoutesController {
+    /**
+     * requiresAuth
+     *
+     * Valida o cabeçalho de autenticação das requisições
+     *
+     * @param req - Requisição
+     * @param res - Resposta da requisição
+     * @param next - Callback
+     */
+    public static async requiresAuth(req: Request, res: Response, next: NextFunction): Promise<void> {
+        const { authorization } = req.headers;
+        const bearerToken: string = req.body.token || req.query.token || authorization?.replace("Bearer", "").trim();
+        const decodedToken = TokenUtils.isValid(bearerToken);
+
+        if (bearerToken && decodedToken) {
+            // salva o usuário para posterior uso nas rotas
+            req.body.userRef = await new UserRepository().findOne((decodedToken as TObject).id);
+
+            next();
+        } else {
+            RouteResponse.unauthorizedError(res, "Token inválido");
+        }
+    }
+
     /**
      * exportRoutes
      *
@@ -33,10 +66,16 @@ export class RoutesController {
             const instance = new Controller();
             const prefix = Reflect.getMetadata(EnumDecorators.CONTROLLER_PREFIX, Controller);
             const routes: IRouteDef[] = Reflect.getMetadata(EnumDecorators.ROUTES, Controller);
+            const publicRoutes: Array<string | symbol> = Reflect.getMetadata(EnumDecorators.PUBLIC_ROUTES, Controller) || [];
             const allMiddlewares: any = Reflect.getMetadata(EnumDecorators.MIDDLEWARE, Controller) || {};
 
             routes.forEach((route: IRouteDef) => {
                 const methodMiddlewares: any[] = allMiddlewares[route.methodName] || [];
+
+                if (!publicRoutes.includes(route.methodName)) {
+                    methodMiddlewares.unshift(RoutesController.requiresAuth);
+                }
+
                 router[route.requestMethod](prefix + route.path, [
                     ...methodMiddlewares,
                     RoutesController.runAsyncWrapper(instance[route.methodName])
