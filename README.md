@@ -22,25 +22,6 @@ Docker Compose: <https://docs.docker.com/compose/install/>
 
 ---
 
-## Conectar ao Banco de dados - MySql
-
-Com o **docker** rodando execute os comandos abaixo:
-
-(***senha disponível em 'docker-compose > MYSQL_ROOT_PASSWORD'***)
-
-```sh
-# conecta no docker
-docker exec -it almoxarifado-mysql bash
-
-
-# local
-mysql -u almoxarifado_root -p
-
-# remoto
-mysql -u almoxarifado_root -h <hostname> -P <port> <database> -p
-
----
-
 ## Iniciando o servidor
 
 Instale as dependências rodando o comando abaixo na raiz do diretório:
@@ -68,3 +49,22 @@ Se tudo estiver ok a api e a documentação devem estar rodando nos endereços:
 **API**: <http://localhost:4444>
 
 **Documentação dos endpoints**: <http://localhost:4444/swagger>
+
+---
+
+## Conectar ao Banco de dados - MySql
+
+Com o **docker** rodando execute os comandos abaixo:
+
+(***senha disponível em 'docker-compose > MYSQL_ROOT_PASSWORD'***)
+
+```sh
+# conecta no docker
+docker exec -it almoxarifado-mysql bash
+
+# local
+mysql -u almoxarifado_root -p
+
+# remoto
+mysql -u almoxarifado_root -h <hostname> -P <port> <database> -p
+```
