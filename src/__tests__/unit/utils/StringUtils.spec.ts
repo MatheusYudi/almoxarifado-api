@@ -1,5 +1,5 @@
 // Utils
-import { StringUtils } from "../../common/utils";
+import { StringUtils } from "../../../common/utils";
 
 describe("StringUtils - unit tests", () => {
     describe("Method #firstUpperCase", () => {

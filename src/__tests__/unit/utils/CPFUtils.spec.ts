@@ -1,5 +1,5 @@
 // Utils
-import { CPFUtils } from "../../common/utils";
+import { CPFUtils } from "../../../common/utils";
 
 describe("CPFUtils - unit tests", () => {
     describe("#isValid", () => {

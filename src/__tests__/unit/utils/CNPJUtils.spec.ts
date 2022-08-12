@@ -1,5 +1,7 @@
 // Utils
-import { CNPJUtils } from "../../common/utils";
+import { CNPJUtils } from "../../../common/utils";
+
+console.log(process.env.TZ);
 
 describe("CNPJUtils - unit tests", () => {
     describe("#isValid", () => {
