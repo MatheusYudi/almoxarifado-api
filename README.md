@@ -56,7 +56,7 @@ Se tudo estiver ok a api e a documentação devem estar rodando nos endereços:
 
 Com o **docker** rodando execute os comandos abaixo:
 
-(***senha disponível em 'docker-compose > MYSQL_ROOT_PASSWORD'***)
+(senha disponível nas variáveis do repositório > **MYSQL_ROOT_PASSWORD**)
 
 ```sh
 # conecta no docker
