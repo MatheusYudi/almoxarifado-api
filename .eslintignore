@@ -1,7 +1,7 @@
 # Ignore all files within parent folder
 */*
 
-# Enable linting for specifc files
+# Enable linting for specific files
 !__mocks__/*
 !__tests__/*
 !migrations/*
